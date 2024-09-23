@@ -3,19 +3,16 @@
 # * website_rating_project
 # 
 # Translators:
-# Martin Trigaux, 2017
 # fanha99 <fanha99@hotmail.com>, 2017
+# Martin Trigaux, 2017
 # Duy BQ <duybq86@gmail.com>, 2018
-# Dao Nguyen <trucdao.uel@gmail.com>, 2019
-# Dung Nguyen Thi <dungnt@trobz.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
-"PO-Revision-Date: 2017-09-20 10:27+0000\n"
-"Last-Translator: Dung Nguyen Thi <dungnt@trobz.com>, 2019\n"
+"PO-Revision-Date: 2017-09-20 09:54+0000\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,17 +23,17 @@ msgstr ""
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.index
 msgid "<i class=\"fa fa-arrow-circle-right \"/> See the feedbacks"
-msgstr "<i class=\"fa fa-arrow-circle-right \"/> Xem phản hồi"
+msgstr ""
 
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.index
 msgid "<i class=\"fa fa-calendar\"/> End date :"
-msgstr "<i class=\"fa fa-calendar\"/> Ngày kết thúc :"
+msgstr ""
 
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.index
 msgid "<i class=\"fa fa-envelope\"/> Email :"
-msgstr "<i class=\"fa fa-envelope\"/> Email:"
+msgstr ""
 
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.project_rating_data
@@ -51,12 +48,12 @@ msgstr "Tồi"
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.project_rating_data
 msgid "Happy"
-msgstr "Vui mừng"
+msgstr ""
 
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.project_data_satisfaction
 msgid "Last 3 months"
-msgstr "3 tháng qua"
+msgstr ""
 
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.project_data_satisfaction
@@ -66,12 +63,12 @@ msgstr "30 ngày gần đây"
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.project_data_satisfaction
 msgid "Last 7 days"
-msgstr "7 ngày qua"
+msgstr ""
 
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.project_data_satisfaction
 msgid "Latest Feedbacks"
-msgstr "Phản hồi mới nhất"
+msgstr ""
 
 #. module: website_rating_project
 #: model:ir.model,name:website_rating_project.model_project_project
@@ -86,7 +83,7 @@ msgstr ""
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.index
 msgid "Project Satisfaction"
-msgstr "Mức độ hài lòng của dự án"
+msgstr ""
 
 #. module: website_rating_project
 #: model:ir.ui.view,arch_db:website_rating_project.index

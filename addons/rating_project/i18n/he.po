@@ -7,7 +7,6 @@
 # Martin Trigaux, 2018
 # ExcaliberX <excaliberx@gmail.com>, 2018
 # hed shefetr <hed@laylinetech.com>, 2018
-# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -15,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:12+0000\n"
 "PO-Revision-Date: 2017-09-20 10:22+0000\n"
-"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020\n"
+"Last-Translator: hed shefetr <hed@laylinetech.com>, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -118,7 +117,7 @@ msgstr "<i class=\"fa fa-smile-o\"/>לא קיים דירוג כעת"
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_task_type_auto_validation_kanban_state
 msgid "Automatic kanban status"
-msgstr "סטטוס קנבן אוטומטי"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,help:rating_project.field_project_task_type_auto_validation_kanban_state
@@ -133,7 +132,7 @@ msgstr ""
 #: model:ir.ui.menu,name:rating_project.rating_rating_menu_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
 msgid "Customer Ratings"
-msgstr "דירוגי לקוח"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.actions.act_window,name:rating_project.rating_rating_action_task
@@ -146,8 +145,6 @@ msgid ""
 "Customer ratings on tasks. If you have no rating, change your project "
 "Settings to activate it."
 msgstr ""
-"דירוג לקוחות במשימות. אם אין לך דירוג, שנה את הגדרות הפרויקט שלך כדי להפעיל "
-"אותו."
 
 #. module: rating_project
 #: model:ir.actions.act_window,help:rating_project.rating_rating_action_project_report
@@ -159,7 +156,7 @@ msgstr ""
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_status
 msgid "Customer(s) Ratings"
-msgstr "דירוגי לקוחות"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
@@ -200,38 +197,36 @@ msgid ""
 "stage', then an email will be sent to the customer when the task reaches "
 "this step."
 msgstr ""
-"אם מוגדר ואם תצורת הדירוג של הפרויקט היא 'דירוג בעת שינוי שלב', דוא\"ל יישלח"
-" ללקוח כאשר המשימה תגיע לשלב זה."
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.rating_rating_view_search_project
 msgid "Last 30 days"
-msgstr "30 ימים אחרונים"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
 msgid "Latest Rating: Higly Dissatisfied"
-msgstr "דירוג אחרון: מאוד לא מרוצה"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
 msgid "Latest Rating: Not Satisfied"
-msgstr "דירוג אחרון: לא מרוצה"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
 msgid "Latest Rating: Satisfied"
-msgstr "דירוג אחרון: מרוצה"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "No rating"
-msgstr "אין דירוג"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Once a Month"
-msgstr "פעם בחודש"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
@@ -239,12 +234,11 @@ msgid ""
 "Percentage of happy ratings over the past 30 days. Get rating details from "
 "the More menu."
 msgstr ""
-"אחוז הדירוגים השמחים במהלך 30 הימים האחרונים. קבל פרטי דירוג מהתפריט 'עוד'."
 
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "Periodical Rating"
-msgstr "דירוג תקופתי"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_project
@@ -257,38 +251,38 @@ msgstr "פרוייקט"
 #: model:ir.cron,cron_name:rating_project.ir_cron_rating_project
 #: model:ir.cron,name:rating_project.ir_cron_rating_project
 msgid "Project: Send rating"
-msgstr "פרויקט: שלח דירוג"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Quarterly"
-msgstr "רבעוני"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_search
 msgid "Rated tasks"
-msgstr "משימות מדורגות"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.actions.act_window,name:rating_project.rating_rating_action_view_project_rating
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_form_inherit_rating
 msgid "Rating"
-msgstr "דירוג"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_task_type_rating_template_id
 msgid "Rating Email Template"
-msgstr "תבנית דוא\"ל דירוג"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_status_period
 msgid "Rating Frequency"
-msgstr "תדירות דירוג"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_request_deadline
 msgid "Rating Request Deadline"
-msgstr "תאריך יעד לבקשת דירוג"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.rating_rating_view_search_project
@@ -298,18 +292,18 @@ msgstr ""
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "Rating when changing stage"
-msgstr "דירוג בעת שינוי שלב"
+msgstr ""
 
 #. module: rating_project
 #: model:mail.message.subtype,description:rating_project.mt_task_rating
 msgid "Ratings"
-msgstr "דירוגים"
+msgstr ""
 
 #. module: rating_project
 #: code:addons/rating_project/models/project.py:107
 #, python-format
 msgid "Ratings of %s"
-msgstr "דירוגים של %s"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.actions.act_window,name:rating_project.rating_rating_action_view_project_rating_task
@@ -319,7 +313,7 @@ msgstr ""
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.res_config_settings_view_form
 msgid "Set Email Template to Stages"
-msgstr "הגדר תבנית דוא\"ל לשלבים"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_task
@@ -330,7 +324,7 @@ msgstr "משימה"
 #: model:mail.message.subtype,name:rating_project.mt_project_task_rating
 #: model:mail.message.subtype,name:rating_project.mt_task_rating
 msgid "Task Rating"
-msgstr "דירוג משימה"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_task_type
@@ -345,12 +339,12 @@ msgstr ""
 #. module: rating_project
 #: model:ir.actions.act_window,help:rating_project.rating_rating_action_view_project_rating
 msgid "There is no rating for this object at the moment."
-msgstr "אין כרגע דירוג לאובייקט זה."
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Twice a Month"
-msgstr "פעמיים בחודש"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
@@ -360,4 +354,4 @@ msgstr "שבועי"
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Yearly"
-msgstr "שנתי"
+msgstr ""

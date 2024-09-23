@@ -6,7 +6,7 @@ from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
 from odoo.osv import expression
 from odoo.tools.safe_eval import safe_eval
-from odoo.tools import float_is_zero, plaintext2html
+from odoo.tools import float_is_zero
 
 
 class SaleOrder(models.Model):
@@ -223,7 +223,7 @@ class SaleOrderLine(models.Model):
             'planned_hours': planned_hours,
             'remaining_hours': planned_hours,
             'partner_id': self.order_id.partner_id.id,
-            'description': plaintext2html(self.name) if self.name else False,
+            'description': self.name + '<br/>',
             'project_id': project.id,
             'sale_line_id': self.id,
             'company_id': self.company_id.id,

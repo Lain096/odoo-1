@@ -3,10 +3,12 @@
 # * purchase
 # 
 # Translators:
+# Cécile Collart <cco@odoo.com>, 2017
 # Cesare Cugnasco <cesare.cugnasco@gmail.com>, 2018
 # Manuela Feliciani <mfeliciani@alice.it>, 2018
 # Luigi Di Naro <gigidn@gmail.com>, 2018
-# Cécile Collart <cco@odoo.com>, 2018
+# Sergio Zanchetta <primes2h@gmail.com>, 2018
+# maiolif <maiolif@mgftools.com>, 2018
 # Marco Calcagni <mcalcagni@dinamicheaziendali.it>, 2018
 # Simone Bernini <simone@aperturelabs.it>, 2018
 # Paolo Valier, 2018
@@ -16,11 +18,9 @@
 # Tiziano Zambelli <zstiziano@gmail.com>, 2018
 # Maurizio Schiavo <inactive+MaurizioSchiavo@transifex.com>, 2018
 # David Minneci <david@numeko.it>, 2018
-# maiolif <maiolif@mgftools.com>, 2018
+# Léonie Bouchat <lbo@odoo.com>, 2018
 # mymage <stefano.consolaro@mymage.it>, 2019
 # Mario Riva <mario.riva@gmail.com>, 2019
-# Léonie Bouchat <lbo@odoo.com>, 2019
-# Sergio Zanchetta <primes2h@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -28,7 +28,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:22+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2020\n"
+"Last-Translator: Mario Riva <mario.riva@gmail.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -145,12 +145,12 @@ msgstr "${object.subject}"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "3-way matching"
-msgstr "3-way matching"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings_module_account_3way_match
 msgid "3-way matching: purchases, receptions and bills"
-msgstr "3-way matching: acquisti, ricevimenti e fatture"
+msgstr ""
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.mail_template_data_notification_email_purchase_order
@@ -509,11 +509,6 @@ msgid ""
 "product if you directly do a Request for Quotation to one vendor or if you "
 "want a Call for Tenders to compare offers from several vendors."
 msgstr ""
-"I bandi di gara vengono utilizzati quando si desidera generare richieste di "
-"preventivi a più fornitori per un determinato insieme di prodotti. È "
-"possibile configurare per prodotto se si effettua direttamente una richiesta"
-" di preventivo a un fornitore o se si desidera fare un bando di gara per "
-"confrontare le offerte di più fornitori."
 
 #. module: purchase
 #: code:addons/purchase/models/stock.py:95
@@ -744,7 +739,7 @@ msgstr "Doppia validazione dell'importo"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_move_dest_ids
 msgid "Downstream Moves"
-msgstr "Movimenti a valle"
+msgstr ""
 
 #. module: purchase
 #: selection:purchase.report,state:0
@@ -870,7 +865,7 @@ msgstr "Prodotti in Ingresso"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Incoming Shipments"
-msgstr "Spedizioni in ingresso"
+msgstr "Spedizioni in Ingresso"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_incoterm_id
@@ -1198,7 +1193,7 @@ msgstr "Quantità ordinate"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_orderpoint_id
 msgid "Orderpoint"
-msgstr "Punto di riordino"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -1438,8 +1433,6 @@ msgid ""
 "Purchase Order Modification used when you want to purchase order editable "
 "after confirm"
 msgstr ""
-"L'opzione di modifica di ordine di acquisto viene utilizzata quando si "
-"desidera che gli ordini di acquisto siano modificabili dopo la conferma."
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.purchase_form_action
@@ -1468,7 +1461,7 @@ msgstr "Statistiche Ordini di Vendita"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Purchase orders that have been invoiced."
-msgstr "Ordini di acquisto fatturati."
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -1608,8 +1601,6 @@ msgid ""
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
 msgstr ""
-"Riferimento del documento che ha generato una richiesta di ordine di "
-"acquisto (es. un ordine di vendita)"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_partner_ref
@@ -1670,7 +1661,7 @@ msgstr "Ritorna Picking"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_stock
 msgid "Schedule receivings earlier to avoid delays"
-msgstr "Pianificare i ricevimenti più presto per evitare ritardi"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_date_planned
@@ -1687,7 +1678,7 @@ msgstr "Cerca ordine di acquisto"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings_use_po_lead
 msgid "Security Lead Time for Purchase"
-msgstr "Tempi di consegna per gli acquisti"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_product_purchase_line_warn
@@ -1842,8 +1833,6 @@ msgid ""
 "The quantities on your purchase order indicate less than billed. You should "
 "ask for a refund. "
 msgstr ""
-"Le quantità indicate nell'ordine di acquisto sono inferiori a quelle "
-"fatturate. Dovresti chiedere un rimborso."
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
@@ -1915,7 +1904,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "This changes the scheduled date of all order lines to the given date"
-msgstr "Definisce la data prevista per tutte le righe dell'ordine"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_partner_property_purchase_currency_id
@@ -1938,19 +1927,19 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
 msgid "This note will show up on purchase orders."
-msgstr "Questa nota apparirà sugli ordini di acquisto."
+msgstr ""
 
 #. module: purchase
 #: code:addons/purchase/models/account_invoice.py:218
 #, python-format
 msgid "This vendor bill has been created from: %s"
-msgstr "Questa fattura fornitore è stata creata da: %s"
+msgstr ""
 
 #. module: purchase
 #: code:addons/purchase/models/account_invoice.py:232
 #, python-format
 msgid "This vendor bill has been modified from: %s"
-msgstr "Questa fattura fornitore è stata modificata da: %s"
+msgstr ""
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
@@ -1961,7 +1950,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_picking_type_id
 msgid "This will determine operation type of incoming shipment"
-msgstr "Questo determinerà il tipo di operazione dei ricevimenti"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -2069,10 +2058,6 @@ msgid ""
 "            and Odoo will fill the bill automatically according to ordered\n"
 "            or received quantities."
 msgstr ""
-"Usa questo menu per gestire le fatture fornitore\n"
-"          Quando registri una nuova fattura, imposta l'ordine di acquisto\n"
-"          e Odoo riempirà automaticamente la fattura \n"
-"secondo le quantità ricevute o ordinate"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_form_action

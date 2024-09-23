@@ -9,9 +9,6 @@
 # Nis bar <nisim60@gmail.com>, 2018
 # ilan kl <ilan@qaroads.co.il>, 2018
 # ExcaliberX <excaliberx@gmail.com>, 2018
-# דודי מלכה <Dudimalka6@gmail.com>, 2019
-# Amit Spilman <amit@laylinetech.com>, 2019
-# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -19,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:17+0000\n"
-"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020\n"
+"Last-Translator: ExcaliberX <excaliberx@gmail.com>, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,8 +73,6 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.hr_kanban_view_employees
@@ -94,12 +89,12 @@ msgstr "דווח"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "<span>To Approve</span>"
-msgstr "<span>לאישור</span>"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "<span>To Do</span>"
-msgstr "<span>לביצוע</span>"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -147,7 +142,7 @@ msgstr "התווסף לארכיון"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_bank_account_id
 msgid "Bank Account Number"
-msgstr "מספר חשבון בנק"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
@@ -191,17 +186,17 @@ msgstr "מנהל כללי"
 #. module: hr
 #: model:hr.job,name:hr.job_cto
 msgid "Chief Technical Officer"
-msgstr "מנהל טכנולוגיות ראשי"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_child_ids
 msgid "Child Departments"
-msgstr "מחלקות ילדים"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Citizenship & Other Information"
-msgstr "אזרחות ומידע אחר"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
@@ -234,7 +229,7 @@ msgstr "סגור כדי להשלים ..."
 #: model:ir.model.fields,field_description:hr.field_hr_employee_coach_id
 #: model:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Coach"
-msgstr "חונך"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_color
@@ -259,7 +254,7 @@ msgstr "חברה"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings_resource_calendar_id
 msgid "Company Working Hours"
-msgstr "שעות עבודה של החברה"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_complete_name
@@ -343,14 +338,14 @@ msgstr "מחלקה"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_name
 msgid "Department Name"
-msgstr "שם מחלקה"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_module_tree_department
 #: model:ir.ui.menu,name:hr.menu_hr_department_tree
 #: model:ir.ui.view,arch_db:hr.view_department_filter
 msgid "Departments"
-msgstr "מחלקות"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_display_name
@@ -363,12 +358,12 @@ msgstr "השם המוצג"
 #. module: hr
 #: selection:hr.employee,marital:0
 msgid "Divorced"
-msgstr "גרוש/ה"
+msgstr ""
 
 #. module: hr
 #: model:ir.model,name:hr.model_mail_alias
 msgid "Email Aliases"
-msgstr "כינויי דוא\"ל"
+msgstr ""
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee
@@ -379,24 +374,24 @@ msgstr "עובד"
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee_category
 msgid "Employee Category"
-msgstr "קטגוריית עובדים"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_category_name
 msgid "Employee Tag"
-msgstr "תג עובד"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_view_categ_form
 #: model:ir.ui.menu,name:hr.menu_view_employee_category_form
 #: model:ir.ui.view,arch_db:hr.view_employee_category_form
 msgid "Employee Tags"
-msgstr "תגיות עובדים"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_bank_account_id
 msgid "Employee bank salary account"
-msgstr "חשבון שכר של עובד"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
@@ -422,12 +417,12 @@ msgstr "עובדים"
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_view_employee_tree
 msgid "Employees Structure"
-msgstr "מבנה העובדים"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_category_list
 msgid "Employees Tags"
-msgstr "תגיות עובדים"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_address_home_id
@@ -435,8 +430,6 @@ msgid ""
 "Enter here the private address of the employee, not the one linked to your "
 "company."
 msgstr ""
-"Enter here the private address of the employee, not the one linked to your "
-"company."
 
 #. module: hr
 #: code:addons/hr/models/hr.py:310
@@ -453,23 +446,23 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_no_of_recruitment
 msgid "Expected New Employees"
-msgstr "עובדים חדשים צפויים"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job_expected_employees
 msgid ""
 "Expected number of employees for this job position after new recruitment."
-msgstr "מספר העובדים הצפוי למשרה זו לאחר גיוס חדש."
+msgstr ""
 
 #. module: hr
 #: model:hr.job,name:hr.job_developer
 msgid "Experienced Developer"
-msgstr "מפתח מנוסה"
+msgstr ""
 
 #. module: hr
 #: selection:hr.employee,gender:0
 msgid "Female"
-msgstr "נקבה"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.hr_kanban_view_employees
@@ -529,7 +522,7 @@ msgstr ""
 #: model:hr.job,website_description:hr.job_developer
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Good language skills in another language"
-msgstr "מיומנויות שפה טובה בשפה אחרת"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_filter
@@ -540,7 +533,7 @@ msgstr "קבץ לפי"
 #. module: hr
 #: model:ir.model,name:hr.model_hr_department
 msgid "HR Department"
-msgstr "מחלקת משאבי אנוש"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
@@ -570,7 +563,7 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_no_of_hired_employee
 msgid "Hired Employees"
-msgstr "עובדים מועסקים"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_main
@@ -580,7 +573,7 @@ msgstr "משאבי אנוש"
 #. module: hr
 #: model:hr.job,name:hr.job_hrm
 msgid "Human Resources Manager"
-msgstr "מנהל משאבי אנוש"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_id
@@ -593,7 +586,7 @@ msgstr "מזהה"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_identification_id
 msgid "Identification No"
-msgstr "מספר זיהוי"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_active
@@ -601,8 +594,6 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the resource "
 "record without removing it."
 msgstr ""
-"אם השדה הפעיל מוגדר ל- False, הוא יאפשר לך להסתיר את רשומת המשאבים מבלי "
-"להסיר אותה."
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -614,12 +605,12 @@ msgstr ""
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_job_filter
 msgid "In Position"
-msgstr "בתפקיד"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_job_filter
 msgid "In Recruitment"
-msgstr "בגיוס"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -641,12 +632,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr.view_hr_job_tree
 #: model:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Job"
-msgstr "תפקיד"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_description
 msgid "Job Description"
-msgstr "תיאור תפקיד"
+msgstr ""
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_job
@@ -658,7 +649,7 @@ msgstr "תפקיד"
 #. module: hr
 #: model:ir.actions.act_window,name:hr.action_hr_job
 msgid "Job Positions"
-msgstr "תפקידים"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.action_hr_job
@@ -722,12 +713,12 @@ msgstr ""
 #. module: hr
 #: selection:hr.employee,marital:0
 msgid "Legal Cohabitant"
-msgstr "בן זוג משפטי"
+msgstr ""
 
 #. module: hr
 #: selection:hr.employee,gender:0
 msgid "Male"
-msgstr "זכר"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_manager_id
@@ -740,17 +731,17 @@ msgstr "מנהל"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_marital
 msgid "Marital Status"
-msgstr "מצב אישי"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,name:hr.job_marketing
 msgid "Marketing and Community Manager"
-msgstr "מנהל שיווק וקהילה"
+msgstr ""
 
 #. module: hr
 #: selection:hr.employee,marital:0
 msgid "Married"
-msgstr "נשוי"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
@@ -771,14 +762,11 @@ msgid ""
 "128x128px image, with aspect ratio preserved. Use this field in form views "
 "or some kanban views."
 msgstr ""
-"תמונה בינונית של העובד. הוא משתנה באופן אוטומטי כתמונה בגודל 128x128 "
-"פיקסלים, עם יחס גובה-רוחב נשמר. השתמש בשדה זה בתצוגות טופס או תצוגות קנבן "
-"מסוימות."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_member_ids
 msgid "Members"
-msgstr "מנויים"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.hr_kanban_view_employees
@@ -804,7 +792,7 @@ msgstr "שם"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_country_id
 msgid "Nationality (Country)"
-msgstr "לאום (מדינה)"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -820,7 +808,7 @@ msgstr ""
 #. module: hr
 #: selection:hr.job,state:0
 msgid "Not Recruiting"
-msgstr "לא מגייס"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_note
@@ -835,18 +823,18 @@ msgstr "הערות"
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job_no_of_employee
 msgid "Number of employees currently occupying this job position."
-msgstr "מספר העובדים כיום התוספים את התפקיד הזה."
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job_no_of_hired_employee
 msgid ""
 "Number of hired employees for this job position during recruitment phase."
-msgstr "מספר עובדים המועמדים בשלב תהליך גיוס לתפקיד זה."
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job_no_of_recruitment
 msgid "Number of new employees you expect to recruit."
-msgstr "מספר העובדים החדשים שאתה מצפה לגייס."
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
@@ -855,14 +843,11 @@ msgid ""
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
-"מבנה המחלקה של Odoo משמש לניהול כל המסמכים\n"
-"                הקשורים לעובדים לפי מחלקות: הוצאות, דיווחי שעות,\n"
-"                חופשות, גיוסים וכו'."
 
 #. module: hr
 #: model:res.groups,name:hr.group_hr_user
 msgid "Officer"
-msgstr "פקיד בכיר"
+msgstr ""
 
 #. module: hr
 #: selection:hr.employee,gender:0
@@ -872,7 +857,7 @@ msgstr "אחר"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Other Information ..."
-msgstr "מידע אחר ..."
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -888,7 +873,7 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_parent_id
 msgid "Parent Department"
-msgstr "מחלקת אב"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_developer
@@ -898,7 +883,7 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_passport_id
 msgid "Passport No"
-msgstr "מספר דרכון"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_image
@@ -919,7 +904,7 @@ msgstr ""
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Position"
-msgstr "משרה"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
@@ -931,12 +916,12 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_address_home_id
 msgid "Private Address"
-msgstr "כתובת פרטית"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Private Information"
-msgstr "מידע פרטי"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
@@ -956,12 +941,12 @@ msgstr "גיוס"
 #. module: hr
 #: selection:hr.job,state:0
 msgid "Recruitment in Progress"
-msgstr "גיוס בתהליך"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Related User"
-msgstr "משתמש קרוב"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users_employee_ids
@@ -971,7 +956,7 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_user_id
 msgid "Related user name for the resource to manage its access."
-msgstr "שם משתמש קשור למשאב לניהול הגישה שלו."
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_reporting_timesheet
@@ -981,7 +966,7 @@ msgstr "דיווח"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_requirements
 msgid "Requirements"
-msgstr "דרישות"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -992,17 +977,17 @@ msgstr "דרישות"
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Responsibilities"
-msgstr "אחריות"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_sinid
 msgid "SIN No"
-msgstr "מספר ביטוח סוציאלי"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_ssnid
 msgid "SSN No"
-msgstr "מספר ביטוח לאומי"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -1022,7 +1007,7 @@ msgstr ""
 #: model:ir.model.fields,help:hr.field_hr_job_state
 msgid ""
 "Set whether the recruitment process is open or closed for this job position."
-msgstr "קבע אם תהליך הגיוס פתוח או סגור למשרה זו."
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_config_settings_action
@@ -1034,22 +1019,22 @@ msgstr "הגדרות"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings_module_hr_org_chart
 msgid "Show Organizational Chart"
-msgstr "הצג תרשים ארגוני"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Show organizational chart on employee form"
-msgstr "הצג תרשים ארגוני על טופס עובד"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Show organizational chart on employee form."
-msgstr "הצג תרשים ארגוני על טופס עובדים."
+msgstr ""
 
 #. module: hr
 #: selection:hr.employee,marital:0
 msgid "Single"
-msgstr "רווק/ה"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -1060,7 +1045,7 @@ msgstr "רווק/ה"
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Skills"
-msgstr "מיומנויות"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_image_small
@@ -1078,12 +1063,12 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_sinid
 msgid "Social Insurance Number"
-msgstr "מספר ביטוח סוציאלי"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_ssnid
 msgid "Social Security Number"
-msgstr "מספר ביטוח לאומי"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_state
@@ -1095,7 +1080,7 @@ msgstr "סטטוס"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_hr_job_form
 msgid "Stop Recruitment"
-msgstr "עצור גיוס"
+msgstr ""
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_employee_action_subordinate_hierachy
@@ -1105,7 +1090,7 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_child_ids
 msgid "Subordinates"
-msgstr "כפופים"
+msgstr ""
 
 #. module: hr
 #: sql_constraint:hr.employee.category:0
@@ -1135,7 +1120,7 @@ msgstr ""
 #. module: hr
 #: sql_constraint:hr.job:0
 msgid "The name of the job position must be unique per department in company!"
-msgstr "שם המשרה חייב להיות ייחודי לכל מחלקה בחברה!"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee_image
@@ -1147,12 +1132,12 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_expected_employees
 msgid "Total Forecasted Employees"
-msgstr "סה\"כ עובדים חזויים"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,name:hr.job_trainee
 msgid "Trainee"
-msgstr "מתלמד"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_marketing
@@ -1188,17 +1173,17 @@ msgstr "משתמשים"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.hr_job_view_kanban
 msgid "Vacancies :"
-msgstr "מקומות פנויים:"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_visa_expire
 msgid "Visa Expire Date"
-msgstr "תאריך תפוגה של הויזה"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_visa_no
 msgid "Visa No"
-msgstr "מספר ויזה"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
@@ -1261,7 +1246,7 @@ msgstr ""
 #. module: hr
 #: selection:hr.employee,marital:0
 msgid "Widower"
-msgstr "אלמן/ה"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
@@ -1276,9 +1261,6 @@ msgid ""
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"במבט מהיר על מסך העובדים של Odoo, \n"
-"אתה יכול למצוא בקלות את כל המידע הדרוש לך לכל אדם,\n"
-"               נתוני קשר, משרה, זמינות וכו '."
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -1297,47 +1279,47 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_address_id
 msgid "Work Address"
-msgstr "כתובת מקום עבודה"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_work_email
 msgid "Work Email"
-msgstr "דוא\"ל עבודה"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Work Information"
-msgstr "מידע על עבודה"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_work_location
 msgid "Work Location"
-msgstr "מיקום העבודה"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_mobile_phone
 msgid "Work Mobile"
-msgstr "נייד עבודה"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Work Organization"
-msgstr "ארגון עבודה"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Work Permit"
-msgstr "אישור עבודה"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_permit_no
 msgid "Work Permit No"
-msgstr "מספר אישור עבודה"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_work_phone
 msgid "Work Phone"
-msgstr "טלפון עבודה"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_marketing
@@ -1518,7 +1500,7 @@ msgstr ""
 #. module: hr
 #: model:mail.template,subject:hr.mail_template_data_unknown_employee_email_address
 msgid "Your document has not been created"
-msgstr "המסמך שלך לא נוצר"
+msgstr ""
 
 #. module: hr
 #: model:mail.template,body_html:hr.mail_template_data_unknown_employee_email_address
@@ -1531,17 +1513,17 @@ msgstr ""
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_department_form
 msgid "department"
-msgstr "מחלקה"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "e.g. Part Time"
-msgstr "למשל משרה חלקית"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_hr_job_form
 msgid "e.g. Sales Manager"
-msgstr "למשל: מנהל מכירות"
+msgstr ""
 
 #. module: hr
 #: model:ir.model,name:hr.model_mail_alias_mixin

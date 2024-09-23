@@ -3,19 +3,18 @@
 # * website_mass_mailing
 # 
 # Translators:
-# Martin Trigaux, 2017
+# Shaima Safar <shaima.safar@open-inside.com>, 2017
+# Martin Trigaux <mat@odoo.com>, 2017
+# Mustafa Rawi <mustafa@cubexco.com>, 2017
 # amrnegm <amrnegm.01@gmail.com>, 2017
 # hoxhe Aits <hoxhe0@gmail.com>, 2017
-# Shaima Safar <shaima.safar@open-inside.com>, 2017
-# Mustafa Rawi <mustafa@cubexco.com>, 2019
-# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:08+0000\n"
-"PO-Revision-Date: 2017-09-20 10:27+0000\n"
-"Last-Translator: Mustafa Rawi <mustafa@cubexco.com>, 2019\n"
+"POT-Creation-Date: 2017-09-20 09:54+0000\n"
+"PO-Revision-Date: 2017-09-20 09:54+0000\n"
+"Last-Translator: hoxhe Aits <hoxhe0@gmail.com>, 2017\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,7 +69,7 @@ msgstr "جهة الاتصال"
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.res_config_settings_view_form
 msgid "Encourage to subscribe to mailing lists with a popup"
-msgstr "التشجيع على الاشتراك في القوائم البريدية من خلال النوافذ المنبثقة"
+msgstr ""
 
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_popup
@@ -98,7 +97,7 @@ msgstr "نشرة الأخبار"
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.view_mail_mass_mailing_list_form
 msgid "Popup Content"
-msgstr "محتوى منبثق"
+msgstr ""
 
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.s_newsletter_subscribe_form
@@ -132,29 +131,24 @@ msgid "Type Here ..."
 msgstr "أكتب هنا ..."
 
 #. module: website_mass_mailing
-#: model:ir.ui.view,arch_db:website_mass_mailing.unsubscribe
-msgid "Update my subscriptions"
-msgstr "تحديث اشتراكاتي"
-
-#. module: website_mass_mailing
 #: model:res.groups,name:website_mass_mailing.group_website_popup_on_exit
 msgid "Use subscription pop up on the website"
-msgstr "استخدام الاشتراك من خلال النوافذ المنبثقة على الموقع"
+msgstr ""
 
 #. module: website_mass_mailing
 #: model:ir.model.fields,field_description:website_mass_mailing.field_res_config_settings_group_website_popup_on_exit
 msgid "Website Popup"
-msgstr "نوافذ منبثقة في الموقع"
+msgstr ""
 
 #. module: website_mass_mailing
 #: model:ir.model.fields,field_description:website_mass_mailing.field_mail_mass_mailing_list_popup_content
 msgid "Website Popup Content"
-msgstr "محتوى منبثق في الموقع"
+msgstr ""
 
 #. module: website_mass_mailing
 #: model:ir.model.fields,field_description:website_mass_mailing.field_mail_mass_mailing_list_popup_redirect_url
 msgid "Website Popup Redirect URL"
-msgstr "رابط إعادة توجيه منبثق في الموقع"
+msgstr ""
 
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.unsubscribe
@@ -164,7 +158,7 @@ msgstr "أنت غير مسجل في أي من قائمتنا البريدية."
 #. module: website_mass_mailing
 #: model:ir.ui.view,arch_db:website_mass_mailing.unsubscribed
 msgid "You have been successfully <strong>unsubscribed</strong>!"
-msgstr "<strong>ألغيت</strong> بنجاح اشتراكك!"
+msgstr ""
 
 #. module: website_mass_mailing
 #. openerp-web

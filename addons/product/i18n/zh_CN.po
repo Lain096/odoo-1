@@ -24,18 +24,17 @@
 # liulixia <liu.lixia@elico-corp.com>, 2018
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2018
 # Martin Trigaux, 2018
-# keecome <7017511@qq.com>, 2018
+# 广州救火 <7017511@qq.com>, 2018
 # liAnGjiA <liangjia@qq.com>, 2018
 # diaojiaolou <124412206@qq.com>, 2019
-# F4NNIU <sparkamax@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:08+0000\n"
+"POT-Creation-Date: 2019-01-03 15:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:22+0000\n"
-"Last-Translator: F4NNIU <sparkamax@gmail.com>, 2019\n"
+"Last-Translator: diaojiaolou <124412206@qq.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -776,12 +775,6 @@ msgstr "产品单位 %s 与默认单位 %s 无法转换，二者属于不同的�
 #: selection:product.pricelist.item,base:0
 msgid "Cost"
 msgstr "成本"
-
-#. module: product
-#: model:ir.model.fields,field_description:product.field_product_product_cost_currency_id
-#: model:ir.model.fields,field_description:product.field_product_template_cost_currency_id
-msgid "Cost Currency"
-msgstr "成本货币"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_standard_price

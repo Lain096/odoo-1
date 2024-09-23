@@ -3,30 +3,27 @@
 # * hr_recruitment
 # 
 # Translators:
-# Andrey Samorukov <andrey.samorukov@me.com>, 2017
-# Denis Baranov <baranov@itlibertas.com>, 2017
-# Gennady Marchenko <gennadym@gmail.com>, 2017
-# Русский «kolobok2048» Ивашка <kolobok2048@gmail.com>, 2017
-# Max Belyanin <maxbelyanin@gmail.com>, 2017
-# Denis Trepalin <zekarious@gmail.com>, 2017
-# Masha Koc <mariya.kos.ua@gmail.com>, 2017
-# Максим Дронь <dronmax@gmail.com>, 2017
-# Sergey Vilizhanin, 2017
-# Viktor Pogrebniak <vp@aifil.ru>, 2017
-# Collex100, 2017
 # Martin Trigaux, 2017
-# Ꚁemetron <d.v.selitsky@gmail.com>, 2017
+# Collex100, 2017
+# Gennady Marchenko <gennadym@gmail.com>, 2017
+# Viktor Pogrebniak <vp@aifil.ru>, 2017
+# Максим Дронь <dronmax@gmail.com>, 2017
+# Sergey Vilizhanin <sv@grimmette.ru>, 2017
+# Andrey Samorukov <andrey.samorukov@me.com>, 2017
+# Masha Koc <mariya.kos.ua@gmail.com>, 2017
+# Denis Baranov <baranov@itlibertas.com>, 2017
+# Max Belyanin <maxbelyanin@gmail.com>, 2017
+# Русский «kolobok2048» Ивашка <kolobok2048@gmail.com>, 2017
+# Denis Trepalin <zekarious@gmail.com>, 2017
+# Dmitry sky <d.v.selitsky@gmail.com>, 2017
 # sergeiruzkiicode <sergei.ruzki@icode.by>, 2018
-# Vasiliy Korobatov <korobatov@gmail.com>, 2019
-# Ivan Yelizariev <yelizariev@it-projects.info>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
-"PO-Revision-Date: 2017-09-20 10:18+0000\n"
-"Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2019\n"
+"PO-Revision-Date: 2017-11-16 08:08+0000\n"
+"Last-Translator: sergeiruzkiicode <sergei.ruzki@icode.by>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -446,7 +443,7 @@ msgstr "<span class=\"o_stat_text\">Трекеры</span>"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_recruitment_stage_kanban
 msgid "<span>Folded in Recruitment Pipe: </span>"
-msgstr "<span>Собрано в рекрутинговом конвейере:</span>"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
@@ -526,7 +523,7 @@ msgstr "Модель пвсевдонима"
 #. module: hr_recruitment
 #: model:ir.ui.menu,name:hr_recruitment.menu_crm_case_categ_all_app
 msgid "All Applications"
-msgstr "все заявки"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_applicant
@@ -583,10 +580,6 @@ msgid ""
 "            If you install the document management modules, all resumes are indexed automatically,\n"
 "            so that you can easily search through their content."
 msgstr ""
-"Кандидаты и их добавлен CV создаются автоматически при отправке электронного"
-" письма. Если вы устанавливаете модули управления документами, все резюме "
-"автоматически индексируются, так что вы можете легко искать через их "
-"содержание."
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
@@ -644,7 +637,7 @@ msgstr "Вложения"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_stage_template_id
 msgid "Automated Email"
-msgstr "автоматический Email"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_availability
@@ -1091,7 +1084,7 @@ msgstr "Отдел кадров"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_hr_responsible_id
 msgid "HR Responsible"
-msgstr "Ответственный отдел кадров"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
@@ -1143,7 +1136,7 @@ msgstr "Первоначальная квалификация"
 #: model:ir.model.fields,field_description:hr_recruitment.field_res_config_settings_module_hr_recruitment_survey
 #: model:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
 msgid "Interview Forms"
-msgstr "Формы интервью"
+msgstr ""
 
 #. module: hr_recruitment
 #: code:addons/hr_recruitment/models/hr_job.py:94
@@ -1161,7 +1154,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.crm_case_pivot_view_job
 msgid "Job Applications"
-msgstr "Заявки на работу"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:utm.campaign,name:hr_recruitment.utm_campaign_job
@@ -1209,7 +1202,7 @@ msgstr "Штатное расписание"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
 msgid "Job Posting"
-msgstr "вакансия"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_stage_job_id
@@ -1304,7 +1297,7 @@ msgstr "Моя деятельность"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_crm_case_jobs_filter
 msgid "My Applications"
-msgstr "Мои заявки"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.hr_applicant_action_activity
@@ -1398,7 +1391,7 @@ msgstr "Количество приложений"
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant_delay_close
 msgid "Number of days to close"
-msgstr "Количество дней до закрытия"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
@@ -1421,7 +1414,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.hr_job_survey
 msgid "Offer"
-msgstr "предложение"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:res.groups,name:hr_recruitment.group_hr_recruitment_user
@@ -1455,7 +1448,7 @@ msgstr "Постоянно"
 #: model:ir.model.fields,field_description:hr_recruitment.field_res_config_settings_module_website_hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
 msgid "Online Posting"
-msgstr "Онлайн-публикации"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_force_thread_id
@@ -1497,7 +1490,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_hr_responsible_id
 msgid "Person responsible of validating the employee's contracts."
-msgstr "Лицо, ответственное за проверку контрактов работника."
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_partner_phone
@@ -1535,7 +1528,7 @@ msgstr "Предложенная дополнительная оплата"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
 msgid "Publish available jobs on your website"
-msgstr "Опубликовать имеющиеся вакансии на вашем сайте"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job_alias_force_thread_id
@@ -1922,7 +1915,7 @@ msgstr "Дата Обновления"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
 msgid "Use interview forms during recruitment process"
-msgstr "Используйте формы интервью во время набора персонала"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
@@ -1931,9 +1924,6 @@ msgid ""
 "process. Select the form to use in the job position detail form. This relies"
 " on Survey app."
 msgstr ""
-"Используйте формы для собеседования, адаптированные к каждой вакансии в "
-"процессе набора персонала. Выберите форму для использования в форме "
-"детальной информации о должности. Это в приложении Опросы."
 
 #. module: hr_recruitment
 #. openerp-web
@@ -1997,7 +1987,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:mail.template,subject:hr_recruitment.email_template_data_applicant_refuse
 msgid "Your Job Application: ${object.job_id.name | safe}"
-msgstr "Ваша заявка на работу: $ {object.job_id.name | safe}"
+msgstr ""
 
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.hr_job_simple_form

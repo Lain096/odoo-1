@@ -3,22 +3,19 @@
 # * resource
 # 
 # Translators:
+# Onii Onii <onii0223@yahoo.com>, 2018
 # Martin Trigaux, 2018
 # Otgonbayar.A <gobi.mn@gmail.com>, 2018
 # Batzul B <batzul.active@gmail.com>, 2018
 # Khishigbat Ganbold <khishigbat@asterisk-tech.mn>, 2018
 # Tsogjav <Tsogjav2007@yahoo.com>, 2018
-# Onii Onii <onii0223@yahoo.com>, 2018
-# tserendavaa tsogtoo <tseegii011929@gmail.com>, 2019
-# Khoschuluu Khuderchuluu <khoschuluu@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
-"PO-Revision-Date: 2017-09-20 10:23+0000\n"
-"Last-Translator: Khoschuluu Khuderchuluu <khoschuluu@gmail.com>, 2019\n"
+"PO-Revision-Date: 2017-09-20 09:53+0000\n"
+"Last-Translator: Tsogjav <Tsogjav2007@yahoo.com>, 2018\n"
 "Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,7 +84,7 @@ msgstr "Гариг"
 #: model:ir.model.fields,field_description:resource.field_res_company_resource_calendar_id
 #: model:ir.model.fields,field_description:resource.field_res_users_resource_calendar_id
 msgid "Default Working Hours"
-msgstr "Анхдагч ажлын цаг"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_hr_employee_resource_calendar_id
@@ -143,19 +140,19 @@ msgstr "Баасан"
 #: code:addons/resource/models/resource.py:74
 #, python-format
 msgid "Friday Evening"
-msgstr "Баасан гарагийн үдээс хойш"
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:73
 #, python-format
 msgid "Friday Morning"
-msgstr "Баасан гарагийн үдээс ѳмнѳ"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_global_leave_ids
 #: model:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "Global Leaves"
-msgstr "Нийт хоцролт"
+msgstr ""
 
 #. module: resource
 #: model:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
@@ -266,13 +263,13 @@ msgstr "Даваа"
 #: code:addons/resource/models/resource.py:66
 #, python-format
 msgid "Monday Evening"
-msgstr "Даваа гарагийн үдээс хойш"
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:65
 #, python-format
 msgid "Monday Morning"
-msgstr "Даваа гарагийн үдээс ѳмнѳ"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance_name
@@ -328,7 +325,7 @@ msgstr "Нөөцийн Чөлөө"
 #. module: resource
 #: model:ir.model,name:resource.model_resource_mixin
 msgid "Resource Mixin"
-msgstr "Resource Mixin"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_resource_resource_type
@@ -391,7 +388,7 @@ msgstr "Ажлын цагийг хайх"
 #: code:addons/resource/models/res_company.py:23
 #, python-format
 msgid "Standard 40 hours/week"
-msgstr "Жишиг 40 цаг/долоо хоног"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves_date_from
@@ -404,8 +401,6 @@ msgid ""
 "Start and End time of working.\n"
 "A specific value of 24:00 is interpreted as 23:59:59.999999."
 msgstr ""
-"Эхлэх болон дуусах ажлын цаг.\n"
-"24:00 тодорхойлсон утгийн нарийвчлал 23:59:59.999999."
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance_date_from
@@ -425,7 +420,7 @@ msgstr "Ням"
 #. module: resource
 #: model:ir.model,name:resource.model_resource_test
 msgid "Test Resource Model"
-msgstr "Нѳѳцийн Моделийн Тест"
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:689
@@ -442,10 +437,6 @@ msgid ""
 "the efficiency factor is 200%, however the expected duration will be 30 "
 "minutes."
 msgstr ""
-"Энэхүү талбарыг ажлын төв дэх ажлын захиалгын хүлээгдэж буй хугацааг "
-"тооцоолоход ашиглана. Жишээлбэл, ажлын захиалгад нэг цаг шаардагдах бол үр "
-"ашгийн харьцаа 100% гэж үзвэл хүлээгдэж буй хугацаа нэг цаг болно. Хэрэв үр "
-"ашгийн харьцаа 200% гэж үзвэл хүлээгдэж буй хугацаа 30 минут болно."
 
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
@@ -456,18 +447,18 @@ msgstr "Пүрэв"
 #: code:addons/resource/models/resource.py:72
 #, python-format
 msgid "Thursday Evening"
-msgstr "Пүрэв гарагийн үдээс хойш"
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:71
 #, python-format
 msgid "Thursday Morning"
-msgstr "Пүрэв гарагийн үдээс ѳмнѳ"
+msgstr ""
 
 #. module: resource
 #: sql_constraint:resource.resource:0
 msgid "Time efficiency must be strictly positive"
-msgstr "Цаг үр ашиг заавал эерэг байх шаардлагатай"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves_tz
@@ -490,13 +481,13 @@ msgstr "Мягмар"
 #: code:addons/resource/models/resource.py:68
 #, python-format
 msgid "Tuesday Evening"
-msgstr "Мягмар гарагийн үдээс хойш"
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:67
 #, python-format
 msgid "Tuesday Morning"
-msgstr "Мягмар гарагийн үдээс ѳмнѳ"
+msgstr ""
 
 #. module: resource
 #: model:ir.ui.view,arch_db:resource.view_resource_resource_search
@@ -523,13 +514,13 @@ msgstr "Лхагва"
 #: code:addons/resource/models/resource.py:70
 #, python-format
 msgid "Wednesday Evening"
-msgstr "Лхагва гарагийн үдээс хойш"
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:69
 #, python-format
 msgid "Wednesday Morning"
-msgstr "Лхагва гарагийн үдээс ѳмнѳ"
+msgstr ""
 
 #. module: resource
 #: model:ir.model,name:resource.model_resource_calendar_attendance
@@ -539,7 +530,7 @@ msgstr "Ажлын дэлгэрэнгүй"
 #. module: resource
 #: model:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "Work Resources"
-msgstr "Ажлын Нѳѳц"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance_hour_from
@@ -566,7 +557,7 @@ msgstr "Ажлын цаг"
 #: code:addons/resource/models/resource.py:60
 #, python-format
 msgid "Working Hours of %s"
-msgstr "%s дах Ажлын Цаг"
+msgstr ""
 
 #. module: resource
 #: model:ir.ui.view,arch_db:resource.view_resource_resource_search

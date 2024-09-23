@@ -2,20 +2,12 @@
 # This file contains the translation of the following modules:
 # * payment
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# Martin Trigaux, 2019
-# prassanna john paul augustin <prasaugus@gmail.com>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 15:01+0000\n"
+"POT-Creation-Date: 2019-01-03 15:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:20+0000\n"
-"Last-Translator: Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -237,7 +229,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token_active
 msgid "Active"
-msgstr "செயலில்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_active
@@ -248,7 +240,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_address
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "Address"
-msgstr "முகவரி"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_adyen
@@ -259,14 +251,14 @@ msgstr ""
 #. module: payment
 #: selection:payment.acquirer,save_token:0
 msgid "Always"
-msgstr "எப்போதும்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_amount
 #: model:ir.model.fields,help:payment.field_payment_transaction_amount
 #: model:ir.ui.view,arch_db:payment.confirm
 msgid "Amount"
-msgstr "தொகை"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_authorize_implemented
@@ -288,7 +280,7 @@ msgstr ""
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_custom
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_transfer
 msgid "Bank Account"
-msgstr "வங்கி கணக்கு"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_buckaroo
@@ -321,7 +313,7 @@ msgstr ""
 #: code:addons/payment/static/src/js/payment_form.js:358
 #, python-format
 msgid "Cancel"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_cancel_msg
@@ -365,7 +357,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_city
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "City"
-msgstr "பெருநகரம்"
+msgstr ""
 
 #. module: payment
 #: model:ir.actions.act_window,help:payment.action_payment_acquirer
@@ -381,22 +373,22 @@ msgstr ""
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_custom
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_transfer
 msgid "Communication"
-msgstr "தொடர்பாடல்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_company_id
 msgid "Company"
-msgstr "நிறுவனம்"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "Configuration"
-msgstr "கட்டமைப்பு"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_kanban
 msgid "Configure"
-msgstr "கட்டமைக்கவும்"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -408,7 +400,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model,name:payment.model_res_partner
 msgid "Contact"
-msgstr "தொடர்பு"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_module_id
@@ -424,13 +416,13 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_country_ids
 msgid "Countries"
-msgstr "நாடுகள்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_country_id
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "Country"
-msgstr "தேசம்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_create_uid
@@ -438,19 +430,19 @@ msgstr "தேசம்"
 #: model:ir.model.fields,field_description:payment.field_payment_token_create_uid
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_create_date
 #: model:ir.model.fields,field_description:payment.field_payment_icon_create_date
 #: model:ir.model.fields,field_description:payment.field_payment_token_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_create_date
 msgid "Creation Date"
-msgstr "உருவாக்கம் தேதி"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -465,22 +457,22 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_currency_id
 msgid "Currency"
-msgstr "நாணயம்"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_custom
 msgid "Custom"
-msgstr "விருப்ப"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_id
 msgid "Customer"
-msgstr "வாடிக்கையாளர்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_description
 msgid "Description"
-msgstr "விளக்கம்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_sequence
@@ -493,12 +485,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_token_display_name
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Done"
-msgstr "முடிந்தது"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_done_msg
@@ -508,7 +500,7 @@ msgstr ""
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Draft"
-msgstr "வரைவு"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
@@ -523,7 +515,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_email
 msgid "Email"
-msgstr "மின்னஞ்சல்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_environment
@@ -601,7 +593,7 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_search
 msgid "Group By"
-msgstr "மூலம் குழு"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_pre_msg
@@ -614,7 +606,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_token_id
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_specific_countries
@@ -658,7 +650,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_lang
 msgid "Language"
-msgstr "மொழி"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer___last_update
@@ -666,7 +658,7 @@ msgstr "மொழி"
 #: model:ir.model.fields,field_description:payment.field_payment_token___last_update
 #: model:ir.model.fields,field_description:payment.field_payment_transaction___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_write_uid
@@ -674,7 +666,7 @@ msgstr "கடைசியாக திருத்திய"
 #: model:ir.model.fields,field_description:payment.field_payment_token_write_uid
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_write_date
@@ -682,7 +674,7 @@ msgstr "கடைசியாக புதுப்பிக்கப்பட�
 #: model:ir.model.fields,field_description:payment.field_payment_token_write_date
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,save_token:0
@@ -731,7 +723,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_state_message
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "Message"
-msgstr "செய்தி"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_post_msg
@@ -770,7 +762,7 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "Messages"
-msgstr "செய்திகள்"
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:455
@@ -786,7 +778,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:payment.payment_icon_form_view
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "Name"
-msgstr "பெயர்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_token_name
@@ -796,7 +788,7 @@ msgstr ""
 #. module: payment
 #: selection:payment.acquirer,save_token:0
 msgid "Never"
-msgstr "ஒருபோதும்"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
@@ -852,7 +844,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token_partner_id
 msgid "Partner"
-msgstr "கூட்டாளி"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_name
@@ -869,7 +861,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:payment.confirm
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "Payment"
-msgstr "கொடுப்பனவு"
+msgstr ""
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_acquirer
@@ -929,7 +921,7 @@ msgstr ""
 #: model:ir.model,name:payment.model_payment_transaction
 #: model:ir.model.fields,field_description:payment.field_account_payment_payment_transaction_id
 msgid "Payment Transaction"
-msgstr "செலுத்துதல் பரிவர்த்தனை"
+msgstr ""
 
 #. module: payment
 #: model:ir.actions.act_window,name:payment.action_payment_transaction
@@ -964,7 +956,7 @@ msgstr ""
 #: model:ir.ui.menu,name:payment.root_payment_menu
 #: model:ir.ui.view,arch_db:payment.payment_token_form_view
 msgid "Payments"
-msgstr "கொடுப்பனவு"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_journal_id
@@ -987,7 +979,7 @@ msgstr ""
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Pending"
-msgstr "நிலுவையில்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_pending_msg
@@ -997,7 +989,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_phone
 msgid "Phone"
-msgstr "தொலைபேசி"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
@@ -1045,20 +1037,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_provider
 #: model:ir.ui.view,arch_db:payment.acquirer_search
 msgid "Provider"
-msgstr "வழங்குநர்"
-
-#. module: payment
-#. openerp-web
-#: code:addons/payment/static/src/js/payment_translations.js:9
-#, python-format
-msgid "Publish"
-msgstr ""
-
-#. module: payment
-#. openerp-web
-#: code:addons/payment/static/src/js/payment_translations.js:8
-#, python-format
-msgid "Published"
 msgstr ""
 
 #. module: payment
@@ -1070,7 +1048,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_reference
 #: model:ir.ui.view,arch_db:payment.confirm
 msgid "Reference"
-msgstr "குறிப்பு"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction_acquirer_reference
@@ -1126,7 +1104,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_sequence
 msgid "Sequence"
-msgstr "வரிசை"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1185,7 +1163,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_state
 msgid "Status"
-msgstr "நிலைமை"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_stripe
@@ -1278,7 +1256,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_type
 msgid "Type"
-msgstr "வகை"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_date_validate
@@ -1320,7 +1298,7 @@ msgstr ""
 #: code:addons/payment/static/src/js/payment_form.js:353
 #, python-format
 msgid "Warning!"
-msgstr "எச்சரிக்கை!"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1432,12 +1410,12 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "ZIP"
-msgstr "ஜிப்"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_zip
 msgid "Zip"
-msgstr "zip"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form

@@ -2,18 +2,12 @@
 # This file contains the translation of the following modules:
 # * rating
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
-"PO-Revision-Date: 2017-09-20 10:22+0000\n"
-"Last-Translator: Abul Hassan M I <miabulhassan@gmail.com>, 2019\n"
+"PO-Revision-Date: 2017-09-20 09:53+0000\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,23 +46,23 @@ msgstr ""
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_feedback
 msgid "Comment"
-msgstr "கருத்து"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_partner_id
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Customer"
-msgstr "வாடிக்கையாளர்"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
@@ -79,17 +73,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_rating_mixin_display_name
 #: model:ir.model.fields,field_description:rating.field_rating_rating_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_res_id
 msgid "Document"
-msgstr "ஆவணம்"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_res_model
 msgid "Document Model"
-msgstr "ஆவண மாதிரி"
+msgstr ""
 
 #. module: rating
 #: model:ir.model,name:rating.model_mail_thread
@@ -114,7 +108,7 @@ msgstr ""
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Group By"
-msgstr "மூலம் குழு"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
@@ -126,7 +120,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_rating_mixin_id
 #: model:ir.model.fields,field_description:rating.field_rating_rating_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_res_id
@@ -142,17 +136,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_rating_mixin___last_update
 #: model:ir.model.fields,field_description:rating.field_rating_rating___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_message_id
@@ -162,7 +156,7 @@ msgstr ""
 #. module: rating
 #: model:ir.model,name:rating.model_mail_message
 msgid "Message"
-msgstr "செய்தி"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_res_model_id
@@ -172,7 +166,7 @@ msgstr ""
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Month"
-msgstr "மாதம்"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
@@ -388,7 +382,7 @@ msgstr ""
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Year"
-msgstr "ஆண்டு"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_external_page_submit

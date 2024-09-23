@@ -14,15 +14,15 @@
 # Sanna Edelman <direct@generare.com>, 2017
 # Tommi Rintala <tommi.rintala@gmail.com>, 2017
 # Mikko Närjänen <mikko.narjanen@web-veistamo.fi>, 2017
+# Kari Lindgren <kari.lindgren@emsystems.fi>, 2017
+# Veikko Väätäjä <veikko.vaataja@gmail.com>, 2018
 # Jukka Paulin <jukka.paulin@gmail.com>, 2018
+# Heikki Katajisto <heikki.katajisto@myyntivoima.fi>, 2018
 # Karoliina Nisula <karoliina.nisula@tawasta.fi>, 2018
 # Martin Trigaux, 2019
-# Topi Aura <topi@aurat.fi>, 2019
-# Johanna Valkonen <johanna.valkonen@sv-oy.fi>, 2019
-# Kari Lindgren <kari.lindgren@emsystems.fi>, 2019
-# Veikko Väätäjä <veikko.vaataja@gmail.com>, 2019
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2019
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2019
-# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2020
+# Topi Aura <topi@aurat.fi>, 2019
 # 
 msgid ""
 msgstr ""
@@ -30,7 +30,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:25+0000\n"
-"Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2020\n"
+"Last-Translator: Topi Aura <topi@aurat.fi>, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +43,7 @@ msgstr ""
 #: code:addons/website/static/src/js/editor/snippets.options.js:726
 #, python-format
 msgid " Add Images"
-msgstr "Lisää kuvia"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -56,7 +56,7 @@ msgstr ""
 #: code:addons/website/models/website.py:315
 #, python-format
 msgid "%s (id:%s)"
-msgstr "%s (id:%s)"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
@@ -91,7 +91,7 @@ msgstr "&times;"
 #. module: website
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 msgid "' did not match any pages."
-msgstr "' ei vastannut yhtään sivua."
+msgstr ""
 
 #. module: website
 #: code:addons/website/models/website.py:723
@@ -156,7 +156,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.default_csv
 msgid "1,2,3"
-msgstr "1,2,3"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -177,12 +177,12 @@ msgstr "1s"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "2 <span class=\"sr-only\">(current)</span>"
-msgstr "2 <span class=\"sr-only\">(nykyinen)</span>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "24x7 toll-free support"
-msgstr "24x7 maksuton tuki"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -279,7 +279,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<b>Set Custom Image...</b>"
-msgstr "<b>Valitse kuva...</b>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -291,27 +291,27 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-arrows\"/>Background Image Sizing"
-msgstr "<i class=\"fa fa-arrows\"/>Taustakuvan koko"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-arrows-h\"/>Images spacing"
-msgstr "<i class=\"fa fa-arrows-h\"/>Kuvien välistys"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-clock-o\"/>Scroll Speed"
-msgstr "<i class=\"fa fa-clock-o\"/>Vieritysnopeus"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-clock-o\"/>Slideshow speed"
-msgstr "<i class=\"fa fa-clock-o\"/>Diaesityksen nopeus"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippets
 msgid "<i class=\"fa fa-diamond\"/> Feature"
-msgstr "<i class=\"fa fa-diamond\"/> Ominaisuus"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -321,7 +321,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-eyedropper\"/>Background Color"
-msgstr "Taustaväri"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -331,17 +331,17 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippets
 msgid "<i class=\"fa fa-indent\"/> Inner content"
-msgstr "<i class=\"fa fa-indent\"/> Sisäinen sisältö"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippets
 msgid "<i class=\"fa fa-magic icon-fix\"/> Effect"
-msgstr "<i class=\"fa fa-magic icon-fix\"/> Efekti"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-magic\"/>Mode"
-msgstr "<i class=\"fa fa-magic\"/>Moodi"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -351,12 +351,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-paint-brush\"/>Styling"
-msgstr "<i class=\"fa fa-paint-brush\"/>Tyylit"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-picture-o\"/>Background Image"
-msgstr "<i class=\"fa fa-picture-o\"/>Taustakuva"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.language_selector
@@ -370,27 +370,27 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-plus-circle\"/>Add Slide"
-msgstr "<i class=\"fa fa-plus-circle\"/>Lisää dia"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-plus-circle\"/>Add images"
-msgstr "<i class=\"fa fa-plus-circle\"/>Lisää kuvia"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-refresh\"/>Re-order"
-msgstr "<i class=\"fa fa-refresh\"/>Järjestä uudelleen"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-th\"/>Columns"
-msgstr "<i class=\"fa fa-th\"/>Sarakkeet"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippets
 msgid "<i class=\"fa fa-th-large\"/> Structure"
-msgstr "<i class=\"fa fa-th-large\"/> Rakenne"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
@@ -400,12 +400,12 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-trash\"/>Remove all images"
-msgstr "<i class=\"fa fa-trash\"/>Poista kaikki kuvat"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-trash-o\"/>Remove Slide"
-msgstr "<i class=\"fa fa-trash-o\"/>Poista dia"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.edit_website_pages
@@ -1532,7 +1532,7 @@ msgstr "Oletus"
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Default Access Rights"
-msgstr "Oletuskäyttöoikeudet"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_default_lang_id
@@ -1716,7 +1716,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Dropdown"
-msgstr "Alasveto"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_feature_grid
@@ -1802,11 +1802,6 @@ msgid "Email support"
 msgstr ""
 
 #. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Enable billing on your Google Project"
-msgstr ""
-
-#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "End"
 msgstr "Loppu"
@@ -1882,7 +1877,7 @@ msgstr "Nopea"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings_favicon
 msgid "Favicon"
-msgstr "Favicon"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
@@ -2044,19 +2039,19 @@ msgstr "Github-tili"
 #: code:addons/website/static/src/js/menu/content.js:48
 #, python-format
 msgid "Go To Page"
-msgstr "Siirry sivulle"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:27
 #, python-format
 msgid "Go to Link"
-msgstr "Siirry linkkiin"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_view_form_extend
 msgid "Go to Page Manager"
-msgstr "Siirry sivuhallintaan"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -2064,7 +2059,7 @@ msgstr "Siirry sivuhallintaan"
 #: code:addons/website/static/src/xml/website.backend.xml:22
 #, python-format
 msgid "Go to Website"
-msgstr "Siirry verkkosivustolle"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2134,7 +2129,7 @@ msgstr "Google Client Secret"
 #: model:ir.model.fields,field_description:website.field_res_config_settings_has_google_maps
 #: model:ir.ui.view,arch_db:website.company_description
 msgid "Google Maps"
-msgstr "Google Maps"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings_google_maps_api_key
@@ -2646,7 +2641,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.backend.xml:81
 #, python-format
 msgid "Link my Analytics Account"
-msgstr "Linkitä Analytics-tilini"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_social_linkedin
@@ -2883,7 +2878,7 @@ msgstr "Seuraava"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "No customization"
-msgstr "Ei kustomointeja"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -3275,7 +3270,7 @@ msgstr "Esikatselu"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Previous"
-msgstr "Edellinen"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -3649,6 +3644,11 @@ msgid "Show in Top Menu"
 msgstr ""
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Show your address on a map in the"
+msgstr ""
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Simple and obvious"
 msgstr ""
@@ -3893,7 +3893,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.backend.xml:80
 #, python-format
 msgid "There is no data currently available."
-msgstr "Dataa ei ole saatavilla."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
@@ -4107,11 +4107,6 @@ msgid "Url"
 msgstr "Verkko-osoite"
 
 #. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Use Google Map on your website ("
-msgstr ""
-
-#. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
 msgid "Use Of Cookies"
 msgstr ""
@@ -4192,7 +4187,7 @@ msgstr "Näkymän perintätapa"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page_inherit_children_ids
 msgid "Views which inherit from this one"
-msgstr "Tästä näkymästä periytyvät näkymät"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_blog_post_website_published
@@ -4623,7 +4618,7 @@ msgstr "Koita jotain muuta hakuehtoa."
 #: code:addons/website/static/src/xml/website.backend.xml:100
 #, python-format
 msgid "Your Client ID:"
-msgstr "Client ID:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_banner
@@ -4635,7 +4630,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.backend.xml:95
 #, python-format
 msgid "Your Tracking ID:"
-msgstr "Tracking ID:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_title
@@ -4836,7 +4831,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "link"
-msgstr "linkki"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4855,8 +4850,8 @@ msgstr "tai Muokkaa pääsivua"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "page, snippets, ...)"
-msgstr ""
+msgid "page"
+msgstr "sivu"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4917,7 +4912,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.menu_search
 msgid "url"
-msgstr "url"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons

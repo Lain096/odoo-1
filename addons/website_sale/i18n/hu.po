@@ -3,23 +3,19 @@
 # * website_sale
 # 
 # Translators:
+# krnkris, 2017
+# gezza <geza.nagy@oregional.hu>, 2017
+# Martin Trigaux, 2017
+# Kovács Tibor <kovika@gmail.com>, 2017
 # Zsofia Biro <zsbiro1205@gmail.com>, 2017
 # picibucor <picibucor@gmail.com>, 2017
-# Kovács Tibor <kovika@gmail.com>, 2017
-# gezza <geza.nagy@oregional.hu>, 2017
-# krnkris, 2017
-# Martin Trigaux, 2018
-# Ákos Nagy <akos.nagy@oregional.hu>, 2019
-# Istvan <leki69@gmail.com>, 2019
-# Tamás Németh <ntomasz81@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:55+0000\n"
-"PO-Revision-Date: 2017-09-20 10:27+0000\n"
-"Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2019\n"
+"PO-Revision-Date: 2018-07-27 11:55+0000\n"
+"Last-Translator: picibucor <picibucor@gmail.com>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,7 +128,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
 msgid "<i class=\"fa fa-print\"/> Print"
-msgstr "<i class=\"fa fa-print\"/> Nyomtatás"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.header
@@ -688,7 +684,7 @@ msgstr ""
 #: model:ir.ui.menu,name:website_sale.menu_orders_abandoned_orders
 #, python-format
 msgid "Abandoned Carts"
-msgstr "Elhagyott kosarak"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -860,7 +856,7 @@ msgstr "Tulajdonságok"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_automatic_invoice
 msgid "Automatic Invoice"
-msgstr "Automatikus számla"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -899,7 +895,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:104
 #, python-format
 msgid "Best Sellers"
-msgstr "Legnépszerűbb"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.bill_to
@@ -909,7 +905,7 @@ msgstr "Számlázási adatok:"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.checkout
 msgid "Billing Address"
-msgstr "Számlázási cím"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -982,7 +978,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:84
 #, python-format
 msgid "Carts"
-msgstr "Kosarak"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1063,7 +1059,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart
 msgid "Click here"
-msgstr "Kattints ide"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -1124,27 +1120,27 @@ msgstr "Összetevők"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with DHL"
-msgstr "Szállítási költség számítása és szállítás DHL-lel"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with FedEx"
-msgstr "Szállítási költség számítása és szállítás FedEx-szel"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with UPS"
-msgstr "Szállítási költség számítása és szállítás UPS-sel"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with USPS"
-msgstr "Szállítási költség számítása és szállítás USPS-sel"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with bpost"
-msgstr "Szállítási költség számítása és szállítás bposttal"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1196,7 +1192,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Confirmation Email"
-msgstr "E-mail megerősítése"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.wizard_checkout
@@ -1298,7 +1294,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL"
-msgstr "DHL"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_currency_id
@@ -1403,7 +1399,7 @@ msgstr ""
 #. module: website_sale
 #: model:product.pricelist,name:website_sale.list_europe
 msgid "EUR"
-msgstr "EUR"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1683,7 +1679,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.payment_sale_note
 msgid "I agree to the"
-msgstr "Egyet értek a"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image_id
@@ -1926,7 +1922,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
 msgid "Log In"
-msgstr "Bejelentkezés"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2008,7 +2004,7 @@ msgstr "Zene. Ez ami belül dobog."
 #: code:addons/website_sale/static/src/js/website_sale.js:15
 #, python-format
 msgid "My Cart"
-msgstr "Kosár"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image_name
@@ -2039,7 +2035,7 @@ msgstr "Hálózat"
 #: model:ir.ui.view,arch_db:website_sale.content_new_product
 #, python-format
 msgid "New Product"
-msgstr "Új termék"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.extra_info
@@ -2197,7 +2193,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.payment
 msgid "Pay with"
-msgstr "Fizetés ezzel"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_ecommerce_payment_acquirers
@@ -2287,19 +2283,19 @@ msgstr ""
 #: code:addons/website_sale/controllers/backend.py:109
 #, python-format
 msgid "Previous Month"
-msgstr "Előző hónap"
+msgstr ""
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/backend.py:107
 #, python-format
 msgid "Previous Week"
-msgstr "Előző hét"
+msgstr ""
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/backend.py:111
 #, python-format
 msgid "Previous Year"
-msgstr "Előző év"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_lines
@@ -2358,7 +2354,7 @@ msgstr "Terméktulajdonság"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Product Catalog"
-msgstr "Termékkatalógus"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_module_website_sale_comparison
@@ -2369,7 +2365,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.product_template_form_view
 #: model:ir.ui.view,arch_db:website_sale.view_product_image_form
 msgid "Product Images"
-msgstr "Termékképek"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.product
@@ -2488,7 +2484,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_popover
 msgid "Qty:"
-msgstr "Db:"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -2528,12 +2524,12 @@ msgstr "Értékelés"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_last_feedback
 msgid "Rating Last Feedback"
-msgstr "Legutóbbi visszajelzés értékelése"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_last_image
 msgid "Rating Last Image"
-msgstr "Legutóbbi kép értékelése"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_last_value
@@ -2839,13 +2835,13 @@ msgstr "Szállítás"
 #: model:ir.ui.view,arch_db:website_sale.address
 #: model:ir.ui.view,arch_db:website_sale.checkout
 msgid "Shipping Address"
-msgstr "Szállítási cím"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_module_website_sale_delivery
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Shipping Costs"
-msgstr "Szállítási költségek"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_sale_delivery_settings
@@ -2937,7 +2933,7 @@ msgstr "Szoftver"
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:109
 #, python-format
 msgid "Sold"
-msgstr "Eladva"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2990,7 +2986,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
 msgid "Street 2"
-msgstr "Utca"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
@@ -3000,7 +2996,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_style_name
 msgid "Style Name"
-msgstr "Stílus Neve"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_website_style_ids
@@ -3265,7 +3261,7 @@ msgstr "Összesen"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_popover
 msgid "True"
-msgstr "Igaz"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_attribute_type
@@ -3433,7 +3429,7 @@ msgstr "Mért fogja szeretni az iPad készüléket."
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_module_website_sale_wishlist
 msgid "Wishlists"
-msgstr "Kedvencek"
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_1
@@ -3546,7 +3542,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
 msgid "Zip Code"
-msgstr "Irányítószám"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -3651,7 +3647,7 @@ msgstr "céges logó beállítása"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.payment_sale_note
 msgid "terms &amp; conditions"
-msgstr "általános szerződési feltételeket"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner

@@ -3,29 +3,26 @@
 # * lunch
 # 
 # Translators:
+# Martin Trigaux, 2017
+# Paolo Valier, 2017
 # Paolo Caruccio <paolo.caruccio66@gmail.com>, 2018
 # Cesare Cugnasco <cesare.cugnasco@gmail.com>, 2018
 # Manuela Feliciani <mfeliciani@alice.it>, 2018
 # Luigi Di Naro <gigidn@gmail.com>, 2018
 # maiolif <maiolif@mgftools.com>, 2018
 # Francesco Garganese <francesco.garganese@aeromnia.aero>, 2018
-# Martin Trigaux, 2018
 # Giovanni Perteghella <giovanni@perteghella.org>, 2018
 # Simone Bernini <simone@aperturelabs.it>, 2018
 # Riccardo Di Maio <riccardodimaio11@gmail.com>, 2018
 # Massimo Bianchi <bianchi.massimo@gmail.com>, 2018
-# Paolo Valier, 2018
-# Léonie Bouchat <lbo@odoo.com>, 2019
-# Lorenzo Battistini <lb@takobi.online>, 2020
-# Sergio Zanchetta <primes2h@gmail.com>, 2021
-# 
+# Léonie Bouchat <lbo@odoo.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2021\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
+"Last-Translator: Léonie Bouchat <lbo@odoo.com>, 2018\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,8 +68,6 @@ msgstr ""
 #: model:ir.actions.act_window,help:lunch.lunch_product_action
 msgid "A product is defined by its name, category, price and vendor."
 msgstr ""
-"Un prodotto è definito dal suo nome, dalla sua categoria, dal suo prezzo e "
-"dal fornitore."
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_active
@@ -136,7 +131,7 @@ msgstr "Tra"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.view_lunch_alert_kanban
 msgid "Between:"
-msgstr "Tra:"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search_2
@@ -239,12 +234,12 @@ msgstr "Configurazione"
 #: model:ir.actions.act_window,name:lunch.lunch_cashmove_action_control_accounts
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_menu_control_accounts
 msgid "Control Accounts"
-msgstr "Controlla conti"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_order_line_action_control_suppliers
 msgid "Control Vendors"
-msgstr "Controlla fornitori"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_create_uid
@@ -314,7 +309,7 @@ msgstr "Visualizza Nome"
 #: code:addons/lunch/static/src/xml/lunch.xml:7
 #, python-format
 msgid "Don't forget the alerts displayed in the reddish area"
-msgstr "Non dimenticare gli avvisi mostrati nell'area rossastra"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_menu_payment
@@ -368,8 +363,6 @@ msgid ""
 "Helps you handle your lunch needs, if you are a manager you will be able to "
 "create new products, cashmoves and to confirm or cancel orders."
 msgstr ""
-"Aiuta a gestire l'esigenza dei pranzi. Un supervisore è in grado di creare "
-"nuovi prodotti, movimenti di cassa e di confermare o annullare gli ordini."
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_product_category_action
@@ -495,22 +488,22 @@ msgstr "Ordine pranzo"
 #. module: lunch
 #: model:ir.actions.server,name:lunch.action_server_lunch_archive_product
 msgid "Lunch: Archive/Restore products"
-msgstr "Pasto: archivia/ripristina prodotti"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_cancel
 msgid "Lunch: Cancel meals"
-msgstr "Pranzo: annulla pasti"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_order
 msgid "Lunch: Order meals"
-msgstr "Pranzo: annulla pasti"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_confirm
 msgid "Lunch: Receive meals"
-msgstr "Pranzo: ricevi pasti"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_admin
@@ -585,19 +578,19 @@ msgstr "Nota"
 #: code:addons/lunch/models/lunch.py:225
 #, python-format
 msgid "Only your lunch manager cancels the orders."
-msgstr "Solo il responsabile pranzi può annullare gli ordini."
+msgstr ""
 
 #. module: lunch
 #: code:addons/lunch/models/lunch.py:194
 #, python-format
 msgid "Only your lunch manager processes the orders."
-msgstr "Solo il responsabile pranzi può elaborare gli ordini."
+msgstr ""
 
 #. module: lunch
 #: code:addons/lunch/models/lunch.py:214
 #, python-format
 msgid "Only your lunch manager sets the orders as received."
-msgstr "Solo il responsabile pranzi può impostare gli ordini come ricevuti."
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_cashmove_order_id
@@ -617,7 +610,7 @@ msgstr "Ordine mese"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_tree
 msgid "Order lines Tree"
-msgstr "Albero righe d'ordine"
+msgstr ""
 
 #. module: lunch
 #: selection:lunch.order.line,state:0
@@ -632,13 +625,13 @@ msgstr "Modulo Orders"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_view_tree
 msgid "Orders Tree"
-msgstr "Albero ordini"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_order_line_action_by_supplier
 #: model:ir.ui.menu,name:lunch.lunch_order_line_menu_control_suppliers
 msgid "Orders by Vendor"
-msgstr "Ordini per fornitore"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search
@@ -705,7 +698,7 @@ msgstr "Nome prodotto"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_product_view_search
 msgid "Product Search"
-msgstr "Ricerca prodotto"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_product_action
@@ -755,7 +748,7 @@ msgstr "Sabato"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_alert_view_form
 msgid "Schedule Date"
-msgstr "Data prevista"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_alert_view_form
@@ -783,7 +776,7 @@ msgstr "Seleziona il tuo ordine"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.view_lunch_order_line_lucky
 msgid "Select your vendor"
-msgstr "Seleziona il tuo venditore"
+msgstr ""
 
 #. module: lunch
 #: selection:lunch.alert,alert_type:0
@@ -800,7 +793,6 @@ msgstr "Stato"
 #: model:ir.actions.act_window,help:lunch.lunch_order_line_action_control_suppliers
 msgid "Summary of all lunch orders, grouped by vendor and by date."
 msgstr ""
-"Riepilogo di tutti gli ordini pranzo, raggruppati per fornitore e per data."
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_sunday
@@ -824,15 +816,13 @@ msgid ""
 "There is no previous order recorded. Click on \"My Lunch\" and then create a"
 " new lunch order."
 msgstr ""
-"Nessun ordine precedente registrato. Fare clic su \"Pranzo\" e creare un "
-"nuovo ordine."
 
 #. module: lunch
 #. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:4
 #, python-format
 msgid "This is the first time you order a meal"
-msgstr "È la prima volta che viene ordinato un pasto"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_thursday
@@ -907,7 +897,7 @@ msgstr "Il tuo conto"
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_menu_form
 msgid "Your Lunch Account"
-msgstr "Il tuo conto"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_order_line_action
@@ -920,7 +910,6 @@ msgstr "I tuoi Ordini"
 #, python-format
 msgid "Your favorite meals will be created based on your last orders."
 msgstr ""
-"I tuoi pasti preferiti verranno creati basandosi sui tuoi ultimi ordini."
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_form

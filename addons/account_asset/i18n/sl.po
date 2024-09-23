@@ -5,19 +5,17 @@
 # Translators:
 # matjaz k <matjaz@mentis.si>, 2018
 # Martin Trigaux, 2018
+# Matjaž Mozetič <m.mozetic@matmoz.si>, 2018
 # Vida Potočnik <vida.potocnik@mentis.si>, 2018
+# Dejan Sraka <dejan.sraka@picolabs.si>, 2018
 # jl2035 <jaka.luthar@gmail.com>, 2018
-# Tadej Lupšina <tadej@hbs.si>, 2019
-# Jasmina Macur <jasmina@hbs.si>, 2019
-# Matjaz Mozetic <m.mozetic@matmoz.si>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-09-20 10:14+0000\n"
-"Last-Translator: Matjaz Mozetic <m.mozetic@matmoz.si>, 2020\n"
+"PO-Revision-Date: 2017-11-30 13:11+0000\n"
+"Last-Translator: jl2035 <jaka.luthar@gmail.com>, 2018\n"
 "Language-Team: Slovenian (https://www.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -103,7 +101,7 @@ msgstr "Aktivno"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Additional Options"
-msgstr "Dodatne možnosti"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:597
@@ -156,7 +154,7 @@ msgstr "Življenjska doba osnovnih sredstev , ki jih je treba spremeniti."
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_invoice_line_asset_end_date
 msgid "Asset End Date"
-msgstr "Končni datum sredstva"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_modify_asset_method_time
@@ -171,7 +169,7 @@ msgstr "Naziv osnovnega sredstva"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_invoice_line_asset_start_date
 msgid "Asset Start Date"
-msgstr "Začetni datum sredstva"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_name
@@ -179,14 +177,14 @@ msgstr "Začetni datum sredstva"
 #: model:ir.model.fields,field_description:account_asset.field_product_template_asset_category_id
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Asset Type"
-msgstr "Vrsta sredstev"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.actions.act_window,name:account_asset.action_account_asset_asset_list_normal_purchase
 #: model:ir.ui.menu,name:account_asset.menu_action_account_asset_asset_list_normal_purchase
 #: model:ir.ui.view,arch_db:account_asset.res_config_settings_view_form
 msgid "Asset Types"
-msgstr "Vrste sredstev"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_asset_category
@@ -200,7 +198,7 @@ msgstr "Kategorija osnovnega sredstva"
 #: code:addons/account_asset/models/account_asset.py:286
 #, python-format
 msgid "Asset created"
-msgstr "Sredstvo ustvarjeno"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_asset_depreciation_line
@@ -212,7 +210,6 @@ msgstr "Amortizacijska postavka osnovnega sredstva"
 #, python-format
 msgid "Asset sold or disposed. Accounting entry awaiting for validation."
 msgstr ""
-"Sredstva so prodana ali odstranjena. Knjigovodski vnos čaka na potrditev."
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_asset_asset
@@ -240,12 +237,12 @@ msgstr "Analize osnovnih sredstvev"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_move_asset_depreciation_ids
 msgid "Assets Depreciation Lines"
-msgstr "Amortizacijske postavke sredstev"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.menu,name:account_asset.menu_finance_config_assets
 msgid "Assets and Revenues"
-msgstr "Sredstva in prihodki"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_search
@@ -288,7 +285,7 @@ msgstr "Kategorija"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Category of asset"
-msgstr "Kategorija sredstva"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_open_asset
@@ -363,7 +360,7 @@ msgstr "Izračunaj amortizacijo"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Compute Depreciation"
-msgstr "Izračunaj amortizacijo"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
@@ -403,7 +400,7 @@ msgstr "Ustvarjeno"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_depreciated_value
 msgid "Cumulative Depreciation"
-msgstr "Kumulativna amortizacija"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:597
@@ -446,19 +443,19 @@ msgstr "Datum amortizacije"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Deferred Revenue Account"
-msgstr "Odloženi račun za prihodke"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_product_product_deferred_revenue_category_id
 #: model:ir.model.fields,field_description:account_asset.field_product_template_deferred_revenue_category_id
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Deferred Revenue Type"
-msgstr "Odložena vrsta prihodka"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_search
 msgid "Deferred Revenues"
-msgstr "Odloženi prihodki"
+msgstr ""
 
 #. module: account_asset
 #: selection:account.asset.asset,method:0
@@ -475,7 +472,7 @@ msgstr "Degresivni faktor"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Depreciation"
-msgstr "Amortizacija"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
@@ -491,12 +488,12 @@ msgstr "Datum amortizacije"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_account_depreciation_id
 msgid "Depreciation Entries: Asset Account"
-msgstr "Amortizacijski vnosi: konto sredstev"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_account_depreciation_expense_id
 msgid "Depreciation Entries: Expense Account"
-msgstr "Amortizacijski vnosi: konto stroškov"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_move_id
@@ -506,7 +503,7 @@ msgstr "Postavka amortizacije"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Depreciation Information"
-msgstr "Podatki o amortizaciji"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_depreciation_line_ids
@@ -539,7 +536,7 @@ msgstr ""
 #: code:addons/account_asset/models/account_asset.py:600
 #, python-format
 msgid "Depreciation line posted."
-msgstr "Amortizacijska postavka vknjižena."
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_display_name
@@ -567,7 +564,7 @@ msgstr ""
 #: code:addons/account_asset/models/account_asset.py:579
 #, python-format
 msgid "Document closed."
-msgstr "Dokument zaprt."
+msgstr ""
 
 #. module: account_asset
 #: selection:account.asset.asset,state:0 selection:asset.asset.report,state:0
@@ -603,7 +600,7 @@ msgstr ""
 #. module: account_asset
 #: model:ir.ui.menu,name:account_asset.menu_asset_depreciation_confirmation_wizard
 msgid "Generate Assets Entries"
-msgstr "Kreiraj vnose sredstev"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_depreciation_confirmation_wizard
@@ -639,7 +636,7 @@ msgstr "Združi po..."
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_group_entries
 msgid "Group Journal Entries"
-msgstr "Združi vnose v dnevnik"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_id
@@ -754,7 +751,7 @@ msgstr "Spremeni Osnovno sredstvo"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Modify Depreciation"
-msgstr "Spremeni amortizacijo"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_search
@@ -764,7 +761,7 @@ msgstr "Mesec"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_invoice_line_asset_mrr
 msgid "Monthly Recurring Revenue"
-msgstr "Mesečni ponavljajoči se prihodek"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_remaining_value
@@ -788,7 +785,7 @@ msgstr "Število amortizacij"
 #: selection:account.asset.category,method_time:0
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Number of Entries"
-msgstr "Število vnosov"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_method_period
@@ -798,7 +795,7 @@ msgstr "Število mesecev v obdobju"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "One Entry Every"
-msgstr "En vnos vsak"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:599
@@ -822,7 +819,7 @@ msgstr "Periodičnost"
 #. module: account_asset
 #: model:ir.actions.act_window,name:account_asset.action_asset_depreciation_confirmation_wizard
 msgid "Post Depreciation Lines"
-msgstr "Vknjiži amortizacijske postavke"
+msgstr ""
 
 #. module: account_asset
 #. openerp-web
@@ -876,7 +873,7 @@ msgstr "Mesec nakupa"
 #. module: account_asset
 #: selection:account.asset.category,type:0
 msgid "Purchase: Asset"
-msgstr "Nabava: sredstva"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_modify_name
@@ -891,7 +888,7 @@ msgstr ""
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Recognition Income Account"
-msgstr "Račun pripoznanja prihodkov"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_code
@@ -937,7 +934,7 @@ msgstr "Iskanje po kategoriji osnovnega sredstva"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Sell or Dispose"
-msgstr "Prodati ali odstraniti"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_sequence
@@ -1009,7 +1006,7 @@ msgstr "Časovna metoda"
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Time Method Based On"
-msgstr "Časovna metoda temelji na"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_type
@@ -1034,7 +1031,7 @@ msgstr "Neknjižen znesek"
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_purchase_tree
 msgid "Vendor"
-msgstr "Dobavitelj"
+msgstr "Prodajalec"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_asset_state
@@ -1085,12 +1082,12 @@ msgstr "osnovno sredstvo.amortizacija.potrditev.čarovnik"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "e.g. Computers"
-msgstr "npr. Računalniki"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "e.g. Laptop iBook"
-msgstr "npr. Prenosni računalnik iBook"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.asset_modify_form

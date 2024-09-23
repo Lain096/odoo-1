@@ -22,11 +22,9 @@
 # Martin Trigaux, 2017
 # Andrey Samorukov <andrey.samorukov@me.com>, 2017
 # Максим Дронь <dronmax@gmail.com>, 2017
-# Ꚁemetron <d.v.selitsky@gmail.com>, 2017
+# Dmitry sky <d.v.selitsky@gmail.com>, 2017
 # Yuriy Ney <k_wizard@mail.ru>, 2017
 # sergeiruzkiicode <sergei.ruzki@icode.by>, 2018
-# Vasiliy Korobatov <korobatov@gmail.com>, 2019
-# Ivan Yelizariev <yelizariev@it-projects.info>, 2019
 # 
 msgid ""
 msgstr ""
@@ -34,7 +32,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2019\n"
+"Last-Translator: sergeiruzkiicode <sergei.ruzki@icode.by>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,8 +119,6 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Значения относятся к "
-"конкретной компании.\" groups=\"base.group_multi_company\"/>"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -1408,10 +1404,6 @@ msgid ""
 "Set a location if you produce at a fixed location. This can be a partner "
 "location if you subcontract the manufacturing operations."
 msgstr ""
-"Храните пустым, если вы производите в месте, где вы находите сырье. "
-"Установите место, если вы производите на фиксированном месте. Это может быть"
-" партнерским мицезнаходженням, если вы в субподряде осуществляете "
-"производственные операции."
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_bom_filter selection:mrp.bom,type:0
@@ -2436,7 +2428,6 @@ msgstr "Сырьё"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_location_src_id
-#: model:ir.model.fields,field_description:mrp.field_mrp_routing_location_id
 msgid "Raw Materials Location"
 msgstr "Расположение сырья"
 
@@ -2690,7 +2681,7 @@ msgstr "Брак"
 #: model:product.product,name:mrp.product_product_computer_desk_screw
 #: model:product.template,name:mrp.product_product_computer_desk_screw_product_template
 msgid "Screw"
-msgstr "винт"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_search
@@ -2814,7 +2805,7 @@ msgstr "Массив древесины — долговечный матери�
 #: model:product.product,description:mrp.product_product_computer_desk
 #: model:product.template,description:mrp.product_product_computer_desk_product_template
 msgid "Solid wood table."
-msgstr "Массивный стол."
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_origin
@@ -2825,7 +2816,7 @@ msgstr "Источник"
 #: model:product.product,description:mrp.product_product_computer_desk_screw
 #: model:product.template,description:mrp.product_product_computer_desk_screw_product_template
 msgid "Stainless steel screw"
-msgstr "Шуруп из нержавеющей стали"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,description:mrp.product_product_computer_desk_bolt
@@ -3075,9 +3066,6 @@ msgid ""
 "create work orders afterwards which alters the execution of the "
 "manufacturing order."
 msgstr ""
-"Маршрут содержит все используемые рабочие центры и на какой срок. После "
-"этого будет создана рабочая заказа, изменит выполнения заказа на "
-"производство."
 
 #. module: mrp
 #: code:addons/mrp/models/procurement.py:20
@@ -3185,8 +3173,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
 msgid "Time the currently logged user spent on this workorder."
 msgstr ""
-"Время, затраченное текущим зарегистрированным пользователем на это рабочее "
-"задание."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_line_qty_to_consume
@@ -3267,7 +3253,7 @@ msgstr "Итого заказов в работе"
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
 msgid "Total duration"
-msgstr "длительность"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_traceability
@@ -3366,8 +3352,6 @@ msgid ""
 "Unlock the manufacturing order to correct what has been consumed or "
 "produced."
 msgstr ""
-"Освободите производственный заказ, чтобы исправить, что было потреблено или "
-"сделано."
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -3854,7 +3838,6 @@ msgstr "Вы не можете разобрать еще не законченн
 #, python-format
 msgid "You have already processed %s. Please input a quantity higher than %s "
 msgstr ""
-"Вы уже полностью обработали% s. Пожалуйста, введите количество выше, чем% s"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view

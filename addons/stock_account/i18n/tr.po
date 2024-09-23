@@ -3,21 +3,20 @@
 # * stock_account
 # 
 # Translators:
+# Murat Kaplan <muratk@projetgrup.com>, 2017
 # Ramiz Deniz Öner <deniz@denizoner.com>, 2017
+# Martin Trigaux, 2017
 # Güven YILMAZ <guvenyilmaz@outlook.com.tr>, 2017
 # Ediz Duman <neps1192@gmail.com>, 2017
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2018
-# Martin Trigaux, 2018
-# Murat Kaplan <muratk@projetgrup.com>, 2018
-# Umur Akın <umura@projetgrup.com>, 2019
-# 
+# Umur Akın <umura@projetgrup.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:55+0000\n"
-"PO-Revision-Date: 2017-09-20 10:24+0000\n"
-"Last-Translator: Umur Akın <umura@projetgrup.com>, 2019\n"
+"PO-Revision-Date: 2018-07-27 11:55+0000\n"
+"Last-Translator: Umur Akın <umura@projetgrup.com>, 2018\n"
 "Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -382,7 +381,7 @@ msgstr "Envanter"
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_stock_quantity_history
 msgid "Retrieve the inventory valuation"
-msgstr "Stok değerlemesini alın"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_return_picking
@@ -405,7 +404,7 @@ msgstr "Standart Fiyat"
 #: code:addons/stock_account/models/product.py:151
 #, python-format
 msgid "Standard Price changed  - %s"
-msgstr "Standart Fiyat değişti - %s"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_product_property_cost_method
@@ -434,12 +433,12 @@ msgstr ""
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_stock_fifo_manual_move_ids
 msgid "Stock Fifo Manual Move"
-msgstr "FİFO Manuel Stok Hareketi"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_stock_fifo_real_time_aml_ids
 msgid "Stock Fifo Real Time Aml"
-msgstr "FIFO Gerçek Zamanlı Stok"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_category_property_stock_account_input_categ_id
@@ -507,8 +506,6 @@ msgid ""
 "The cost of %s is currently equal to 0. Change the cost or the configuration"
 " of your product to avoid an incorrect valuation."
 msgstr ""
-"Maliyeti %s şu anda 0'a eşittir. Yanlış bir değerleme yapmamak için "
-"ürününüzün maliyetini veya yapılandırmasını değiştirin."
 
 #. module: stock_account
 #: code:addons/stock_account/models/stock.py:349
@@ -607,13 +604,13 @@ msgstr "Değerleme"
 #. module: stock_account
 #: model:ir.actions.act_window,name:stock_account.action_stock_inventory_valuation
 msgid "Valuation Report"
-msgstr "Değerleme Raporu"
+msgstr ""
 
 #. module: stock_account
 #: code:addons/stock_account/models/product.py:245
 #, python-format
 msgid "Valuation at date"
-msgstr "Değerleme Tarihi"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_stock_value

@@ -17,21 +17,21 @@
 # Sadig Adam <sadig41@gmail.com>, 2017
 # Martin Trigaux, 2017
 # Mahmood Al Halwachi <mahmood.alhalwachi@gmail.com>, 2017
+# hoxhe Aits <hoxhe0@gmail.com>, 2017
 # Mohammed Ibrahim <m.ibrahim@mussder.com>, 2017
 # Mustafa J. Kadhem <safi2266@gmail.com>, 2017
 # Islam Eldeeb <islameldeb@gmail.com>, 2017
 # Husam Migdadi <samwatson18@gmail.com>, 2018
 # Abdulmajeed Alomar <majeeed87@gmail.com>, 2018
-# Mustafa Rawi <mustafa@cubexco.com>, 2019
-# hoxhe Aits <hoxhe0@gmail.com>, 2019
+# Mustafa Rawi <mustafa@cubexco.com>, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 15:01+0000\n"
+"POT-Creation-Date: 2019-01-03 15:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:20+0000\n"
-"Last-Translator: hoxhe Aits <hoxhe0@gmail.com>, 2019\n"
+"Last-Translator: Mustafa Rawi <mustafa@cubexco.com>, 2018\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,22 +47,22 @@ msgstr "&amp;times;"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_html_3ds
 msgid "3D Secure HTML"
-msgstr "رمز HTML آمن ثلاثي الأبعاد"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "<b>Amount:</b>"
-msgstr "<b>المبلغ:</b>"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "<b>Reference:</b>"
-msgstr "<b>رقم الإشارة:</b>"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.confirm
 msgid "<i class=\"fa fa-arrow-circle-right\"/> Back to My Account"
-msgstr "<i class=\"fa fa-arrow-circle-right\"/> العودة لحسابي"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_tokens_list
@@ -81,12 +81,12 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_tokens_list
 msgid "<i class=\"fa fa-lock\"> Pay</i>"
-msgstr "<i class=\"fa fa-lock\"> السداد</i>"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_tokens_list
 msgid "<i class=\"fa fa-plus-circle\"> Add new card</i>"
-msgstr "<i class=\"fa fa-plus-circle\"> إضافة بطاقة جديدة</i>"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_tokens_list
@@ -97,7 +97,7 @@ msgstr "<i class=\"fa fa-trash\"/> حذف"
 #: code:addons/payment/models/payment_acquirer.py:122
 #, python-format
 msgid "<i>Cancel,</i> Your payment has been cancelled."
-msgstr "<i>إلغاء،</i> تم إلغاء عملية السداد."
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:118
@@ -105,7 +105,7 @@ msgstr "<i>إلغاء،</i> تم إلغاء عملية السداد."
 msgid ""
 "<i>Done,</i> Your online payment has been successfully processed. Thank you "
 "for your order."
-msgstr "<i>منتهية,</i> تمت معالجة عملية السداد الإلكترونية. شكرًا لطلبك."
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:126
@@ -115,9 +115,6 @@ msgid ""
 " The order has been confirmed but will not be paid. Do not hesitate to "
 "contact us if you have any questions on the status of your order."
 msgstr ""
-"<i>خطأ,</i> يرجى العلم أنه قد حدث خطأ أثناء إتمام المعاملة. تم تأكيد الطلب "
-"لكن لن يتم سداد قيمته. لا تترددوا في التواصل معنا إذا كان لديكم أية "
-"استفسارات عن حالة الطلب."
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:114
@@ -126,14 +123,13 @@ msgid ""
 "<i>Pending,</i> Your online payment has been successfully processed. But "
 "your order is not validated yet."
 msgstr ""
-"<i>معلقة،</i> تمت معالجة عملية السداد الإلكترونية. لكن طلبك لم يُعتمد بعد."
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:350
 #, python-format
 msgid "<p>This card is currently linked to the following records:<p/>"
-msgstr "<p>هذه البطاقة مرتبطة حاليًا بالسجلات التالية:<p/>"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -141,8 +137,6 @@ msgid ""
 "<span class=\"o_warning_text\">Test</span>\n"
 "                                    <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
-"<span class=\"o_warning_text\">اختبار</span>\n"
-"                                    <span class=\"o_stat_text\">البيئة</span>"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -150,8 +144,6 @@ msgid ""
 "<span class=\"text-success\">Production</span>\n"
 "                                    <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
-"<span class=\"text-success\">بيئة</span>\n"
-"                                    <span class=\"o_stat_text\">الإنتاج</span>"
 
 #. module: payment
 #: model:payment.acquirer,cancel_msg:payment.payment_acquirer_adyen
@@ -200,9 +192,6 @@ msgid ""
 "hesitate to contact us if you have any questions on the status of your "
 "order.</span>"
 msgstr ""
-"<span><i>خطأ,</i> يرجى العلم أنه قد حدث خطأ أثناء إتمام المعاملة. تم تأكيد "
-"الطلب لكن لن يتم سداد قيمته. لا تترددوا في التواصل معنا إذا كان لديكم أية "
-"استفسارات عن حالة الطلب.</span>"
 
 #. module: payment
 #: model:payment.acquirer,pending_msg:payment.payment_acquirer_adyen
@@ -224,7 +213,7 @@ msgstr "<span><i>علقت،</i> دفعيتك الشبكية بنجاح. لكن �
 msgid ""
 "<span><i>Pending</i>... The order will be validated after the "
 "payment.</span>"
-msgstr "<span><i>معلقة</i>... سيتم اعتماد الطلب بعد إتمام السداد.</span>"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_acquirer_id
@@ -234,27 +223,27 @@ msgstr "المحصل"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token_acquirer_id
 msgid "Acquirer Account"
-msgstr "حساب معالج السداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token_acquirer_ref
 msgid "Acquirer Ref."
-msgstr "رقم إشارة معالج السداد."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_acquirer_reference
 msgid "Acquirer Reference"
-msgstr "رقم إشارة معالج السداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon_acquirer_ids
 msgid "Acquirers"
-msgstr "معالجات السداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_icon_form_view
 msgid "Acquirers list"
-msgstr "قائمة معالجات السداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_kanban
@@ -269,7 +258,7 @@ msgstr "نشط"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_active
 msgid "Add Extra Fees"
-msgstr "إضافة رسوم إضافية"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_address
@@ -281,7 +270,7 @@ msgstr "العنوان"
 #: model:payment.acquirer,name:payment.payment_acquirer_adyen
 #: selection:payment.acquirer,provider:0
 msgid "Adyen"
-msgstr "Adyen"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,save_token:0
@@ -304,12 +293,12 @@ msgstr ""
 #: model:payment.acquirer,name:payment.payment_acquirer_authorize
 #: selection:payment.acquirer,provider:0
 msgid "Authorize.Net"
-msgstr "Authorize.Net"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Authorized"
-msgstr "معتمد"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_custom
@@ -321,27 +310,27 @@ msgstr "الحساب البنكي"
 #: model:payment.acquirer,name:payment.payment_acquirer_buckaroo
 #: selection:payment.acquirer,provider:0
 msgid "Buckaroo"
-msgstr "Buckaroo"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_callback_res_id
 msgid "Callback Document ID"
-msgstr "معرف مستند رد الاتصال"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_callback_model_id
 msgid "Callback Document Model"
-msgstr "كائن مستند رد الاتصال"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_callback_hash
 msgid "Callback Hash"
-msgstr "Callback Hash"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_callback_method
 msgid "Callback Method"
-msgstr "طريقة رد الاتصال"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -353,7 +342,7 @@ msgstr "إلغاء"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_cancel_msg
 msgid "Cancel Message"
-msgstr "إلغاء الرسالة"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,state:0
@@ -365,28 +354,28 @@ msgstr "ملغي"
 #: code:addons/payment/static/src/js/payment_form.js:188
 #, python-format
 msgid "Cannot set-up the payment"
-msgstr "لم نتمكن من إعداد عملية السداد"
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/controllers/portal.py:111
 #, python-format
 msgid "Cannot setup the payment."
-msgstr "لم نتمكن من إعداد عملية السداد."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_capture_manually
 msgid "Capture Amount Manually"
-msgstr "التقاط المبلغ يدويًا"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "Capture Transaction"
-msgstr "التقاط المعاملة"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_capture_manually
 msgid "Capture the amount from Odoo, when the delivery is completed."
-msgstr "التقاط المبلغ من أودو، عند إكمال عملية التسليم."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_city
@@ -430,7 +419,7 @@ msgstr "تهيئة"
 #: code:addons/payment/static/src/js/payment_form.js:357
 #, python-format
 msgid "Confirm Deletion"
-msgstr "تأكيد الحذف"
+msgstr ""
 
 #. module: payment
 #: model:ir.model,name:payment.model_res_partner
@@ -440,7 +429,7 @@ msgstr "جهة الاتصال"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_module_id
 msgid "Corresponding Module"
-msgstr "الموديول المقابل"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_res_partner_payment_token_count
@@ -482,7 +471,7 @@ msgstr "تاريخ الإنشاء"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "Credentials"
-msgstr "بيانات الاعتماد"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.view_partners_form_payment_defaultcreditcard
@@ -530,7 +519,7 @@ msgstr "منتهي"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_done_msg
 msgid "Done Message"
-msgstr "رسالة الإتمام"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,state:0
@@ -545,7 +534,7 @@ msgstr "البريد الإلكتروني"
 #. module: payment
 #: model:account.payment.method,name:payment.account_payment_method_electronic_in
 msgid "Electronic"
-msgstr "إلكتروني"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_email
@@ -573,7 +562,7 @@ msgstr "رسالة الخطأ"
 #: code:addons/payment/static/src/js/payment_form.js:428
 #, python-format
 msgid "Error: "
-msgstr "خطأ: "
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_fees
@@ -583,27 +572,27 @@ msgstr "رسوم"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_implemented
 msgid "Fees Computation Supported"
-msgstr "يدعم احتساب الرسوم"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction_fees
 msgid "Fees amount; set by the system because depends on the acquirer"
-msgstr "قيمة الرسوم؛ يحددها النظام لأنها تعتمد على معالج السداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction_state_message
 msgid "Field used to store error and/or validation messages for information"
-msgstr "حقل يُستخدم لتخزين رسائل الخطأ و/أو الاعتماد للعلم بهم"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_dom_fixed
 msgid "Fixed domestic fees"
-msgstr "الرسوم المحلية الثابتة"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_int_fixed
 msgid "Fixed international fees"
-msgstr "الرسوم الدولية الثابتة"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,type:0
@@ -613,12 +602,12 @@ msgstr "النموذج"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_view_template_id
 msgid "Form Button Template"
-msgstr "قالب زر النموذج"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,type:0
 msgid "Form with tokenization"
-msgstr "نموذج يعمل بالرموز السرية"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.confirm
@@ -633,7 +622,7 @@ msgstr "تجميع حسب"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_pre_msg
 msgid "Help Message"
-msgstr "رسالة المساعدة"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_id
@@ -648,7 +637,7 @@ msgstr "المعرف"
 msgid ""
 "If you leave it empty, the payment acquirer will be available for all the "
 "countries."
-msgstr "إذا تركت هذه الخانة فارغة، سيكون معالج السداد متاحًا في كافة الدول."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_image
@@ -659,12 +648,12 @@ msgstr "الصورة"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon_image_payment_form
 msgid "Image displayed on the payment form"
-msgstr "الصورة المعروضة على نموذج السداد"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_ogone
 msgid "Ingenico"
-msgstr "Ingenico"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -675,12 +664,12 @@ msgstr "تثبيت"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_module_state
 msgid "Installation State"
-msgstr "حالة التثبيت"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction_reference
 msgid "Internal reference of the TX"
-msgstr "المرجع الداخلي الخاص بـTX"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_lang
@@ -714,32 +703,32 @@ msgstr "آخر تحديث في"
 #. module: payment
 #: selection:payment.acquirer,save_token:0
 msgid "Let the customer decide"
-msgstr "دع العميل يقرر"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_icon_acquirer_ids
 msgid "List of Acquirers supporting this payment icon."
-msgstr "قائمة معالجات السداد التي تدعم أيقونة السداد هذه."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_website_published
 msgid "Make this payment acquirer available (Customer invoices, etc.)"
-msgstr "إتاحة معالج السداد هذا (فواتير العملاء، إلخ)"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay_methods
 msgid "Manage your Payment Methods"
-msgstr "إدارة طرق السداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay_meth_link
 msgid "Manage your payment methods"
-msgstr "إدارة طرق السداد"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,provider:0
 msgid "Manual Configuration"
-msgstr "الإعدادات اليدوية"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_image_medium
@@ -753,9 +742,6 @@ msgid ""
 "128x128px image, with aspect ratio preserved. Use this field in form views "
 "or some kanban views."
 msgstr ""
-"صورة متوسطة الحجم للمزود. يتم تغيير حجمها تلقائيًا كصورة 128*128 بيكسل، مع "
-"الحفاظ على تناسب الأبعاد. استخدم هذا الحقل في واجهات العروض أو بعض عروض "
-"كانبان."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_state_message
@@ -766,36 +752,36 @@ msgstr "الرسالة"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_post_msg
 msgid "Message displayed after having done the payment process."
-msgstr "الرسالة المعروضة بعد إتمام عملية السداد."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_pre_msg
 msgid "Message displayed to explain and help the payment process."
-msgstr "الرسالة المعروضة لشرح عملية السداد والمساعدة في إتمامها."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_error_msg
 msgid "Message displayed, if error is occur during the payment process."
-msgstr "الرسالة المعروضة في حال حدوث خطأ خلال عملية السداد."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_cancel_msg
 msgid "Message displayed, if order is cancel during the payment process."
-msgstr "الرسالة المعروضة في حال إلغاء طلب خلال عملية السداد."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_done_msg
 msgid ""
 "Message displayed, if order is done successfully after having done the "
 "payment process."
-msgstr "الرسالة المعروضة في حال إتمام الطلب بنجاح بعد إتمام عملية السداد."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_pending_msg
 msgid ""
 "Message displayed, if order is in pending state after having done the "
 "payment process."
-msgstr "الرسالة المعروضة إذا ظل الطلب معلقًا بعد إتمام عملية السداد."
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -806,7 +792,7 @@ msgstr "الرسائل"
 #: code:addons/payment/models/payment_acquirer.py:455
 #, python-format
 msgid "Missing partner reference when trying to create a new payment token"
-msgstr "رقم إشارة الشريك مفقود عند محاولة إنشاء رمز سداد سري جديد"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_name
@@ -821,7 +807,7 @@ msgstr "الاسم"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_token_name
 msgid "Name of the payment token"
-msgstr "اسم رمز السداد السري"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,save_token:0
@@ -831,7 +817,7 @@ msgstr "مطلقاً"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "No payment acquirer found."
-msgstr "لم نتمكن من إيجاد معالج سداد."
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -839,7 +825,7 @@ msgstr "لم نتمكن من إيجاد معالج سداد."
 #: code:addons/payment/static/src/js/payment_form.js:308
 #, python-format
 msgid "No payment method selected"
-msgstr "لم يتم اختيار طريقة سداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_account_payment_payment_token_id
@@ -847,8 +833,6 @@ msgid ""
 "Note that tokens from acquirers set to only authorize transactions (instead "
 "of capturing the amount) are not available."
 msgstr ""
-"لاحظ أن الرموز السرية من معالجات السداد التي تم ضبطها لاعتماد المعاملات فقط "
-"(بدلا من التقاط المبلغ) غير متاحة."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_payment_flow
@@ -856,13 +840,11 @@ msgid ""
 "Note: Subscriptions does not take this field in account, it uses server to "
 "server by default."
 msgstr ""
-"ملاحظة: لا تأخذ الاشتراكات هذا الحقل في الاعتبار، فهي تستخدم افتراضيًا طريقة"
-" الاتصال من سيرفر لسيرفر."
 
 #. module: payment
 #: selection:payment.acquirer,provider:0
 msgid "Ogone"
-msgstr "Ogone"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -897,7 +879,7 @@ msgstr "اسم المستفيد"
 #: model:payment.acquirer,name:payment.payment_acquirer_payu
 #: selection:payment.acquirer,provider:0
 msgid "PayUmoney"
-msgstr "PayUmoney"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.confirm
@@ -916,18 +898,18 @@ msgstr "طريقة السداد الإلكتروني"
 #: model:ir.ui.menu,name:payment.payment_acquirer_menu
 #: model:ir.ui.view,arch_db:payment.acquirer_list
 msgid "Payment Acquirers"
-msgstr "معالجات السداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_payment_flow
 msgid "Payment Flow"
-msgstr "تدفق السداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_icon
 #: model:ir.ui.view,arch_db:payment.payment_icon_form_view
 msgid "Payment Icon"
-msgstr "أيقونة السداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.actions.act_window,name:payment.action_payment_icon
@@ -948,7 +930,7 @@ msgstr "طرق السداد"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_payment_token_id
 msgid "Payment Token"
-msgstr "رمز السداد السري"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_res_partner_payment_token_ids
@@ -957,7 +939,7 @@ msgstr "رمز السداد السري"
 #: model:ir.ui.view,arch_db:payment.payment_token_tree_view
 #: model:ir.ui.view,arch_db:payment.payment_token_view_search
 msgid "Payment Tokens"
-msgstr "رموز السداد السرية"
+msgstr ""
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_transaction
@@ -973,12 +955,12 @@ msgstr "معاملة السداد"
 #: model:ir.ui.view,arch_db:payment.transaction_form
 #: model:ir.ui.view,arch_db:payment.transaction_list
 msgid "Payment Transactions"
-msgstr "معاملات السداد"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,payment_flow:0
 msgid "Payment from Odoo"
-msgstr "دفعة من أودو"
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/account_payment.py:59
@@ -991,7 +973,7 @@ msgstr ""
 #: code:addons/payment/controllers/portal.py:135
 #, python-format
 msgid "Payment transaction failed."
-msgstr "فشل معاملة السداد."
+msgstr ""
 
 #. module: payment
 #: model:ir.model,name:payment.model_account_payment
@@ -1011,13 +993,6 @@ msgid ""
 "                reconcile the bank statement line with this temporary transfer account. Use reconciliation\n"
 "                templates to do it in one-click."
 msgstr ""
-"سيتم تسجيل عمليات السداد في دفتر اليومية هذا. إذا كنت ستتلقى المدفوعات بحسابك البنكي مباشرةً،\n"
-"                اختر حسابك البنكي. إذا كنت ستتلقاهم على دفعات من خلال عدة معاملات، قم بإنشاء دفتر يومية\n"
-"                معين لمعالج السداد لكي تتمكن من إدارة التسويات البنكية بسهولة. ستحتفظ\n"
-"                بالمبلغ في حساب نقل مؤقت خارج الدفاتر (ينشئ تلقائيًا عند إنشاءك\n"
-"                دفتر يومية الدفعة). وعندما تتلقى أموالًا على حسابك من خلال معالج السداد، تقوم\n"
-"                بتسوية بند كشف الحساب بحساب النقل المؤقت. استخدم قوالب\n"
-"                التسوية لتقوم بهذا بنقرة واحدة."
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_paypal
@@ -1033,7 +1008,7 @@ msgstr "معلق"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_pending_msg
 msgid "Pending Message"
-msgstr "رسالة مُعلقة"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_phone
@@ -1043,7 +1018,7 @@ msgstr "رقم الهاتف"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "Please configure a payment acquirer."
-msgstr "برجاء إعداد معالج سداد."
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1057,24 +1032,24 @@ msgstr "الرجاء تحديد طريقة الدفع"
 #: code:addons/payment/static/src/js/payment_form.js:309
 #, python-format
 msgid "Please select the option to add a new payment method."
-msgstr "برجاء اختيار خيار إضافة طريقة سداد جديدة."
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_custom
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_transfer
 msgid "Please use the following transfer details"
-msgstr "برجاء استخدام تفاصيل التحويل التالية"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_custom
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_transfer
 msgid "Please use the order name as communication reference."
-msgstr "برجاء استخدام اسم الطلب كمرجع للتواصل."
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.confirm
 msgid "Processed by"
-msgstr "تمت معالجته بواسطة"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,environment:0
@@ -1089,23 +1064,9 @@ msgid "Provider"
 msgstr "المزود"
 
 #. module: payment
-#. openerp-web
-#: code:addons/payment/static/src/js/payment_translations.js:9
-#, python-format
-msgid "Publish"
-msgstr "نشر"
-
-#. module: payment
-#. openerp-web
-#: code:addons/payment/static/src/js/payment_translations.js:8
-#, python-format
-msgid "Published"
-msgstr "منشور"
-
-#. module: payment
 #: selection:payment.acquirer,payment_flow:0
 msgid "Redirection to the acquirer website"
-msgstr "إعادة التوجيه لموقع معالج السداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_reference
@@ -1116,7 +1077,7 @@ msgstr "المرجع"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction_acquirer_reference
 msgid "Reference of the TX as stored in the acquirer database"
-msgstr "رقم إشارة TX كما هو مخزن في قاعدة بيانات المعالج"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,state:0
@@ -1131,38 +1092,38 @@ msgstr ""
 #. module: payment
 #: constraint:payment.acquirer:0
 msgid "Required fields not filled"
-msgstr "بعض الحقول المطلوبة فارغة"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_registration_view_template_id
 msgid "S2S Form Template"
-msgstr "قالب نموذج نظام الاتصال من سيرفر لسيرفر"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_save_token
 msgid "Save Cards"
-msgstr "حفظ البطاقات"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_tokens_list
 msgid "Save my payment data"
-msgstr "حفظ بيانات سدادي"
+msgstr ""
 
 #. module: payment
 #: model:ir.actions.act_window,name:payment.payment_token_action
 #: model:ir.ui.menu,name:payment.payment_token_menu
 msgid "Saved Payment Data"
-msgstr "بيانات السداد المحفوظة"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_account_payment_payment_token_id
 msgid "Saved payment token"
-msgstr "رمز السداد السري المحفوظ"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_token_implemented
 msgid "Saving Card Data supported"
-msgstr "ندعم حفظ بيانات البطاقة"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_sequence
@@ -1180,30 +1141,30 @@ msgstr "التسلسل"
 #: code:addons/payment/static/src/js/payment_form.js:367
 #, python-format
 msgid "Server Error"
-msgstr "خطأ في السيرفر"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,type:0
 msgid "Server To Server"
-msgstr "من سيرفر لسيرفر"
+msgstr ""
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:300
 #, python-format
 msgid "Server error"
-msgstr "خطأ في السيرفر"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token_short_name
 msgid "Short name"
-msgstr "الاسم المختصر"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_sips
 #: selection:payment.acquirer,provider:0
 msgid "Sips"
-msgstr "Sips"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_image_small
@@ -1217,14 +1178,11 @@ msgid ""
 " image, with aspect ratio preserved. Use this field anywhere a small image "
 "is required."
 msgstr ""
-"صورة صغيرة الحجم للمزود. يتم تغيير حجمها تلقائيًا كصورة 64*64 بيكسل، مع "
-"الحفاظ على تناسب الأبعاد. استخدم هذا الحقل في واجهات العروض أو بعض عروض "
-"كانبان."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_specific_countries
 msgid "Specific Countries"
-msgstr "دول معينة"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_state
@@ -1235,17 +1193,17 @@ msgstr "الحالة "
 #: model:payment.acquirer,name:payment.payment_acquirer_stripe
 #: selection:payment.acquirer,provider:0
 msgid "Stripe"
-msgstr "Stripe"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_payment_icon_ids
 msgid "Supported Payment Icons"
-msgstr "أيقونات السداد المدعومة"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_registration_view_template_id
 msgid "Template for method registration"
-msgstr "قالب تسجيل الطريقة"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,environment:0
@@ -1255,13 +1213,13 @@ msgstr "اختبار"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_post_msg
 msgid "Thanks Message"
-msgstr "رسالة شكر"
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:627
 #, python-format
 msgid "The %s payment acquirers are not allowed to manual capture mode!"
-msgstr "غير مسموح لمعالج السداد %s باستخدام وضع الالتقاط اليدوي!"
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:620
@@ -1283,14 +1241,12 @@ msgid ""
 "This field holds the image used for this payment icon, limited to "
 "1024x1024px"
 msgstr ""
-"يحتوي هذا الحقل على صورة أيقونة السداد، الحد الأقصى لها هو 1024*1024 بيكسل"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_image
 msgid ""
 "This field holds the image used for this provider, limited to 1024x1024px"
 msgstr ""
-"يحتوي هذا الحقل على صورة هذا المزود، الحد الأقصى لها هو 1024*1024 بيكسل"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_save_token
@@ -1300,9 +1256,6 @@ msgid ""
 " invoicing), you need it to automatically charge the customer when you issue"
 " an invoice."
 msgstr ""
-"يسمح هذا الخيار للعملاء بحفظ بطاقاتك الائتمانية كرمز سداد سري وإعادة "
-"استخدامه في عمليات شراء لاحقة. إذا كنت تقدم خدمة الاشتراكات (فواتير متكررة)،"
-" ستحتاج لتحصيل رسوم تلقائيًا عند إصدار فاتورة."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_country_ids
@@ -1310,8 +1263,6 @@ msgid ""
 "This payment gateway is available for selected countries. If none is "
 "selected it is available for all countries."
 msgstr ""
-"بوابة السداد هذه متاحة للدول المحددة. إذا لم يتم تحديد أي دولة ستكون متاحة "
-"في كافة الدول."
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -1319,14 +1270,12 @@ msgid ""
 "This template renders the acquirer button with all necessary values.\n"
 "                                            It is rendered with qWeb with the following evaluation context:"
 msgstr ""
-"يوفر هذا القالب لزر المعالج كافة القيم الضرورية.\n"
-"                                            يتم هذا من خلال qWeb مع سياق التقييم التالي:"
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_transfer
 msgid ""
 "Transfer information will be provided after choosing the payment aquirer."
-msgstr "سيتم عرض معلومات عملية التحويل بعد اختيار معالج السداد."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_type
@@ -1341,32 +1290,32 @@ msgstr "تاريخ الصلاحية"
 #. module: payment
 #: selection:payment.transaction,type:0
 msgid "Validation of the bank card"
-msgstr "اعتماد البطاقة البنكية"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_dom_var
 msgid "Variable domestic fees (in percents)"
-msgstr "رسوم محلية متغيرة (كنسبة مئوية)"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_int_var
 msgid "Variable international fees (in percents)"
-msgstr "رسوم دولية متغيرة (كنسبة مئوية)"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token_verified
 msgid "Verified"
-msgstr "معتمد"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_website_published
 msgid "Visible in Portal / Website"
-msgstr "ظاهر في بوابة العملاء/الموقع"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "Void Transaction"
-msgstr "معاملة باطلة"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1380,14 +1329,14 @@ msgstr "تحذير!"
 #: code:addons/payment/static/src/js/payment_form.js:135
 #, python-format
 msgid "We are not able to add your payment method at the moment."
-msgstr "لا يمكننا إضافة طريقة السداد التي اخترتها حاليًا."
+msgstr ""
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:301
 #, python-format
 msgid "We are not able to add your payment method at the moment.</p>"
-msgstr "لا يمكننا إضافة طريقة السداد التي اخترتها حاليًا.</p>"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1395,34 +1344,34 @@ msgstr "لا يمكننا إضافة طريقة السداد التي اخترت
 #: code:addons/payment/static/src/js/payment_form.js:368
 #, python-format
 msgid "We are not able to delete your payment method at the moment."
-msgstr "لا يمكننا حذف طريقة السداد التي اخترتها حاليًا."
+msgstr ""
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:174
 #, python-format
 msgid "We are not able to redirect you to the payment form."
-msgstr "لم نتمكن من إعادة توجيهك لنموذج السداد."
+msgstr ""
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:180
 #, python-format
 msgid "We are not able to redirect you to the payment form. "
-msgstr "لم نتمكن من إعادة توجيهك لنموذج السداد. "
+msgstr ""
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:189
 #, python-format
 msgid "We're unable to process your payment."
-msgstr "لم نتمكن من معالجة دفعتك."
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_transfer
 #: selection:payment.acquirer,provider:0
 msgid "Wire Transfer"
-msgstr "تحويل بنكي"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_stripe
@@ -1434,35 +1383,35 @@ msgstr ""
 msgid ""
 "You will be redirected to the Adyen website after clicking on the payment "
 "button."
-msgstr "سوف يتم إعادة توجيهك إلى موقع Adyen بعد النقر على زر السداد."
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_authorize
 msgid ""
 "You will be redirected to the Authorize website after clicking on the "
 "payment button."
-msgstr "سوف يتم إعادة توجيهك إلى موقع Authorize بعد النقر على زر السداد."
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_buckaroo
 msgid ""
 "You will be redirected to the Buckaroo website after clicking on the payment"
 " button."
-msgstr "سوف يتم إعادة توجيهك إلى موقع Buckaroo بعد النقر على زر السداد."
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_ogone
 msgid ""
 "You will be redirected to the Ingenico website after clicking on the payment"
 " button."
-msgstr "سوف يتم إعادة توجيهك إلى موقع Ingenico بعد النقر على زر السداد."
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_payu
 msgid ""
 "You will be redirected to the PayUmoney website after clicking on the "
 "payment button."
-msgstr "سوف يتم إعادة توجيهك إلى موقع PayUmoney بعد النقر على زر السداد."
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_paypal
@@ -1480,7 +1429,7 @@ msgstr "سيتم توجيهك إلى موقع sips بعد النقر على زر
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_confirmation_status
 msgid "Your payment has been authorized."
-msgstr "تم قبول دفعتك."
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
@@ -1495,27 +1444,27 @@ msgstr "الرمز البريدي"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "acquirer: payment.acquirer browse record"
-msgstr "المعالج: سجل استعراض معالج عملية السداد"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "amount: the transaction amount, a float"
-msgstr "المبلغ: مبلغ المعاملة، يكون رقمًا عشريًا"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_tokens_list
 msgid "and more"
-msgstr "وأكثر"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "context: the current context dictionary"
-msgstr "السياق: قاموس السياق الحالي"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "currency: the transaction currency browse record"
-msgstr "العملة: سجل استعراض عملة المعاملة"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1523,19 +1472,19 @@ msgstr "العملة: سجل استعراض عملة المعاملة"
 #: code:addons/payment/static/src/js/payment_form.js:286
 #, python-format
 msgid "e.g. Your credit card details are wrong. Please verify."
-msgstr "مثلًا: تفاصيل بطاقتك الائتمانية خاطئة. برجاء التأكد."
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "partner: the buyer partner browse record, not necessarily set"
-msgstr "الشريك: سجل استعراض شريك البائع، لا يشترط إعداده"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid ""
 "partner_values: specific values about the buyer, for example coming from a "
 "shipping form"
-msgstr "partner_values: قيم معينة عن المشتري، مستخرجة من نموذج الشحن مثلًا"
+msgstr ""
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_token
@@ -1545,22 +1494,22 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "reference: the transaction reference number"
-msgstr "رقم الإشارة: رقم إشارة المعاملة"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "tx_url: transaction URL to post the form"
-msgstr "tx_url: رابط المعاملة المستخدم لترحيل النموذج"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "tx_values: transaction values"
-msgstr "tx_values: قيم المعاملة"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "user: current user browse record"
-msgstr "المستخدم: سجل استعراض المستخدم الحالي"
+msgstr ""
 
 #. module: payment
 #: model:ir.model,name:payment.model_wizard_multi_charts_accounts

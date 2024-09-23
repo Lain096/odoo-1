@@ -3,20 +3,17 @@
 # * fleet
 # 
 # Translators:
+# Yihya Hugirat <hugirat@gmail.com>, 2017
 # שהאב חוסיין <shhab89@gmail.com>, 2018
-# Yihya Hugirat <hugirat@gmail.com>, 2018
 # Martin Trigaux, 2018
 # ExcaliberX <excaliberx@gmail.com>, 2018
-# דודי מלכה <Dudimalka6@gmail.com>, 2019
-# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:08+0000\n"
-"PO-Revision-Date: 2017-09-20 10:17+0000\n"
-"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020\n"
+"POT-Creation-Date: 2018-07-27 11:56+0000\n"
+"PO-Revision-Date: 2018-07-27 11:56+0000\n"
+"Last-Translator: ExcaliberX <excaliberx@gmail.com>, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,7 +72,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_tree
 msgid "Activation Cost"
-msgstr "עלות הפעלה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_active
@@ -87,7 +84,7 @@ msgstr "פעיל"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Additional Details"
-msgstr "פרטים נוספים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
@@ -102,12 +99,12 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "All vehicles"
-msgstr "כל הרכבים"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_7
 msgid "Alternator Replacement"
-msgstr "החלפת אלטרנטור"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_cost_amount
@@ -125,7 +122,7 @@ msgstr "התווסף לארכיון"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_9
 msgid "Assistance"
-msgstr "עזרה"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle,transmission:0
@@ -138,7 +135,7 @@ msgstr "אוטומטי"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_auto_generated
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_auto_generated
 msgid "Automatically Generated"
-msgstr "נוצר אוטומטית"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_8
@@ -148,12 +145,12 @@ msgstr ""
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_9
 msgid "Battery Inspection"
-msgstr "בדיקת מצבר"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_10
 msgid "Battery Replacement"
-msgstr "החלפת מצבר"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_11
@@ -163,7 +160,7 @@ msgstr ""
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_12
 msgid "Brake Inspection"
-msgstr "בדיקת בלמים"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_13
@@ -173,7 +170,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_model_brand
 msgid "Brand of the vehicle"
-msgstr "מותג הרכב"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_break
@@ -183,12 +180,12 @@ msgstr "הפסקה"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_co2
 msgid "CO2 Emissions"
-msgstr "פליטת פחמן דו חמצני"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_co2
 msgid "CO2 emissions of the vehicle"
-msgstr "פליטת פחמן דו חמצני של הרכב"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_1
@@ -198,12 +195,12 @@ msgstr ""
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_14
 msgid "Car Wash"
-msgstr "שטיפת מכוניות"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_car_value
 msgid "Catalog Value (VAT Incl.)"
-msgstr "מחיר מחירון (כולל מע\"מ)"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_15
@@ -221,7 +218,7 @@ msgstr "קטגוריה"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_cost_type
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_cost_type
 msgid "Category of the cost"
-msgstr "קטגוריית העלות"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_16
@@ -231,18 +228,18 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_vin_sn
 msgid "Chassis Number"
-msgstr "מספר שלדה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_state
 msgid "Choose whether the contract is still valid or not"
-msgstr "בחר אם החוזה עדיין תקף או לא"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_service_type_category
 msgid ""
 "Choose whether the service refer to contracts, vehicle services or both"
-msgstr "בחר אם השירות מתייחס לחוזים, שירותי רכב או שניהם"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_tag_action
@@ -307,7 +304,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Close Contract"
-msgstr "סגור חוזה"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,state:0
@@ -327,12 +324,12 @@ msgstr "אינדקס צבע"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_color
 msgid "Color of the vehicle"
-msgstr "צבע הרכב"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_compact
 msgid "Compact"
-msgstr "קומפקטי"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_company_id
@@ -352,33 +349,33 @@ msgstr "הגדרות תצורה"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_contract_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_contract_id
 msgid "Contract"
-msgstr "חוזה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_graph
 msgid "Contract Costs Per Month"
-msgstr "עלויות חוזה לחודש"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_expiration_date
 msgid "Contract Expiration Date"
-msgstr "תאריך תפוגת החוזה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_ins_ref
 msgid "Contract Reference"
-msgstr "מזהה חוזה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_start_date
 msgid "Contract Start Date"
-msgstr "תאריך התחלת חוזה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_contract_types_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_contract_types_menu
 msgid "Contract Types"
-msgstr "סוגי חוזים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_contract_id
@@ -386,7 +383,7 @@ msgstr "סוגי חוזים"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_fuel_contract_id
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services_contract_id
 msgid "Contract attached to this cost"
-msgstr "חוזה המצורף לעלות זו"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
@@ -407,7 +404,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_kanban
 msgid "Contract(s)"
-msgstr "חוזים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_purchaser_id
@@ -439,32 +436,32 @@ msgstr "עלות"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_description
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_description
 msgid "Cost Description"
-msgstr "תיאור עלות"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_form
 msgid "Cost Details"
-msgstr "פרטי עלות"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 msgid "Cost Subtype"
-msgstr "תת סוג עלות"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 msgid "Cost Type"
-msgstr "סוג עלות"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_cost
 msgid "Cost related to a vehicle"
-msgstr "עלות הקשורה לרכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Cost that is paid only once at the creation of the contract"
-msgstr "עלות שמשולמת רק פעם אחת עם יצירת החוזה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_cost_subtype_id
@@ -479,17 +476,17 @@ msgstr ""
 #: model:ir.ui.menu,name:fleet.menu_fleet_reporting_costs
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "Costs"
-msgstr "עלויות"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_costs_reporting_action
 msgid "Costs Analysis"
-msgstr "ניתוח עלויות"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_graph
 msgid "Costs Per Month"
-msgstr "עלויות בחודש"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_cost_generated
@@ -538,7 +535,7 @@ msgstr "נוצר ב-"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_state_id
 msgid "Current state of the vehicle"
-msgstr "מצב נוכחי של הרכב"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,cost_frequency:0
@@ -565,7 +562,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_start_date
 msgid "Date when the coverage of the contract begins"
-msgstr "תאריך תחילת הכיסוי של החוזה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_expiration_date
@@ -587,7 +584,7 @@ msgstr ""
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
 msgid "Diesel"
-msgstr "דיזל"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type_display_name
@@ -612,19 +609,19 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_doors
 msgid "Doors Number"
-msgstr "מספר דלתות"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_driver_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_driver_id
 msgid "Driver"
-msgstr "נהג"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_driver_id
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer_driver_id
 msgid "Driver of the vehicle"
-msgstr "נהג הרכב"
+msgstr ""
 
 #. module: fleet
 #: code:addons/fleet/models/fleet_vehicle.py:217
@@ -638,23 +635,21 @@ msgid ""
 "Each contract (e.g.: leasing) may include several services\n"
 "            (reparation, insurances, periodic maintenance)."
 msgstr ""
-"כל חוזה (למשל: ליסינג) עשוי לכלול מספר שירותים\n"
-"            (תיקונים, ביטוחים, תחזוקה תקופתית).   "
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_service_types_action
 msgid "Each service can used in contracts, as a standalone service or both."
-msgstr "כל שירות יכול להיות בשימוש בחוזים, כשירות עצמאי או בשניהם."
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 msgid "Effective Costs"
-msgstr "עלויות אפקטיביות"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
 msgid "Electric"
-msgstr "חשמלי"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_17
@@ -670,7 +665,7 @@ msgstr ""
 #: code:addons/fleet/models/fleet_vehicle_cost.py:44
 #, python-format
 msgid "Emptying the odometer value of a vehicle is not allowed."
-msgstr "אסור לאפס את ערך מד מרחק הרכב."
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_18
@@ -706,19 +701,19 @@ msgstr ""
 #: selection:fleet.vehicle.log.contract,state:0
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
 msgid "Expired"
-msgstr "פג תוקף"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,state:0
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
 msgid "Expiring Soon"
-msgstr "פג תוקף בקרוב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.module.category,name:fleet.module_fleet_category
 #: model:ir.ui.menu,name:fleet.menu_root
 msgid "Fleet"
-msgstr "צי"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.server,name:fleet.ir_cron_contract_costs_generator_ir_actions_server
@@ -733,7 +728,7 @@ msgstr ""
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_fuel_cost_type
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services_cost_type
 msgid "For internal purpose only"
-msgstr "לשימוש פנימי בלבד"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_cost_frequency
@@ -744,7 +739,7 @@ msgstr ""
 #: selection:fleet.vehicle.cost,cost_type:0
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "Fuel"
-msgstr "דלק"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_graph
@@ -762,22 +757,22 @@ msgstr ""
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_tree
 msgid "Fuel Logs"
-msgstr "רישומי דלק"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_23
 msgid "Fuel Pump Replacement"
-msgstr "החלפת משאבת דלק"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_fuel_type
 msgid "Fuel Type"
-msgstr "סוג דלק"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_fuel_type
 msgid "Fuel Used by the vehicle"
-msgstr "דלק המשמש את הרכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_log_fuel
@@ -787,7 +782,7 @@ msgstr ""
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
 msgid "Gasoline"
-msgstr "בנזין"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
@@ -802,7 +797,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Generated Recurring Costs"
-msgstr "עלויות חוזרות שנוצרו"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
@@ -873,17 +868,17 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_horsepower
 msgid "Horsepower"
-msgstr "כוח סוס"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_horsepower_tax
 msgid "Horsepower Taxation"
-msgstr "מס כוח סוס"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
 msgid "Hybrid"
-msgstr "היברידי"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type_id
@@ -924,7 +919,7 @@ msgstr "בתהליך עיבוד"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Included Services"
-msgstr "שירותים כלולים"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,state:0
@@ -973,7 +968,7 @@ msgstr "תאריך חשבונית"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_inv_ref
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_inv_ref
 msgid "Invoice Reference"
-msgstr "מזהה חשבונית"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_junior
@@ -983,17 +978,12 @@ msgstr ""
 #. module: fleet
 #: selection:fleet.vehicle,odometer_unit:0
 msgid "Kilometers"
-msgstr "קילומטרים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_kanban
 msgid "Km"
-msgstr "ק\"מ"
-
-#. module: fleet
-#: selection:fleet.vehicle,fuel_type:0
-msgid "LPG"
-msgstr "גפ\"מ"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type___last_update
@@ -1013,7 +1003,7 @@ msgstr "תאריך שינוי אחרון"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer
 msgid "Last Odometer"
-msgstr "מד מרחק אחרון"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type_write_uid
@@ -1053,7 +1043,7 @@ msgstr "מיקום"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_license_plate
 msgid "License Plate"
-msgstr "לוחית רישוי"
+msgstr ""
 
 #. module: fleet
 #: code:addons/fleet/models/fleet_vehicle.py:224
@@ -1070,7 +1060,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_liter
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_kanban
 msgid "Liter"
-msgstr "ליטר"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_location
@@ -1080,7 +1070,7 @@ msgstr "מיקום"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_location
 msgid "Location of the vehicle (garage, ...)"
-msgstr "מיקום הרכב (מוסך, ...)"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_image
@@ -1106,7 +1096,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_name
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
 msgid "Make"
-msgstr "שם"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_id
@@ -1120,9 +1110,6 @@ msgid ""
 "            their related services, costs. Odoo will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
-"נהל את כל החוזים שלך (ליסינג, ביטוחים וכו') עם\n"
-"            השירותים הקשורים להם, עלויות. Odoo יתריע אוטומטית\n"
-"            כשתצטרך לחדש חוזים מסוימים."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_11
@@ -1157,7 +1144,7 @@ msgstr ""
 #. module: fleet
 #: selection:fleet.vehicle,odometer_unit:0
 msgid "Miles"
-msgstr "מיילים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_id
@@ -1175,7 +1162,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_year
 msgid "Model Year"
-msgstr "שנת דגם"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_brand_action
@@ -1267,12 +1254,12 @@ msgstr "הערות"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_doors
 msgid "Number of doors of the vehicle"
-msgstr "מספר דלתות ברכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_seats
 msgid "Number of seats of the vehicle"
-msgstr "מספר מושבים ברכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_odometer_id
@@ -1282,24 +1269,24 @@ msgstr "מספר מושבים ברכב"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_count
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "Odometer"
-msgstr "מד מרחק"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Odometer Details"
-msgstr "פרטי מד מרחק"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_tree
 msgid "Odometer Logs"
-msgstr "רישומי מד מרחק"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_unit
 msgid "Odometer Unit"
-msgstr "יחידת מד מרחק"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_odometer
@@ -1307,12 +1294,12 @@ msgstr "יחידת מד מרחק"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_odometer
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_value
 msgid "Odometer Value"
-msgstr "ערך מד מרחק"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_graph
 msgid "Odometer Values Per Vehicle"
-msgstr "ערכי מד מרחק לרכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_odometer
@@ -1327,12 +1314,12 @@ msgstr ""
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_odometer
 msgid "Odometer log for a vehicle"
-msgstr "רישום מד מרחק לרכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_odometer
 msgid "Odometer measure of the vehicle at the moment of the contract creation"
-msgstr "מדידת מד מרחק של הרכב ברגע יצירת החוזה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_odometer
@@ -1344,7 +1331,7 @@ msgstr "מדידת מד מרחק של הרכב ברגע יצירת החוזה"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services_odometer_id
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer
 msgid "Odometer measure of the vehicle at the moment of this log"
-msgstr "מד מרחק לרכב בעת רישום זה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
@@ -1442,7 +1429,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_power
 msgid "Power"
-msgstr "הספק"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_35
@@ -1457,7 +1444,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_power
 msgid "Power in kW of the vehicle"
-msgstr "הספק בקילו וואט של הרכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
@@ -1470,18 +1457,18 @@ msgstr "מחיר"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_price_per_liter
 msgid "Price Per Liter"
-msgstr "מחיר לליטר"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_purchased
 msgid "Purchased"
-msgstr "נרכש"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_purchaser_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_purchaser_id
 msgid "Purchaser"
-msgstr "מזמין השירות"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_37
@@ -1491,7 +1478,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_cost_generated
 msgid "Recurring Cost Amount"
-msgstr "סכום עלות חוזרת"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_cost_frequency
@@ -1506,7 +1493,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
 msgid "Refueling Details"
-msgstr "פרטי תדלוק"
+msgstr ""
 
 #. module: fleet
 #: code:addons/fleet/models/fleet_vehicle_cost.py:200
@@ -1544,7 +1531,7 @@ msgstr "דיווח"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_residual_value
 msgid "Residual Value"
-msgstr "סכום להכרה"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_15
@@ -1574,7 +1561,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_seats
 msgid "Seats Number"
-msgstr "מספר מושבים"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_sedan
@@ -1601,14 +1588,14 @@ msgstr "שירו"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Service Type"
-msgstr "סוג שירות"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_service_types_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_service_types_menu
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_service_types_view_tree
 msgid "Service Types"
-msgstr "סוגי שירותים"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.cost,cost_type:0
@@ -1625,7 +1612,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Services Details"
-msgstr "פרטי שירותים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services
@@ -1633,7 +1620,7 @@ msgstr "פרטי שירותים"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_search
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_tree
 msgid "Services Logs"
-msgstr "רישומי שירותים "
+msgstr ""
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_log_services
@@ -1723,7 +1710,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_notes
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Terms and Conditions"
-msgstr "תנאים והגבלות"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
@@ -1793,7 +1780,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_transmission
 msgid "Transmission"
-msgstr "תיבת הילוכים"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_47
@@ -1813,7 +1800,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_transmission
 msgid "Transmission Used by the vehicle"
-msgstr "תיבת ההילוכים ברכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_cost_subtype_id
@@ -1850,12 +1837,12 @@ msgstr "יחידה"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer_unit
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer_unit_2906
 msgid "Unit of the odometer "
-msgstr "יחידת מד המרחק"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_state_sequence
 msgid "Used to order the note stages"
-msgstr "משמש לסידור שלבי ההערות"
+msgstr ""
 
 #. module: fleet
 #: model:res.groups,name:fleet.fleet_group_user
@@ -1881,14 +1868,14 @@ msgstr ""
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_tree
 msgid "Vehicle"
-msgstr "רכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_costs_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_costs_menu
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_cost_view_tree
 msgid "Vehicle Costs"
-msgstr "עלויות רכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
@@ -1898,7 +1885,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
 msgid "Vehicle Details"
-msgstr "פרטי רכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_action
@@ -1910,14 +1897,14 @@ msgstr ""
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_state_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_state_menu
 msgid "Vehicle Status"
-msgstr "סטטוס רכב"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_tag_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_tag_menu
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_tag_view_view_form
 msgid "Vehicle Tags"
-msgstr "תגיות רכבים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_vehicle_id
@@ -1937,33 +1924,33 @@ msgstr ""
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_menu
 #: model:ir.ui.menu,name:fleet.fleet_vehicles
 msgid "Vehicles"
-msgstr "רכבים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_log_contract_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_contract_menu
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
 msgid "Vehicles Contracts"
-msgstr "חוזי רכבים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_log_fuel_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_fuel_menu
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_search
 msgid "Vehicles Fuel Logs"
-msgstr "רישומי דלק של רכבים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_odometer_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_odometer_menu
 msgid "Vehicles Odometer"
-msgstr "מד מרחק של רכבים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_log_services_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_services_menu
 msgid "Vehicles Services Logs"
-msgstr "רישומי שירותי רכבים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_cost_indicative_view_graph
@@ -1973,12 +1960,12 @@ msgstr "רישומי שירותי רכבים"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
 msgid "Vehicles costs"
-msgstr "עלויות רכבים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_search
 msgid "Vehicles odometers"
-msgstr "מד מרחק של רכבים"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_insurer_id
@@ -1996,12 +1983,12 @@ msgstr "ספקים"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_days_left
 msgid "Warning Date"
-msgstr "תאריך אזהרה"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_50
 msgid "Water Pump Replacement"
-msgstr "החלפת משאבת מים"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,cost_frequency:0
@@ -2016,32 +2003,32 @@ msgstr ""
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_52
 msgid "Wheel Bearing Replacement"
-msgstr "החלפת מיסבים"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_53
 msgid "Windshield Wiper(s) Replacement"
-msgstr "החלפת מגבי שמשה קדמית"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Write here all other information relative to this contract"
-msgstr "כתוב כאן את כל המידע הנוסף הקשור לחוזה זה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_notes
 msgid "Write here all supplementary information relative to this contract"
-msgstr "כתוב כאן את כל המידע המשלים ביחס לחוזה זה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
 msgid "Write here any other information"
-msgstr "כתוב כאן כל מידע אחר"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Write here any other information related to the service completed."
-msgstr "כתוב כאן כל מידע אחר הקשור לשירות שהושלם."
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
@@ -2051,12 +2038,12 @@ msgstr "שנה"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_year
 msgid "Year of the model"
-msgstr "שנת הדגם"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,cost_frequency:0
 msgid "Yearly"
-msgstr "שנתי"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_state_action
@@ -2068,7 +2055,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_model_action
 msgid "You can define several models (e.g. A3, A4) for each make (Audi)."
-msgstr "ניתן להגדיר מספר דגמים (למשל A3, A4) לכל יצרנית (אאודי)."
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_action
@@ -2081,23 +2068,23 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "amount"
-msgstr "סכום"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "e.g. Model S"
-msgstr "למשל: דגם S"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "e.g. PAE 326"
-msgstr "למשל: PAE 326"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_form
 msgid "e.g. Tesla"
-msgstr "למשל: טסלה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_state
@@ -2112,24 +2099,24 @@ msgstr "תגיות"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "show all the costs for this vehicle"
-msgstr "הצג את כל העלויות עבור רכב זה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "show the contract for this vehicle"
-msgstr "הצג את החוזה לרכב זה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "show the fuel logs for this vehicle"
-msgstr "הצג את רישומי הדלק לרכב זה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "show the odometer logs for this vehicle"
-msgstr "הצג את רישומי מד האוץ לרכב זה"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "show the services logs for this vehicle"
-msgstr "הצג את רישומי השירותים לרכב זה"
+msgstr ""

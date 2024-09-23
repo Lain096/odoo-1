@@ -5,19 +5,16 @@
 # Translators:
 # matjaz k <matjaz@mentis.si>, 2018
 # Martin Trigaux, 2018
+# Matjaž Mozetič <m.mozetic@matmoz.si>, 2018
 # Vida Potočnik <vida.potocnik@mentis.si>, 2018
 # Dejan Sraka <dejan.sraka@picolabs.si>, 2018
-# Matjaz Mozetic <m.mozetic@matmoz.si>, 2019
-# Jasmina Macur <jasmina@hbs.si>, 2019
-# Tadej Lupšina <tadej@hbs.si>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-09-20 10:14+0000\n"
-"Last-Translator: Tadej Lupšina <tadej@hbs.si>, 2019\n"
+"PO-Revision-Date: 2017-11-30 13:11+0000\n"
+"Last-Translator: Dejan Sraka <dejan.sraka@picolabs.si>, 2018\n"
 "Language-Team: Slovenian (https://www.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -118,7 +115,7 @@ msgstr "Postavka bančnega izpiska"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_account_setup_bank_data_done
 msgid "Bank setup marked as done"
-msgstr "Bančne nastavitve označene kot opravljene"
+msgstr ""
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_belongs_to_company
@@ -207,7 +204,7 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_refund_sequence_number_next
 msgid "Credit Notes: Next Number"
-msgstr "Dobropisi: naslednja številka"
+msgstr ""
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_currency_id
@@ -222,17 +219,17 @@ msgstr "Načini bremenitve"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_refund_sequence
 msgid "Dedicated Credit Note Sequence"
-msgstr "Namensko zaporedje dobropisov"
+msgstr ""
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_default_credit_account_id
 msgid "Default Credit Account"
-msgstr "Privzeti konto terjatev"
+msgstr "Privzeti konto 'v dobro'"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_default_debit_account_id
 msgid "Default Debit Account"
-msgstr "Privzeti konto obveznosti"
+msgstr "Privzeti debitni konto"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_display_name
@@ -318,12 +315,12 @@ msgstr "Uvozi izpisek"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_default_credit_account_id
 msgid "It acts as a default account for credit amount"
-msgstr "Privzeti konto za znesek terjatev"
+msgstr "Privzeti kreditni konto"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_default_debit_account_id
 msgid "It acts as a default account for debit amount"
-msgstr "Privzeti konto za znesek obveznosti"
+msgstr "Privzeti konto za debetni znesek"
 
 #. module: account_bank_statement_import
 #: model:ir.model,name:account_bank_statement_import.model_account_journal
@@ -353,7 +350,7 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_kanban_dashboard
 msgid "Kanban Dashboard"
-msgstr "Kanban nadzorna plošča"
+msgstr ""
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_kanban_dashboard_graph
@@ -452,12 +449,12 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_code
 msgid "Short Code"
-msgstr "Kratka koda"
+msgstr ""
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_show_on_dashboard
 msgid "Show journal on dashboard"
-msgstr "Prikaži dnevnik na nadzorni plošči"
+msgstr ""
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_account_setup_bank_data_done
@@ -531,7 +528,7 @@ msgstr ""
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:121
 #, python-format
 msgid "This file doesn't contain any transaction."
-msgstr "Ta datoteka ne vsebuje nobene transakcije."
+msgstr ""
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation_type

@@ -8,9 +8,8 @@
 # Jaroslav Helemik Nemec <nemec@helemik.cz>, 2018
 # Martin Trigaux, 2018
 # Ondřej Janovský <ondrej.janovsky@alarex.cz>, 2018
+# trendspotter <j.podhorecky@volny.cz>, 2018
 # Ladislav Tomm <tomm@helemik.cz>, 2019
-# Jiří Podhorecký, 2020
-# karolína schusterová <karolina.schusterova@vdp.sk>, 2021
 # 
 msgid ""
 msgstr ""
@@ -18,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:18+0000\n"
-"Last-Translator: karolína schusterová <karolina.schusterova@vdp.sk>, 2021\n"
+"Last-Translator: Ladislav Tomm <tomm@helemik.cz>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -102,7 +101,7 @@ msgstr ""
 #: code:addons/hr_expense/static/src/js/tour.js:39
 #, python-format
 msgid "<p>Select expenses to submit them to your manager</p>"
-msgstr "<p>Vyberte výdavky, ktoré chcete odoslať svojmu manažérovi</p>"
+msgstr ""
 
 #. module: hr_expense
 #. openerp-web
@@ -112,8 +111,6 @@ msgid ""
 "<p>The accountant receive approved expense reports.</p><p>He can post "
 "journal entries in one click if taxes and accounts are right.</p>"
 msgstr ""
-"<p>Účtovník dostáva schválené výkazy výdavkov.</p><p>Môže správne zaúčtovať "
-"denníkové zápisy, ak sú dane a účty správne.</p>"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -189,7 +186,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Employee:</strong>"
-msgstr "<strong>Zaměstnanec:</strong>"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -213,7 +210,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Payment By:</strong>"
-msgstr "<strong>Platba od:</strong>"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -244,7 +241,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Validated By:</strong>"
-msgstr "<strong>Ověřeno od:</strong>"
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/wizard/hr_expense_sheet_register_payment.py:83
@@ -277,7 +274,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 msgid "Actual expense sheets, not the refused ones"
-msgstr "Skutečné výdajové listy, nikoli ty, které byly odmítnuty"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -288,12 +285,12 @@ msgstr ""
 #: model:product.product,name:hr_expense.air_ticket
 #: model:product.template,name:hr_expense.air_ticket_product_template
 msgid "Air Flight"
-msgstr "Letecké cesty"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_all
 msgid "All Expense Reports"
-msgstr "Všetky prehľady výdavkov"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_actions_all
@@ -303,7 +300,7 @@ msgstr "Všechny výdaje"
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_account_id
 msgid "An expense account is expected"
-msgstr "Očakáva sa výdavkový účet"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_analytic_account_id
@@ -325,7 +322,7 @@ msgstr "Scháleno"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "Approved Expenses"
-msgstr "Schválené výdavky"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -342,17 +339,17 @@ msgstr ""
 #: code:addons/hr_expense/static/src/js/tour.js:35
 #, python-format
 msgid "Attach your receipt here."
-msgstr "Přiložte svůj doklad."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_bank_journal_id
 msgid "Bank Journal"
-msgstr "Bankovní deník"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_reference
 msgid "Bill Reference"
-msgstr "Referenčné číslo účtu"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -368,7 +365,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_product_product_can_be_expensed
 #: model:ir.model.fields,field_description:hr_expense.field_product_template_can_be_expensed
 msgid "Can be Expensed"
-msgstr "Môže byť zaúčtovaný"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
@@ -380,12 +377,12 @@ msgstr "Zrušit"
 #: model:product.product,name:hr_expense.car_travel
 #: model:product.template,name:hr_expense.car_travel_product_template
 msgid "Car Travel Expenses"
-msgstr "Cestovní náklady"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Certified honest and conform,<br/>(Date and signature).<br/><br/>"
-msgstr "Certifikovaný čestný a konformný,<br/>(Dátum a podpis).<br/><br/>"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all_all
@@ -497,7 +494,7 @@ msgstr "Datum"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings_expense_alias_prefix
 msgid "Default Alias Name for Expenses"
-msgstr "Výchozí název aliasu pro výdaje"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_department_id
@@ -537,7 +534,7 @@ msgstr "Neváhejte"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_register_payment_view_form
 msgid "Draft Payment"
-msgstr "Koncept platby"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -560,12 +557,12 @@ msgstr "Zaměstnanec"
 #. module: hr_expense
 #: selection:hr.expense,payment_mode:0
 msgid "Employee (to reimburse)"
-msgstr "Zaměstnanec (k úhradě)"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_address_id
 msgid "Employee Home Address"
-msgstr "Adresa bydliště zaměstnance"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -588,7 +585,7 @@ msgstr "Výdaje"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_date
 msgid "Expense Date"
-msgstr "Datum nákladu"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_name
@@ -603,26 +600,26 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_journal_id
 msgid "Expense Journal"
-msgstr "Nákladový deník"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_expense_line_ids
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Expense Lines"
-msgstr "Řádky výdajů"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_product
 #: model:ir.ui.menu,name:hr_expense.menu_hr_product
 #: model:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Expense Products"
-msgstr "Nákladové produkty"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_sheet
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_id
 msgid "Expense Report"
-msgstr "Zpráva o výdajích"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_sheet_register_payment_wizard
@@ -632,12 +629,12 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet_state
 msgid "Expense Report State"
-msgstr "Stav hlášení výdajů"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_name
 msgid "Expense Report Summary"
-msgstr "Souhrnný přehled výdajů"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_my_reports
@@ -645,12 +642,12 @@ msgstr "Souhrnný přehled výdajů"
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_tree
 msgid "Expense Reports"
-msgstr "Zprávy o výdajích"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_department_filtered
 msgid "Expense Reports Analysis"
-msgstr "Analýza výkazů výdajů"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_all_to_approve
@@ -661,19 +658,19 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_to_pay
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_all_to_pay
 msgid "Expense Reports To Pay"
-msgstr "Zprávy o výdajích k zaplacení"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_to_post
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_all_to_post
 msgid "Expense Reports To Post"
-msgstr "Zprávy o výdajích za zveřejnění"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_to_approve
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_department_to_approve
 msgid "Expense Reports to Approve"
-msgstr "Zprávy o výdajích ke schválení"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_tree
@@ -693,17 +690,17 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
 msgid "Expense refuse reason"
-msgstr "Důvod odmítnutí výdajů"
+msgstr ""
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_approved
 msgid "Expense report approved"
-msgstr "Zpráva o výdajích schválena"
+msgstr ""
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_paid
 msgid "Expense report paid"
-msgstr "Zpráva o výdajích zaplacena"
+msgstr ""
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_refused
@@ -718,7 +715,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_account_move_line_expense_id
 msgid "Expense where the move line come from"
-msgstr "Náklady, odkud tahová čára pochází"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.server,name:hr_expense.hr_expense_submit_action_server
@@ -758,7 +755,7 @@ msgstr ""
 #: model:ir.actions.report,name:hr_expense.action_report_hr_expense_sheet
 #: model:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Expenses Report"
-msgstr "Zpráva o výdajích"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_all_all
@@ -768,7 +765,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_department_expense_sheets_to_approve_count
 msgid "Expenses Reports to Approve"
-msgstr "Výkazy výdajů ke schválení"
+msgstr ""
 
 #. module: hr_expense
 #: model:mail.message.subtype,name:hr_expense.mt_department_expense_confirmed
@@ -798,7 +795,7 @@ msgstr ""
 msgid ""
 "Expenses must have an expense journal specified to generate accounting "
 "entries."
-msgstr "Pro generování účetních záznamů musí mít výdaje deník výdajů."
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:442
@@ -815,7 +812,7 @@ msgstr "Výdaje člena týmu"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "Expenses to Invoice"
-msgstr "Náklady na fakturu"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_my_expenses_to_submit
@@ -914,12 +911,12 @@ msgstr "Hotelové ubytování"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard_hr_expense_ids
 msgid "Hr Expense"
-msgstr "Hr výdajů"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard_hr_expense_sheet_id
 msgid "Hr Expense Sheet"
-msgstr "Hr výdajový list"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_id
@@ -1004,7 +1001,7 @@ msgstr "Manažer"
 #: code:addons/hr_expense/static/src/js/tour.js:60
 #, python-format
 msgid "Managers can get all reports to approve from this menu."
-msgstr "Manažeři mohou z této nabídky získat všechny přehledy ke schválení."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard_communication
@@ -1031,12 +1028,12 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_my_all
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "My Reports"
-msgstr "Moje zprávy"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 msgid "My Team Expenses"
-msgstr "Náklady mého týmu"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
@@ -1066,16 +1063,12 @@ msgid ""
 "No Expense account found for the product %s (or for its category), please "
 "configure one."
 msgstr ""
-"Pro produkt nebyl nalezen žádný účet výdajů %s (nebo pro jeho kategorii), "
-"prosím nakonfigurujte jeden."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:231
 #, python-format
 msgid "No Home Address found for the employee %s, please configure one."
 msgstr ""
-"Pro zaměstnance nebyla nalezena žádná domácí adresa %s, nakonfigurujte si "
-"prosím jeden."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:210
@@ -1096,7 +1089,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_form_view
 msgid "Notes..."
-msgstr "Poznámky ..."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_attachment_number
@@ -1112,7 +1105,7 @@ msgstr "úředník"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Once a month"
-msgstr "Jednou měsíčně"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_unsubmitted
@@ -1151,7 +1144,6 @@ msgid ""
 "Once you have created your expense, submit it to your manager who will "
 "validate it."
 msgstr ""
-"Jakmile vytvoříte své výdaje, odešlete je svému nadřízenému, který je ověří."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:543
@@ -1232,8 +1224,6 @@ msgid ""
 "Please configure Default Expense account for Product expense: "
 "`property_account_expense_categ_id`."
 msgstr ""
-"Nakonfigurujte prosím výchozí účet výdajů pro výdaj produktu: "
-"`property_account_expense_categ_id`."
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1305,12 +1295,12 @@ msgstr "Důvod"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
 msgid "Reason :"
-msgstr "Důvod:"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
 msgid "Reason to refuse Expense"
-msgstr "Důvod odmítnutí výdajů"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1320,7 +1310,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Recording"
-msgstr "Záznam"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1341,7 +1331,7 @@ msgstr "Odmítnout"
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_refuse_wizard_action
 msgid "Refuse Expense"
-msgstr "Důvod odmítnutí výdajů"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense,state:0 selection:hr.expense.sheet,state:0
@@ -1353,7 +1343,7 @@ msgstr "Odmítnuto"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 msgid "Refused Expenses"
-msgstr "Důvod odmítnutí výdajů"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_my_reports_refused
@@ -1382,7 +1372,7 @@ msgstr "Sestava"
 #: selection:hr.expense,state:0
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 msgid "Reported"
-msgstr "Oznámeno"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_reports
@@ -1397,12 +1387,12 @@ msgstr "Zprávy ke schválení"
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_request_to_pay_expense_sheet
 msgid "Reports to Pay"
-msgstr "Zprávy o výdajích k zaplacení"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_request_to_post_expense_sheet
 msgid "Reports to Post"
-msgstr "Zprávy o výdajích za zveřejnění"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
@@ -1476,7 +1466,7 @@ msgstr "Nastavení"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Setup your domain alias"
-msgstr "Nastavte alias domény"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_product_product_can_be_expensed
@@ -1499,7 +1489,7 @@ msgstr "Stav"
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_state
 msgid "Status of the expense."
-msgstr "Stav Smlouvy"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1515,7 +1505,7 @@ msgstr "Předložit manažerovi"
 #: selection:hr.expense.sheet,state:0
 #: model:mail.message.subtype,name:hr_expense.mt_expense_confirmed
 msgid "Submitted"
-msgstr "Odesláno"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_untaxed_amount
@@ -1543,7 +1533,7 @@ msgstr ""
 #, python-format
 msgid ""
 "The accountant can register a payment to reimburse the employee directly."
-msgstr "Účetní může zaregistrovat platbu, která zaměstnanci přímo proplatí."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_unsubmitted
@@ -1563,7 +1553,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet_journal_id
 msgid "The journal used when the expense is done."
-msgstr "Deník použitý po dokončení výdajů."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1607,12 +1597,12 @@ msgstr "Ke schválení"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "To Pay"
-msgstr "K platbě"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
 msgid "To Post"
-msgstr "Zveřejnit"
+msgstr ""
 
 #. module: hr_expense
 #: selection:hr.expense,state:0
@@ -1651,7 +1641,7 @@ msgstr "Měrná jednotka"
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_approved_expense
 msgid "Unreported Expenses"
-msgstr "Neohlášené náklady"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1685,7 +1675,7 @@ msgstr "Zobrazit přílohy"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_form_view
 msgid "View Report"
-msgstr "Zobrazit hlášení"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1718,7 +1708,7 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:563
 #, python-format
 msgid "You can only generate accounting entry for approved expense(s)."
-msgstr "Účetní záznam můžete vygenerovat pouze pro schválené výdaje."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -1751,7 +1741,7 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:469
 #, python-format
 msgid "You cannot delete a posted or paid expense."
-msgstr "Nemůžete odstranit účtované nebo placené náklady."
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:111
@@ -1769,7 +1759,7 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:109
 #, python-format
 msgid "You cannot report twice the same line!"
-msgstr "Nelze nahlásit dvakrát stejný řádek.."
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
@@ -1814,22 +1804,22 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "e.g. Lunch"
-msgstr "např. Oběd"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_form_view
 msgid "e.g. Lunch with Customer"
-msgstr "např. Oběd se zákazníkem"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "e.g. Trip to NY"
-msgstr "např. Výlet do New Yorku"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
 msgid "has been refused"
-msgstr "bylo odmítnuto"
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:344

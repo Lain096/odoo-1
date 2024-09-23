@@ -3,20 +3,19 @@
 # * stock_account
 # 
 # Translators:
-# Otgonbayar.A <gobi.mn@gmail.com>, 2018
-# nasaaskii <nasaaskii@gmail.com>, 2018
-# Khishigbat Ganbold <khishigbat@asterisk-tech.mn>, 2018
+# Khishigbat Ganbold <khishigbat@asterisk-tech.mn>, 2017
+# Otgonbayar.A <gobi.mn@gmail.com>, 2017
 # Onii Onii <onii0223@yahoo.com>, 2018
+# Jacara <baskhuujacara@gmail.com>, 2018
 # Martin Trigaux, 2018
-# Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2019
-# 
+# nasaaskii <nasaaskii@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:55+0000\n"
-"PO-Revision-Date: 2017-09-20 10:24+0000\n"
-"Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2019\n"
+"PO-Revision-Date: 2018-07-27 11:55+0000\n"
+"Last-Translator: nasaaskii <nasaaskii@gmail.com>, 2018\n"
 "Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +31,7 @@ msgstr "Санхүүгийн бичилт"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move_account_move_ids
 msgid "Account Move"
-msgstr "Ажил гүйлгээ"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_category_property_form
@@ -62,13 +61,13 @@ msgstr ""
 #. module: stock_account
 #: selection:product.category,property_valuation:0
 msgid "Automated"
-msgstr "Автоматлагдсан"
+msgstr ""
 
 #. module: stock_account
 #: selection:product.category,property_cost_method:0
 #: selection:product.template,property_cost_method:0
 msgid "Average Cost (AVCO)"
-msgstr "Дундаж өртөг (AVCO)"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_change_standard_price
@@ -116,8 +115,6 @@ msgid ""
 "Changing your cost method is an important change that will impact your "
 "inventory valuation. Are you sure you want to make that change?"
 msgstr ""
-"Өртөг тооцох аргыг засах нь чухал өөрчлөлт бөгөөд таны барааны өртөгөөрх "
-"нөөцийн дүнд нөлөөлнө. Та үүнийг өөрчлөхдөө итгэлтэй байна уу?"
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_inventory_accounting_date
@@ -152,7 +149,7 @@ msgstr "Өртөг"
 #: model:ir.model.fields,field_description:stock_account.field_product_product_cost_method
 #: model:ir.model.fields,field_description:stock_account.field_product_template_cost_method
 msgid "Cost Method"
-msgstr "Өртөг тооцох арга"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.res_config_settings_view_form
@@ -174,7 +171,7 @@ msgstr "Харьцсан Талын Данс"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_change_standard_price_counterpart_account_id_required
 msgid "Counter-Part Account Required"
-msgstr "Харьцсан талын данс шаардлагатай"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_change_standard_price_create_uid
@@ -195,7 +192,7 @@ msgstr "Дэлгэцийн Нэр"
 #: selection:product.category,property_cost_method:0
 #: selection:product.template,property_cost_method:0
 msgid "First In First Out (FIFO)"
-msgstr "Эхэнд орсон нь эхэнд гарах (FIFO)"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_inventory_accounting_date
@@ -219,7 +216,7 @@ msgstr ""
 #. module: stock_account
 #: model:ir.actions.act_window,help:stock_account.product_valuation_action
 msgid "If there are products, you will see its name and valuation."
-msgstr "Хэрэв бараа материал байвал та нэр болон өртөгийн дүнг харах болно."
+msgstr ""
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.res_config_settings_view_form
@@ -287,8 +284,6 @@ msgid ""
 "Manual: The accounting entries to value the inventory are not posted automatically.\n"
 "        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company."
 msgstr ""
-"Гараар: Бараа материалын дансны бичилт автоматаар хөтлөгдөхгүй.\n"
-"         Автомат: Компанид бараа орлогодох, зарлагадах тухай бүрд бараа материалын дансны бичилт автоматаар хөтлөгдөнө."
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category_property_valuation
@@ -297,8 +292,6 @@ msgid ""
 "        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company.\n"
 "        "
 msgstr ""
-"Гараар: Бараа материалын дансны бичилт автоматаар хөтлөгдөхгүй.\n"
-"         Автомат: Компанид бараа орлогодох, зарлагадах тухай бүрд бараа материалын дансны бичилт автоматаар хөтлөгдөнө."
 
 #. module: stock_account
 #: code:addons/stock_account/models/product.py:128
@@ -376,12 +369,12 @@ msgstr "Үлдэгдэл тоо хэмжээ"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move_remaining_value
 msgid "Remaining Value"
-msgstr "Үлдэгдэл өртөг"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_stock_quantity_history
 msgid "Retrieve the inventory valuation"
-msgstr "Бараа өртөгийг сэргээх"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_return_picking
@@ -414,9 +407,6 @@ msgid ""
 "        Average Cost (AVCO): The products are valued at weighted average cost.\n"
 "        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first."
 msgstr ""
-"Стандарт өртөг: Бараа дээр тохируулсан стандарт буюу тогтмол өртөгөөр барааны өртөгөөрх нөөц хэмжигдэнэ.\n"
-"        Дундаж өртөг (AVCO): Барааны нөөц  жинлэсэн дундаж өртөгөөр хэмжигдэнэ.\n"
-"        Эхэлж ирсэн нь эхэлж гарах (FIFO): Компанид эхэлж орлогод авсан өртөгөөр эхэлж зарлага гаргана."
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category_property_cost_method
@@ -426,19 +416,16 @@ msgid ""
 "        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first.\n"
 "        "
 msgstr ""
-"Стандарт өртөг: Бараа дээр тохируулсан стандарт буюу тогтмол өртөгөөр барааны өртөгөөрх нөөц хэмжигдэнэ.\n"
-"        Дундаж өртөг (AVCO): Барааны нөөц  жинлэсэн дундаж өртөгөөр хэмжигдэнэ.\n"
-"        Эхэлж ирсэн нь эхэлж гарах (FIFO): Компанид эхэлж орлогод авсан өртөгөөр эхэлж зарлага гаргана."
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_stock_fifo_manual_move_ids
 msgid "Stock Fifo Manual Move"
-msgstr "Stock Fifo Manual Move"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_stock_fifo_real_time_aml_ids
 msgid "Stock Fifo Real Time Aml"
-msgstr "Stock Fifo Real Time Aml"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_category_property_stock_account_input_categ_id
@@ -470,14 +457,14 @@ msgstr "Бараа материалын зарлагын данс"
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_quantity_history
 msgid "Stock Quantity History"
-msgstr "Агуулахын нөөцийн түүх"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_move_tree_valuation_at_date
 #: model:ir.ui.view,arch_db:stock_account.view_stock_product_tree2
 #: model:ir.ui.view,arch_db:stock_account.view_template_property_form
 msgid "Stock Valuation"
-msgstr "Өртөгийн дүн"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_category_property_stock_valuation_account_id
@@ -506,8 +493,6 @@ msgid ""
 "The cost of %s is currently equal to 0. Change the cost or the configuration"
 " of your product to avoid an incorrect valuation."
 msgstr ""
-"%s-ын өртөг одоогоор 0-тэй тэнцүү байна. Өртөгийн өөрчилөх эсвэл барааны "
-"тохиргоог зөв болгож буруу өртөгийг залруулна уу."
 
 #. module: stock_account
 #: code:addons/stock_account/models/stock.py:349
@@ -525,9 +510,6 @@ msgid ""
 "intercompany in a single step while they should go through the intercompany "
 "transit location."
 msgstr ""
-"Барааны хөдөлгөөнүүд тохиромжгүй нөхцөл байдалтай байна: компани хоорондын "
-"урсгалыг нэг алхамаар хийх гэж оролдож байна. Үүний оронд компани хоорондын "
-"дундын байрлал ашиглах ёстой."
 
 #. module: stock_account
 #: code:addons/stock_account/models/stock.py:358
@@ -536,14 +518,12 @@ msgid ""
 "The move lines are not in a consistent states: they do not share the same "
 "origin or destination company."
 msgstr ""
-"Барааны хөдөлгөөнүүд тохиромжгүй нөхцөл байдалтай байна: эдгээр хөдөлгөөн нь"
-" ижил эх баримттай эсвэл ижил хүргэх компанитай байх ёсгүй."
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move_to_refund
 #: model:ir.model.fields,field_description:stock_account.field_stock_return_picking_line_to_refund
 msgid "To Refund (update SO/PO)"
-msgstr "Буцаалтаар тооцох (SO/PO-г шинэчлэх)"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_move_to_refund
@@ -552,8 +532,6 @@ msgid ""
 "Trigger a decrease of the delivered/received quantity in the associated Sale"
 " Order/Purchase Order"
 msgstr ""
-"Холбогдох Борлуулалтын захиалга/Худалдан авах захиалгын хүргэсэн/хүлээн "
-"авсан тоо хэмжээг бууруулах"
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_move_tree_valuation_at_date
@@ -563,7 +541,7 @@ msgstr "Хэмжих нэгж"
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_template_property_form
 msgid "Update Cost"
-msgstr "Өртөг шинэчлэх"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_location_valuation_in_account_id
@@ -608,7 +586,7 @@ msgstr ""
 #: code:addons/stock_account/models/product.py:245
 #, python-format
 msgid "Valuation at date"
-msgstr "Огноонд харгалзах өртөгийн дүн"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_stock_value

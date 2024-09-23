@@ -3,17 +3,16 @@
 # * calendar_sms
 # 
 # Translators:
-# Martin Trigaux, 2017
+# Martin Trigaux <mat@odoo.com>, 2017
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2017
-# Bole <bole@dajmi5.com>, 2019
-# 
+# Bole <bole@dajmi5.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 11:33+0000\n"
-"PO-Revision-Date: 2017-09-20 11:39+0000\n"
-"Last-Translator: Bole <bole@dajmi5.com>, 2019\n"
+"PO-Revision-Date: 2017-09-20 11:33+0000\n"
+"Last-Translator: Bole <bole@dajmi5.com>, 2017\n"
 "Language-Team: Croatian (https://www.transifex.com/odoo/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,12 +40,12 @@ msgstr "Podsjetnik na događaj: %s na %s."
 #: code:addons/calendar_sms/models/calendar.py:24
 #, python-format
 msgid "SMS text message reminder sent !"
-msgstr "SMS podsjetnik poslan!"
+msgstr ""
 
 #. module: calendar_sms
 #: model:ir.actions.act_window,name:calendar_sms.sms_message_send_action_mutli
 msgid "Send SMS to attendees"
-msgstr "Pošalji SMS svim polaznicima"
+msgstr ""
 
 #. module: calendar_sms
 #: model:ir.model,name:calendar_sms.model_calendar_alarm_manager

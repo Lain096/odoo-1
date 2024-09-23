@@ -5,21 +5,18 @@
 # Translators:
 # matjaz k <matjaz@mentis.si>, 2018
 # laznikd <laznik@mentis.si>, 2018
+# Martin Trigaux, 2018
+# Matjaž Mozetič <m.mozetic@matmoz.si>, 2018
 # Vida Potočnik <vida.potocnik@mentis.si>, 2018
 # Dejan Sraka <dejan.sraka@picolabs.si>, 2018
 # Simon Gorše <simon@gorse.org>, 2018
-# Martin Trigaux, 2019
-# Tadej Lupšina <tadej@hbs.si>, 2019
-# Jasmina Macur <jasmina@hbs.si>, 2019
-# Matjaz Mozetic <m.mozetic@matmoz.si>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:08+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Matjaz Mozetic <m.mozetic@matmoz.si>, 2019\n"
+"POT-Creation-Date: 2018-02-19 13:43+0000\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
+"Last-Translator: Simon Gorše <simon@gorse.org>, 2018\n"
 "Language-Team: Slovenian (https://www.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,12 +27,12 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "$18"
-msgstr "$18"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount2
 msgid "$20"
-msgstr "$20"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_kanban
@@ -43,8 +40,6 @@ msgid ""
 "% <br/>\n"
 "                                                <strong>Clicks</strong>"
 msgstr ""
-"% <br/>\n"
-"                                                <strong>Klikov</strong>"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_kanban
@@ -52,8 +47,6 @@ msgid ""
 "%<br/>\n"
 "                                                <strong>Replied</strong>"
 msgstr ""
-"%<br/>\n"
-"                                                <strong>Odgovorjeno</strong>"
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mass_mailing.py:466
@@ -67,7 +60,7 @@ msgstr "%s (kopija)"
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_header_social
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_header_text_social
 msgid "&amp;nbsp;"
-msgstr "&amp;nbsp;"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_steps
@@ -96,12 +89,12 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount1
 msgid "20%"
-msgstr "20%"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_event
 msgid "21 Jul"
-msgstr "21 Jul"
+msgstr ""
 
 #. module: mass_mailing
 #: model:mail.template,body_html:mass_mailing.newsletter_template
@@ -123,12 +116,12 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "<i class=\"fa fa-angle-double-down\"/> Footers"
-msgstr "<i class=\"fa fa-angle-double-down\"/> Noge"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "<i class=\"fa fa-angle-double-up\"/> Headers"
-msgstr "<i class=\"fa fa-angle-double-up\"/> Glave"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
@@ -138,12 +131,12 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.snippet_options
 msgid "<i class=\"fa fa-eyedropper\"/>Background Color"
-msgstr "<i class=\"fa fa-eyedropper\"/>Barva ozadja"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "<i class=\"fa fa-plus\"/> Marketing Content"
-msgstr "<i class=\"fa fa-plus\"/> Trženjske vsebine"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_title_text
@@ -162,17 +155,17 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_steps
 msgid "<small>Step 1:</small>"
-msgstr "<small>Korak 1:</small>"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_steps
 msgid "<small>Step 2:</small>"
-msgstr "<small>Korak 2:</small>"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_steps
 msgid "<small>Step 3:</small>"
-msgstr "<small>Korak 3:</small>"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
@@ -193,37 +186,37 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "<strong>24/7 Support</strong>"
-msgstr "<strong>24/7 Podpora</strong>"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "<strong>Advanced</strong> features"
-msgstr "<strong>Napredne</strong> funkcije"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "<strong>Fully customizable</strong>"
-msgstr "<strong>Popolnoma prilagodljiv</strong>"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_kanban
 msgid "<strong>Opened</strong>"
-msgstr "<strong>Odprto</strong>"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "<strong>Total</strong> management"
-msgstr "<strong>Popolno</strong> upravljanje"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_three_cols
 msgid "A short description"
-msgstr "Kratek opis"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid "A unique value"
-msgstr "Edinstvena vrednost"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_contact_ab_pc
@@ -233,7 +226,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_event
 msgid "ALL DAY"
-msgstr "CEL DAN"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_active
@@ -244,17 +237,17 @@ msgstr "Aktivno"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_unique_ab_testing
 msgid "Allow A/B Testing"
-msgstr "Dovoli A/B testiranje"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_footer_tag_line
 msgid "Apps That Help You Grow Your Business"
-msgstr "Aplikacije, ki vam pomagajo pri razvoju vašega podjetja"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_title_sub
 msgid "Apps That Help You Grow Your Business!"
-msgstr "Aplikacije, ki vam pomagajo pri razvoju vašega podjetja!"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_list_search
@@ -275,12 +268,12 @@ msgstr "Priponke"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "Basic features"
-msgstr "Osnovne lastnosti"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "Basic management"
-msgstr "Osnovno upravljanje"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_body_html
@@ -328,7 +321,7 @@ msgstr "Stopnje kampanje"
 #: model:ir.ui.menu,name:mass_mailing.mass_mailing_tag_menu
 #: model:ir.ui.view,arch_db:mass_mailing.mail_mass_mailing_tag_view_form
 msgid "Campaign Tags"
-msgstr "Oznake kampanje"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.menu,name:mass_mailing.menu_email_campaigns
@@ -347,17 +340,17 @@ msgstr "Prekliči"
 #: code:addons/mass_mailing/static/src/xml/mass_mailing.xml:5
 #, python-format
 msgid "Change Style"
-msgstr "Spremeni slog"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_title_sub
 msgid "Check this out!"
-msgstr "Poglej to!"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_steps
 msgid "Choose"
-msgstr "Izberi"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
@@ -375,7 +368,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.actions.act_window,help:mass_mailing.mass_mailing_tag_action
 msgid "Click to add a new tag."
-msgstr "Dodaj novo oznako"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_contacts_from_list
@@ -391,7 +384,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mail_statistics_clicked
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mail_statistics_search
 msgid "Clicked"
-msgstr "Kliknil"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_form
@@ -410,17 +403,17 @@ msgstr "Barvni indeks"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_kanban
 msgid "Colour"
-msgstr "Barva"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_three_cols
 msgid "Column Title"
-msgstr "Naslov stolpca"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_two_cols
 msgid "Column title"
-msgstr "Naziv stolpca"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mail_mass_mailing_test_email_to
@@ -526,7 +519,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
 msgid "DEFAULT"
-msgstr "PRIVZETO"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mail_mail_statistics_exception
@@ -580,7 +573,7 @@ msgstr "Dostavljeno"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_title_text
 msgid "Demo Signature"
-msgstr "Demo podpis"
+msgstr ""
 
 #. module: mass_mailing
 #: model:mail.mass_mailing.stage,name:mass_mailing.campaign_stage_2
@@ -642,17 +635,12 @@ msgstr "E-pošta"
 #: model:ir.ui.menu,name:mass_mailing.mass_mailing_menu_root
 #: model:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Email Marketing"
-msgstr "Email Marketing"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_mail_statistics
 msgid "Email Statistics"
 msgstr "Statistika e-pošte"
-
-#. module: mass_mailing
-#: model:ir.model,name:mass_mailing.model_mail_template
-msgid "Email Templates"
-msgstr "Predloge e-pošte"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_thread
@@ -668,7 +656,7 @@ msgstr "Čarovnik za sestavljanje e-pošte"
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_form
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "Emails Sent"
-msgstr "Poslanih e-pošt"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_statistics_ids
@@ -678,18 +666,18 @@ msgstr "Statistika e-pošte"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_steps
 msgid "Enjoy!"
-msgstr "Uživajte!"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_title_text
 msgid "Enjoy,"
-msgstr "Uživajte,"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mail_statistics_exception
 #: selection:mail.mail.statistics,state:0
 msgid "Exception"
-msgstr "Izjema"
+msgstr "Napaka"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_search
@@ -709,7 +697,7 @@ msgstr "Razširjeni filtri..."
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount1
 msgid "FROM YOUR NEXT ORDER!"
-msgstr "IZ NASLEDNEGA NAROČILA!"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_res_company_social_facebook
@@ -795,9 +783,6 @@ msgid ""
 "related mail_mail can be deleted separately from its statistics. However the"
 " ID is needed for several action and controllers."
 msgstr ""
-"ID povezanega mail_mail. To polje je celo število ker povezani mail_mail ne "
-"more biti izbrisan ločeno od njegove statistike. Kljub vsemu pa je ID "
-"potreben za več dejanj in kontrolnikov."
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mail_mass_mailing_campaign_unique_ab_testing
@@ -830,7 +815,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_title_text
 msgid "LOGIN"
-msgstr "PRIJAVA"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mail_statistics___last_update
@@ -963,7 +948,7 @@ msgstr "Seznami prejemnikov"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_links_tree
 msgid "Mailing Statistics of Clicks"
-msgstr "Mailing Statistika klikov"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,name:mass_mailing.action_mail_mass_mailing_test
@@ -994,7 +979,7 @@ msgstr "Upravljanje kampanj e-poštnega masovnega razpošiljanja"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Manage campaigns of mass emails with process stages"
-msgstr "Upravljajte kampanje množičnih e-poštnih sporočil s fazami postopka"
+msgstr ""
 
 #. module: mass_mailing
 #: model:mail.mass_mailing.tag,name:mass_mailing.mass_mail_tag_1
@@ -1166,7 +1151,7 @@ msgstr "Naziv"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_search
 msgid "Name / Email"
-msgstr "Ime / E-pošta"
+msgstr ""
 
 #. module: mass_mailing
 #: model:mail.mass_mailing.campaign,name:mass_mailing.mass_mail_campaign_1
@@ -1188,7 +1173,7 @@ msgstr "Brez podpore"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_clicks_ratio
 msgid "Number of Clicks"
-msgstr "Število klikov"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_list_contact_nbr
@@ -1203,7 +1188,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_clicks_ratio
 msgid "Number of clicks"
-msgstr "Število klikov"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount1
@@ -1219,7 +1204,7 @@ msgstr ""
 #: model:mail.mass_mailing.list,popup_content:mass_mailing.mass_mail_list_1
 #: model:mail.mass_mailing.list,popup_content:mass_mailing.mass_mail_list_2
 msgid "Odoo Presents"
-msgstr "Odoo predstavlja"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_image_text
@@ -1306,7 +1291,7 @@ msgstr "Prednostni naslov za odgovor"
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_three_cols
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_two_cols
 msgid "Read More..."
-msgstr "Preberi več..."
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mail_statistics_search
@@ -1367,7 +1352,7 @@ msgstr "Povezana razpošiljanja pošte"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_form
 msgid "Related Mailings"
-msgstr "Sorodni mailingi"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mail_statistics_replied
@@ -1432,7 +1417,7 @@ msgstr "Načrtuj"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_schedule_date
 msgid "Schedule in the Future"
-msgstr "Razpored v prihodnosti"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mail_statistics_scheduled
@@ -1454,7 +1439,7 @@ msgstr "Načrtovani mesec"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_next_departure
 msgid "Scheduled date"
-msgstr "Predviden datum"
+msgstr ""
 
 #. module: mass_mailing
 #: model:mail.mass_mailing,name:mass_mailing.mass_mail_2
@@ -1465,7 +1450,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Select a template"
-msgstr "Izberite predlogo"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -1516,7 +1501,7 @@ msgstr "Pošlji vsem"
 #: selection:mail.mass_mailing,state:0
 #, python-format
 msgid "Sending"
-msgstr "Pošiljanje"
+msgstr ""
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mass_mailing.py:474
@@ -1610,7 +1595,7 @@ msgstr "Statistike"
 #: model:ir.actions.act_window,name:mass_mailing.action_view_mass_mailing_links_statistics
 #: model:ir.actions.act_window,name:mass_mailing.dropdb snipp
 msgid "Statistics of Clicks"
-msgstr "Statistika klikov"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_state
@@ -1651,7 +1636,7 @@ msgstr "Testirano"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_title_text
 msgid "Thank you for joining us!"
-msgstr "Hvala, ker ste se nam pridružili!"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
@@ -1735,7 +1720,6 @@ msgstr ""
 msgid ""
 "This will send the email to all recipients. Do you still want to proceed ?"
 msgstr ""
-"To sporočilo bo poslano vsem prejemnikom. Ali še vedno želite nadaljevati?"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_contact_title_id
@@ -1767,12 +1751,6 @@ msgstr "Odjavi se"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_contact_unsubscription_date
 msgid "Unsubscription Date"
-msgstr "Datum odjave"
-
-#. module: mass_mailing
-#: code:addons/mass_mailing/models/mass_mailing.py:639
-#, python-format
-msgid "Unsupported mass mailing model %s"
 msgstr ""
 
 #. module: mass_mailing
@@ -1790,7 +1768,7 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount2
 msgid "Use now"
-msgstr "Uporabi zdaj"
+msgstr ""
 
 #. module: mass_mailing
 #: model:res.groups,name:mass_mailing.group_mass_mailing_user
@@ -1851,7 +1829,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_header_social
 #: model:ir.ui.view,arch_db:mass_mailing.theme_default_template
 msgid "Your Logo"
-msgstr "Vaš logotip"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_event
@@ -1861,7 +1839,7 @@ msgstr "Vaš logotip"
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_three_cols
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_two_cols
 msgid "Your Picture"
-msgstr "Vaša slika"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_title_text
@@ -1883,17 +1861,17 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_campaign_id
 msgid "campaign_id"
-msgstr "campaign_id"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_list_form
 msgid "e.g. Consumer Newsletter"
-msgstr "e.g. Novice potrošnikov"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_form
 msgid "e.g. John Smith"
-msgstr "npr. Janez Novak"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -1908,14 +1886,14 @@ msgstr ""
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_link_tracker
 msgid "link.tracker"
-msgstr "link.tracker"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_link_tracker_click
 msgid "link.tracker.click"
-msgstr "link.tracker.click"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_res_config_settings
 msgid "res.config.settings"
-msgstr "res.config.settings"
+msgstr ""

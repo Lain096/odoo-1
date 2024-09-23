@@ -7,9 +7,8 @@
 # Martin Trigaux, 2018
 # Pavol Krnáč <pavol.krnac@ekoenergo.sk>, 2018
 # Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>, 2018
-# 192015edb78c7397bdecc2172c7447b3, 2018
+# Miroslav Fic <mirko.fic@gmail.com>, 2018
 # Jan Prokop, 2019
-# Rastislav Brencic <rastislav.brencic@azet.sk>, 2020
 # 
 msgid ""
 msgstr ""
@@ -17,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-24 09:00+0000\n"
 "PO-Revision-Date: 2017-09-20 10:20+0000\n"
-"Last-Translator: Rastislav Brencic <rastislav.brencic@azet.sk>, 2020\n"
+"Last-Translator: Jan Prokop, 2019\n"
 "Language-Team: Slovak (https://www.transifex.com/odoo/teams/41243/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,7 +52,7 @@ msgstr "Číslo karty"
 #. module: payment_stripe
 #: model:ir.ui.view,arch_db:payment_stripe.stripe_s2s_form
 msgid "Cardholder name"
-msgstr "Meno držiteľa karty"
+msgstr ""
 
 #. module: payment_stripe
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_acquirer_stripe_image_url
@@ -77,7 +76,7 @@ msgstr "Chyba"
 #. module: payment_stripe
 #: model:ir.ui.view,arch_db:payment_stripe.stripe_s2s_form
 msgid "Expires (MM / YY)"
-msgstr "Platnosť vyprší (MM / RR)"
+msgstr ""
 
 #. module: payment_stripe
 #. openerp-web

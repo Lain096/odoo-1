@@ -13,12 +13,10 @@
 # Robert Frykelius <robert.frykelius@linserv.se>, 2017
 # Martin Wilderoth <martin.wilderoth@linserv.se>, 2017
 # Patrik Lermon <patrik.lermon@gmail.com>, 2017
-# Kristoffer Grundström <lovaren@gmail.com>, 2017
+# Kristoffer Grundström <hamnisdude@gmail.com>, 2017
 # Martin Trigaux, 2017
-# Chrille Hedberg <hedberg.chrille@gmail.com>, 2019
-# Lisa <lisa.oskoma@vertel.se>, 2020
-# Jakob Krabbe <jakob.krabbe@vertel.se>, 2020
-# Anders Wallenquist <anders.wallenquist@vertel.se>, 2020
+# Anders Wallenquist <anders.wallenquist@vertel.se>, 2017
+# Chrille Hedberg <hedberg.chrille@gmail.com>, 2018
 # 
 msgid ""
 msgstr ""
@@ -26,7 +24,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Anders Wallenquist <anders.wallenquist@vertel.se>, 2020\n"
+"Last-Translator: Chrille Hedberg <hedberg.chrille@gmail.com>, 2018\n"
 "Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -383,12 +381,6 @@ msgid ""
 "                                The email will be sent for all the records selected in the list.<br/>\n"
 "                                Confirming this wizard will probably take a few minutes blocking your browser."
 msgstr ""
-"<strong>\n"
-"                                   Alla postser som uppfyller aktuellt sökfilter kommer e-postas. \n"
-"inte enbart valda poster i vyn. \n"
-"                                </strong><br/>\n"
-"                                E-postmeddelandet kommer skickas för alla valda poster i listan.<br/>\n"
-"                                Bekräftan av formuläret kommer förmodligen ta ett antal minuter i anspråk och blockera din webbläsare."
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_activity_done
@@ -401,8 +393,6 @@ msgid ""
 "<strong>Only records checked in list view will be used.</strong><br/>\n"
 "                                The email will be sent for all the records selected in the list."
 msgstr ""
-"<strong>Endast kryssade poster i listvyn kommer användas.</strong><br/>\n"
-"                                E-postmeddelandet kommer skickas till alla valda poster i listan."
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
@@ -565,14 +555,14 @@ msgstr ""
 #: model:ir.model,name:mail.model_mail_activity_type
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 msgid "Activity Type"
-msgstr "Aktivitetstyp"
+msgstr ""
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_activity_type_action
 #: model:ir.ui.menu,name:mail.menu_mail_activity_type
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Activity Types"
-msgstr "Aktivitetstyp"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -888,7 +878,7 @@ msgstr ""
 #. module: mail
 #: model:mail.activity.type,name:mail.mail_activity_data_call
 msgid "Call"
-msgstr "Samtal"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -976,7 +966,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_channel_type
 msgid "Channel Type"
-msgstr "Kanaltyp"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -1123,7 +1113,7 @@ msgstr "Gratulerar, din inkorg är tom"
 #: code:addons/mail/static/src/js/client_action.js:650
 #, python-format
 msgid "Congratulations, your inbox is empty!"
-msgstr "Grattis, in inkorg är tom!"
+msgstr ""
 
 #. module: mail
 #: model:ir.model,name:mail.model_res_partner
@@ -1159,7 +1149,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/systray.xml:6
 #, python-format
 msgid "Conversations"
-msgstr "Konversationer"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_partner_message_bounce
@@ -1507,7 +1497,7 @@ msgstr "Klar"
 #: code:addons/mail/static/src/xml/activity.xml:77
 #, python-format
 msgid "Done & Schedule Next"
-msgstr "Klar och planera nästa"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -2060,7 +2050,7 @@ msgstr "Framtida"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Future Activities"
-msgstr "Framtida aktivieteter"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_form
@@ -2554,12 +2544,6 @@ msgid "Is Read"
 msgstr ""
 
 #. module: mail
-#: code:addons/mail/models/mail_notification.py:0
-#, python-format
-msgid "Can not update the message or recipient of a notification."
-msgstr ""
-
-#. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_is_subscribed
 msgid "Is Subscribed"
 msgstr ""
@@ -2684,7 +2668,7 @@ msgstr "Senast redigerad"
 #: model:ir.model.fields,field_description:mail.field_mail_channel_channel_last_seen_partner_ids
 #: model:ir.model.fields,field_description:mail.field_mail_channel_partner_seen_message_id
 msgid "Last Seen"
-msgstr "Senast sedd"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_write_uid
@@ -2739,7 +2723,7 @@ msgstr "Sent"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Late Activities"
-msgstr "Försenade aktiviteter"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_kanban
@@ -2805,17 +2789,17 @@ msgstr "Logg"
 #: code:addons/mail/static/src/xml/chatter.xml:56
 #, python-format
 msgid "Log a note. Followers will not be notified."
-msgstr "Registrera en notering, följare kommer inte att notifieras."
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
 msgid "Log a note..."
-msgstr "Registrera en notering..."
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
 msgid "Log an Activity"
-msgstr "Registrera en aktivitet"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_is_log
@@ -2828,14 +2812,14 @@ msgstr "Lägg till intern anteckning"
 #: code:addons/mail/static/src/xml/chatter.xml:56
 #, python-format
 msgid "Log note"
-msgstr "Lägg till en notering"
+msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:59
 #, python-format
 msgid "Log or schedule an activity"
-msgstr "Logga eller planera en aktivitet"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_mail_activity_type_id
@@ -2914,7 +2898,7 @@ msgstr "Markera allt läst"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
 msgid "Mark as Done"
-msgstr "Klarmarkera"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -2936,7 +2920,7 @@ msgstr "Mark as Todo"
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:49
 #, python-format
 msgid "Mark as done"
-msgstr "Klarmarkera"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_image_medium
@@ -3198,7 +3182,7 @@ msgstr "Månad"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "My Activities"
-msgstr "Mina aktivieteter"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_name
@@ -3410,7 +3394,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:22
 #, python-format
 msgid "No activities planned."
-msgstr "Inga planerade aktiviteter"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -4075,14 +4059,14 @@ msgstr ""
 #: selection:stock.picking,activity_state:0
 #: selection:survey.survey,activity_state:0
 msgid "Planned"
-msgstr "Plannerad"
+msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:6
 #, python-format
 msgid "Planned activities"
-msgstr "Planerade aktiviteter"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -4418,14 +4402,14 @@ msgstr "Schema"
 #: code:addons/mail/static/src/xml/chatter.xml:60
 #, python-format
 msgid "Schedule activity"
-msgstr "Planera en aktivitet"
+msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:56
 #, python-format
 msgid "Schedule an activity"
-msgstr "Planera en aktivitet"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_scheduled_date
@@ -4437,7 +4421,7 @@ msgstr "Planerat datum"
 #: model:ir.model.fields,field_description:mail.field_mail_mail_scheduled_date
 #: model:ir.ui.view,arch_db:mail.email_template_form
 msgid "Scheduled Send Date"
-msgstr "Planerat sändningsdatum"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_alias_search
@@ -4501,12 +4485,12 @@ msgstr "Skicka ett meddelande"
 #: code:addons/mail/static/src/xml/chatter.xml:53
 #, python-format
 msgid "Send message"
-msgstr "Skicka meddelande"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_email_send
 msgid "Send messages by email"
-msgstr "Skicka meddelande per e-post"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_email_from
@@ -4528,7 +4512,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/client_action.xml:108
 #, python-format
 msgid "Sends messages by email"
-msgstr "Skickar meddelanden per e-post"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_search selection:mail.mail,state:0
@@ -4574,7 +4558,7 @@ msgstr "Genväg"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Show all records which has next action date is before today"
-msgstr "Visa ella poster som har nästa händelse före idag"
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:675
@@ -4865,12 +4849,6 @@ msgstr ""
 "system user is found for that address."
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "The partner can not join this channel"
-msgstr ""
-
-#. module: mail
 #: code:addons/mail/models/mail_activity.py:175
 #: code:addons/mail/models/mail_message.py:598
 #: code:addons/mail/models/mail_message.py:698
@@ -4982,7 +4960,7 @@ msgstr "Idag"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Today Activities"
-msgstr "Dagens aktiviteter"
+msgstr ""
 
 #. module: mail
 #: model:mail.activity.type,name:mail.mail_activity_data_todo
@@ -5411,7 +5389,7 @@ msgstr ""
 #: code:addons/mail/static/src/js/thread.js:248
 #, python-format
 msgid "Yesterday"
-msgstr "Igår"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -5449,24 +5427,6 @@ msgstr ""
 "kanalen."
 
 #. module: mail
-#: cod:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not remove this partner from this channel"
-msgstr ""
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not write on the record of other users"
-msgstr ""
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not write on this field"
-msgstr ""
-
-#. module: mail
 #: code:addons/mail/models/res_users.py:54
 #, python-format
 msgid ""
@@ -5499,7 +5459,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
-msgid "You have been invited to: %s"
+msgid "You have been invited to: "
 msgstr ""
 
 #. module: mail

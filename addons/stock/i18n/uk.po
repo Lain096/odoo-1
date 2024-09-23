@@ -6,10 +6,10 @@
 # Zoriana Zaiats, 2017
 # Анатолій Пономаренко <aponomarenko020@gmail.com>, 2017
 # ТАрас <tratatuta@i.ua>, 2017
-# trolka <trolka.olug@gmail.com>, 2018
+# Bohdan Lisnenko, 2018
+# Olga Lugova <trolka.olug@gmail.com>, 2018
 # Martin Trigaux, 2019
-# Bohdan Lisnenko, 2019
-# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2020
+# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:24+0000\n"
-"Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2020\n"
+"Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2019\n"
 "Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"%s --> Одиниця вимірювання товару %s (%s) - Одиниця вимірювання переміщення %s (%s)"
+"%s --> Товар UoM є %s (%s) - Рух UoM є %s (%s)"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:341
@@ -74,7 +74,7 @@ msgstr ""
 "* Чернетка: ще не підтверджено і не буде заплановано до підтвердження.\n"
 "  * Очікування ще однієї операції: чекає черговий перехід, перш ніж він стане автоматично доступним (наприклад, у процесах \"Зворотнє замовлення\").\n"
 "  * Очікування: якщо він не готовий до відправлення, оскільки необхідні товари не можуть бути зарезервовані.\n"
-"  * Виконано: товари зарезервовані та готові до відправки. Якщо політика доставки - \"якомога швидше\", це станеться, як тільки щось зарезервовано.\n"
+"  * Готово: товари зарезервовані та готові до відправки. Якщо політика доставки - \"якомога швидше\", це станеться, як тільки щось зарезервовано.\n"
 "  * Виконано: було оброблено, більше не можна змінювати або скасовувати.\n"
 "  * Скасовано: було скасовано, більше не може бути підтверджено."
 
@@ -1133,12 +1133,12 @@ msgstr "Придбати"
 #. module: stock
 #: selection:product.template,tracking:0
 msgid "By Lots"
-msgstr "За партіями"
+msgstr "По партіях"
 
 #. module: stock
 #: selection:product.template,tracking:0
 msgid "By Unique Serial Number"
-msgstr "За унікальним серійним номером"
+msgstr "По унікальному серійному номеру"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:644
@@ -1748,12 +1748,12 @@ msgstr "Дата створення, зазвичай дата замовлен�
 #: code:addons/stock/models/stock_warehouse.py:437
 #, python-format
 msgid "Cross-Dock"
-msgstr "Крос-докінг"
+msgstr "Борт-до-борту"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_crossdock_route_id
 msgid "Crossdock Route"
-msgstr "Маршрут крос-докінгу"
+msgstr "Маршрут борт-до-борту"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_report_stock_forecast_cumulative_quantity
@@ -1803,7 +1803,7 @@ msgstr ""
 "Поточна кількість товару.\n"
 "В контексті розташування запасів буде включено запаси по цьому розташуванню та по всіх підпорядкованих розташуваннях.\n"
 "В контексті складу, буде включено запаси на всіх розташуваннях запасів цього складу та на всіх підпорядкованих до нього.\n"
-"В інших випадках включені товари складуються на будь-якому місцехнаходженні складу з типом 'Внутрішній'."
+"В інших випадках буде по казано запаси по всіх  складах з типом 'Внутрішній'."
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:111
@@ -2287,7 +2287,7 @@ msgstr ""
 #: selection:stock.move,state:0 selection:stock.picking,state:0
 #: selection:stock.scrap,state:0
 msgid "Done"
-msgstr "Виконано"
+msgstr "Готово"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_done
@@ -2745,13 +2745,13 @@ msgstr "ID"
 #: code:addons/stock/models/stock_inventory.py:421
 #, python-format
 msgid "INV:"
-msgstr "РАХ:"
+msgstr "INV:"
 
 #. module: stock
 #: code:addons/stock/wizard/stock_change_product_qty.py:97
 #, python-format
 msgid "INV: %s"
-msgstr "РАХ: %s"
+msgstr "INV: %s"
 
 #. module: stock
 #: model:stock.location,name:stock.stock_location_3
@@ -3477,7 +3477,7 @@ msgstr "Ноутбук E5023"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type_last_done_picking
 msgid "Last 10 Done Pickings"
-msgstr "10 останніх виконаних комплектувань"
+msgstr "10 останніх виконаних відборів"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_group___last_update
@@ -3629,7 +3629,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_parent_left
 msgid "Left Parent"
-msgstr "Лівий батьківський елемент"
+msgstr "Залишений батько "
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location_company_id
@@ -3828,7 +3828,7 @@ msgstr "під замовлення"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_mto_pull_id
 msgid "MTO rule"
-msgstr "Правило ВНЗ"
+msgstr "Правило ВПЗ"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:479
@@ -3946,7 +3946,7 @@ msgstr "Максимальна кількість"
 #: model:ir.model.fields,field_description:stock.field_res_partner_picking_warn_msg
 #: model:ir.model.fields,field_description:stock.field_res_users_picking_warn_msg
 msgid "Message for Stock Picking"
-msgstr "Повідомлення для складського комплектування"
+msgstr "Повідомлення для збирання запасів"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_removal_method
@@ -4175,7 +4175,7 @@ msgid ""
 "No products to return (only lines in Done state and not fully returned yet "
 "can be returned)!"
 msgstr ""
-"Ніяких товарів для повернення (тільки рядки в стані Виконано і не повністю "
+"Ніяких товарів для повернення (тільки рядки в стані Готово і не повністю "
 "повернуті ще можна повернути)!"
 
 #. module: stock
@@ -4603,7 +4603,7 @@ msgstr "Упаковка"
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_quant_package_barcode_small
 msgid "Package BarCode"
-msgstr "Штрих-код упаковки"
+msgstr "Штрихкод упаковки"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_quant_package_barcode
@@ -5688,12 +5688,12 @@ msgstr "Повернене комплектування"
 #. module: stock
 #: model:ir.actions.act_window,name:stock.act_stock_return_picking
 msgid "Reverse Transfer"
-msgstr "Скасувати переміщення"
+msgstr "Зворотнє переміщення"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_parent_right
 msgid "Right Parent"
-msgstr "Правий батьківський елемент"
+msgstr "Правий батько"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_rule_route_id
@@ -5921,7 +5921,7 @@ msgstr "Внутрішня черга"
 #: code:addons/stock/models/stock_warehouse.py:704
 #, python-format
 msgid "Sequence out"
-msgstr "Вихідна послідовність"
+msgstr "Зовнішня послідовність"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:709
@@ -6953,7 +6953,7 @@ msgstr "Це цілі пакунки комплектування, показа�
 #: model:ir.ui.view,arch_db:stock.view_move_tree
 #: model:ir.ui.view,arch_db:stock.view_quant_package_picking_tree
 msgid "To"
-msgstr "До"
+msgstr "По"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_ready
@@ -7041,7 +7041,7 @@ msgstr "Загальна кількість маршрутів"
 #: model:ir.ui.view,arch_db:stock.res_config_settings_view_form
 #: model:ir.ui.view,arch_db:stock.view_template_property_form
 msgid "Traceability"
-msgstr "Відстеження"
+msgstr "Переміщення"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_stock_body_print
@@ -7805,8 +7805,7 @@ msgstr ""
 #, python-format
 msgid "You cannot cancel a stock move that has been set to 'Done'."
 msgstr ""
-"Ви не можете скасувати складське переміщення, яке встановлене як "
-"\"Виконано\"."
+"Ви не можете скасувати складське переміщення, яке встановлене як \"Готово\"."
 
 #. module: stock
 #: code:addons/stock/models/stock_location.py:96
@@ -8276,9 +8275,3 @@ msgstr "з кнопкою <i>Перевірити</i> "
 #: model:ir.ui.view,arch_db:stock.view_inventory_form
 msgid "⇒ Set quantities to 0"
 msgstr "⇒ Обнулити кількість"
-
-#. module: stock
-#: code:addons/stock/models/stock_move_line.py:223
-#, python-format
-msgid "Changing the product is only allowed in 'Draft' state."
-msgstr "Зміна товару дозволена лише у стані 'Чернетки'."

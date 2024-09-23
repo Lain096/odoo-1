@@ -7,7 +7,6 @@
 # Giorgi Melitauri <gmelitauri@live.com>, 2018
 # Martin Trigaux, 2018
 # Temur, 2018
-# Gvantsa Gvinianidze <gvantsa@live.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -15,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:25+0000\n"
-"Last-Translator: Gvantsa Gvinianidze <gvantsa@live.com>, 2019\n"
+"Last-Translator: Temur, 2018\n"
 "Language-Team: Georgian (https://www.transifex.com/odoo/teams/41243/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +73,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "&amp;times;"
-msgstr "&amp;times;"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_feed
@@ -164,7 +163,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_blog.blog_blog_view_search
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Archived"
-msgstr "დაარქივებული"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_history
@@ -344,7 +343,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_content
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Content"
-msgstr "შინაარსი"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_cover_properties
@@ -433,7 +432,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Full Screen"
-msgstr "ხედვა სრულ ეკრანზე"
+msgstr ""
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -947,12 +946,12 @@ msgstr ""
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_website_message_ids
 msgid "Website Messages"
-msgstr "ვებ-გვერდის შეტყობინებები"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_post_website_message_ids
 msgid "Website communication history"
-msgstr "ვებ-გვერდის კომუნიკაციის ისტორია"
+msgstr ""
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog

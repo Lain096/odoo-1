@@ -2,18 +2,12 @@
 # This file contains the translation of the following modules:
 # * website_event_track
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:26+0000\n"
-"Last-Translator: Abul Hassan M I <miabulhassan@gmail.com>, 2019\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -140,7 +134,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_active
 msgid "Active"
-msgstr "செயலில்"
+msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
@@ -184,7 +178,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Archived"
-msgstr "காப்பகப்படுத்தியவை"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event_allowed_track_tag_ids
@@ -209,7 +203,7 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage5
 msgid "Cancelled"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.actions.act_window,help:website_event_track.event_track_stage_action
@@ -226,7 +220,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_color
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_color
 msgid "Color Index"
-msgstr "வண்ண குறியீட்டு"
+msgstr ""
 
 #. module: website_event_track
 #: model:event.type,name:website_event_track.event_type_data_tracks
@@ -241,7 +235,7 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage1
 msgid "Confirmed"
-msgstr "உறுதி"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_create_uid
@@ -251,7 +245,7 @@ msgstr "உறுதி"
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage_create_uid
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_create_date
@@ -261,12 +255,12 @@ msgstr "உருவாக்கியவர்"
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage_create_date
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Date"
-msgstr "தேதி"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.actions.act_window,help:website_event_track.event_track_stage_action
@@ -280,7 +274,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
 msgid "Delete"
-msgstr "அழி"
+msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track6
@@ -307,7 +301,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage_display_name
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.track_view
@@ -317,7 +311,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_duration
 msgid "Duration"
-msgstr "காலம்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
@@ -327,7 +321,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage_mail_template_id
 msgid "Email Template"
-msgstr "மின்னஞ்சல் டெம்ப்ளேட்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_event
@@ -335,7 +329,7 @@ msgstr "மின்னஞ்சல் டெம்ப்ளேட்"
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_event_id
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Event"
-msgstr "நிகழ்வு"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_type
@@ -422,7 +416,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Future Activities"
-msgstr "எதிர்கால செயல்பாடுகள்"
+msgstr ""
 
 #. module: website_event_track
 #: model:event.sponsor.type,name:website_event_track.event_sponsor_type3
@@ -442,12 +436,12 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Group By"
-msgstr "மூலம் குழு"
+msgstr ""
 
 #. module: website_event_track
 #: selection:event.track,priority:0
 msgid "High"
-msgstr "உயர்"
+msgstr ""
 
 #. module: website_event_track
 #: selection:event.track,priority:0
@@ -496,7 +490,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage_id
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_stage_mail_template_id
@@ -518,7 +512,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_kanban_state
 msgid "Kanban State"
-msgstr "கான்பன் மாநிலம்"
+msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
@@ -533,7 +527,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage___last_update
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_type_write_uid
@@ -543,7 +537,7 @@ msgstr "கடைசியாக திருத்திய"
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_write_uid
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_type_write_date
@@ -553,12 +547,12 @@ msgstr "கடைசியாக புதுப்பிக்கப்பட�
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_write_date
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Late Activities"
-msgstr "தாமதமான செயல்பாடுகள்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.menu,name:website_event_track.menu_event_track_location
@@ -568,12 +562,12 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_image_medium
 msgid "Logo"
-msgstr "சின்னம்"
+msgstr ""
 
 #. module: website_event_track
 #: selection:event.track,priority:0
 msgid "Low"
-msgstr "குறைந்த"
+msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track31
@@ -593,7 +587,7 @@ msgstr ""
 #. module: website_event_track
 #: selection:event.track,priority:0
 msgid "Medium"
-msgstr "நடுத்தரம்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_sponsor_image_medium
@@ -622,7 +616,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "My Activities"
-msgstr "எனது செயல்பாடுகள்"
+msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track20
@@ -687,7 +681,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_priority
 msgid "Priority"
-msgstr "முன்னுரிமை"
+msgstr ""
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage0
@@ -746,7 +740,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_user_id
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Responsible"
-msgstr "பொறுப்பான"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_location_id_10951
@@ -759,13 +753,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_type_sequence
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage_sequence
 msgid "Sequence"
-msgstr "வரிசை"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Show all records which has next action date is before today"
 msgstr ""
-"அடுத்த நடவடிக்கை தேதி இன்றைய தினம் கொண்டிருக்கும் எல்லா பதிவுகளையும் காட்டுக"
 
 #. module: website_event_track
 #: model:event.sponsor.type,name:website_event_track.event_sponsor_type2
@@ -847,12 +840,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage_id_10946
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Stage"
-msgstr "மேடை"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage_name
 msgid "Stage Name"
-msgstr "மேடை பெயர்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -867,18 +860,18 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_name
 msgid "Tag"
-msgstr "டேக்"
+msgstr ""
 
 #. module: website_event_track
 #: sql_constraint:event.track.tag:0
 msgid "Tag name already exists !"
-msgstr "Tag name already exists !"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_ids
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Tags"
-msgstr "மேற்கோள்கள்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -943,8 +936,6 @@ msgid ""
 "This stage is folded in the kanban view when there are no records in that "
 "stage to display."
 msgstr ""
-"அந்த கட்டத்தில் எந்த பதிவுகளும் இல்லாதபோது கான்பன் காட்சியில் இந்த நிலை "
-"மூடப்பட்டுள்ளது."
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -956,12 +947,12 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_name
 msgid "Title"
-msgstr "தலைப்பு"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Today Activities"
-msgstr "இன்று செயல்பாடுகள்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_form
@@ -1072,7 +1063,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Unread Messages"
-msgstr "படிக்காத செய்திகள்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_social
@@ -1109,12 +1100,12 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Your Email"
-msgstr "உங்கள் மின்னஞ்சல்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Your Name"
-msgstr "உங்கள் பெயர்"
+msgstr ""
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal

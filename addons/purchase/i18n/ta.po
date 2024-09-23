@@ -2,19 +2,12 @@
 # This file contains the translation of the following modules:
 # * purchase
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# Thirunavukkarasu Deivasigamani <thiru_electrifiers@yahoo.co.in>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:22+0000\n"
-"Last-Translator: Thirunavukkarasu Deivasigamani <thiru_electrifiers@yahoo.co.in>, 2019\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -279,7 +272,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong>Quantity</strong>"
-msgstr "அளவு"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -291,7 +284,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Subtotal</strong>"
-msgstr "<strong>கூட்டுத்தொகை</strong>"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -306,18 +299,18 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong>Total:</strong>"
-msgstr "<strong>மொத்தம்:</strong>"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Total</strong>"
-msgstr "<strong>மொத்தம்</strong>"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Unit Price</strong>"
-msgstr "<strong>அலகு விலை</strong>"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -346,7 +339,7 @@ msgstr ""
 #: code:addons/purchase/controllers/portal.py:53
 #, python-format
 msgid "All"
-msgstr "அனைத்து"
+msgstr ""
 
 #. module: purchase
 #: selection:res.company,po_lock:0
@@ -362,7 +355,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_account_analytic_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_account_analytic_id
 msgid "Analytic Account"
-msgstr "பகுப்பாய்வு கணக்கு"
+msgstr ""
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_analytic_accounting
@@ -372,7 +365,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_analytic_tag_ids
 msgid "Analytic Tags"
-msgstr "பகுப்பாய்வு குறிச்சொற்கள்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings_group_analytic_account_for_purchases
@@ -382,7 +375,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_date_approve
 msgid "Approval Date"
-msgstr "ஒப்புதல் தேதி"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -395,8 +388,6 @@ msgid ""
 "Associated Purchase Order. Filled in automatically when a PO is chosen on "
 "the vendor bill."
 msgstr ""
-"இணைக்கப்பட்ட கொள்முதல் ஆர்டர். விற்பனையாளர் மசோதாவில் ஒரு PO "
-"தேர்ந்தெடுக்கப்பட்டால் தானாகவே நிரப்பப்படும்."
 
 #. module: purchase
 #: model:ir.filters,name:purchase.filter_purchase_order_average_delivery_time
@@ -406,7 +397,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_price_average
 msgid "Average Price"
-msgstr "சராசரி விலை"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings_default_purchase_method
@@ -492,14 +483,14 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Cancel"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: purchase
 #: code:addons/purchase/controllers/portal.py:55
 #: selection:purchase.order,state:0 selection:purchase.report,state:0
 #, python-format
 msgid "Cancelled"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: purchase
 #: code:addons/purchase/models/purchase.py:757
@@ -547,7 +538,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_company
 msgid "Companies"
-msgstr "நிறுவனங்கள்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_company_id
@@ -555,7 +546,7 @@ msgstr "நிறுவனங்கள்"
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_company_id
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Company"
-msgstr "நிறுவனம்"
+msgstr ""
 
 #. module: purchase
 #: code:addons/purchase/models/purchase.py:313
@@ -566,7 +557,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_config
 msgid "Configuration"
-msgstr "கட்டமைப்பு"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -586,7 +577,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_partner
 msgid "Contact"
-msgstr "தொடர்பு"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_control
@@ -597,7 +588,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_product_product_purchase_method
 #: model:ir.model.fields,field_description:purchase.field_product_template_purchase_method
 msgid "Control Policy"
-msgstr "கட்டுப்பாட்டு கொள்கை"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_stock_move_created_purchase_line_id
@@ -607,13 +598,13 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_create_date
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_currency_id
@@ -621,12 +612,12 @@ msgstr "உருவாக்கப்பட்ட தேதி"
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_currency_id
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings_company_currency_id
 msgid "Currency"
-msgstr "நாணயம்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_date_approve
 msgid "Date Approved"
-msgstr "ஒப்புதல் தேதி"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_report_date_order
@@ -674,7 +665,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_name
 msgid "Description"
-msgstr "விளக்கம்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
@@ -691,12 +682,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_display_name
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: purchase
 #: selection:purchase.report,state:0
 msgid "Done"
-msgstr "முடிந்தது"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_company_po_double_validation_amount
@@ -738,12 +729,12 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Expected Date"
-msgstr "எதிர்பார்க்கப்படுகிறது தேதி"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Extended Filters"
-msgstr "நீட்டிக்கப்பட்ட வடிப்பான்கள்"
+msgstr ""
 
 #. module: purchase
 #: code:addons/purchase/models/purchase.py:590
@@ -756,12 +747,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_fiscal_position_id
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Fiscal Position"
-msgstr "நிதி நிலை"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Future Activities"
-msgstr "எதிர்கால செயல்பாடுகள்"
+msgstr ""
 
 #. module: purchase
 #: selection:res.company,po_double_validation:0
@@ -783,7 +774,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Group By"
-msgstr "மூலம் குழு"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_search
@@ -800,7 +791,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -841,18 +832,16 @@ msgid ""
 "International Commercial Terms are a series of predefined commercial terms "
 "used in international transactions."
 msgstr ""
-"சர்வதேச வர்த்தக விதிமுறைகள் சர்வதேச பரிமாற்றங்களில் பயன்படுத்தப்படும் "
-"முன்கூட்டிய வர்த்தக சொற்களின் தொடர்."
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice
 msgid "Invoice"
-msgstr "விலைப்பட்டியல்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "விலைப்பட்டியல் வரி"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -879,24 +868,24 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line___last_update
 #: model:ir.model.fields,field_description:purchase.field_purchase_report___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_write_uid
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_write_date
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Late Activities"
-msgstr "தாமதமான செயல்பாடுகள்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_company_po_double_validation
@@ -949,7 +938,7 @@ msgstr ""
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_manager
 msgid "Manager"
-msgstr "மேலாளர்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -1027,13 +1016,13 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "My Activities"
-msgstr "எனது செயல்பாடுகள்"
+msgstr ""
 
 #. module: purchase
 #: code:addons/purchase/controllers/portal.py:44
 #, python-format
 msgid "Name"
-msgstr "பெயர்"
+msgstr ""
 
 #. module: purchase
 #: code:addons/purchase/controllers/portal.py:43
@@ -1067,7 +1056,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Notes"
-msgstr "குறிப்புக்கள்"
+msgstr ""
 
 #. module: purchase
 #: selection:purchase.order,invoice_status:0
@@ -1162,7 +1151,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_partner_id
 msgid "Partner"
-msgstr "கூட்டாளி"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_country_id
@@ -1218,24 +1207,24 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_product_id
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_search
 msgid "Product"
-msgstr "தயாரிப்பு"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_product_category_config_purchase
 msgid "Product Categories"
-msgstr "தயாரிப்பு வகைகள்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_category
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_category_id
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Product Category"
-msgstr "தயாரிப்பு வகை"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_product_image
 msgid "Product Image"
-msgstr "தயாரிப்பு படம்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_unit_quantity
@@ -1246,7 +1235,7 @@ msgstr ""
 #: model:ir.model,name:purchase.model_product_template
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_product_tmpl_id
 msgid "Product Template"
-msgstr "தயாரிப்பு டெம்ப்ளேட்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_product_uom
@@ -1284,7 +1273,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 #: model:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
 msgid "Purchase"
-msgstr "கொள்முதல்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings_module_purchase_requisition
@@ -1336,7 +1325,7 @@ msgstr ""
 #: model:res.request.link,name:purchase.req_link_purchase_order
 #, python-format
 msgid "Purchase Order"
-msgstr "கொள்முதல் ஆணை"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -1357,7 +1346,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_form2
 msgid "Purchase Order Line"
-msgstr "ஆர்டர் வரிசை வரிசை"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1461,7 +1450,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_product_qty
 msgid "Quantity"
-msgstr "அளவு"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -1535,7 +1524,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.purchase_order_tree
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Reference"
-msgstr "குறிப்பு"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_product_uom
@@ -1560,7 +1549,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.purchase_report
 msgid "Reporting"
-msgstr "அறிக்கையிடல்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.actions.report,name:purchase.report_purchase_quotation
@@ -1595,7 +1584,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_user_id
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Responsible"
-msgstr "பொறுப்பான"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_stock_return_picking
@@ -1634,9 +1623,6 @@ msgid ""
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
 msgstr ""
-"\"எச்சரிக்கை\" விருப்பத்தைத் தேர்ந்தெடுப்பது, செய்தியுடன் பயனரை அறிவிக்கும்,"
-" \"தடுப்பு செய்தி\" என்பதைத் தேர்ந்தெடுப்பதன் மூலம் ஒரு விதிவிலக்கு எறிந்து,"
-" ஓட்டம் தடுக்கும். செய்தி அடுத்த துறையில் எழுதப்பட வேண்டும்."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1651,7 +1637,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_sequence
 msgid "Sequence"
-msgstr "வரிசை"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_account
@@ -1666,13 +1652,13 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Set to Draft"
-msgstr "வரைவை அமைக்கவும்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_purchase_configuration
 #: model:ir.ui.menu,name:purchase.menu_purchase_general_settings
 msgid "Settings"
-msgstr "அமைப்புகள்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1683,12 +1669,11 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Show all records which has next action date is before today"
 msgstr ""
-"அடுத்த நடவடிக்கை தேதி இன்றைய தினம் கொண்டிருக்கும் எல்லா பதிவுகளையும் காட்டுக"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_origin
 msgid "Source Document"
-msgstr "மூல ஆவணம்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_state
@@ -1696,7 +1681,7 @@ msgstr "மூல ஆவணம்"
 #: model:ir.ui.view,arch_db:purchase.purchase_order_line_search
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Status"
-msgstr "நிலைமை"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_stock_move
@@ -1722,14 +1707,14 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_price_tax
 msgid "Tax"
-msgstr "வரி"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_amount_tax
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_taxes_id
 #: model:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "Taxes"
-msgstr "வரி"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.portal_my_purchase_order
@@ -1876,12 +1861,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: selection:purchase.order,state:0 selection:purchase.report,state:0
 msgid "To Approve"
-msgstr "அங்கீகரிக்க"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Today Activities"
-msgstr "இன்று செயல்பாடுகள்"
+msgstr ""
 
 #. module: purchase
 #: code:addons/purchase/controllers/portal.py:45
@@ -1890,7 +1875,7 @@ msgstr "இன்று செயல்பாடுகள்"
 #: model:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 #, python-format
 msgid "Total"
-msgstr "மொத்த"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_price_total
@@ -1931,7 +1916,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_price_unit
 msgid "Unit Price"
-msgstr "அலகு விலை"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_uom_categ_form_action
@@ -1951,7 +1936,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Unread Messages"
-msgstr "படிக்காத செய்திகள்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_tree
@@ -1989,7 +1974,7 @@ msgstr ""
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_user
 msgid "User"
-msgstr "பயனர்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_config_settings_company_currency_id
@@ -2004,7 +1989,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Vendor"
-msgstr "விற்பனையாளர்"
+msgstr ""
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.act_res_partner_2_supplier_invoices
@@ -2063,7 +2048,7 @@ msgstr ""
 #: selection:product.template,purchase_line_warn:0
 #: selection:res.partner,purchase_warn:0
 msgid "Warning"
-msgstr "எச்சரிக்கை"
+msgstr ""
 
 #. module: purchase
 #: code:addons/purchase/models/purchase.py:268
@@ -2090,7 +2075,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_website_url
 msgid "Website URL"
-msgstr "வலைத்தள URL"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_stock_warehouse_buy_to_resupply

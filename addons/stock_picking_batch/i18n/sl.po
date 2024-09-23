@@ -5,16 +5,15 @@
 # Translators:
 # matjaz k <matjaz@mentis.si>, 2018
 # Martin Trigaux, 2018
+# Matjaž Mozetič <m.mozetic@matmoz.si>, 2018
 # Vida Potočnik <vida.potocnik@mentis.si>, 2018
-# Matjaz Mozetic <m.mozetic@matmoz.si>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:24+0000\n"
-"Last-Translator: Matjaz Mozetic <m.mozetic@matmoz.si>, 2019\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
+"Last-Translator: Vida Potočnik <vida.potocnik@mentis.si>, 2018\n"
 "Language-Team: Slovenian (https://www.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +24,7 @@ msgstr ""
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_picking_to_batch
 msgid "Add pickings to a batch picking"
-msgstr "Dodaj zbirnike v serijski zbirnik"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_to_batch_form
@@ -52,28 +51,28 @@ msgstr "Batch"
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 #, python-format
 msgid "Batch Picking"
-msgstr "Serijski zbirnik"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch_name
 msgid "Batch Picking Name"
-msgstr "Naziv serijskega zbirnika"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_batch_action
 #: model:ir.ui.menu,name:stock_picking_batch.stock_picking_batch_menu
 msgid "Batch Pickings"
-msgstr "Serijski zbirniki"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Batch Pickings not finished"
-msgstr "Serijski zbirniki še niso dokončani"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch_id_8938
 msgid "Batch associated to this picking"
-msgstr "Serija povezana s tem zbirnikom"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
@@ -94,7 +93,7 @@ msgstr "Preklicano"
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Click to create a Batch Picking."
-msgstr "Ustvari serijski zbirnik"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
@@ -169,13 +168,13 @@ msgstr "Vaniljev sladoled"
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_immediate_transfer
 msgid "Immediate Transfer"
-msgstr "Takojšen prenos"
+msgstr ""
 
 #. module: stock_picking_batch
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:92
 #, python-format
 msgid "Immediate Transfer?"
-msgstr "Takojšen prenos?"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -208,7 +207,7 @@ msgstr ""
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch_name
 msgid "Name of the batch picking"
-msgstr "Naziv serijskega zbirnika"
+msgstr ""
 
 #. module: stock_picking_batch
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:52
@@ -219,7 +218,7 @@ msgstr "Ničesar za izpis."
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch_user_id
 msgid "Person responsible for this batch picking"
-msgstr "Oseba odgovorna za ta serijski zbirnik"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_immediate_transfer_pick_to_backorder_ids
@@ -255,7 +254,7 @@ msgstr "V teku"
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Search Batch Picking"
-msgstr "Iskanje serijskih zbirnikov"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_to_batch_form
@@ -306,7 +305,7 @@ msgstr "Regija"
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_tree
 msgid "Stock Batch Picking"
-msgstr "Serijski zbirniki zalog"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
@@ -320,7 +319,7 @@ msgstr ""
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_picking
 msgid "Transfer"
-msgstr "Prenos"
+msgstr "Transfer"
 
 #. module: stock_picking_batch
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:63

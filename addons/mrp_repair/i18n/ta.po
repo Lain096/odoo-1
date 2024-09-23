@@ -2,18 +2,12 @@
 # This file contains the translation of the following modules:
 # * mrp_repair
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 14:52+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Abul Hassan M I <miabulhassan@gmail.com>, 2019\n"
+"PO-Revision-Date: 2018-04-27 14:52+0000\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -109,12 +103,12 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Total Without Taxes</strong>"
-msgstr "<strong>வரி இல்லாமல் மொத்தம்</strong>"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Total</strong>"
-msgstr "<strong>மொத்தம்</strong>"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
@@ -124,7 +118,7 @@ msgstr ""
 #. module: mrp_repair
 #: selection:mrp.repair.line,type:0
 msgid "Add"
-msgstr "சேர்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
@@ -156,7 +150,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp_repair.view_cancel_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_make_invoice
 msgid "Cancel"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model,name:mrp_repair.model_mrp_repair_cancel
@@ -173,7 +167,7 @@ msgstr ""
 #. module: mrp_repair
 #: selection:mrp.repair,state:0 selection:mrp.repair.line,state:0
 msgid "Cancelled"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:249
@@ -195,7 +189,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_company_id
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Company"
-msgstr "நிறுவனம்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
@@ -206,7 +200,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 #: selection:mrp.repair,state:0 selection:mrp.repair.line,state:0
 msgid "Confirmed"
-msgstr "உறுதி"
+msgstr ""
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:600
@@ -237,7 +231,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_make_invoice_create_uid
 #: model:ir.model.fields,field_description:mrp_repair.field_stock_warn_insufficient_qty_repair_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_cancel_create_date
@@ -247,7 +241,7 @@ msgstr "உருவாக்கியவர்"
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_make_invoice_create_date
 #: model:ir.model.fields,field_description:mrp_repair.field_stock_warn_insufficient_qty_repair_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_location_id
@@ -257,7 +251,7 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_partner_id
 msgid "Customer"
-msgstr "வாடிக்கையாளர்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_default_address_id
@@ -279,7 +273,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_name
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "Description"
-msgstr "விளக்கம்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_location_dest_id
@@ -294,7 +288,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_make_invoice_display_name
 #: model:ir.model.fields,field_description:mrp_repair.field_stock_warn_insufficient_qty_repair_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_make_invoice
@@ -304,12 +298,12 @@ msgstr ""
 #. module: mrp_repair
 #: selection:mrp.repair.line,state:0
 msgid "Done"
-msgstr "முடிந்தது"
+msgstr ""
 
 #. module: mrp_repair
 #: selection:mrp.repair.line,state:0
 msgid "Draft"
-msgstr "வரைவு"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
@@ -319,7 +313,7 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
 msgid "Extra Info"
-msgstr "கூடுதல் தகவல்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
@@ -329,12 +323,12 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Future Activities"
-msgstr "எதிர்கால செயல்பாடுகள்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Group By"
-msgstr "மூலம் குழு"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_make_invoice_group
@@ -364,7 +358,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_make_invoice_id
 #: model:ir.model.fields,field_description:mrp_repair.field_stock_warn_insufficient_qty_repair_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.actions.act_window,help:mrp_repair.action_repair_order_tree
@@ -383,7 +377,7 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_internal_notes
 msgid "Internal Notes"
-msgstr "உள் குறிப்புகள்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_move_id
@@ -394,7 +388,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_invoice_id
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
 msgid "Invoice"
-msgstr "விலைப்பட்டியல்"
+msgstr ""
 
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
@@ -405,7 +399,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_fee_invoice_line_id
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_invoice_line_id
 msgid "Invoice Line"
-msgstr "விலைப்பட்டியல் வரி"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_invoice_method
@@ -449,7 +443,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_make_invoice___last_update
 #: model:ir.model.fields,field_description:mrp_repair.field_stock_warn_insufficient_qty_repair___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_cancel_write_uid
@@ -459,7 +453,7 @@ msgstr "கடைசியாக திருத்திய"
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_write_uid
 #: model:ir.model.fields,field_description:mrp_repair.field_stock_warn_insufficient_qty_repair_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_cancel_write_date
@@ -469,12 +463,12 @@ msgstr "கடைசியாக புதுப்பிக்கப்பட�
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_write_date
 #: model:ir.model.fields,field_description:mrp_repair.field_stock_warn_insufficient_qty_repair_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Late Activities"
-msgstr "தாமதமான செயல்பாடுகள்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_lot_id
@@ -500,7 +494,7 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "My Activities"
-msgstr "எனது செயல்பாடுகள்"
+msgstr ""
 
 #. module: mrp_repair
 #: selection:mrp.repair,invoice_method:0
@@ -543,7 +537,7 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
 msgid "Notes"
-msgstr "குறிப்புக்கள்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_fees_lines
@@ -554,7 +548,7 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Partner"
-msgstr "கூட்டாளி"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_operations
@@ -587,7 +581,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_product_id
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Product"
-msgstr "தயாரிப்பு"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_product_qty
@@ -617,7 +611,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
 msgid "Quantity"
-msgstr "அளவு"
+msgstr ""
 
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
@@ -784,13 +778,12 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
 msgid "Set to Draft"
-msgstr "வரைவை அமைக்கவும்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Show all records which has next action date is before today"
 msgstr ""
-"அடுத்த நடவடிக்கை தேதி இன்றைய தினம் கொண்டிருக்கும் எல்லா பதிவுகளையும் காட்டுக"
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_location_id
@@ -807,7 +800,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_state
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Status"
-msgstr "நிலைமை"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model,name:mrp_repair.model_stock_move
@@ -823,7 +816,7 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "Tax"
-msgstr "வரி"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_amount_tax
@@ -831,7 +824,7 @@ msgstr "வரி"
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_tax_id
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "Taxes"
-msgstr "வரி"
+msgstr ""
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:175
@@ -876,12 +869,12 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Today Activities"
-msgstr "இன்று செயல்பாடுகள்"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_amount_total
 msgid "Total"
-msgstr "மொத்த"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
@@ -891,12 +884,12 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_tracking
 msgid "Tracking"
-msgstr "கண்காணிப்பு"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_type
 msgid "Type"
-msgstr "வகை"
+msgstr ""
 
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
@@ -908,12 +901,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_price_unit
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "Unit Price"
-msgstr "அலகு விலை"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
 msgid "Unit of Measure"
-msgstr "அளவீட்டு அலகு"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_amount_untaxed
@@ -929,7 +922,7 @@ msgstr ""
 #: code:addons/mrp_repair/models/mrp_repair.py:175
 #, python-format
 msgid "Warning"
-msgstr "எச்சரிக்கை"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_guarantee_limit
@@ -939,7 +932,7 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_cancel_repair
 msgid "Yes"
-msgstr "ஆம்"
+msgstr ""
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:300

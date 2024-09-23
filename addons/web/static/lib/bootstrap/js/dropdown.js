@@ -28,7 +28,7 @@
 
     var $parent  = getParent($this)
     var isActive = $parent.hasClass('open')
-
+    
     clearMenus()
 
     if (!isActive) {

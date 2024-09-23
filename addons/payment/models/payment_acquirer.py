@@ -9,7 +9,6 @@ from odoo.tools import consteq, float_round, image_resize_images, image_resize_i
 from odoo.addons.base.module import module
 from odoo.exceptions import ValidationError
 from odoo import api, SUPERUSER_ID
-from odoo.http import request
 
 _logger = logging.getLogger(__name__)
 
@@ -307,7 +306,7 @@ class PaymentAcquirer(models.Model):
             company = self.env.user.company_id
         if not partner:
             partner = self.env.user.partner_id
-        active_acquirers = self.search([('website_published', '=', True), ('company_id', '=', company.id)])
+        active_acquirers = self.sudo().search([('website_published', '=', True), ('company_id', '=', company.id)])
         form_acquirers = active_acquirers.filtered(lambda acq: acq.payment_flow == 'form' and acq.view_template_id)
         s2s_acquirers = active_acquirers.filtered(lambda acq: acq.payment_flow == 's2s' and acq.registration_view_template_id)
         return {
@@ -486,9 +485,6 @@ class PaymentAcquirer(models.Model):
                 'tag': 'reload',
             }
 
-    def get_base_url(self):
-        return request and request.httprequest.url_root or self.env['ir.config_parameter'].sudo().get_param('web.base.url')
-
 class PaymentIcon(models.Model):
     _name = 'payment.icon'
     _description = 'Payment Icon'
@@ -652,7 +648,7 @@ class PaymentTransaction(models.Model):
 
             # custom create
             custom_method_name = '%s_create' % acquirer.provider
-            if hasattr(self, custom_method_name):
+            if hasattr(acquirer, custom_method_name):
                 values.update(getattr(self, custom_method_name)(values))
 
         # Default value of reference is
@@ -703,14 +699,6 @@ class PaymentTransaction(models.Model):
             reference = init_ref + 'x' + str(ref_suffix)
             ref_suffix += 1
         return reference
-
-    def _get_json_info(self):
-        self.ensure_one()
-        return {
-            'state': self.state,
-            'acquirer_reference': self.acquirer_reference,
-            'reference': self.reference,
-        }
 
     def _generate_callback_hash(self):
         self.ensure_one()

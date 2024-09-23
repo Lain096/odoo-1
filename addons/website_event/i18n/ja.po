@@ -3,18 +3,17 @@
 # * website_event
 # 
 # Translators:
-# 高木正勝 <masakatsu.takagi@pro-spire.co.jp>, 2017
-# Norimichi Sugimoto <norimichi.sugimoto@tls-ltd.co.jp>, 2017
 # Martin Trigaux, 2017
-# Yoshi Tashiro <tashiro@roomsfor.hk>, 2020
-# 
+# Yoshi Tashiro <tashiro@roomsfor.hk>, 2017
+# Norimichi Sugimoto <norimichi.sugimoto@tls-ltd.co.jp>, 2017
+# 高木正勝 <masakatsu.takagi@pro-spire.co.jp>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:08+0000\n"
-"PO-Revision-Date: 2017-09-20 10:26+0000\n"
-"Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>, 2020\n"
+"POT-Creation-Date: 2017-09-20 09:54+0000\n"
+"PO-Revision-Date: 2017-09-20 09:54+0000\n"
+"Last-Translator: 高木正勝 <masakatsu.takagi@pro-spire.co.jp>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +29,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_template
 msgid "<b>End of Registration</b>"
-msgstr "<b>登録締切</b>"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_template
@@ -180,7 +179,7 @@ msgstr "オンラインでの参加登録時に質問する"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_attendee_details
 msgid "Attendee #%s"
-msgstr "参加者 #%s"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_attendee_details
@@ -266,9 +265,14 @@ msgid "E-mail"
 msgstr "Eメール"
 
 #. module: website_event
+#: model:ir.ui.view,arch_db:website_event.event_event_view_form_inherit_website
+msgid "Edit Badges"
+msgstr "バッジを編集"
+
+#. module: website_event
 #: model:ir.ui.view,arch_db:website_event.ticket
 msgid "End of Registration"
-msgstr "登録締切"
+msgstr "締切"
 
 #. module: website_event
 #: model:ir.model,name:website_event.model_event_event
@@ -314,7 +318,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_template
 msgid "Event registration is closed."
-msgstr "参加登録は締め切られました。"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_template
@@ -365,7 +369,7 @@ msgstr "入門"
 #. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event_is_participating
 msgid "Is Participating"
-msgstr "参加予定"
+msgstr ""
 
 #. module: website_event
 #: code:addons/website_event/models/event.py:54
@@ -458,7 +462,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_event.event_details
 #: model:ir.ui.view,arch_db:website_event.index
 msgid "Participating"
-msgstr "参加予定"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_complete
@@ -479,7 +483,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_event_view_form_inherit_website
 msgid "Preview Badges"
-msgstr "バッジプレビュー"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.ticket
@@ -584,7 +588,7 @@ msgstr "Googleマップ上に可視化"
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_complete
 msgid "We are glad to confirm your registration to our event"
-msgstr "イベントへのご参加登録ありがとうございます。"
+msgstr ""
 
 #. module: website_event
 #: model:ir.actions.act_url,name:website_event.action_open_website
@@ -617,7 +621,7 @@ msgstr ""
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.registration_complete
 msgid "Your registration"
-msgstr "ご登録内容"
+msgstr ""
 
 #. module: website_event
 #: model:ir.ui.view,arch_db:website_event.event_details

@@ -7,7 +7,6 @@
 # Otgonbayar.A <gobi.mn@gmail.com>, 2018
 # Khishigbat Ganbold <khishigbat@asterisk-tech.mn>, 2018
 # Batzul B <batzul.active@gmail.com>, 2018
-# Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -15,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:22+0000\n"
-"Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2019\n"
+"Last-Translator: Batzul B <batzul.active@gmail.com>, 2018\n"
 "Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -222,8 +221,6 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Энд байх утгууд нь "
-"компанитайгаа уялдаж хадгалагдана.\" groups=\"base.group_multi_company\"/>"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -477,11 +474,6 @@ msgid ""
 " your vendors provide you with pricelist files, this option allows you to "
 "easily import them into the system from ‘Purchase > Vendor Pricelists’ menu."
 msgstr ""
-"Нийлүүлэгчийн үнийг та барааны дэлгэрэнгүй форм дэлгэцэнд гараар бүртгэн "
-"оруулах боломжтой. Хэрэв танай нийлүүлэгч таныг үнийн жагсаалт бүхий файлаар"
-" хангаж байвал уг сонголтыг хийснээр та Худалдан авалт > Нийлүүлэгчийн үнийн"
-" жагсаалт цэсийг ашиглан нийлүүлэгчийн үнийг хялбархнаар импорт хийх "
-"боломжтой болно."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_calendar
@@ -666,7 +658,7 @@ msgstr "Батлах Өдөр"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Define your terms and conditions ..."
-msgstr "Өөрийн худалдааны нөхцөл, журмыг тодорхойлох"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_picking_type_id
@@ -728,7 +720,7 @@ msgstr "Давхар батлалтын дүн"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_move_dest_ids
 msgid "Downstream Moves"
-msgstr "Орлогодсны дараах хөдөлгөөн"
+msgstr ""
 
 #. module: purchase
 #: selection:purchase.report,state:0
@@ -797,8 +789,6 @@ msgstr "Худалдан авалтын захиалгын батлах үе ш�
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Get warnings in orders for products or vendors"
 msgstr ""
-"Захиалга бүртгэх явцад бараа эсвэл нийлүүлэгчээс хамаарсан анхааруулга "
-"мессеж харуулах"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_weight
@@ -835,8 +825,6 @@ msgid ""
 "If enabled, activates 3-way matching on vendor bills : the items must be "
 "received in order to pay the invoice."
 msgstr ""
-"Үүнийг сонговол, нийлүүлэгчийн нэхэмжлэл дээр 3н талт харгалзаа идэвхижнэ: "
-"Нэхэмжлэл төлөхийн өмнө захиалсан барааг хүлээн авсан байх ёстой"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -965,8 +953,6 @@ msgstr "Логистик"
 msgid ""
 "Make sure you only pay bills for which you received the goods you ordered"
 msgstr ""
-"Та зөвхөн захиалсан барааныхаа хүлээн авсан хэсэгт үндэслэн нэхэмжлэлээ "
-"төлөх хэрэгтэйг анхаарна уу."
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_manage_vendor_price
@@ -977,8 +963,6 @@ msgstr "Нийлүүлэгчийн Үнийг Тохируулах"
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Manage your purchase agreements (call for tenders, blanket orders)"
 msgstr ""
-"Худалдан авалтын сонгон шалгаруулалтыг удирдан зохион байгуулах (тендерийн "
-"сонгон шалгаруулалт, цуврал худалдан авалтын гэрээ)"
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_manager
@@ -1064,7 +1048,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_stock
 msgid "Move forward expected delivery dates by"
-msgstr "Худалдан авалтын орлогыг огноог төлөвлөхдөө нөөц хоногийг"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -1086,7 +1070,7 @@ msgstr "Хамгийн шинэ"
 #. module: purchase
 #: selection:purchase.order,invoice_status:0
 msgid "No Bill to Receive"
-msgstr "Хүлээн авах нэхэмжлэл алга"
+msgstr ""
 
 #. module: purchase
 #: selection:product.template,purchase_line_warn:0
@@ -1097,7 +1081,7 @@ msgstr "Мессеж байхгүй"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "No longer edit orders once confirmed"
-msgstr "Захиалгыг батласны дараа засварлах боломжгүй болно"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line_product_image
@@ -1105,8 +1089,6 @@ msgid ""
 "Non-stored related field to allow portal user to see the image of the "
 "product he has ordered"
 msgstr ""
-"Гадны хандалтат хэрэглэгчид захиалсан барааных нь зургыг харуулахад "
-"зориулсан Non-stored related field"
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1192,7 +1174,7 @@ msgstr "Захиалсан тоо хэмжээ"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_orderpoint_id
 msgid "Orderpoint"
-msgstr "Дахин захиалах дүрэм"
+msgstr ""
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -1509,7 +1491,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Quantities billed by vendors"
-msgstr "Нийлүүлэгчээс нэхэмжлэгдсэн тоо хэмжээ"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_product_qty
@@ -1601,8 +1583,6 @@ msgid ""
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
 msgstr ""
-"Энэхүү худалдан авалтын захиалга бүртгэгдэх учир шалтгаан болсон эх баримтын"
-" дугаар (ж.ш: эсрэг талын борлуулалтын захиалга)"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_partner_ref
@@ -1663,7 +1643,7 @@ msgstr "Бэлтгэлийн Буцаалт"
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_stock
 msgid "Schedule receivings earlier to avoid delays"
-msgstr "Хүлээн авах хугацааг хоцрохоос сэргийлж илүү эрт төлөвлөх"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_date_planned
@@ -1680,7 +1660,7 @@ msgstr "Худалдан авалтын Захиалга Хайх"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings_use_po_lead
 msgid "Security Lead Time for Purchase"
-msgstr "Худалдан авалтын аюулгүйн урьтал хугацаа"
+msgstr ""
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_product_purchase_line_warn
@@ -1837,8 +1817,6 @@ msgid ""
 "The quantities on your purchase order indicate less than billed. You should "
 "ask for a refund. "
 msgstr ""
-"Захиалсан тоо хэмжээ нь нэхэмжилсэн тоо хэмжээнээс бага байгаа нь "
-"ажиглагдлаа. Магадгүй та нэхэмжлэлийн буцаалт хийх хэрэгтэй."
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
@@ -1900,12 +1878,6 @@ msgid ""
 "on-demand flow. The requested delivery address will be the customer delivery"
 " address and not your warehouse."
 msgstr ""
-"Энэхүү нэмэгдэл нь бараан дээр нийлүүлэгчээс үйлчлүүлэгч рүү шууд хүргэлт "
-"хийх чиглэл тохируулах боломжыг олгоно. Шууд хүргэлт хийхээр тохируулагдсан "
-"барааг борлуулалтын захиалганд бичиж батлахад худалдан авалтын ноорог "
-"захиалга шууд үүснэ. Энэ бол on-demand урсгал. Худалдан авалтын захиалга "
-"дээрх хүлээх авах хаяг нь танай агуулах бус шууд харилцагчийн хүлээн авах "
-"хаяг байх болно."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1931,8 +1903,6 @@ msgid ""
 "This default value is applied to any new product created. This can be "
 "changed in the product detail form."
 msgstr ""
-"Энэ утга нь шинээр бараа бүртгэх бүрт ашиглагдана. Энэ утгыг барааны "
-"дэлгэрэнгүй форм дээр өөрчлөх боломжтой."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_product_supplier_inherit

@@ -3,20 +3,17 @@
 # * auth_signup
 # 
 # Translators:
+# Martin Trigaux, 2017
 # Eneko <eastigarraga@codesyntax.com>, 2018
-# Martin Trigaux, 2018
-# Esther Martín Menéndez <esthermartin001@gmail.com>, 2018
 # oihane <oihanecruce@gmail.com>, 2018
-# Victor Laskurain <blaskurain@binovo.es>, 2019
-# Unai Muñoz <unaimunoz9@gmail.com>, 2020
-# 
+# Esther Martín Menéndez <esthermartin001@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:56+0000\n"
-"PO-Revision-Date: 2017-09-20 10:15+0000\n"
-"Last-Translator: Unai Muñoz <unaimunoz9@gmail.com>, 2020\n"
+"PO-Revision-Date: 2018-07-27 11:56+0000\n"
+"Last-Translator: Esther Martín Menéndez <esthermartin001@gmail.com>, 2018\n"
 "Language-Team: Basque (https://www.transifex.com/odoo/teams/41243/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -148,7 +145,7 @@ msgstr ""
 #. module: auth_signup
 #: model:ir.ui.view,arch_db:auth_signup.signup
 msgid "Already have an account?"
-msgstr "Dagoeneko kontu bat al duzu?"
+msgstr ""
 
 #. module: auth_signup
 #: code:addons/auth_signup/controllers/main.py:79
@@ -224,7 +221,7 @@ msgstr ""
 #. module: auth_signup
 #: model:ir.ui.view,arch_db:auth_signup.login
 msgid "Don't have an account?"
-msgstr "Ez daukazu konturik?"
+msgstr ""
 
 #. module: auth_signup
 #: model:ir.model.fields,field_description:auth_signup.field_res_config_settings_auth_signup_reset_password
@@ -287,12 +284,12 @@ msgstr "Pasahitza"
 #. module: auth_signup
 #: model:ir.ui.view,arch_db:auth_signup.res_config_settings_view_form
 msgid "Password Reset"
-msgstr "Pasahitza Berrezarri"
+msgstr ""
 
 #. module: auth_signup
 #: model:mail.template,subject:auth_signup.reset_password_email
 msgid "Password reset"
-msgstr "Pasahitza berrezarri"
+msgstr ""
 
 #. module: auth_signup
 #: code:addons/auth_signup/controllers/main.py:124
@@ -419,4 +416,4 @@ msgstr ""
 #. module: auth_signup
 #: model:ir.model,name:auth_signup.model_res_config_settings
 msgid "res.config.settings"
-msgstr "res.config.settings"
+msgstr ""

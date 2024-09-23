@@ -43,14 +43,10 @@
             },
             getSelection : function(share) {
                 if(window.getSelection){
-                    var selection = window.getSelection();
-                    if (!selection || selection.rangeCount === 0) {
-                        return "";
-                    }
                     if (share === 'string') {
-                        return String(selection.getRangeAt(0)).replace(/\s{2,}/g, ' ');
+                        return String(window.getSelection().getRangeAt(0)).replace(/\s{2,}/g, ' ');
                     } else {
-                        return selection.getRangeAt(0);
+                        return window.getSelection().getRangeAt(0);
                     }
                 }
                 else if(document.selection){

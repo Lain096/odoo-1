@@ -6,18 +6,17 @@
 # Jan Horzinka <jan.horzinka@centrum.cz>, 2018
 # Michal Veselý <michal@veselyberanek.net>, 2018
 # Martin Trigaux, 2018
-# Adam Kettner, 2018
+# Adam Kettner <cetnerix@gmail.com>, 2018
 # milda dvorak <milda.dvorak@optimal4.cz>, 2018
-# Rastislav Brencic <rastislav.brencic@azet.sk>, 2020
-# trendspotter, 2021
+# trendspotter <j.podhorecky@volny.cz>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 15:01+0000\n"
+"POT-Creation-Date: 2019-01-03 15:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:20+0000\n"
-"Last-Translator: trendspotter, 2021\n"
+"Last-Translator: trendspotter <j.podhorecky@volny.cz>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -235,7 +234,7 @@ msgstr "Ref. Odběratele"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_acquirer_reference
 msgid "Acquirer Reference"
-msgstr "Odkaz na příjemce platby"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon_acquirer_ids
@@ -289,7 +288,7 @@ msgstr "Částka"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_authorize_implemented
 msgid "Authorize Mechanism Supported"
-msgstr "Podporován mechanismus autorizace"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_authorize
@@ -362,7 +361,7 @@ msgstr "Platbu nelze nastavit"
 #: code:addons/payment/controllers/portal.py:111
 #, python-format
 msgid "Cannot setup the payment."
-msgstr "Nelze nastavit platbu."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_capture_manually
@@ -377,7 +376,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_capture_manually
 msgid "Capture the amount from Odoo, when the delivery is completed."
-msgstr "Zachytit částku z Odoo, když je doručení dokončeno."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_city
@@ -521,7 +520,7 @@ msgstr "Hotovo"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_done_msg
 msgid "Done Message"
-msgstr "Zpráva o dokončení"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,state:0
@@ -640,8 +639,6 @@ msgid ""
 "If you leave it empty, the payment acquirer will be available for all the "
 "countries."
 msgstr ""
-"Pokud ji necháte prázdnou, bude příjemce platby k dispozici pro všechny "
-"země."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_image
@@ -657,7 +654,7 @@ msgstr "Obrázek zobrazený v platebním formuláři"
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_ogone
 msgid "Ingenico"
-msgstr "Ingenico"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -712,12 +709,12 @@ msgstr "Nechte zákazníka rozhodnout"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_icon_acquirer_ids
 msgid "List of Acquirers supporting this payment icon."
-msgstr "Seznam příjemců podporujících tuto ikonu platby."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_website_published
 msgid "Make this payment acquirer available (Customer invoices, etc.)"
-msgstr "Zpřístupnit tohoto příjemce platby (faktury zákazníka atd.)"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay_methods
@@ -759,17 +756,17 @@ msgstr "Zpráva"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_post_msg
 msgid "Message displayed after having done the payment process."
-msgstr "Zpráva zobrazená po provedení platebního procesu."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_pre_msg
 msgid "Message displayed to explain and help the payment process."
-msgstr "Zobrazí se zpráva, která vysvětluje a pomáhá platebnímu procesu."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_error_msg
 msgid "Message displayed, if error is occur during the payment process."
-msgstr "Zobrazí se zpráva, pokud během procesu platby dojde k chybě."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_cancel_msg
@@ -783,8 +780,6 @@ msgid ""
 "Message displayed, if order is done successfully after having done the "
 "payment process."
 msgstr ""
-"Zobrazí se zpráva, pokud je po úspěšném provedení platby úspěšně provedena "
-"objednávka."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_pending_msg
@@ -804,7 +799,7 @@ msgstr "Zprávy"
 #: code:addons/payment/models/payment_acquirer.py:455
 #, python-format
 msgid "Missing partner reference when trying to create a new payment token"
-msgstr "Při pokusu o vytvoření nového tokenu platby chybí odkaz na partnera"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_name
@@ -819,7 +814,7 @@ msgstr "Název"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_token_name
 msgid "Name of the payment token"
-msgstr "Název tokenu platby"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,save_token:0
@@ -829,7 +824,7 @@ msgstr "Nikdy"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "No payment acquirer found."
-msgstr "Nebyl nalezen žádný příjemce platby."
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -837,7 +832,7 @@ msgstr "Nebyl nalezen žádný příjemce platby."
 #: code:addons/payment/static/src/js/payment_form.js:308
 #, python-format
 msgid "No payment method selected"
-msgstr "Není vybrána žádná platební metoda"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_account_payment_payment_token_id
@@ -856,7 +851,7 @@ msgstr ""
 #. module: payment
 #: selection:payment.acquirer,provider:0
 msgid "Ogone"
-msgstr "Ogone"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -885,13 +880,13 @@ msgstr "Kontakt"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_name
 msgid "Partner Name"
-msgstr "Název partnera"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_payu
 #: selection:payment.acquirer,provider:0
 msgid "PayUmoney"
-msgstr "PayUmoney"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.confirm
@@ -942,7 +937,7 @@ msgstr "Způsoby platby"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_payment_token_id
 msgid "Payment Token"
-msgstr "Platební token"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_res_partner_payment_token_ids
@@ -972,7 +967,7 @@ msgstr "Platební transakce"
 #. module: payment
 #: selection:payment.acquirer,payment_flow:0
 msgid "Payment from Odoo"
-msgstr "Platba od Odoo"
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/account_payment.py:59
@@ -1020,7 +1015,7 @@ msgstr "Čekající"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_pending_msg
 msgid "Pending Message"
-msgstr "Čekající zpráva"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_phone
@@ -1030,7 +1025,7 @@ msgstr "Telefon"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "Please configure a payment acquirer."
-msgstr "Nakonfigurujte příjemce plateb."
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1076,20 +1071,6 @@ msgid "Provider"
 msgstr "Poskytovatel"
 
 #. module: payment
-#. openerp-web
-#: code:addons/payment/static/src/js/payment_translations.js:9
-#, python-format
-msgid "Publish"
-msgstr "Publikovat"
-
-#. module: payment
-#. openerp-web
-#: code:addons/payment/static/src/js/payment_translations.js:8
-#, python-format
-msgid "Published"
-msgstr "Publikováno"
-
-#. module: payment
 #: selection:payment.acquirer,payment_flow:0
 msgid "Redirection to the acquirer website"
 msgstr "Přesměrování na webové stránky nabyvatele"
@@ -1128,7 +1109,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_save_token
 msgid "Save Cards"
-msgstr "Uložit kartu"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_tokens_list
@@ -1139,7 +1120,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:payment.payment_token_action
 #: model:ir.ui.menu,name:payment.payment_token_menu
 msgid "Saved Payment Data"
-msgstr "Uložená platební data"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_account_payment_payment_token_id
@@ -1149,7 +1130,7 @@ msgstr "Uložený platební token"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_token_implemented
 msgid "Saving Card Data supported"
-msgstr "Podporováno uložení karetních dat"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_sequence
@@ -1167,7 +1148,7 @@ msgstr "Číselná řada"
 #: code:addons/payment/static/src/js/payment_form.js:367
 #, python-format
 msgid "Server Error"
-msgstr "Chyba serveru"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,type:0
@@ -1190,7 +1171,7 @@ msgstr "Krátký název"
 #: model:payment.acquirer,name:payment.payment_acquirer_sips
 #: selection:payment.acquirer,provider:0
 msgid "Sips"
-msgstr "Sips"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_image_small
@@ -1222,7 +1203,7 @@ msgstr "Stav"
 #: model:payment.acquirer,name:payment.payment_acquirer_stripe
 #: selection:payment.acquirer,provider:0
 msgid "Stripe"
-msgstr "Stripe"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_payment_icon_ids
@@ -1242,7 +1223,7 @@ msgstr "Test"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_post_msg
 msgid "Thanks Message"
-msgstr "Zpráva poděkování"
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:627
@@ -1270,16 +1251,12 @@ msgid ""
 "This field holds the image used for this payment icon, limited to "
 "1024x1024px"
 msgstr ""
-"V tomto poli je obrázek použitý pro tuto ikonu platby omezen na 1024 x 1024 "
-"pixelů"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_image
 msgid ""
 "This field holds the image used for this provider, limited to 1024x1024px"
 msgstr ""
-"Toto pole obsahuje obrázek použitý pro tohoto poskytovatele, omezený na 1024"
-" x 1024 pixelů"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_save_token
@@ -1289,10 +1266,6 @@ msgid ""
 " invoicing), you need it to automatically charge the customer when you issue"
 " an invoice."
 msgstr ""
-"Tato možnost umožňuje zákazníkům uložit kreditní kartu jako token platby a "
-"znovu ji použít pro pozdější nákup. Pokud spravujete předplatné (opakující "
-"se fakturace), musíte ji při vystavení faktury automaticky účtovat "
-"zákazníkovi."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_country_ids
@@ -1354,7 +1327,7 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "Void Transaction"
-msgstr "Zrušená transakce"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1375,7 +1348,7 @@ msgstr "V tuto chvíli nemůžeme přidat vaší platební metodu."
 #: code:addons/payment/static/src/js/payment_form.js:301
 #, python-format
 msgid "We are not able to add your payment method at the moment.</p>"
-msgstr "V tuto chvíli nemůžeme přidat vaši platební podmínku.</p>"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1404,13 +1377,13 @@ msgstr ""
 #: code:addons/payment/static/src/js/payment_form.js:189
 #, python-format
 msgid "We're unable to process your payment."
-msgstr "Nemůžeme zpracovat vaši platbu."
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_transfer
 #: selection:payment.acquirer,provider:0
 msgid "Wire Transfer"
-msgstr "bankovní převod"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,pre_msg:payment.payment_acquirer_stripe
@@ -1495,7 +1468,7 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_tokens_list
 msgid "and more"
-msgstr "a více"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -1545,7 +1518,7 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
 msgid "tx_values: transaction values"
-msgstr "tx_values: transakční hodnoty"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form

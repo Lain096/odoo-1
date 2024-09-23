@@ -29,18 +29,6 @@ odoo.define('payment.payment_form', function (require) {
             $('[data-toggle="tooltip"]').tooltip();
         },
 
-        disableButton: function (button) {
-            $(button).attr('disabled', true);
-            $(button).children('.fa-lock').removeClass('fa-lock');
-            $(button).prepend('<span class="o_loader"><i class="fa fa-refresh fa-spin"></i>&nbsp;</span>');
-        },
-
-        enableButton: function (button) {
-            $(button).attr('disabled', false);
-            $(button).children('.fa').addClass('fa-lock');
-            $(button).find('span.o_loader').remove();
-        },
-
         payEvent: function (ev) {
             ev.preventDefault();
             var form = this.el;
@@ -95,7 +83,10 @@ odoo.define('payment.payment_form', function (require) {
                         return;
                     }
 
-                    this.disableButton(button);
+                    $(button).attr('disabled', true);
+                    $(button).children('.fa-plus-circle').removeClass('fa-plus-circle')
+                    $(button).prepend('<span class="o_loader"><i class="fa fa-refresh fa-spin"></i>&nbsp;</span>');
+
                     var verify_validity = this.$el.find('input[name="verify_validity"]');
 
                     if (verify_validity.length>0) {
@@ -130,10 +121,14 @@ odoo.define('payment.payment_form', function (require) {
                             }
                         }
                         // here we remove the 'processing' icon from the 'add a new payment' button
-                        self.enableButton(button);
+                        $(button).attr('disabled', false);
+                        $(button).children('.fa').addClass('fa-plus-circle')
+                        $(button).find('span.o_loader').remove();
                     }).fail(function (message, data) {
                         // if the rpc fails, pretty obvious
-                        self.enableButton(button);
+                        $(button).attr('disabled', false);
+                        $(button).children('.fa').addClass('fa-plus-circle')
+                        $(button).find('span.o_loader').remove();
 
                         self.displayError(
                             _t('Server Error'),
@@ -196,7 +191,6 @@ odoo.define('payment.payment_form', function (require) {
                     }
                 }
                 else {  // if the user is using an old payment then we just submit the form
-                    this.disableButton(button);
                     form.submit();
                 }
             }
@@ -429,7 +423,7 @@ odoo.define('payment.payment_form', function (require) {
                 $acquirerForm = this.$('#o_payment_form_acq_' + acquirerID);
             }
 
-            if (!$acquirerForm || $checkedRadio.length === 0) {
+            if ($checkedRadio.length === 0) {
                 return new Dialog(null, {
                     title: _t('Error: ') + _.str.escapeHTML(title),
                     size: 'medium',

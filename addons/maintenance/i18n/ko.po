@@ -3,22 +3,21 @@
 # * maintenance
 # 
 # Translators:
+# Martin Trigaux, 2017
+# Link Up링크업 <linkup.way@gmail.com>, 2018
+# Linkup <link-up@naver.com>, 2018
 # Linda Stockelova <stockeloval@btlnet.com>, 2018
 # Seongseok Shin <shinss61@hotmail.com>, 2018
 # Mark Lee <odoos@soti.33mail.com>, 2018
-# Link Up링크업 <linkup.way@gmail.com>, 2018
-# Martin Trigaux, 2018
 # Goh Gangtai <gangtai.goh@gmail.com>, 2018
-# Linkup <link-up@naver.com>, 2018
-# JH CHOI <hwangtog@gmail.com>, 2019
-# 
+# 최재호 <hwangtog@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-30 13:41+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: JH CHOI <hwangtog@gmail.com>, 2019\n"
+"PO-Revision-Date: 2018-01-30 13:41+0000\n"
+"Last-Translator: 최재호 <hwangtog@gmail.com>, 2018\n"
 "Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,22 +28,22 @@ msgstr ""
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_kanban
 msgid "<b>Category:</b>"
-msgstr "<b>범주 :</b>"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_kanban
 msgid "<b>Model Number:</b>"
-msgstr "<b>모델 번호 :</b>"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_kanban
 msgid "<b>Request to:</b>"
-msgstr "<b>요청 :</b>"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_kanban
 msgid "<b>Serial Number:</b>"
-msgstr "<b>일련 번호 :</b>"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -64,12 +63,12 @@ msgstr "<span>보기</span>"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.view_maintenance_equipment_category_kanban
 msgid "<strong>Equipments:</strong>"
-msgstr "<strong>장비 :</strong>"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.view_maintenance_equipment_category_kanban
 msgid "<strong>Maintenance:</strong>"
-msgstr "<strong>유지관리 :</strong>"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category_alias_defaults
@@ -82,7 +81,7 @@ msgstr "이 별칭에 대해 새 레코드를 만들 때 제공한 기본값을 
 #: model:maintenance.equipment,name:maintenance.equipment_computer3
 #: model:maintenance.equipment,name:maintenance.equipment_computer5
 msgid "Acer Laptop"
-msgstr "Acer Laptop"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_active
@@ -122,7 +121,7 @@ msgstr "전체"
 #. module: maintenance
 #: sql_constraint:maintenance.equipment:0
 msgid "Another asset already exists with this serial number!"
-msgstr "이 일련 번호가 있는 자산이 이미 있습니다!"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_archive
@@ -143,7 +142,7 @@ msgstr "자산 분류"
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_tree
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_tree
 msgid "Assign To User"
-msgstr "사용자에게 할당"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -154,7 +153,7 @@ msgstr "할당됨"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_assign_date
 msgid "Assigned Date"
-msgstr "할당일"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
@@ -284,7 +283,7 @@ msgstr "작성일"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_maintenance_open_count
 msgid "Current Maintenance"
-msgstr "현재 유지보수 중"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.menu,name:maintenance.menu_m_dashboard
@@ -294,29 +293,29 @@ msgstr "알림"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_next_action_date
 msgid "Date of the next preventive maintenance"
-msgstr "다음 예방 정비 날짜"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request_request_date
 msgid "Date requested for the maintenance to happen"
-msgstr "유지보수 요청 일자"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request_schedule_date
 msgid ""
 "Date the maintenance team plans the maintenance.  It should not differ much "
 "from the Request Date. "
-msgstr "유지보수팀이 유지보수 계획을 수립한 날짜. 요청 날짜와 크게 다르지 않아야 합니다."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request_close_date
 msgid "Date the maintenance was finished. "
-msgstr "유지보수가 완료된 날짜."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_period
 msgid "Days between each preventive maintenance"
-msgstr "예방 정비 간격"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_alias_defaults
@@ -376,7 +375,7 @@ msgstr "이메일 주소"
 msgid ""
 "Email alias for this equipment category. New emails will automatically "
 "create new maintenance request for this equipment category."
-msgstr "이 장비 범주의 이메일 별칭입니다. 새 이메일은 이 장비 범주에 대한 새로운 유지 보수 요청을 자동으로 생성합니다."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model,name:maintenance.model_maintenance_equipment
@@ -384,37 +383,37 @@ msgstr "이 장비 범주의 이메일 별칭입니다. 새 이메일은 이 장
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_equipment_id
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_equipment_ids
 msgid "Equipment"
-msgstr "장비"
+msgstr ""
 
 #. module: maintenance
 #: model:mail.message.subtype,description:maintenance.mt_mat_assign
 #: model:mail.message.subtype,name:maintenance.mt_cat_mat_assign
 #: model:mail.message.subtype,name:maintenance.mt_mat_assign
 msgid "Equipment Assigned"
-msgstr "할당된 장비"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,name:maintenance.hr_equipment_category_action
 #: model:ir.ui.menu,name:maintenance.menu_maintenance_cat
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_form
 msgid "Equipment Categories"
-msgstr "장비 범주"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_id_3470
 msgid "Equipment Category"
-msgstr "장비 범주"
+msgstr ""
 
 #. module: maintenance
 #: model:res.groups,name:maintenance.group_equipment_manager
 msgid "Equipment Manager"
-msgstr "장비 관리"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_name
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Equipment Name"
-msgstr "장비명"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,name:maintenance.hr_equipment_action
@@ -424,20 +423,20 @@ msgstr "장비명"
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_form
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Equipments"
-msgstr "장비 및 설비"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_fold
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_stage_fold
 msgid "Folded in Maintenance Pipe"
-msgstr "유지보수 절차에서 접기"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,help:maintenance.hr_equipment_request_action
 #: model:ir.actions.act_window,help:maintenance.hr_equipment_request_action_link
 msgid ""
 "Follow the process of the request and communicate with the collaborator."
-msgstr "요청 절차를 따르고 공동 작업자와 의견을 교환하십시오."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -454,13 +453,13 @@ msgstr "그룹화..."
 #. module: maintenance
 #: model:maintenance.equipment,name:maintenance.equipment_printer1
 msgid "HP Inkjet printer"
-msgstr "HP Inkjet printer"
+msgstr ""
 
 #. module: maintenance
 #: model:maintenance.equipment,name:maintenance.equipment_computer11
 #: model:maintenance.equipment,name:maintenance.equipment_computer9
 msgid "HP Laptop"
-msgstr "HP Laptop"
+msgstr ""
 
 #. module: maintenance
 #: selection:maintenance.request,priority:0
@@ -494,12 +493,12 @@ msgstr "진행중"
 #. module: maintenance
 #: model:maintenance.team,name:maintenance.equipment_team_maintenance
 msgid "Internal Maintenance"
-msgstr "자체 유지보수"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "Internal Note ......."
-msgstr "내부 노트 ......."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_kanban_state
@@ -546,7 +545,7 @@ msgstr "위치"
 #. module: maintenance
 #: model:ir.ui.menu,name:maintenance.menu_m_reports_losses
 msgid "Losses Analysis"
-msgstr "손실 분석"
+msgstr ""
 
 #. module: maintenance
 #: selection:maintenance.request,priority:0
@@ -568,43 +567,43 @@ msgstr "유지보수"
 #. module: maintenance
 #: model:ir.ui.menu,name:maintenance.menu_m_request_calendar
 msgid "Maintenance Calendar"
-msgstr "유지보수 일정표"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_maintenance_duration
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Maintenance Duration"
-msgstr "유지보수 기간"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_maintenance_duration
 msgid "Maintenance Duration in hours."
-msgstr "유지보수 기간(시)"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "Maintenance Request"
-msgstr "유지보수 요청"
+msgstr ""
 
 #. module: maintenance
 #: model:mail.message.subtype,name:maintenance.mt_cat_req_created
 msgid "Maintenance Request Created"
-msgstr "유지보수 요청 작성함"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_stage_view_tree
 msgid "Maintenance Request Stage"
-msgstr "유지보수 요청 상태"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_stage_view_search
 msgid "Maintenance Request Stages"
-msgstr "유지보수 요청 상태"
+msgstr ""
 
 #. module: maintenance
 #: model:mail.message.subtype,description:maintenance.mt_req_created
 msgid "Maintenance Request created"
-msgstr "유지보수 요청 작성함"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,name:maintenance.hr_equipment_request_action
@@ -623,43 +622,43 @@ msgstr "유지보수 요청"
 #. module: maintenance
 #: model:ir.model,name:maintenance.model_maintenance_stage
 msgid "Maintenance Stage"
-msgstr "유지보수 단계"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.menu,name:maintenance.menu_maintenance_stage_configuration
 msgid "Maintenance Stages"
-msgstr "유지보수 단계"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_maintenance_team_id
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_view_form
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_view_tree
 msgid "Maintenance Team"
-msgstr "유지보수 팀"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,name:maintenance.maintenance_dashboard_action
 #: model:ir.model,name:maintenance.model_maintenance_team
 #: model:ir.ui.menu,name:maintenance.menu_maintenance_teams
 msgid "Maintenance Teams"
-msgstr "유지보수 팀"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_maintenance_type
 msgid "Maintenance Type"
-msgstr "유지보수 유형"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.server,name:maintenance.maintenance_requests_cron_ir_actions_server
 #: model:ir.cron,cron_name:maintenance.maintenance_requests_cron
 #: model:ir.cron,name:maintenance.maintenance_requests_cron
 msgid "Maintenance: generate preventive maintenance requests"
-msgstr "유지보수 : 예방 정비 요청 생성"
+msgstr ""
 
 #. module: maintenance
 #: model:maintenance.team,name:maintenance.equipment_team_metrology
 msgid "Metrology"
-msgstr "검교정"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_model
@@ -669,7 +668,7 @@ msgstr "모델"
 #. module: maintenance
 #: model:maintenance.equipment.category,name:maintenance.equipment_monitor
 msgid "Monitors"
-msgstr "모니터"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -680,7 +679,7 @@ msgstr "나의 활동"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "My Equipments"
-msgstr "내 장비"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -699,12 +698,12 @@ msgstr "이름"
 #. module: maintenance
 #: model:maintenance.stage,name:maintenance.stage_0
 msgid "New Request"
-msgstr "새 요청"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Next Preventive Maintenance"
-msgstr "다음 예방 정비"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,help:maintenance.maintenance_request_action_reports
@@ -724,27 +723,27 @@ msgstr "노트"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count
 msgid "Number of Requests"
-msgstr "요청 횟수"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_block
 msgid "Number of Requests Blocked"
-msgstr "요청 거부 횟수"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_date
 msgid "Number of Requests Scheduled"
-msgstr "예약된 요청 갯수"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_unscheduled
 msgid "Number of Requests Unscheduled"
-msgstr "예약안된 요청 수"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_high_priority
 msgid "Number of Requests in High Priority"
-msgstr "우선 순위가 높은 요청 수"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category_alias_force_thread_id
@@ -758,7 +757,7 @@ msgstr ""
 #. module: maintenance
 #: model:ir.ui.menu,name:maintenance.menu_m_reports_oee
 msgid "Overall Equipment Effectiveness (OEE)"
-msgstr "전반적인 장비 효율성 (OEE)"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
@@ -792,13 +791,11 @@ msgid ""
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
-"별칭이 있는 상위 모델입니다. 별칭 참조를 포함하는 모델은 반드시 alias_model_id(예: 프로젝트(parent_model) 및 "
-"태스크(model)에서 제공하는 모델일 필요는 없습니다.)"
 
 #. module: maintenance
 #: model:maintenance.equipment.category,name:maintenance.equipment_phone
 msgid "Phones"
-msgstr "전화"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category_alias_contact
@@ -822,17 +819,17 @@ msgstr "예방"
 #: code:addons/maintenance/models/maintenance.py:227
 #, python-format
 msgid "Preventive Maintenance - %s"
-msgstr "예방 정비 - %s"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Preventive Maintenance Frequency"
-msgstr "예방 정비 주기"
+msgstr ""
 
 #. module: maintenance
 #: model:maintenance.equipment.category,name:maintenance.equipment_printer
 msgid "Printers"
-msgstr "프린트"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_priority
@@ -852,7 +849,7 @@ msgstr "다음 단계에 대한 준비"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_kanban
 msgid "Record Colour"
-msgstr "기록 색상"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_alias_force_thread_id
@@ -862,7 +859,7 @@ msgstr "레코드 스레드 ID"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "Reopen Request"
-msgstr "요청 다시열기"
+msgstr ""
 
 #. module: maintenance
 #: model:maintenance.stage,name:maintenance.stage_3
@@ -884,7 +881,7 @@ msgstr "요청"
 #. module: maintenance
 #: model:mail.message.subtype,name:maintenance.mt_req_created
 msgid "Request Created"
-msgstr "요청 작성함"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_request_date
@@ -894,22 +891,22 @@ msgstr "요청일"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_stage_done
 msgid "Request Done"
-msgstr "요청 완료"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "Requested By"
-msgstr "요청별"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_kanban
 msgid "Requested by :"
-msgstr "요청자 :"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_ids
 msgid "Requests"
-msgstr "요청"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_technician_user_id
@@ -928,7 +925,7 @@ msgstr ""
 #: model:maintenance.equipment,name:maintenance.equipment_monitor4
 #: model:maintenance.equipment,name:maintenance.equipment_monitor6
 msgid "Samsung Monitor 15\""
-msgstr "Samsung Monitor 15\""
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
@@ -948,7 +945,7 @@ msgstr "스크랩"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_scrap_date
 msgid "Scrap Date"
-msgstr "폐기일"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_search
@@ -970,7 +967,7 @@ msgstr "일련 번호"
 #: model:ir.model.fields,help:maintenance.field_maintenance_request_archive
 msgid ""
 "Set archive to true to hide the maintenance request without deleting it."
-msgstr "유지보수 요청을 삭제하지 않고 숨기려면 보관을 참으로 설정하세요."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
@@ -1002,7 +999,7 @@ msgstr "단계"
 #. module: maintenance
 #: model:mail.message.subtype,name:maintenance.mt_req_status
 msgid "Status Changed"
-msgstr "상태 변경됨"
+msgstr ""
 
 #. module: maintenance
 #: model:mail.message.subtype,description:maintenance.mt_req_status
@@ -1012,12 +1009,12 @@ msgstr "변경된 상태"
 #. module: maintenance
 #: model:maintenance.team,name:maintenance.equipment_team_subcontractor
 msgid "Subcontractor"
-msgstr "외부업체"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_name
 msgid "Subjects"
-msgstr "제목"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_maintenance_team_id
@@ -1032,22 +1029,22 @@ msgstr "팀 구성원"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_view_form
 msgid "Team Name"
-msgstr "팀명"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,name:maintenance.maintenance_team_action_settings
 msgid "Teams"
-msgstr "팀"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_technician_user_id
 msgid "Technician"
-msgstr "기술자"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Technicians"
-msgstr "기술자"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category_alias_model_id
@@ -1080,7 +1077,7 @@ msgstr ""
 #. module: maintenance
 #: model:res.groups,comment:maintenance.group_equipment_manager
 msgid "The user will be able to manage equipments."
-msgstr "사용자는 장비 관리를  할 수 있습니다."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,help:maintenance.hr_equipment_action
@@ -1107,7 +1104,7 @@ msgstr "할 일"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 msgid "To do"
-msgstr "할 일"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -1119,7 +1116,7 @@ msgstr "금일 활동"
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
 msgid "Top Priorities"
-msgstr "최고 우선 순위"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_kanban
@@ -1129,7 +1126,7 @@ msgstr "할당되지 않음"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Under Maintenance"
-msgstr "유지보수 중"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_kanban
@@ -1141,12 +1138,12 @@ msgstr "읽지 않은 메시지"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
 msgid "Unscheduled"
-msgstr "예약안됨"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 msgid "Unscheduled Maintenance"
-msgstr "예약안된 유지보수"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
@@ -1161,7 +1158,7 @@ msgstr ""
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Used in location"
-msgstr "사용 위치"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_partner_id
@@ -1190,7 +1187,7 @@ msgstr "보증"
 msgid ""
 "You cannot delete an equipment category containing equipments or maintenance"
 " requests."
-msgstr "장비 또는 유지보수 요청이 있는 장비 범주는 삭제할 수 없습니다."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
@@ -1200,7 +1197,7 @@ msgstr "일"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "for"
-msgstr "for"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -1213,9 +1210,9 @@ msgstr "시간"
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_pivot
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_tree
 msgid "maintenance Request"
-msgstr "유지보수 요청"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 msgid "maintenance Request Search"
-msgstr "유지보수 요청 검색"
+msgstr ""

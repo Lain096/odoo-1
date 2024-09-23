@@ -11,9 +11,8 @@
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2018
 # monchai7 <montchye@gmail.com>, 2018
 # manas yapeng <manas@torheng.com>, 2018
+# Pornvibool Tippayawat <pornvibool.t@gmail.com>, 2018
 # gsong <gsong2014@foxmail.com>, 2018
-# Pornvibool Tippayawat <pornvibool.t@gmail.com>, 2019
-# Odoo Thaidev <odoothaidev@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -21,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Odoo Thaidev <odoothaidev@gmail.com>, 2020\n"
+"Last-Translator: gsong <gsong2014@foxmail.com>, 2018\n"
 "Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -103,8 +102,6 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -171,7 +168,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 msgid "<span>Reporting</span>"
-msgstr "<span>รายงาน</span>"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.stock_production_type_kanban
@@ -253,7 +250,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Scheduled Date:</strong><br/>"
-msgstr "<strong>วันที่ตามกำหนดการ:</strong><br/>"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.report_mrporder
@@ -287,7 +284,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_access_token
 msgid "Access Token"
-msgstr "เข้าถึง"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_active
@@ -301,7 +298,7 @@ msgstr "เปิดใช้งาน"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_active_move_line_ids
 msgid "Active Move Line"
-msgstr "บรรทัดการย้ายที่ทำงาน"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_block_wizard_form
@@ -507,7 +504,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_block_wizard_form
 msgid "Block"
-msgstr "บล็อก"
+msgstr ""
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.act_mrp_block_workcenter
@@ -612,7 +609,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_change_production_qty
 msgid "Change Quantity To Produce"
-msgstr "เปลี่ยนจำนวนที่จะผลิต"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_change_production_qty
@@ -725,7 +722,7 @@ msgstr "บริษัท"
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 #: model:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
 msgid "Components"
-msgstr "Components"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.routing.workcenter,time_mode:0
@@ -1111,7 +1108,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Future Activities"
-msgstr "กิจกรรมในอนาคต"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
@@ -1278,7 +1275,7 @@ msgstr "กำลังดำเนินการ"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_index_content
 msgid "Indexed Content"
-msgstr "เนื้อหาไฟล์"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_move_line_lot_produced_qty
@@ -1328,7 +1325,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_public
 msgid "Is public document"
-msgstr "สาธารณะ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_is_user_working
@@ -1449,7 +1446,7 @@ msgstr "ล่าช้า"
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Late Activities"
-msgstr "กิจกรรมล่าสุด"
+msgstr ""
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:445
@@ -1477,7 +1474,7 @@ msgstr "ตำแหน่งที่ระบบจะสต็อกสิน
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Lock"
-msgstr "ล็อค"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_id_8257
@@ -1672,12 +1669,12 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_bom
 msgid "Master Data"
-msgstr "ข้อมูลหลัก"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings_module_mrp_mps
 msgid "Master Production Schedule"
-msgstr "ใช้งานการอัพเกรดตามกำหนดการ"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_availability
@@ -1694,7 +1691,7 @@ msgstr "ข้อความ"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_mimetype
 msgid "Mime Type"
-msgstr "ประเภท"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_form_view
@@ -1921,7 +1918,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_picking_type_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_picking_type_id
 msgid "Operation Type"
-msgstr "ประเภทการดำเนินงาน"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_operation_ids
@@ -2045,7 +2042,7 @@ msgstr "วันที่ตามแผน"
 #: model:ir.ui.menu,name:mrp.mrp_planning_menu_root
 #: model:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Planning"
-msgstr "การวางแผน"
+msgstr ""
 
 #. module: mrp
 #: code:addons/mrp/wizard/mrp_product_produce.py:150
@@ -2138,7 +2135,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:mrp.action_mrp_unbuild_moves
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_form_view
 msgid "Product Moves"
-msgstr "เคลื่อนย้ายสินค้า"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_line_product_produce_id
@@ -2325,13 +2322,13 @@ msgstr "ปริมาณที่ผลิต"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_qty_remaining
 msgid "Quantity To Be Produced"
-msgstr "จำนวนที่จะถูกผลิต"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_product_qty
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_product_qty
 msgid "Quantity To Produce"
-msgstr "จำนวนที่จะผลิต"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_batch_size
@@ -2351,7 +2348,6 @@ msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_location_src_id
-#: model:ir.model.fields,field_description:mrp.field_mrp_routing_location_id
 msgid "Raw Materials Location"
 msgstr ""
 
@@ -2447,12 +2443,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 #: model:ir.ui.view,arch_db:mrp.view_stock_move_lots
 msgid "Reserved"
-msgstr "สำรองแล้ว"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_res_field
 msgid "Resource Field"
-msgstr "ทรัพยากร"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_res_id
@@ -2707,7 +2703,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Show all records which has next action date is before today"
-msgstr "Show all records which has next action date is before today"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,description:mrp.product_product_computer_desk_head
@@ -2799,7 +2795,7 @@ msgstr ""
 #: model:product.product,name:mrp.product_product_computer_desk
 #: model:product.template,name:mrp.product_product_computer_desk_product_template
 msgid "Table"
-msgstr "ตาราง"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,name:mrp.product_product_computer_desk_head
@@ -2950,12 +2946,12 @@ msgstr ""
 #. module: mrp
 #: sql_constraint:mrp.production:0
 msgid "The quantity to produce must be positive!"
-msgstr "จำนวนที่จะผลิตต้องเป็นบวก"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_document_res_id
 msgid "The record id this is attached to."
-msgstr "Record ID"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter_routing_id
@@ -3103,7 +3099,7 @@ msgstr "วันนี้"
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Today Activities"
-msgstr "กิจกรรมวันนี้"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_cost_report
@@ -3222,7 +3218,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Unlock"
-msgstr "ปลดล็อค"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view

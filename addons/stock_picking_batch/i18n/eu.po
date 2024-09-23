@@ -3,19 +3,17 @@
 # * stock_picking_batch
 # 
 # Translators:
+# Martin Trigaux, 2017
 # Eneko <eastigarraga@codesyntax.com>, 2018
 # Naomi Hidalgo <naomihid96@gmail.com>, 2018
-# Martin Trigaux, 2018
 # oihane <oihanecruce@gmail.com>, 2018
-# Victor Laskurain <blaskurain@binovo.es>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:24+0000\n"
-"Last-Translator: Victor Laskurain <blaskurain@binovo.es>, 2019\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
+"Last-Translator: oihane <oihanecruce@gmail.com>, 2018\n"
 "Language-Team: Basque (https://www.transifex.com/odoo/teams/41243/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,7 +62,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_batch_action
 #: model:ir.ui.menu,name:stock_picking_batch.stock_picking_batch_menu
 msgid "Batch Pickings"
-msgstr "Albaran sortak"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -170,13 +168,13 @@ msgstr ""
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_immediate_transfer
 msgid "Immediate Transfer"
-msgstr "Berehalako transferentzia"
+msgstr ""
 
 #. module: stock_picking_batch
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:92
 #, python-format
 msgid "Immediate Transfer?"
-msgstr "Berehala transferitu?"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -236,7 +234,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch_picking_ids
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Pickings"
-msgstr "Albaranak"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form

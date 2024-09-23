@@ -3,19 +3,17 @@
 # * account_budget
 # 
 # Translators:
+# Martin Trigaux, 2017
 # Jan Horzinka <jan.horzinka@centrum.cz>, 2018
-# trendspotter, 2018
+# Jiří P., 2018
 # Michal Veselý <michal@veselyberanek.net>, 2018
-# Martin Trigaux, 2018
-# karolína schusterová <karolina.schusterova@vdp.sk>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 11:34+0000\n"
-"PO-Revision-Date: 2017-09-20 10:14+0000\n"
-"Last-Translator: karolína schusterová <karolina.schusterova@vdp.sk>, 2020\n"
+"PO-Revision-Date: 2017-10-10 11:34+0000\n"
+"Last-Translator: Michal Veselý <michal@veselyberanek.net>, 2018\n"
 "Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +43,7 @@ msgstr "Účty"
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_percentage
 msgid "Achievement"
-msgstr "Úspěch"
+msgstr ""
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_analytic_account
@@ -71,7 +69,7 @@ msgstr "Rozpočet"
 #: model:ir.actions.act_window,name:account_budget.act_account_analytic_account_cb_lines
 #: model:ir.ui.view,arch_db:account_budget.view_account_analytic_account_form_inherit_budget
 msgid "Budget Items"
-msgstr "Položky rozpočtu"
+msgstr ""
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_crossovered_budget_lines
@@ -94,7 +92,7 @@ msgstr "Linie rozpočtu"
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_name
 #: model:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
 msgid "Budget Name"
-msgstr "Název rozpočtu"
+msgstr ""
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_budget_post
@@ -103,14 +101,14 @@ msgstr "Název rozpočtu"
 #: model:ir.ui.view,arch_db:account_budget.view_budget_post_search
 #: model:ir.ui.view,arch_db:account_budget.view_budget_post_tree
 msgid "Budgetary Position"
-msgstr "Rozpočtová pozice"
+msgstr ""
 
 #. module: account_budget
 #: model:ir.actions.act_window,name:account_budget.open_budget_post_form
 #: model:ir.ui.menu,name:account_budget.menu_budget_post_form
 #: model:ir.ui.view,arch_db:account_budget.res_config_settings_view_form
 msgid "Budgetary Positions"
-msgstr "Rozpočtové pozice"
+msgstr ""
 
 #. module: account_budget
 #: model:ir.actions.act_window,name:account_budget.act_crossovered_budget_lines_view
@@ -143,7 +141,7 @@ msgstr "Zrušeno"
 #. module: account_budget
 #: model:ir.actions.act_window,help:account_budget.act_crossovered_budget_view
 msgid "Click to create a new budget."
-msgstr "Kliknutím vytvoříte nový rozpočet."
+msgstr ""
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_post_company_id
@@ -242,7 +240,7 @@ msgstr "Název"
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_paid_date
 msgid "Paid Date"
-msgstr "Datum výplaty"
+msgstr ""
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
@@ -260,7 +258,7 @@ msgstr "Plánovaná částka"
 #: model:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
 #: model:ir.ui.view,arch_db:account_budget.view_account_analytic_account_form_inherit_budget
 msgid "Practical Amount"
-msgstr "Praktická částka"
+msgstr ""
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
@@ -287,13 +285,13 @@ msgstr "Stav"
 #: code:addons/account_budget/models/account_budget.py:31
 #, python-format
 msgid "The budget must have at least one account."
-msgstr "Rozpočet musí mít alespoň jeden účet."
+msgstr ""
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_theoritical_amount
 #: model:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
 msgid "Theoretical Amount"
-msgstr "Teoretická částka"
+msgstr ""
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.view_account_analytic_account_form_inherit_budget
@@ -308,7 +306,7 @@ msgstr "Ke schválení"
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.view_crossovered_budget_search
 msgid "To Approve Budgets"
-msgstr "Schválit rozpočty"
+msgstr ""
 
 #. module: account_budget
 #: selection:crossovered.budget,state:0

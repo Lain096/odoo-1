@@ -4,30 +4,29 @@
 # 
 # Translators:
 # hoxhe Aits <hoxhe0@gmail.com>, 2017
-# Mohammed Albasha <m.albasha.ma@gmail.com>, 2017
+# Osama Ahmaro <osamaahmaro@gmail.com>, 2017
+# Martin Trigaux <mat@odoo.com>, 2017
+# Ahmed Almokashfi siddeg <mokashfi200@yahoo.com>, 2017
 # Mustafa J. Kadhem <safi2266@gmail.com>, 2017
-# Islam Eldeeb <islameldeb@gmail.com>, 2017
+# Mustafa Rawi <mustafa@cubexco.com>, 2017
+# Mohammed Albasha <m.albasha.ma@gmail.com>, 2017
 # aya mostafa <ayaahmedmostafa201@gmail.com>, 2017
+# Shaima Safar <shaima.safar@open-inside.com>, 2017
 # AMAAL RU <Fabu1410@yahoo.com>, 2017
-# Yihya Hugirat <hugirat@gmail.com>, 2017
 # Ghaith Gammar <g.gammar@saharaifs.net>, 2017
+# Khaled Menof <kifcaliph@hotmail.com>, 2017
+# Yihya Hugirat <hugirat@gmail.com>, 2017
+# Islam Eldeeb <islameldeb@gmail.com>, 2017
 # amrnegm <amrnegm.01@gmail.com>, 2017
 # Akram Alfusayal <akram_ma@hotmail.com>, 2017
 # Mohammed Ibrahim <m.ibrahim@mussder.com>, 2017
-# Shaima Safar <shaima.safar@open-inside.com>, 2017
-# Osama Ahmaro <osamaahmaro@gmail.com>, 2017
-# Ahmed Almokashfi siddeg <mokashfi200@yahoo.com>, 2017
-# Khaled Menof <kifcaliph@hotmail.com>, 2017
-# Martin Trigaux, 2017
-# Mustafa Rawi <mustafa@cubexco.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Mustafa Rawi <mustafa@cubexco.com>, 2019\n"
+"PO-Revision-Date: 2017-09-20 09:53+0000\n"
+"Last-Translator: Mohammed Ibrahim <m.ibrahim@mussder.com>, 2017\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +47,7 @@ msgstr "# دفع"
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_report_membership_num_waiting
 msgid "# Waiting"
-msgstr "عدد الأعضاء المنتظرين"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.membership_products_kanban
@@ -58,7 +57,7 @@ msgstr ""
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.membership_products_kanban
 msgid "<strong> To:</strong>"
-msgstr "<strong> إلى:</strong>"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,help:membership.field_res_partner_associate_member
@@ -71,7 +70,7 @@ msgstr "عضو تريد ربط عضويتك به. وستنظر في حالة ا�
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_account_invoice_line
 msgid "Account Invoice line"
-msgstr "بند فاتورة الحساب"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.membership_products_form
@@ -86,12 +85,12 @@ msgstr "كل الأعضاء"
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "All non Members"
-msgstr "كافة غير الأعضاء"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,help:membership.field_membership_membership_line_member_price
 msgid "Amount for the membership"
-msgstr "قيمة العضوية"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_report_membership_associate_member_id
@@ -132,7 +131,7 @@ msgstr "تاريخ الإلغاء"
 #: selection:report.membership,membership_state:0
 #: selection:res.partner,membership_state:0
 msgid "Cancelled Member"
-msgstr "عضو ملغي"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.membership_product_search_form_view
@@ -188,7 +187,7 @@ msgstr "أنشئ في"
 #: model:ir.model.fields,field_description:membership.field_report_membership_membership_state
 #: model:ir.ui.view,arch_db:membership.view_report_membership_search
 msgid "Current Membership State"
-msgstr "حالة العضوية الحالية"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_res_partner_membership_state
@@ -212,7 +211,7 @@ msgstr "تاريخ تنشيط العضوية"
 #. module: membership
 #: model:ir.model.fields,help:membership.field_membership_membership_line_date
 msgid "Date on which member has joined the membership"
-msgstr "تاريخ تسجيل العضو لعضويته"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,help:membership.field_res_partner_membership_cancel
@@ -258,7 +257,7 @@ msgstr "شهر نهاية العضوية"
 #. module: membership
 #: model:ir.model.fields,help:membership.field_report_membership_date_to
 msgid "End membership date"
-msgstr "تاريخ انتهاء العضوية"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_res_partner_member_filter
@@ -345,12 +344,12 @@ msgstr "فاتورة عضوية"
 #: selection:report.membership,membership_state:0
 #: selection:res.partner,membership_state:0
 msgid "Invoiced Member"
-msgstr "عضو مفوتر"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "Invoiced/Paid/Free"
-msgstr "الأعضاء المفوترين/الدافعين/المجانيين"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,help:membership.field_res_partner_membership_state
@@ -383,13 +382,6 @@ msgid ""
 "-Invoiced Member: A member whose invoice has been created.\n"
 "-Paid Member: A member who has paid the membership amount."
 msgstr ""
-"يشير إلى حالة العضوية.\n"
-"- غير عضو: شريك لم يتقدم بطلب عضوية.\n"
-"- عضو ملغي: عضو ألغى عضويته.\n"
-"- عضو قديم: عضو انتهت فترة عضويته.\n"
-"- عضو منتظر: عضو تقدم بطلب عضوية وفاتورته قيد الإنشاء.\n"
-"- عضو مفوتر: عضو تم إنشاء فاتورته.\n"
-"- عضو دافع: عضو قام بسداد رسوم العضوية."
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_date
@@ -423,7 +415,7 @@ msgstr "العضو"
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_invoice_member_price
 msgid "Member Price"
-msgstr "سعر العضو"
+msgstr ""
 
 #. module: membership
 #: model:ir.actions.act_window,name:membership.action_membership_members
@@ -466,7 +458,7 @@ msgstr "تحليل العضوية"
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.membership_products_form
 msgid "Membership Duration"
-msgstr "مدة العضوية"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_product_product_membership_date_to
@@ -481,31 +473,31 @@ msgstr "موعد نهاية العضوية"
 #: model:ir.ui.view,arch_db:membership.membership_products_form
 #: model:ir.ui.view,arch_db:membership.membership_products_tree
 msgid "Membership Fee"
-msgstr "رسوم العضوية"
+msgstr ""
 
 #. module: membership
 #: model:ir.model,name:membership.model_membership_invoice
 #: model:ir.ui.view,arch_db:membership.view_membership_invoice_view
 msgid "Membership Invoice"
-msgstr "فاتورة العضوية"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "Membership Partners"
-msgstr "شركاء العضوية"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_report_membership_membership_id
 #: model:ir.ui.view,arch_db:membership.membership_product_search_form_view
 #: model:ir.ui.view,arch_db:membership.view_report_membership_search
 msgid "Membership Product"
-msgstr "منتج العضوية"
+msgstr ""
 
 #. module: membership
 #: model:ir.actions.act_window,name:membership.action_membership_products
 #: model:ir.ui.view,arch_db:membership.membership_product_search_form_view
 msgid "Membership Products"
-msgstr "منتجات العضوية"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_product_product_membership_date_from
@@ -518,30 +510,30 @@ msgstr "موعد بداية العضوية"
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "Membership State"
-msgstr "حالة العضوية"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_state
 msgid "Membership Status"
-msgstr "حالة العضوية"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.membership_products_form
 #: model:ir.ui.view,arch_db:membership.membership_products_tree
 msgid "Membership products"
-msgstr "منتجات العضوية"
+msgstr ""
 
 #. module: membership
 #: model:ir.actions.server,name:membership.ir_cron_update_membership_ir_actions_server
 #: model:ir.cron,cron_name:membership.ir_cron_update_membership
 #: model:ir.cron,name:membership.ir_cron_update_membership
 msgid "Membership: update memberships"
-msgstr "العضوية: تحديث العضويات"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_partner_form
 msgid "Memberships"
-msgstr "العضويات"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_report_membership_search
@@ -558,7 +550,7 @@ msgstr "ليس عضو"
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "None/Canceled/Old/Waiting"
-msgstr "غير الأعضاء/الأعضاء الملغيين/القدامى/المنتظرين"
+msgstr ""
 
 #. module: membership
 #: model:ir.actions.act_window,help:membership.action_membership_members
@@ -572,7 +564,7 @@ msgstr ""
 #: selection:report.membership,membership_state:0
 #: selection:res.partner,membership_state:0
 msgid "Old Member"
-msgstr "عضو قديم"
+msgstr ""
 
 #. module: membership
 #: selection:membership.membership_line,state:0
@@ -590,13 +582,13 @@ msgstr "الشريك"
 #: code:addons/membership/models/partner.py:181
 #, python-format
 msgid "Partner doesn't have an address to make the invoice."
-msgstr "لا يملك الشريك عنوانًا لاستخراج الفاتورة."
+msgstr ""
 
 #. module: membership
 #: code:addons/membership/models/partner.py:179
 #, python-format
 msgid "Partner is a free Member."
-msgstr "الشريك عضو مجاني."
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_report_membership_tot_pending
@@ -621,7 +613,7 @@ msgstr "اعداد التقرير "
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_report_membership_search
 msgid "Revenue Done"
-msgstr "الأرباح التامة"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_report_membership_user_id
@@ -665,7 +657,7 @@ msgstr "السعر قابل للتفاوض من قبل الشريك"
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.membership_products_form
 msgid "This note will be displayed on quotations..."
-msgstr "ستُعرض هذه الملاحظة على عروض الأسعار..."
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_report_membership_search
@@ -675,7 +667,7 @@ msgstr "سيتم عرض الدفع، القديم ومجموع أعمدة الت
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_report_membership_search
 msgid "This will display waiting, invoiced and total pending columns"
-msgstr "سيعرض هذا أعمدة الأعضاء المنتظرين، والمفوترين، وإجمالي القيمة المعلقة"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_date_to
@@ -692,7 +684,7 @@ msgstr "الموردين"
 #: selection:report.membership,membership_state:0
 #: selection:res.partner,membership_state:0
 msgid "Waiting Member"
-msgstr "عضو منتظر"
+msgstr ""
 
 #. module: membership
 #: model:ir.model,name:membership.model_membership_membership_line

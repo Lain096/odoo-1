@@ -2,18 +2,12 @@
 # This file contains the translation of the following modules:
 # * calendar
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-06 08:01+0000\n"
-"PO-Revision-Date: 2017-09-20 10:16+0000\n"
-"Last-Translator: Abul Hassan M I <miabulhassan@gmail.com>, 2019\n"
+"PO-Revision-Date: 2018-06-06 08:01+0000\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -284,7 +278,7 @@ msgstr ""
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_reminder
 msgid "${object.event_id.name} - Reminder"
-msgstr "$ {object.event_id.name} - நினைவூட்டல்"
+msgstr ""
 
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_invitation
@@ -294,7 +288,7 @@ msgstr ""
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_changedate
 msgid "${object.event_id.name}: Date updated"
-msgstr "bject.event_id.name}: தேதி புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:720
@@ -314,112 +308,112 @@ msgstr ""
 #: code:addons/calendar/models/calendar.py:225
 #, python-format
 msgid "%s has accepted invitation"
-msgstr "அழைப்பை ஏற்றுள்ளார்"
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:233
 #, python-format
 msgid "%s has declined invitation"
-msgstr "அழைப்பை நிராகரித்தார்"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_5
 msgid "1 Day(s)"
-msgstr "1 நாள் (கள்)"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_3
 msgid "1 Hour(s)"
-msgstr "1 மணி (கள்)"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_1
 msgid "15 Minute(s)"
-msgstr "15 நிமிடங்கள்)"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_4
 msgid "2 Hour(s)"
-msgstr "2 மணி (கள்)"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_mail_1
 msgid "3 Hour(s), by e-mail"
-msgstr "3 மணிநேரம் (கள்), மின்னஞ்சல் மூலம்"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_2
 msgid "30 Minute(s)"
-msgstr "30 நிமிடம்)"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_mail_2
 msgid "6 Hour(s), by e-mail"
-msgstr "6 மணி (கள்), மின்னஞ்சல் மூலம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form_popup
 msgid "<span> hours</span>"
-msgstr "மணி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Accept"
-msgstr "ஏற்கவும்"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.attendee,state:0
 #: selection:calendar.event,attendee_status:0
 msgid "Accepted"
-msgstr "ஏற்கப்பட்டது"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_contacts_active
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_active
 msgid "Active"
-msgstr "செயலில்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_activity_ids
 msgid "Activities"
-msgstr "நடவடிக்கைகள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_activity
 msgid "Activity"
-msgstr "நடவடிக்கை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_activity_type
 msgid "Activity Type"
-msgstr "செயல்பாட்டு வகை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_allday
 msgid "All Day"
-msgstr "நாள் முழுவதும்"
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:707
 #, python-format
 msgid "AllDay , %s"
-msgstr "எல்லா நாட்களும்"
+msgstr ""
 
 #. module: calendar
 #: sql_constraint:calendar.contacts:0
 msgid "An user cannot have twice the same contact."
-msgstr "ஒரு பயனருக்கு இருமுறை ஒரே தொடர்பு இருக்க முடியாது."
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_is_attendee
 msgid "Attendee"
-msgstr "பங்கேற்பாளர்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_attendee_status
 msgid "Attendee Status"
-msgstr "வருகையாளர் நிலை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_attendee
@@ -432,12 +426,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form_popup
 msgid "Attendees"
-msgstr "வருகையாளர் நிலை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Availability"
-msgstr "கிடைக்கும்"
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:1606
@@ -445,18 +439,18 @@ msgstr "கிடைக்கும்"
 #: selection:calendar.event,show_as:0
 #, python-format
 msgid "Busy"
-msgstr "பிஸி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_byday
 msgid "By day"
-msgstr "நாள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.menu,name:calendar.mail_menu_calendar
 #: model:ir.ui.menu,name:calendar.menu_calendar_configuration
 msgid "Calendar"
-msgstr "நாட்காட்டி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.actions.act_window,name:calendar.action_calendar_alarm
@@ -464,31 +458,29 @@ msgstr "நாட்காட்டி"
 #: model:ir.ui.view,arch_db:calendar.calendar_alarm_view_form
 #: model:ir.ui.view,arch_db:calendar.view_calendar_alarm_tree
 msgid "Calendar Alarm"
-msgstr "நாள்காட்டி அலாரம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Calendar Invitation"
-msgstr "அட்டவணை அழைப்பிதழ்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_mail_activity_calendar_event_id
 msgid "Calendar Meeting"
-msgstr "நாள்காட்டி கூட்டம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.actions.server,name:calendar.ir_cron_scheduler_alarm_ir_actions_server
 #: model:ir.cron,cron_name:calendar.ir_cron_scheduler_alarm
 #: model:ir.cron,name:calendar.ir_cron_scheduler_alarm
 msgid "Calendar: Event Reminder"
-msgstr "அட்டவணை: நிகழ்வு நினைவூட்டல்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Click here to update only this instance and not all recurrences."
 msgstr ""
-"இந்த நிகழ்வை மட்டும் புதுப்பித்து, அனைத்து மறுநிகழ்வுகளுக்கும் இங்கே கிளிக் "
-"செய்க."
 
 #. module: calendar
 #: model:ir.actions.act_window,help:calendar.action_calendar_event
@@ -498,18 +490,18 @@ msgstr ""
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee_common_name
 msgid "Common name"
-msgstr "பொது பெயர்"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,state:0
 msgid "Confirmed"
-msgstr "உறுதி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_res_partner
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee_partner_id
 msgid "Contact"
-msgstr "தொடர்பு"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_create_uid
@@ -518,7 +510,7 @@ msgstr "தொடர்பு"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_create_uid
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_create_date
@@ -527,57 +519,57 @@ msgstr "உருவாக்கியவர்"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_create_date
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_display_start
 #: model:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Date"
-msgstr "தேதி"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,month_by:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_day
 msgid "Date of month"
-msgstr "மாதத்தின் தேதி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Day of Month"
-msgstr "மாதத்தின் தேதி"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,month_by:0
 msgid "Day of month"
-msgstr "மாதத்தின் தேதி"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.alarm,interval:0 selection:calendar.event,rrule_type:0
 msgid "Day(s)"
-msgstr "நாட்களில்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Decline"
-msgstr "சரிவு"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.attendee,state:0
 #: selection:calendar.event,attendee_status:0
 msgid "Declined"
-msgstr "நிராகரிக்கப்பட்டது"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_description
 msgid "Description"
-msgstr "விளக்கம்"
+msgstr ""
 
 #. module: calendar
 #. openerp-web
 #: code:addons/calendar/static/src/xml/base_calendar.xml:18
 #, python-format
 msgid "Details"
-msgstr "விவரங்கள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_display_name
@@ -587,77 +579,77 @@ msgstr "விவரங்கள்"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_display_name
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form_popup
 msgid "Document"
-msgstr "ஆவணம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_res_id
 msgid "Document ID"
-msgstr "ஆவண ஐடி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_res_model_id
 msgid "Document Model"
-msgstr "ஆவண மாதிரி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_res_model
 msgid "Document Model Name"
-msgstr "ஆவண மாதிரி பெயர்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_duration
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Duration"
-msgstr "காலம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_duration_minutes
 #: model:ir.model.fields,help:calendar.field_calendar_alarm_duration_minutes
 msgid "Duration in minutes"
-msgstr "நிமிடங்களில் காலம்"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.alarm,type:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee_email
 msgid "Email"
-msgstr "மின்னஞ்சல்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_attendee_email
 msgid "Email of Invited Person"
-msgstr "அழைக்கப்பட்ட நபரின் மின்னஞ்சல்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_contacts_partner_id
 msgid "Employee"
-msgstr "பணியாளர்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_stop_date
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_tree
 msgid "End Date"
-msgstr "கடைசி தேதி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_stop_datetime
 msgid "End Datetime"
-msgstr "முடிவு தரவுத்தளம்"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,end_type:0
 msgid "End date"
-msgstr "கடைசி தேதி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Ending at"
-msgstr "முடிவடைகிறது"
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:915
@@ -674,12 +666,12 @@ msgstr ""
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_event
 msgid "Event"
-msgstr "நிகழ்வு"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_display_time
 msgid "Event Time"
-msgstr "நிகழ்வு நேரம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_alarm
@@ -690,50 +682,50 @@ msgstr ""
 #: code:addons/calendar/models/calendar.py:1164
 #, python-format
 msgid "Event recurrence interval cannot be negative."
-msgstr "நிகழ்வு மீண்டும் இடைவெளி எதிர்மறையாக இருக்க முடியாது."
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,privacy:0
 msgid "Everyone"
-msgstr "அனைவரும்"
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/mail_activity.py:38
 #, python-format
 msgid "Feedback: "
-msgstr "பின்னூட்டம்:"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,byday:0
 msgid "Fifth"
-msgstr "ஐந்தாவது"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,byday:0
 msgid "First"
-msgstr "முதல்"
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:955
 #, python-format
 msgid "First you have to specify the date of the invitation."
-msgstr "முதலில் அழைப்பின் தேதியை நீங்கள் குறிப்பிட வேண்டும். "
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,byday:0
 msgid "Fourth"
-msgstr "நான்காவது"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.attendee,availability:0
 #: selection:calendar.event,show_as:0
 msgid "Free"
-msgstr "இலவச"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee_availability
 msgid "Free/Busy"
-msgstr "இலவச / பிஸி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_fr
@@ -743,30 +735,28 @@ msgstr ""
 #. module: calendar
 #: selection:calendar.event,week_list:0
 msgid "Friday"
-msgstr "வெள்ளி "
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Group By"
-msgstr "மூலம் குழு"
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:1549
 #, python-format
 msgid "Group by date is not supported, use the calendar view instead."
 msgstr ""
-"தேதி மூலம் குழு ஆதரிக்கப்படவில்லை, அதற்கு பதிலாக காலெண்டர் காட்சியைப் "
-"பயன்படுத்தவும்."
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_ir_http
 msgid "HTTP routing"
-msgstr "HTTP ரூட்டிங்"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.alarm,interval:0
 msgid "Hour(s)"
-msgstr "ஹவர் (ங்கள்)"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_id
@@ -776,7 +766,7 @@ msgstr "ஹவர் (ங்கள்)"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_id
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_active
@@ -784,48 +774,46 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the event "
 "alarm information without removing it."
 msgstr ""
-"செயல்படும் புலம் பொய் என அமைக்கப்பட்டால், நிகழ்வு அலாரம் தகவலை அதை அகற்றாமல்"
-" மறைக்க அனுமதிக்கும்."
 
 #. module: calendar
 #: model:mail.message.subtype,name:calendar.subtype_invitation
 msgid "Invitation"
-msgstr "அழைப்பிதழ்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee_access_token
 msgid "Invitation Token"
-msgstr "அழைப்பிதழ்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Invitation details"
-msgstr "அழைப்பிதழ் விவரங்கள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Invitation for"
-msgstr "அழைப்பிதழ்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Invitations"
-msgstr "அழைப்பிதழ்கள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_wizard_invite
 msgid "Invite wizard"
-msgstr "வழிகாட்டி அழை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_is_highlighted
 msgid "Is the Event Highlighted"
-msgstr "நிகழ்வு உயர்த்தி உள்ளது"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,byday:0
 msgid "Last"
-msgstr "கடந்த"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm___last_update
@@ -835,7 +823,7 @@ msgstr "கடந்த"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event___last_update
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_write_uid
@@ -844,7 +832,7 @@ msgstr "கடைசியாக திருத்திய"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type_write_uid
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_write_date
@@ -853,56 +841,56 @@ msgstr "கடைசியாக புதுப்பிக்கப்பட�
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type_write_date
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_res_partner_calendar_last_notif_ack
 #: model:ir.model.fields,field_description:calendar.field_res_users_calendar_last_notif_ack
 msgid "Last notification marked as read from base Calendar"
-msgstr "அடிப்படைக் காலண்டரிடமிருந்து கடைசியாக அறிவிப்பு எனக் குறித்தது"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_rrule_type
 msgid "Let the event automatically repeat at that interval"
-msgstr "அந்த இடைவெளியில் நிகழ்வை மீண்டும் தானாக திரும்ப அனுமதிக்கவும்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_location
 #: model:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Location"
-msgstr "இருப்பிடம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_location
 msgid "Location of Event"
-msgstr "நிகழ்வு இடம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_contacts_user_id
 msgid "Me"
-msgstr "என்னை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Meeting"
-msgstr "சந்தித்தல்"
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:933
 #: code:addons/calendar/models/calendar.py:937
 #, python-format
 msgid "Meeting '%s' starts '%s' and ends '%s'"
-msgstr "'% S' சந்திப்பு '% s' தொடங்கி '% s' ஐ முடிக்கிறது"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Meeting Details"
-msgstr "சந்திப்பு விவரங்கள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_name
 msgid "Meeting Subject"
-msgstr "சந்திப்பு பொருள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_event_type
@@ -914,12 +902,12 @@ msgstr ""
 #: model:ir.ui.menu,name:calendar.menu_calendar_event_type
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_type_tree
 msgid "Meeting Types"
-msgstr "சந்திப்பு வகைகள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee_event_id
 msgid "Meeting linked"
-msgstr "கூட்டம் இணைக்கப்பட்டுள்ளது"
+msgstr ""
 
 #. module: calendar
 #: model:ir.actions.act_window,name:calendar.action_calendar_event
@@ -929,22 +917,22 @@ msgstr "கூட்டம் இணைக்கப்பட்டுள்ள�
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form_popup
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_tree
 msgid "Meetings"
-msgstr "கூட்டங்கள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_message
 msgid "Message"
-msgstr "செய்தி"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.alarm,interval:0
 msgid "Minute(s)"
-msgstr "மினிட் (ங்கள்)"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Misc"
-msgstr "மற்றவை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_mo
@@ -954,12 +942,12 @@ msgstr ""
 #. module: calendar
 #: selection:calendar.event,week_list:0
 msgid "Monday"
-msgstr "திங்கட்கிழமை"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,rrule_type:0
 msgid "Month(s)"
-msgstr "மாதம் (ங்கள்)"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_search
@@ -969,170 +957,170 @@ msgstr ""
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "My Meetings"
-msgstr "என் கூட்டங்கள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_name
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type_name
 msgid "Name"
-msgstr "பெயர்"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.attendee,state:0
 #: selection:calendar.event,attendee_status:0
 msgid "Needs Action"
-msgstr "அவசர தேவை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "No I'm not going."
-msgstr "இல்லை நான் போவதில்லை."
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.alarm,type:0
 msgid "Notification"
-msgstr "அறிவித்தல்"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,end_type:0
 msgid "Number of repetitions"
-msgstr "மறுபடியும் எண்ணிக்கை"
+msgstr ""
 
 #. module: calendar
 #. openerp-web
 #: code:addons/calendar/static/src/xml/base_calendar.xml:17
 #, python-format
 msgid "OK"
-msgstr "சரி"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,privacy:0
 msgid "Only internal users"
-msgstr "உள் பயனர்கள் மட்டுமே"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,privacy:0
 msgid "Only me"
-msgstr "நான் மட்டும்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_month_by
 msgid "Option"
-msgstr "விருப்பம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Options"
-msgstr "விருப்பங்கள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Owner"
-msgstr "உரிமையாளர்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_attendee_ids
 msgid "Participant"
-msgstr "பங்கேற்பாளர்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_partner_id
 msgid "Partner-related data of the user"
-msgstr "பயனர் கூட்டாளர் தொடர்பான தரவு"
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:1177
 #, python-format
 msgid "Please select a proper day of the month."
-msgstr "மாதத்தின் சரியான நாளைத் தேர்ந்தெடுக்கவும்."
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_privacy
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Privacy"
-msgstr "தனியுரிமை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_rrule_type
 msgid "Recurrence"
-msgstr "மீண்டும் ஏற்படுமாயின்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_end_type
 msgid "Recurrence Termination"
-msgstr "மீளாய்வு முறிவு"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_recurrency
 msgid "Recurrent"
-msgstr "மீண்டும் மீண்டும்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_recurrent_id
 msgid "Recurrent ID"
-msgstr "மீண்டும் வரும் ஐடி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_recurrent_id_date
 msgid "Recurrent ID date"
-msgstr "மீண்டும் மீண்டும் தேதி தேதி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_recurrency
 msgid "Recurrent Meeting"
-msgstr "தொடர்ச்சியான கூட்டம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_rrule
 msgid "Recurrent Rule"
-msgstr "மீண்டும் மீண்டும் ஆட்சி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_duration
 msgid "Remind Before"
-msgstr "முன் நினைவூட்டு"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_alarm_ids
 msgid "Reminders"
-msgstr "நினைவூட்டல்கள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_count
 msgid "Repeat"
-msgstr "மீண்டும் மீண்டும்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_interval
 msgid "Repeat Every"
-msgstr "அனைத்தையும் மீண்டும் செய்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_final_date
 msgid "Repeat Until"
-msgstr "வரை திரும்பவும்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_interval
 msgid "Repeat every (Days/Week/Month/Year)"
-msgstr "ஒவ்வொரு (நாட்கள் / வாரம் / மாதம் / வருடம்)"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_count
 msgid "Repeat x times"
-msgstr "X முறை மீண்டும் செய்யவும்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_partner_id
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_user_id
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Responsible"
-msgstr "பொறுப்பான"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.alarm,type:0
 msgid "SMS Text Message"
-msgstr "SMS உரை செய்தி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_sa
@@ -1142,7 +1130,7 @@ msgstr ""
 #. module: calendar
 #: selection:calendar.event,week_list:0
 msgid "Saturday"
-msgstr "சனிக்கிழமை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.mail_activity_view_form_popup
@@ -1152,112 +1140,112 @@ msgstr ""
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Search Meetings"
-msgstr "தேடல் கூட்டங்கள்"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,byday:0
 msgid "Second"
-msgstr "இரண்டாவது"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Select attendees..."
-msgstr "பங்கேற்பாளர்களைத் தேர்ந்தெடு ..."
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Send mail"
-msgstr "மின்னஞ்சல் அனுப்புக"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_show_as
 msgid "Show Time as"
-msgstr "நேரம் காட்டவும்"
+msgstr ""
 
 #. module: calendar
 #. openerp-web
 #: code:addons/calendar/static/src/xml/base_calendar.xml:19
 #, python-format
 msgid "Snooze"
-msgstr "உறக்கநிலைப்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_start
 msgid "Start"
-msgstr "தொடக்கம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_start_date
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_tree
 msgid "Start Date"
-msgstr "தொடக்க தேதி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_start_datetime
 msgid "Start DateTime"
-msgstr "தேதிநேரம் தொடங்கும்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_start
 msgid "Start date of an event, without time for full days events"
-msgstr "முழு நாள் நிகழ்வுகள் நேரம் இல்லாமல், ஒரு நிகழ்வு தேதி தொடங்க"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form_popup
 msgid "Starting at"
-msgstr "தொடங்குகிறது"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee_state
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_state
 msgid "Status"
-msgstr "நிலைமை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_attendee_state
 msgid "Status of the attendee's participation"
-msgstr "பங்கேற்பாளரின் பங்கு நிலை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_stop
 msgid "Stop"
-msgstr "நிறுத்து"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event_stop
 msgid "Stop date of an event, without time for full days events"
-msgstr "முழு நிகழ்வுகள் நேரம் இல்லாமல், நிகழ்வை நிறுத்து தேதி"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_tree
 msgid "Subject"
-msgstr "பொருள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_su
 msgid "Sun"
-msgstr "சன்"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,week_list:0
 msgid "Sunday"
-msgstr "ஞாயிறு"
+msgstr ""
 
 #. module: calendar
 #: sql_constraint:calendar.event.type:0
 msgid "Tag name already exists !"
-msgstr "Tag name already exists !"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_categ_ids
 msgid "Tags"
-msgstr "மேற்கோள்கள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "The"
-msgstr "தி"
+msgstr ""
 
 #. module: calendar
 #. openerp-web
@@ -1267,8 +1255,6 @@ msgid ""
 "The activity is linked to a meeting. Deleting it will remove the meeting as "
 "well. Do you want to proceed ?"
 msgstr ""
-"செயல்பாடு கூட்டத்தில் இணைக்கப்பட்டுள்ளது. அதை நீக்குவது கூட்டத்தையும் "
-"நீக்கும். நீங்கள் தொடர விரும்புகிறீர்களா?"
 
 #. module: calendar
 #: model:ir.actions.act_window,help:calendar.action_calendar_event
@@ -1277,19 +1263,16 @@ msgid ""
 "            other applications such as the employee leaves or the business\n"
 "            opportunities."
 msgstr ""
-"காலெண்டர் ஊழியர்களுக்கு இடையில் பகிரப்படுகிறது மற்றும் முழுமையாக ஒருங்கிணைக்கப்படுகிறது\n"
-"             ஊழியர் இலைகள் அல்லது வணிக போன்ற பிற பயன்பாடுகள்\n"
-"             வாய்ப்புகளை"
 
 #. module: calendar
 #: selection:calendar.event,byday:0
 msgid "Third"
-msgstr "மூன்றாம்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "This event is linked to a recurrence...<br/>"
-msgstr "இந்த நிகழ்வு மீண்டும் மீண்டும் இணைக்கப்பட்டுள்ளது ...<br/>"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_th
@@ -1299,7 +1282,7 @@ msgstr ""
 #. module: calendar
 #: selection:calendar.event,week_list:0
 msgid "Thursday"
-msgstr "வியாழக்கிழமை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_tu
@@ -1309,44 +1292,44 @@ msgstr ""
 #. module: calendar
 #: selection:calendar.event,week_list:0
 msgid "Tuesday"
-msgstr "செவ்வாய்க்கிழமை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_type
 msgid "Type"
-msgstr "வகை"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.attendee,state:0
 #: selection:calendar.event,attendee_status:0
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Uncertain"
-msgstr "நிலையற்ற"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,state:0
 msgid "Unconfirmed"
-msgstr "உறுதிப்படுத்தப்படாத"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_interval
 msgid "Unit"
-msgstr "அலகு"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Unread Messages"
-msgstr "படிக்காத செய்திகள்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Until"
-msgstr "வரை"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Update only this instance"
-msgstr "இந்த நிகழ்வை மட்டுமே புதுப்பிக்கவும்"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_we
@@ -1356,33 +1339,33 @@ msgstr ""
 #. module: calendar
 #: selection:calendar.event,week_list:0
 msgid "Wednesday"
-msgstr "புதன்கிழமை"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,rrule_type:0
 msgid "Week(s)"
-msgstr "வாரம் (கள்)"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_week_list
 msgid "Weekday"
-msgstr "வாரநாள்"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,rrule_type:0
 msgid "Year(s)"
-msgstr "ஆண்டு (கள்)"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Yes I'm going."
-msgstr "ஆமாம் நான் போகிறேன்."
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:155
 #, python-format
 msgid "You cannot duplicate a calendar attendee."
-msgstr "ஒரு காலண்டர் பங்கேற்பாளரை நீங்கள் நகல் செய்ய முடியாது."
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_alarm_manager
@@ -1397,13 +1380,13 @@ msgstr ""
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "e.g. Business Lunch"
-msgstr "எ.கா. வணிக மதிய உணவு"
+msgstr ""
 
 #. module: calendar
 #: code:addons/calendar/models/calendar.py:1162
 #, python-format
 msgid "interval cannot be negative."
-msgstr "இடைவெளி எதிர்மறையாக இருக்க முடியாது."
+msgstr ""
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_ir_attachment

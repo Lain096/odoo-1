@@ -32,7 +32,6 @@ msgstr "${(object.name or '').replace('/','_')}"
 #: model:mail.template,subject:mrp_repair.mail_template_mrp_repair_quotation
 msgid "${object.partner_id.name} Repair Orders (Ref ${object.name or 'n/a' })"
 msgstr ""
-"${object.partner_id.name} Objednávky opravy (Ref ${object.name or 'n/a' })"
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
@@ -54,12 +53,6 @@ msgid ""
 "* The 'Done' status is set when repairing is completed.\n"
 "* The 'Cancelled' status is used when user cancel repair order."
 msgstr ""
-"* Stav 'Koncept' se používá, když uživatel zadává novou a nepotvrzenou objednávku opravy.\n"
-"* Stav „Potvrzeno“ se používá, když uživatel potvrdí objednávku na opravu.\n"
-"* Stav „Připraveno k opravě“ se používá k zahájení opravy, uživatel může zahájit opravu až po potvrzení objednávky opravy.\n"
-"* Stav „Faktura“ se používá k vygenerování faktury před nebo po provedení opravy.\n"
-"* Stav 'Hotovo' je nastaven po dokončení opravy.\n"
-"* Stav „Zrušeno“ se používá, když uživatel zruší objednávku na opravu."
 
 #. module: mrp_repair
 #: model:mail.template,body_html:mrp_repair.mail_template_mrp_repair_quotation
@@ -88,17 +81,17 @@ msgstr "Přidat"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Lot/Serial Number:</strong>"
-msgstr "<strong>Lot / Sériové číslo:</strong>"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Operations</strong>"
-msgstr "<strong>Operace</strong>"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Parts</strong>"
-msgstr "<strong>Díly</strong>"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
@@ -113,7 +106,7 @@ msgstr "Položky k opravě"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Shipping address :</strong>"
-msgstr "<strong>Dodací adresa:</strong>"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
@@ -128,7 +121,7 @@ msgstr "Celkem"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Warranty:</strong>"
-msgstr "<strong>Záruka:</strong>"
+msgstr ""
 
 #. module: mrp_repair
 #: selection:mrp.repair.line,type:0
@@ -188,7 +181,7 @@ msgstr "Zrušeno"
 #: code:addons/mrp_repair/models/mrp_repair.py:249
 #, python-format
 msgid "Cannot cancel completed repairs."
-msgstr "Nelze zrušit dokončené opravy."
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,help:mrp_repair.field_mrp_repair_partner_id
@@ -225,8 +218,6 @@ msgid ""
 "Couldn't find a pricelist line matching this product and quantity.\n"
 "You have to change either the product, the quantity or the pricelist."
 msgstr ""
-"Nelze najít řádek ceníku odpovídající tomuto produktu a množství.\n"
-"Musíte změnit produkt, množství nebo ceník."
 
 #. module: mrp_repair
 #: model:ir.actions.act_window,name:mrp_repair.act_mrp_repair_invoice
@@ -273,7 +264,7 @@ msgstr "Zákazník"
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_default_address_id
 msgid "Default Address"
-msgstr "Výchozí adresa"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_address_id
@@ -384,9 +375,6 @@ msgid ""
 "                add or replace and record the time you spent on the different\n"
 "                operations."
 msgstr ""
-"V objednávce na opravu můžete podrobně uvést součásti, které odeberete,\n"
-"přidáte nebo nahradíte a zaznamenat čas, který jste strávili na různých\n"
-"operacích."
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:215
@@ -440,7 +428,7 @@ msgstr "Fakturační a dodací adresa:"
 #: code:addons/mrp_repair/models/mrp_repair.py:389
 #, python-format
 msgid "Invoice created"
-msgstr "Faktura vytvořena"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_fee_invoiced
@@ -509,7 +497,7 @@ msgstr "Přesunout"
 #. module: mrp_repair
 #: model:ir.model.fields,help:mrp_repair.field_mrp_repair_move_id
 msgid "Move created by the repair order"
-msgstr "Přesun vytvořený objednávkou opravy"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
@@ -574,7 +562,7 @@ msgstr "Kontakt"
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_operations
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
 msgid "Parts"
-msgstr "Díly"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
@@ -623,7 +611,7 @@ msgstr "Výrobek k opravě"
 #. module: mrp_repair
 #: model:ir.model.fields,help:mrp_repair.field_mrp_repair_lot_id
 msgid "Products repaired are all belonging to this lot"
-msgstr "Opravené výrobky patří k této šarži"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_fee_product_uom_qty
@@ -672,7 +660,7 @@ msgstr "Odebrat"
 #: model:ir.model.fields,field_description:mrp_repair.field_stock_move_repair_id
 #: model:ir.model.fields,field_description:mrp_repair.field_stock_warn_insufficient_qty_repair_repair_id
 msgid "Repair"
-msgstr "Oprava"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model,name:mrp_repair.model_mrp_repair_fee
@@ -694,7 +682,7 @@ msgstr "Příkaz opravy"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "Repair Order #:"
-msgstr "Číslo opravy:"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_fee_repair_id
@@ -722,25 +710,25 @@ msgstr "Reference opravy"
 #: code:addons/mrp_repair/models/mrp_repair.py:203
 #, python-format
 msgid "Repair must be canceled in order to reset it to draft."
-msgstr "Oprava musí být zrušena, aby se mohla obnovit na koncept."
+msgstr ""
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:408
 #, python-format
 msgid "Repair must be confirmed before starting reparation."
-msgstr "Oprava musí být potvrzena před zahájením opravy."
+msgstr ""
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:436
 #, python-format
 msgid "Repair must be repaired in order to make the product moves."
-msgstr "Oprava musí být vpořádku, aby se produkt posunul dál."
+msgstr ""
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:419
 #, python-format
 msgid "Repair must be under repair in order to end reparation."
-msgstr "Oprava musí být pod objednávkou, aby mohlo být opravování ukončeno."
+msgstr ""
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:251
@@ -774,7 +762,7 @@ msgstr "Příkazy opravy"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Search Repair Orders"
-msgstr "Vyhledávání objednávek opravy"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,help:mrp_repair.field_mrp_repair_invoice_method
@@ -870,9 +858,6 @@ msgid ""
 "                order to know if whether the repair should be invoiced to the\n"
 "                customer or not."
 msgstr ""
-"V opravné objednávce je uvedeno datum záruky na sériové číslo v\n"
-"aby zjistil, zda má být oprava naúčtována\n"
-"zákazník nebo ne."
 
 #. module: mrp_repair
 #: model:ir.model.fields,help:mrp_repair.field_mrp_repair_line_state
@@ -880,8 +865,6 @@ msgid ""
 "The status of a repair line is set automatically to the one of the linked "
 "repair order."
 msgstr ""
-"Stav řádku pro opravy se automaticky nastaví na stav, v jakém je propojená "
-"objednávka."
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_cancel_repair
@@ -979,8 +962,6 @@ msgid ""
 "You have to select a pricelist in the Repair form !\n"
 " Please set one before choosing a product."
 msgstr ""
-"Ve formuláři Oprava musíte vybrat ceník! Před výběrem produktu prosím "
-"nastavte jeden."
 
 #. module: mrp_repair
 #: model:ir.model,name:mrp_repair.model_stock_traceability_report

@@ -3,21 +3,18 @@
 # * lunch
 # 
 # Translators:
+# Yihya Hugirat <hugirat@gmail.com>, 2017
 # שהאב חוסיין <shhab89@gmail.com>, 2018
 # Martin Trigaux, 2018
 # Fishfur A Banter <fishfurbanter@gmail.com>, 2018
 # ExcaliberX <excaliberx@gmail.com>, 2018
-# Yihya Hugirat <hugirat@gmail.com>, 2018
-# דודי מלכה <Dudimalka6@gmail.com>, 2019
-# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
+"Last-Translator: ExcaliberX <excaliberx@gmail.com>, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,7 +59,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_product_action
 msgid "A product is defined by its name, category, price and vendor."
-msgstr "מוצר מוגדר לפי השם שלו, הקטגוריה שלו, המחיר שלו והספק שלו."
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_active
@@ -88,7 +85,7 @@ msgstr "אזהרה"
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_alerts
 #: model:ir.ui.menu,name:lunch.lunch_alert_menu
 msgid "Alerts"
-msgstr "התראה"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_alert_action
@@ -131,7 +128,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search_2
 msgid "By Employee"
-msgstr "לפי עובד"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
@@ -141,7 +138,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search
 msgid "By User"
-msgstr "לפי משתמש"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
@@ -229,12 +226,12 @@ msgstr "הגדרות תצורה"
 #: model:ir.actions.act_window,name:lunch.lunch_cashmove_action_control_accounts
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_menu_control_accounts
 msgid "Control Accounts"
-msgstr "בקרת חשבונות"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_order_line_action_control_suppliers
 msgid "Control Vendors"
-msgstr "בקרת ספקים"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_create_uid
@@ -304,7 +301,7 @@ msgstr "השם המוצג"
 #: code:addons/lunch/static/src/xml/lunch.xml:7
 #, python-format
 msgid "Don't forget the alerts displayed in the reddish area"
-msgstr "אל תשכח את ההתראות המוצגות באזור האדום"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_menu_payment
@@ -358,13 +355,11 @@ msgid ""
 "Helps you handle your lunch needs, if you are a manager you will be able to "
 "create new products, cashmoves and to confirm or cancel orders."
 msgstr ""
-"עוזר לך להתמודד עם צרכי ארוחת הצהריים שלך, אם אתה מנהל תוכל ליצור מוצרים "
-"חדשים, תנועות מזומן ולאשר או לבטל הזמנות."
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_product_category_action
 msgid "Here you can access all categories for the lunch products."
-msgstr "כאן תוכלו לגשת לכל הקטגוריות של מוצרי ארוחת הצהריים."
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_cashmove_action_payment
@@ -376,7 +371,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_order_line_action_by_supplier
 msgid "Here you can see today's orders grouped by vendors."
-msgstr "כאן תוכל לראות את ההזמנות של היום מקובצות לפי ספקים."
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_cashmove_action_account
@@ -459,18 +454,18 @@ msgstr "רשימה"
 #: model:ir.module.category,name:lunch.module_lunch_category
 #: model:ir.ui.menu,name:lunch.menu_lunch
 msgid "Lunch"
-msgstr "ארוחת צהריים"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model,name:lunch.model_lunch_alert
 msgid "Lunch Alert"
-msgstr "התראת ארוחת צהריים"
+msgstr ""
 
 #. module: lunch
 #: code:addons/lunch/models/lunch.py:265
 #, python-format
 msgid "Lunch Cashmove"
-msgstr "תנועת מזומן של ארוחת צהריים"
+msgstr ""
 
 #. module: lunch
 #: code:addons/lunch/models/lunch.py:66
@@ -479,7 +474,7 @@ msgstr "תנועת מזומן של ארוחת צהריים"
 #: model:ir.ui.view,arch_db:lunch.report_lunch_order
 #, python-format
 msgid "Lunch Order"
-msgstr "הזמנת ארוחת צהריים"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.server,name:lunch.action_server_lunch_archive_product
@@ -489,7 +484,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_cancel
 msgid "Lunch: Cancel meals"
-msgstr "ארוחת צהריים: בטל ארוחות"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_order
@@ -499,7 +494,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_confirm
 msgid "Lunch: Receive meals"
-msgstr "ארוחת צהריים: קבל ארוחות"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_admin
@@ -526,12 +521,12 @@ msgstr "שני"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search
 msgid "My Account grouped"
-msgstr "החשבון שלי מקובץ"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_title
 msgid "My Lunch"
-msgstr "ארוחת הצהריים שלי"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
@@ -552,7 +547,7 @@ msgstr "חדש"
 #: model:ir.actions.act_window,name:lunch.lunch_order_action_form
 #: model:ir.ui.menu,name:lunch.lunch_order_menu_form
 msgid "New Order"
-msgstr "הזמנה חדשה"
+msgstr ""
 
 #. module: lunch
 #: code:addons/lunch/wizard/lucky_order.py:39
@@ -563,7 +558,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
 msgid "Not Received"
-msgstr "לא התקבל"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_line_note
@@ -606,12 +601,12 @@ msgstr "חודש הזמנה"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_tree
 msgid "Order lines Tree"
-msgstr "תרשים שורות הזמנה"
+msgstr ""
 
 #. module: lunch
 #: selection:lunch.order.line,state:0
 msgid "Ordered"
-msgstr "הוזמן"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_view_form
@@ -694,7 +689,7 @@ msgstr "שם מוצר"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_product_view_search
 msgid "Product Search"
-msgstr "חיפוש מוצר"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_product_action
@@ -707,18 +702,18 @@ msgstr "מוצרים"
 #: model:ir.ui.view,arch_db:lunch.lunch_product_category_view_form
 #: model:ir.ui.view,arch_db:lunch.lunch_product_view_form
 msgid "Products Form"
-msgstr "טופס מוצר"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_product_view_tree
 msgid "Products Tree"
-msgstr "עץ מוצרים"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_kanban
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_tree
 msgid "Receive"
-msgstr "התקבל"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
@@ -729,7 +724,7 @@ msgstr "התקבל"
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_alert_type
 msgid "Recurrence"
-msgstr "חזרה"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_cashmove_action_payment
@@ -762,7 +757,7 @@ msgstr "חיפוש"
 #: code:addons/lunch/static/src/xml/lunch.xml:5
 #, python-format
 msgid "Select a product and put your order comments on the note."
-msgstr "בחר מוצר וכתוב את הערות ההזמנה שלך."
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_view_form
@@ -788,7 +783,7 @@ msgstr "סטטוס"
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_order_line_action_control_suppliers
 msgid "Summary of all lunch orders, grouped by vendor and by date."
-msgstr "סיכום כל הזמנות הארוחות, מקובצות לפי הספק ותאריך."
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_sunday
@@ -812,15 +807,13 @@ msgid ""
 "There is no previous order recorded. Click on \"My Lunch\" and then create a"
 " new lunch order."
 msgstr ""
-"אין רשומת הזמנה קודמת. לחץ על \"ארוחת הצהריים שלי\" ואז צור הזמנת צהריים "
-"חדשה."
 
 #. module: lunch
 #. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:4
 #, python-format
 msgid "This is the first time you order a meal"
-msgstr "זו הפעם הראשונה שאתה מזמין ארוחה"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_thursday
@@ -835,7 +828,7 @@ msgstr "היום"
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.lunch_order_line_menu_by_supplier
 msgid "Today's Orders"
-msgstr "הזמנות היום"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_total
@@ -890,7 +883,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_cashmove_action_account
 msgid "Your Account"
-msgstr "החשבון שלך"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_menu_form
@@ -912,24 +905,24 @@ msgstr "המנות המובחרות שלך יווצרו על בסיס הזמנו
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_form
 msgid "cashmove form"
-msgstr "טופס תנועת מזומן"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_tree
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_tree_2
 msgid "cashmove tree"
-msgstr "תרשים תנועות מזומן"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model,name:lunch.model_lunch_cashmove
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search_2
 msgid "lunch cashmove"
-msgstr "תנועת מזומן של ארוחת צהריים"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search
 msgid "lunch employee payment"
-msgstr "תשלום עובדים על ארוחת צהריים"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model,name:lunch.model_lunch_order_line

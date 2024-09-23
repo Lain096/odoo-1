@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Arthur Latour <arl@odoo.com>, 2017
+# Léonie Bouchat <lbo@odoo.com>, 2017
 # Laura Piraux <lap@odoo.com>, 2017
 # Henri Cornuau <hcornuau@gmail.com>, 2017
 # Frédéric LIETART <stuff@tifred.fr>, 2017
@@ -18,14 +19,15 @@
 # Nicolas JEUDY <njeudy@panda-chi.io>, 2017
 # Lucas Deliege <lud@odoo.com>, 2017
 # Fabien Pinckaers <fp@openerp.com>, 2017
-# f477e7ae9c75a2428d6113663a8354fe_bcd021c <0ff4ce060a36f446722508a48e99c22a_347081>, 2017
+# Leo Schmitt <inactive+lschmitt@transifex.com>, 2017
 # Nancy Bolognesi <nb@microcom.ca>, 2017
 # ShevAbam, 2017
 # Lucas Deliege <lud@openerp.com>, 2017
+# Benoît Fontaine <benoitfontaine.ba@gmail.com>, 2017
 # Olivier Dony <odo@odoo.com>, 2017
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
 # Hubert TETARD <htetard@apik-conseils.com>, 2017
-# Nicolas Martinelli, 2017
+# Nicolas Martinelli <nim@odoo.com>, 2017
 # Benedicte HANET <hanetb@gmail.com>, 2017
 # Sylvain GROS-DESORMEAUX <sylvain.grodes@gmail.com>, 2017
 # Stéphane Le Cornec <slc@microcom.ca>, 2017
@@ -33,27 +35,24 @@
 # Martin Malorni <mmalorni@gmail.com>, 2017
 # Clo <clo@odoo.com>, 2017
 # Micky Jault <micky037@hotmail.fr>, 2017
-# Richard Mathot <rim@odoo.com>, 2017
 # Jeanjean Noname <monsieur.spock@gmail.com>, 2017
 # Agathe Mollé <molleagathe@gmail.com>, 2017
+# Richard Mathot <rim@odoo.com>, 2017
 # Shark McGnark <peculiarcheese@gmail.com>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
-# 31c77b784710e4a287a92d851a40e039, 2017
+# fr rev <e2ffr04@hotmail.com>, 2017
 # Quentin THEURET <odoo@kerpeo.com>, 2017
 # Julien Martin <204336@supinfo.com>, 2017
 # Florian Hatat, 2017
-# 6534c450c77b2549e41c52e2051f5839, 2017
-# bb76cd9ac0cb7e20167a14728edb858b, 2017
+# Martin Trigaux, 2017
+# fr trans <e2ftrans1@yahoo.com>, 2017
+# fr rev <e2ffr02@hotmail.com>, 2017
 # e2f <projects@e2f.com>, 2018
-# Benoît Fontaine <benoitfontaine.ba@gmail.com>, 2018
-# Léonie Bouchat <lbo@odoo.com>, 2018
 # Melanie Bernard <mbe@odoo.com>, 2018
 # Eloïse Stilmant <est@odoo.com>, 2018
 # MaxyMoos <maxence.groine@gmail.com>, 2019
-# Martin Trigaux, 2019
-# Jonathan Castillo <jcs@odoo.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -61,7 +60,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Jonathan Castillo <jcs@odoo.com>, 2020\n"
+"Last-Translator: MaxyMoos <maxence.groine@gmail.com>, 2019\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -281,7 +280,7 @@ msgstr ""
 #: code:addons/mail/wizard/invite.py:31
 #, python-format
 msgid "%(user_name)s invited you to follow a new document."
-msgstr "%(user_name)s vous a invité à suivre un nouveau document."
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -2313,7 +2312,7 @@ msgstr "En-têtes"
 #: code:addons/mail/wizard/invite.py:35
 #, python-format
 msgid "Hello,"
-msgstr "Bonjour,"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype_hidden
@@ -2761,12 +2760,6 @@ msgstr "Est une notification"
 #: model:ir.model.fields,field_description:mail.field_mail_message_res_partner_needaction_rel_is_read
 msgid "Is Read"
 msgstr "Est lu"
-
-#. module: mail
-#: code:addons/mail/models/mail_notification.py:0
-#, python-format
-msgid "Can not update the message or recipient of a notification."
-msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_is_subscribed
@@ -5142,12 +5135,6 @@ msgstr ""
 "trouvé pour cette adresse."
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "The partner can not join this channel"
-msgstr ""
-
-#. module: mail
 #: code:addons/mail/models/mail_activity.py:175
 #: code:addons/mail/models/mail_message.py:598
 #: code:addons/mail/models/mail_message.py:698
@@ -5182,7 +5169,7 @@ msgstr "Type de document avec lequel ce modèle peut être utilisé"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_origin_link
 msgid "This"
-msgstr "Ce(tte)"
+msgstr "Ce"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_channel_image
@@ -5741,24 +5728,6 @@ msgstr ""
 " ce canal."
 
 #. module: mail
-#: cod:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not remove this partner from this channel"
-msgstr ""
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not write on the record of other users"
-msgstr ""
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not write on this field"
-msgstr ""
-
-#. module: mail
 #: code:addons/mail/models/res_users.py:54
 #, python-format
 msgid ""
@@ -5797,8 +5766,8 @@ msgstr "Vous avez été assigné à "
 #. openerp-web
 #: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
-msgid "You have been invited to: %s"
-msgstr ""
+msgid "You have been invited to: "
+msgstr "Vous avez été invité à:"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_attachment_ids
@@ -5863,7 +5832,7 @@ msgstr "par"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_origin_link
 msgid "created"
-msgstr "créé(e)"
+msgstr "créé"
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:320
@@ -5973,7 +5942,7 @@ msgstr ""
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_origin_link
 msgid "modified"
-msgstr "modifié(e)"
+msgstr "modifié"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form

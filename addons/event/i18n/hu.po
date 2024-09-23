@@ -3,19 +3,16 @@
 # * event
 # 
 # Translators:
+# krnkris, 2017
+# Martin Trigaux, 2017
 # gezza <geza.nagy@oregional.hu>, 2017
-# Martin Trigaux, 2018
-# krnkris, 2018
-# Gergő Kertész <gergo.kertesz@maxflow.hu>, 2019
-# Tamás Németh <ntomasz81@gmail.com>, 2021
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:56+0000\n"
-"PO-Revision-Date: 2017-09-20 10:17+0000\n"
-"Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2021\n"
+"PO-Revision-Date: 2018-07-27 11:56+0000\n"
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -373,7 +370,7 @@ msgstr ""
 #. module: event
 #: model:mail.template,subject:event.event_reminder
 msgid "${object.event_id.name}: ${object.get_date_range_str()}"
-msgstr "${object.event_id.name}: ${object.get_date_range_str()}"
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event.py:297
@@ -1021,7 +1018,7 @@ msgstr "Esemény"
 #. module: event
 #: model:ir.model,name:event.model_event_mail
 msgid "Event Automated Mailing"
-msgstr "Esemény automatizált levelezés"
+msgstr ""
 
 #. module: event
 #: model:ir.actions.report,name:event.report_event_event_badge
@@ -1412,7 +1409,7 @@ msgstr "Korlátozott"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type_has_seats_limitation
 msgid "Limited Seats"
-msgstr "Korlátozott ülőhelyek"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_address_id
@@ -1435,7 +1432,7 @@ msgstr "Luigi Roni, Rangidős esemény vezető"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_mail_registration_ids
 msgid "Mail Registration"
-msgstr "E-mail regisztráció"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_event_mail_ids
@@ -1491,7 +1488,7 @@ msgstr "Maximum Résztvevők száma"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type_default_registration_max
 msgid "Maximum Registrations"
-msgstr "Maximum regisztrációk"
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event.py:253
@@ -1508,7 +1505,7 @@ msgstr "Minimum Résztvevők"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type_default_registration_min
 msgid "Minimum Registrations"
-msgstr "Minimális regisztrációk"
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0
@@ -1591,12 +1588,12 @@ msgstr "Online"
 #: model:ir.model.fields,field_description:event.field_event_event_is_online
 #: model:ir.model.fields,field_description:event.field_event_type_is_online
 msgid "Online Event"
-msgstr "Online esemény"
+msgstr ""
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings_module_website_event_sale
 msgid "Online Ticketing"
-msgstr "Online jegyek"
+msgstr ""
 
 #. module: event
 #: model:ir.ui.view,arch_db:event.view_event_type_form
@@ -2061,7 +2058,7 @@ msgstr "Láthatóság"
 #: code:addons/event/models/event_mail.py:130
 #, python-format
 msgid "WARNING: Event Scheduler Error for event: %s"
-msgstr "FIGYELEM: Esemény ütemező hiba ennél: %s"
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_2
@@ -2146,25 +2143,25 @@ msgstr "event.confirm"
 #. module: event
 #: model:event.event,description:event.event_2
 msgid "events@odoo.com"
-msgstr "events@odoo.com"
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event.py:508
 #, python-format
 msgid "in %d days"
-msgstr "%d nap múlva"
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event.py:512
 #, python-format
 msgid "next month"
-msgstr "következő hónap"
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event.py:510
 #, python-format
 msgid "next week"
-msgstr "következő hét"
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event.py:514
@@ -2181,13 +2178,13 @@ msgstr "res.config.settings"
 #: code:addons/event/models/event.py:504
 #, python-format
 msgid "today"
-msgstr "ma"
+msgstr ""
 
 #. module: event
 #: code:addons/event/models/event.py:506
 #, python-format
 msgid "tomorrow"
-msgstr "holnap"
+msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_0

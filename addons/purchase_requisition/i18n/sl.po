@@ -5,11 +5,9 @@
 # Translators:
 # matjaz k <matjaz@mentis.si>, 2018
 # Vida Potočnik <vida.potocnik@mentis.si>, 2018
+# Dejan Sraka <dejan.sraka@picolabs.si>, 2018
+# Matjaž Mozetič <m.mozetic@matmoz.si>, 2018
 # Martin Trigaux, 2019
-# Grega Vavtar <grega@hbs.si>, 2019
-# Jasmina Macur <jasmina@hbs.si>, 2019
-# Matjaz Mozetic <m.mozetic@matmoz.si>, 2019
-# Tadej Lupšina <tadej@hbs.si>, 2019
 # 
 msgid ""
 msgstr ""
@@ -17,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:22+0000\n"
-"Last-Translator: Tadej Lupšina <tadej@hbs.si>, 2019\n"
+"Last-Translator: Martin Trigaux, 2019\n"
 "Language-Team: Slovenian (https://www.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +31,7 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Date</strong>"
-msgstr "<strong>Datum</strong>"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -48,7 +46,7 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Qty</strong>"
-msgstr "<strong>Kol</strong>"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -58,7 +56,7 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Scheduled Date</strong>"
-msgstr "<strong>Načrtovani datum</strong>"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -68,7 +66,7 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Selection Type:</strong><br/>"
-msgstr "<strong>Vrsta izbora:</strong><br/>"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -194,7 +192,7 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_schedule_date
 msgid "Delivery Date"
-msgstr "Datum dostave"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_description
@@ -320,7 +318,7 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "New Quotation"
-msgstr "Nov predračun"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_order_count
@@ -330,12 +328,12 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_picking_type_id
 msgid "Operation Type"
-msgstr "Tip operacije"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line_qty_ordered
 msgid "Ordered Quantities"
-msgstr "Naročena količina"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_ordering_date
@@ -352,7 +350,7 @@ msgstr "Oskrba"
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_procurement_group
 msgid "Procurement Requisition"
-msgstr "Oskrbovalni zahtevek"
+msgstr "Oskrbovalno naročilo"
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_procurement_rule
@@ -416,7 +414,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_tree
 msgid "Purchase Agreements"
-msgstr "Nabavni sporazumi"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_order
@@ -476,17 +474,17 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.product_template_form_view_inherit
 msgid "Reordering"
-msgstr "Preurejanje"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition_to_so
 msgid "Request for Quotation"
-msgstr "Povpraševanje po predračunu"
+msgstr "Zahtevek za ponudbo"
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition_list
 msgid "Request for Quotations"
-msgstr "Predračuni"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -522,7 +520,7 @@ msgstr "Načrtovani datum"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Search Purchase Agreements"
-msgstr "Iskanje nabavnih sporazumov"
+msgstr ""
 
 #. module: purchase_requisition
 #: selection:purchase.requisition.type,exclusive:0
@@ -617,7 +615,7 @@ msgstr "Potrditev"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_vendor_id
 msgid "Vendor"
-msgstr "Dobavitelj"
+msgstr "Prodajalec"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_warehouse_id
@@ -637,8 +635,6 @@ msgid ""
 "You have to cancel or validate every RfQ before closing the purchase "
 "requisition."
 msgstr ""
-"Pred zaključkom nabavnega zahtevka morate preklicati ali odobriti vsa "
-"povpraševanja po predračunu."
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form

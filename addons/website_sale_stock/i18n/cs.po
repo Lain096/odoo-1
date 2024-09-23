@@ -5,15 +5,14 @@
 # Translators:
 # Martin Trigaux, 2017
 # Michal Veselý <michal@veselyberanek.net>, 2018
-# trendspotter <j.podhorecky@volny.cz>, 2019
-# 
+# trendspotter, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:28+0000\n"
-"Last-Translator: trendspotter <j.podhorecky@volny.cz>, 2019\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
+"Last-Translator: trendspotter, 2018\n"
 "Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +51,7 @@ msgstr ""
 #. module: website_sale_stock
 #: model:ir.ui.view,arch_db:website_sale_stock.portal_order_page_shipping
 msgid "<strong>Delivery Orders</strong>"
-msgstr "<strong>Doručení objednávek</strong>"
+msgstr ""
 
 #. module: website_sale_stock
 #: model:ir.ui.view,arch_db:website_sale_stock.website_sale_stock_cart_lines
@@ -64,25 +63,25 @@ msgstr "<strong>Varování!</strong>"
 #: model:ir.model.fields,help:website_sale_stock.field_product_product_inventory_availability
 #: model:ir.model.fields,help:website_sale_stock.field_product_template_inventory_availability
 msgid "Adds an inventory availability status on the web product page."
-msgstr "Přidá stav dostupnosti inventáře na stránce webového produktu."
+msgstr ""
 
 #. module: website_sale_stock
 #: model:ir.model.fields,field_description:website_sale_stock.field_product_product_available_threshold
 #: model:ir.model.fields,field_description:website_sale_stock.field_product_template_available_threshold
 #: model:ir.model.fields,field_description:website_sale_stock.field_res_config_settings_available_threshold
 msgid "Availability Threshold"
-msgstr "Prahová hodnota dostupnosti"
+msgstr ""
 
 #. module: website_sale_stock
 #: model:ir.model.fields,field_description:website_sale_stock.field_product_product_cart_qty
 msgid "Cart Qty"
-msgstr "Množství v košíku"
+msgstr ""
 
 #. module: website_sale_stock
 #: model:ir.model.fields,field_description:website_sale_stock.field_product_product_custom_message
 #: model:ir.model.fields,field_description:website_sale_stock.field_product_template_custom_message
 msgid "Custom Message"
-msgstr "Vlastní zpráva"
+msgstr ""
 
 #. module: website_sale_stock
 #: model:ir.ui.view,arch_db:website_sale_stock.res_config_settings_view_form
@@ -99,14 +98,14 @@ msgstr ""
 #. module: website_sale_stock
 #: model:ir.ui.view,arch_db:website_sale_stock.res_config_settings_view_form
 msgid "Default threshold"
-msgstr "Výchozí prahová hodnota"
+msgstr ""
 
 #. module: website_sale_stock
 #. openerp-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:16
 #, python-format
 msgid "In stock"
-msgstr "Na skladě"
+msgstr ""
 
 #. module: website_sale_stock
 #: model:ir.model.fields,field_description:website_sale_stock.field_res_config_settings_inventory_availability
@@ -117,7 +116,7 @@ msgstr "Inventář"
 #: model:ir.model.fields,field_description:website_sale_stock.field_product_product_inventory_availability
 #: model:ir.model.fields,field_description:website_sale_stock.field_product_template_inventory_availability
 msgid "Inventory Availability"
-msgstr "Dostupnost zásob"
+msgstr ""
 
 #. module: website_sale_stock
 #: model:ir.ui.view,arch_db:website_sale_stock.res_config_settings_view_form
@@ -125,8 +124,6 @@ msgid ""
 "Manage the inventory of your products and display their availability status "
 "on the website."
 msgstr ""
-"Správa inventáře vašich produktů a zobrazení jejich dostupnosti na webových "
-"stránkách."
 
 #. module: website_sale_stock
 #: model:ir.model,name:website_sale_stock.model_product_product
@@ -152,29 +149,25 @@ msgstr "Řádek potvrzení objednávky"
 #: selection:product.template,inventory_availability:0
 #: selection:res.config.settings,inventory_availability:0
 msgid "Sell regardless of inventory"
-msgstr "Prodáváme bez ohledu na zásoby"
+msgstr ""
 
 #. module: website_sale_stock
 #: selection:product.template,inventory_availability:0
 #: selection:res.config.settings,inventory_availability:0
 msgid "Show inventory below a threshold and prevent sales if not enough stock"
 msgstr ""
-"Zobrazit inventář pod prahovou hodnotou a zabránit prodeji, není-li dostatek"
-" zásob"
 
 #. module: website_sale_stock
 #: selection:product.template,inventory_availability:0
 #: selection:res.config.settings,inventory_availability:0
 msgid "Show inventory on website and prevent sales if not enough stock"
 msgstr ""
-"Zobrazit inventář na webových stránkách a zabránit prodeji, pokud není "
-"dostatek zásob"
 
 #. module: website_sale_stock
 #: selection:product.template,inventory_availability:0
 #: selection:res.config.settings,inventory_availability:0
 msgid "Show product-specific notifications"
-msgstr "Zobrazit oznámení specifická pro produkt"
+msgstr ""
 
 #. module: website_sale_stock
 #: code:addons/website_sale_stock/models/sale_order.py:28
@@ -183,8 +176,6 @@ msgid ""
 "Some products became unavailable and your cart has been updated. We're sorry"
 " for the inconvenience."
 msgstr ""
-"Některé produkty se staly nedostupnými a váš košík byl aktualizován. "
-"Omlouváme se za nepříjemnosti."
 
 #. module: website_sale_stock
 #. openerp-web
@@ -209,20 +200,20 @@ msgstr "Webová strana"
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:19
 #, python-format
 msgid "You already added"
-msgstr "Už jste přidali"
+msgstr ""
 
 #. module: website_sale_stock
 #: code:addons/website_sale_stock/models/sale_order.py:26
 #, python-format
 msgid "You ask for %s products but only %s is available"
-msgstr "Poptáváte %s produkty, ale pouze %s jsou k dispozici"
+msgstr ""
 
 #. module: website_sale_stock
 #. openerp-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:20
 #, python-format
 msgid "all"
-msgstr "vše"
+msgstr ""
 
 #. module: website_sale_stock
 #. openerp-web
@@ -230,14 +221,14 @@ msgstr "vše"
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:14
 #, python-format
 msgid "available"
-msgstr "dostupný"
+msgstr ""
 
 #. module: website_sale_stock
 #. openerp-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:20
 #, python-format
 msgid "in your cart."
-msgstr "v košíku."
+msgstr ""
 
 #. module: website_sale_stock
 #: model:ir.model,name:website_sale_stock.model_res_config_settings

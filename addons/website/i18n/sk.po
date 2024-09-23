@@ -1649,7 +1649,7 @@ msgstr "Vypnúť automatické prehrávanie"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Disabled"
-msgstr "Blokovaný"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -1833,11 +1833,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Email support"
 msgstr "Emailová podpora"
-
-#. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Enable billing on your Google Project"
-msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3693,6 +3688,11 @@ msgid "Show in Top Menu"
 msgstr ""
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Show your address on a map in the"
+msgstr ""
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Simple and obvious"
 msgstr "Jednoduché a zjavné"
@@ -4163,11 +4163,6 @@ msgid "Url"
 msgstr "Url"
 
 #. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Use Google Map on your website ("
-msgstr ""
-
-#. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
 msgid "Use Of Cookies"
 msgstr ""
@@ -4568,7 +4563,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.editor.xml:10
 #, python-format
 msgid "What do you want to do?"
-msgstr "Čo chcete spraviť?"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4924,7 +4919,7 @@ msgstr "alebo Editovať matricu"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "page, snippets, ...)"
+msgid "page"
 msgstr ""
 
 #. module: website

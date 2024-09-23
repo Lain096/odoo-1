@@ -3,18 +3,17 @@
 # * rating_project
 # 
 # Translators:
-# hoxhe Aits <hoxhe0@gmail.com>, 2017
 # Shaima Safar <shaima.safar@open-inside.com>, 2017
 # Martin Trigaux, 2017
-# Mustafa Rawi <mustafa@cubexco.com>, 2019
-# 
+# Mustafa Rawi <mustafa@cubexco.com>, 2017
+# hoxhe Aits <hoxhe0@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:12+0000\n"
-"PO-Revision-Date: 2017-09-20 10:22+0000\n"
-"Last-Translator: Mustafa Rawi <mustafa@cubexco.com>, 2019\n"
+"PO-Revision-Date: 2017-11-30 13:12+0000\n"
+"Last-Translator: hoxhe Aits <hoxhe0@gmail.com>, 2017\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,12 +111,12 @@ msgstr ""
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
 msgid "<i class=\"fa fa-smile-o\"/> No rating yet"
-msgstr "<i class=\"fa fa-smile-o\"/> لا يوجد تقييم بعد"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_task_type_auto_validation_kanban_state
 msgid "Automatic kanban status"
-msgstr "حالة كانبان التلقائية"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,help:rating_project.field_project_task_type_auto_validation_kanban_state
@@ -132,7 +131,7 @@ msgstr ""
 #: model:ir.ui.menu,name:rating_project.rating_rating_menu_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
 msgid "Customer Ratings"
-msgstr "تقييمات العميل"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.actions.act_window,name:rating_project.rating_rating_action_task
@@ -145,8 +144,6 @@ msgid ""
 "Customer ratings on tasks. If you have no rating, change your project "
 "Settings to activate it."
 msgstr ""
-"تقييمات العميل على المهام. إن لم يكن لديك تقييمات، قم بتغيير إعدادات المشروع"
-" لتفعيلها."
 
 #. module: rating_project
 #: model:ir.actions.act_window,help:rating_project.rating_rating_action_project_report
@@ -158,7 +155,7 @@ msgstr ""
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_status
 msgid "Customer(s) Ratings"
-msgstr "تقييمات العملاء"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
@@ -175,12 +172,12 @@ msgstr ""
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_percentage_satisfaction_project
 msgid "Happy % on Project"
-msgstr "نسبة الرضا عن المشروع"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_percentage_satisfaction_task
 msgid "Happy % on Task"
-msgstr "نسبة الرضا عن المهمة"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,help:rating_project.field_project_project_rating_status
@@ -191,11 +188,6 @@ msgid ""
 "\n"
 "Don't forget to set up the mail templates on the stages for which you want to get the customer's feedbacks."
 msgstr ""
-"كيف تحصل على ملاحظات العميل؟\n"
-"- التقييم عند تغيير المرحلة: سيتم إرسال الرسالة عند سحب مهمة/مشكلة من مرحلة إلى أخرى\n"
-"- التقييم الدوري: سيتم إرسال الرسالة دوريًا\n"
-"\n"
-"لا تنس تعيين قوالب البريد الإلكتروني للمراحل التي تريد الحصول على ملاحظات العميل فيها."
 
 #. module: rating_project
 #: model:ir.model.fields,help:rating_project.field_project_task_type_rating_template_id
@@ -204,9 +196,6 @@ msgid ""
 "stage', then an email will be sent to the customer when the task reaches "
 "this step."
 msgstr ""
-"إذا كان محددًا وإذا كانت إعدادات تقييم المشروع المحددة هي 'التقييم عند تغيير"
-" المرحلة'، سيتم إرسال رسالة بريد الكتروني للعميل عند وصول المهمة لهذه "
-"الخطوة."
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.rating_rating_view_search_project
@@ -216,27 +205,27 @@ msgstr "اخر 30 يوم"
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
 msgid "Latest Rating: Higly Dissatisfied"
-msgstr "التقييم الأخير: مستاء تمامًا"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
 msgid "Latest Rating: Not Satisfied"
-msgstr "التقييم الأخير: غير راضٍ"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_kanban_inherit_rating
 msgid "Latest Rating: Satisfied"
-msgstr "التقييم الأخير: راضٍ"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "No rating"
-msgstr "لا يوجد تقييم"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Once a Month"
-msgstr "مرة في الشهر"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.view_project_project_rating_kanban
@@ -244,13 +233,11 @@ msgid ""
 "Percentage of happy ratings over the past 30 days. Get rating details from "
 "the More menu."
 msgstr ""
-"نسبة التقييمات الراضية خلال الـ30 يومًا الماضية. يمكنك الحصول على تفاصيل "
-"التقييم من قائمة المزيد."
 
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "Periodical Rating"
-msgstr "التقييم الدوري"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_project
@@ -263,7 +250,7 @@ msgstr "المشروع"
 #: model:ir.cron,cron_name:rating_project.ir_cron_rating_project
 #: model:ir.cron,name:rating_project.ir_cron_rating_project
 msgid "Project: Send rating"
-msgstr "المشروع: إرسال تقييم"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
@@ -273,7 +260,7 @@ msgstr "ربع سنوي"
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.project_task_view_search
 msgid "Rated tasks"
-msgstr "المهام المُقيمة"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.actions.act_window,name:rating_project.rating_rating_action_view_project_rating
@@ -289,12 +276,12 @@ msgstr "تقييم نموذج البريد الألكتروني"
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_status_period
 msgid "Rating Frequency"
-msgstr "معدل تكرار التقييم"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model.fields,field_description:rating_project.field_project_project_rating_request_deadline
 msgid "Rating Request Deadline"
-msgstr "الموعد النهائي لطلب التقييم"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.rating_rating_view_search_project
@@ -304,7 +291,7 @@ msgstr ""
 #. module: rating_project
 #: selection:project.project,rating_status:0
 msgid "Rating when changing stage"
-msgstr "التقييم عند تغيير المرحلة"
+msgstr ""
 
 #. module: rating_project
 #: model:mail.message.subtype,description:rating_project.mt_task_rating
@@ -315,7 +302,7 @@ msgstr "تقييمات"
 #: code:addons/rating_project/models/project.py:107
 #, python-format
 msgid "Ratings of %s"
-msgstr "تقييمات لـ%s"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.actions.act_window,name:rating_project.rating_rating_action_view_project_rating_task
@@ -325,7 +312,7 @@ msgstr ""
 #. module: rating_project
 #: model:ir.ui.view,arch_db:rating_project.res_config_settings_view_form
 msgid "Set Email Template to Stages"
-msgstr "تعيين قوالب بريد إلكتروني للمراحل"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_task
@@ -336,7 +323,7 @@ msgstr "المهمة"
 #: model:mail.message.subtype,name:rating_project.mt_project_task_rating
 #: model:mail.message.subtype,name:rating_project.mt_task_rating
 msgid "Task Rating"
-msgstr "تقييم المهمة"
+msgstr ""
 
 #. module: rating_project
 #: model:ir.model,name:rating_project.model_project_task_type
@@ -356,7 +343,7 @@ msgstr "لا يوجد تقييم لهذا الكائن في الوقت الرا�
 #. module: rating_project
 #: selection:project.project,rating_status_period:0
 msgid "Twice a Month"
-msgstr "مرتان شهريًا"
+msgstr ""
 
 #. module: rating_project
 #: selection:project.project,rating_status_period:0

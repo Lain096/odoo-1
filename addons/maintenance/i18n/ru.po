@@ -3,31 +3,28 @@
 # * maintenance
 # 
 # Translators:
-# Max Belyanin <maxbelyanin@gmail.com>, 2017
-# Viktor Pogrebniak <vp@aifil.ru>, 2017
-# Amaro Vita <vita.amaro@gmail.com>, 2017
-# Русский «kolobok2048» Ивашка <kolobok2048@gmail.com>, 2017
-# Masha Koc <mariya.kos.ua@gmail.com>, 2017
-# Alex Puchkov <ap@alteco.co>, 2017
-# Denis Baranov <baranov@itlibertas.com>, 2017
-# Denis Trepalin <zekarious@gmail.com>, 2017
-# Sergey Vilizhanin, 2017
+# Sergey Vilizhanin <sv@grimmette.ru>, 2017
+# Martin Trigaux, 2017
 # Gennady Marchenko <gennadym@gmail.com>, 2017
 # Максим Дронь <dronmax@gmail.com>, 2017
+# Max Belyanin <maxbelyanin@gmail.com>, 2017
 # Collex100, 2017
-# Martin Trigaux, 2017
-# Ꚁemetron <d.v.selitsky@gmail.com>, 2017
+# Viktor Pogrebniak <vp@aifil.ru>, 2017
+# Denis Baranov <baranov@itlibertas.com>, 2017
+# Masha Koc <mariya.kos.ua@gmail.com>, 2017
+# Amaro Vita <vita.amaro@gmail.com>, 2017
+# Русский «kolobok2048» Ивашка <kolobok2048@gmail.com>, 2017
+# Alex Puchkov <ap@alteco.co>, 2017
+# Denis Trepalin <zekarious@gmail.com>, 2017
+# Dmitry sky <d.v.selitsky@gmail.com>, 2017
 # sergeiruzkiicode <sergei.ruzki@icode.by>, 2018
-# Vasiliy Korobatov <korobatov@gmail.com>, 2019
-# Ivan Yelizariev <yelizariev@it-projects.info>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-30 13:41+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2019\n"
+"PO-Revision-Date: 2018-01-30 13:41+0000\n"
+"Last-Translator: sergeiruzkiicode <sergei.ruzki@icode.by>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,12 +70,12 @@ msgstr "<span>Вид</span>"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.view_maintenance_equipment_category_kanban
 msgid "<strong>Equipments:</strong>"
-msgstr "<strong>оборудование:</strong>"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.view_maintenance_equipment_category_kanban
 msgid "<strong>Maintenance:</strong>"
-msgstr "<strong>обслуживание:</strong>"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category_alias_defaults
@@ -310,7 +307,7 @@ msgstr "Дата следующего профилактического обс�
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request_request_date
 msgid "Date requested for the maintenance to happen"
-msgstr "Дата, запрошенная для проведения технического обслуживания"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request_schedule_date
@@ -318,13 +315,11 @@ msgid ""
 "Date the maintenance team plans the maintenance.  It should not differ much "
 "from the Request Date. "
 msgstr ""
-"Планируемая дата технического обслуживания группой техобслуживания.  Она не "
-"должна сильно отличаться от даты запроса. "
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request_close_date
 msgid "Date the maintenance was finished. "
-msgstr "Дата окончания работ по техническому обслуживанию. "
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_period
@@ -512,7 +507,7 @@ msgstr "Выполняется"
 #. module: maintenance
 #: model:maintenance.team,name:maintenance.equipment_team_maintenance
 msgid "Internal Maintenance"
-msgstr "внутреннее обслуживание"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -597,7 +592,7 @@ msgstr "Продолжительность обслуживания"
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_maintenance_duration
 msgid "Maintenance Duration in hours."
-msgstr "Продолжительность обслуживания в часах."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
@@ -673,12 +668,11 @@ msgstr "Тип обслуживания"
 #: model:ir.cron,name:maintenance.maintenance_requests_cron
 msgid "Maintenance: generate preventive maintenance requests"
 msgstr ""
-"Обслуживание: создавать запросы на предупреждение технического обслуживания"
 
 #. module: maintenance
 #: model:maintenance.team,name:maintenance.equipment_team_metrology
 msgid "Metrology"
-msgstr "метрология"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_model
@@ -743,27 +737,27 @@ msgstr "Заметка"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count
 msgid "Number of Requests"
-msgstr "количество запросов"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_block
 msgid "Number of Requests Blocked"
-msgstr "Количество заблокированных запросов"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_date
 msgid "Number of Requests Scheduled"
-msgstr "Количество запланированных запросов"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_unscheduled
 msgid "Number of Requests Unscheduled"
-msgstr "Количество незапланированных запросов"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_high_priority
 msgid "Number of Requests in High Priority"
-msgstr "Количество запросов высокого приоритета"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category_alias_force_thread_id
@@ -874,7 +868,7 @@ msgstr "Готово к следующей стадии"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_kanban
 msgid "Record Colour"
-msgstr "запись цвета"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_alias_force_thread_id
@@ -926,12 +920,12 @@ msgstr "Запрошенный"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_kanban
 msgid "Requested by :"
-msgstr "запрошено:"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_ids
 msgid "Requests"
-msgstr "запросы"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_technician_user_id
@@ -1034,7 +1028,7 @@ msgstr "Статус изменился"
 #. module: maintenance
 #: model:maintenance.team,name:maintenance.equipment_team_subcontractor
 msgid "Subcontractor"
-msgstr "субподрядчик"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_name
@@ -1054,7 +1048,7 @@ msgstr "Члены команды"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_view_form
 msgid "Team Name"
-msgstr "Название команды"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,name:maintenance.maintenance_team_action_settings
@@ -1167,7 +1161,7 @@ msgstr "Непрочитанные Сообщения"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
 msgid "Unscheduled"
-msgstr "незапланированный"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search

@@ -12,10 +12,6 @@
 # Khishigbat Ganbold <khishigbat@asterisk-tech.mn>, 2018
 # Ganbold BATKHUYAG <gbatkhuyag@gmail.com>, 2018
 # Martin Trigaux, 2019
-# Minj P <pminj322@gmail.com>, 2019
-# Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2019
-# Batmunkh Ganbat <batmunkh.g@bumanit.mn>, 2019
-# baaska sh <sh.baaskash@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -23,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:25+0000\n"
-"Last-Translator: baaska sh <sh.baaskash@gmail.com>, 2020\n"
+"Last-Translator: Martin Trigaux, 2019\n"
 "Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +32,7 @@ msgstr ""
 #: code:addons/website/static/src/js/editor/snippets.options.js:726
 #, python-format
 msgid " Add Images"
-msgstr "Зураг нэмэх"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -49,7 +45,7 @@ msgstr ""
 #: code:addons/website/models/website.py:315
 #, python-format
 msgid "%s (id:%s)"
-msgstr "%s (id:%s)"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
@@ -92,14 +88,14 @@ msgstr ""
 #: code:addons/website/models/website.py:743
 #, python-format
 msgid "(copy)"
-msgstr "(хуулбарлах)"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:29
 #, python-format
 msgid "(could be used in"
-msgstr "(ашиглаж болно"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -155,7 +151,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.default_csv
 msgid "1,2,3"
-msgstr "1,2,3"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -176,7 +172,7 @@ msgstr "1s"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "2 <span class=\"sr-only\">(current)</span>"
-msgstr "2 <span class=\"sr-only\">(одоогийн)</span>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -572,8 +568,6 @@ msgid ""
 "<span class=\"o_add_images\" style=\"cursor: pointer;\"><i class=\"fa fa-"
 "plus-circle\"/> Add Images</span>"
 msgstr ""
-"<span class=\"o_add_images\" style=\"cursor: pointer;\"><i class=\"fa fa-"
-"plus-circle\"/> Зураг нэмэх</span>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1083,7 +1077,7 @@ msgstr "Анхааруулга"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team
 msgid "Aline Turner, CTO"
-msgstr "Aline Turner, CTO"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team
@@ -1159,7 +1153,7 @@ msgstr "Архив Файлын нэр"
 #: code:addons/website/static/src/xml/website.xml:60
 #, python-format
 msgid "Are you sure you want to delete this page ?"
-msgstr "Та энэ хуудсыг устгахдаа итгэлтэй байна уу?"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_attachment_website_url
@@ -1253,7 +1247,7 @@ msgstr "Том"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Breadcrumb"
-msgstr "Дотор тал"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1307,7 +1301,7 @@ msgstr "Цуцлах"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Card"
-msgstr "Карт"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -1413,7 +1407,7 @@ msgstr "Нууц харилцагч"
 #. module: website
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 msgid "Clone this page"
-msgstr "Энэ хуудсыг хуулбарлах"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -1643,7 +1637,7 @@ msgstr "Үндсэн"
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Default Access Rights"
-msgstr "Үндсэн хандах эрхүүд"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_default_lang_id
@@ -1694,7 +1688,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 msgid "Delete this page"
-msgstr "Хуудас устгах"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_references
@@ -1730,7 +1724,7 @@ msgstr "Автоматаар тоглуулахыг болиулах"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Disabled"
-msgstr "Идэвхгүй болсон"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -1782,7 +1776,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.xml:35
 #, python-format
 msgid "Don't forget to update all links referring to this page."
-msgstr "Энэ хуудсанд байгаа бүх линкийг шинэчлэхээ мартуузай."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1910,17 +1904,12 @@ msgstr "Засварлагч ба Дизайнер"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Email address"
-msgstr "Имэйл хаяг"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Email support"
 msgstr "Имэйл дэмжлэг"
-
-#. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Enable billing on your Google Project"
-msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1931,7 +1920,7 @@ msgstr "Төгсгөл"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Enter email"
-msgstr "Имэйлээ оруулах"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -2166,7 +2155,7 @@ msgstr "GitHub эрх"
 #: code:addons/website/static/src/js/menu/content.js:48
 #, python-format
 msgid "Go To Page"
-msgstr "Хуудас руу очих"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -2186,7 +2175,7 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.backend.xml:22
 #, python-format
 msgid "Go to Website"
-msgstr "Вебсайт руу очих"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2310,7 +2299,7 @@ msgstr "Өсөх"
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
 msgid "HTML/CSS Editor"
-msgstr "HTML/CSS засварлагч"
+msgstr ""
 
 #. module: website
 #: model:ir.model,name:website.model_ir_http
@@ -2327,37 +2316,37 @@ msgstr "Толгой"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Headings 1"
-msgstr "Гарчиг 1"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Headings 2"
-msgstr "Гарчиг 2"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Headings 3"
-msgstr "Гарчиг 3"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Headings 4"
-msgstr "Гарчиг 4"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Headings 5"
-msgstr "Гарчиг 5"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Headings 6"
-msgstr "Гарчиг 6"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_cover
@@ -2419,7 +2408,7 @@ msgstr "Нүүр хуудас 0.0.0.0"
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 #, python-format
 msgid "How to get my Client ID"
-msgstr "Client ID-г хэрхэн авах"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -2427,7 +2416,7 @@ msgstr "Client ID-г хэрхэн авах"
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 #, python-format
 msgid "How to get my Tracking ID"
-msgstr "Tracking ID-г хэрхэн авах"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_id
@@ -2534,7 +2523,7 @@ msgstr "Хэл суулгах"
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Install new language"
-msgstr "Шинэ хэл суулгах"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2554,7 +2543,7 @@ msgstr "Суулгасан Модулиуд"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team
 msgid "Iris Joe, CFO"
-msgstr "Iris Joe, CFO"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team
@@ -2619,13 +2608,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Item 1"
-msgstr "Зүйл 1"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Item 2"
-msgstr "Зүйл 2"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2647,7 +2636,7 @@ msgstr "Түлхүүр"
 #: code:addons/website/static/src/xml/website.seo.xml:48
 #, python-format
 msgid "Keyword"
-msgstr "Түлхүүр үг"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -2664,7 +2653,7 @@ msgstr "Хэлүүд"
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Languages available on your website"
-msgstr "Таны вэбсайт дээр байгаа хэлүүд"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -2747,7 +2736,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Let your customers log in to see their documents"
 msgstr ""
-"Таны харилцагчидад системд нэвтэрч өөрсдийн баримтаа харах боломжыг олгох"
 
 #. module: website
 #. openerp-web
@@ -2780,7 +2768,7 @@ msgstr "Линк"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Link button"
-msgstr "Холбоос товч"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -2825,7 +2813,7 @@ msgstr "Үндсэн Цэс"
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
 msgid "Manage Pages"
-msgstr "Хуудсуудыг удирдах"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.edit_website_pages
@@ -2895,7 +2883,7 @@ msgstr "Зурвас"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team
 msgid "Mich Stark, COO"
-msgstr "Mich Stark, COO"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team
@@ -3058,7 +3046,7 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings_language_count
 msgid "Number of languages"
-msgstr "Хэлний тоо"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3258,19 +3246,19 @@ msgstr "Хуудас <b>%s</b> нь энэ хуудас руу хандсан х
 #: code:addons/website/models/website.py:282
 #, python-format
 msgid "Page <b>%s</b> is calling this file"
-msgstr "Хуудас <b>%s</b> энэ файлыг дуудаж байна"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page_website_indexed
 msgid "Page Indexed"
-msgstr "Хуудас индексжүүлсэн"
+msgstr ""
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:46
 #, python-format
 msgid "Page Name"
-msgstr "Хуудасны нэр"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -3278,7 +3266,7 @@ msgstr "Хуудасны нэр"
 #: model:ir.ui.view,arch_db:website.user_navbar
 #, python-format
 msgid "Page Properties"
-msgstr "Хуудасны шинжүүд"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -3294,7 +3282,7 @@ msgstr "Хуудасны гарчиг"
 #: model:ir.model.fields,field_description:website.field_website_page_url
 #, python-format
 msgid "Page URL"
-msgstr "Хуудасны URL"
+msgstr ""
 
 #. module: website
 #: code:addons/website/models/website.py:221
@@ -3331,8 +3319,6 @@ msgid ""
 "Paragraph with <strong>bold</strong>, <span class=\"text-"
 "muted\">muted</span> and <em>italic</em> texts"
 msgstr ""
-"Параграф <strong>bold</strong>, <span class=\"text-muted\">muted</span> ба "
-"<em>italic</em> текст"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu_parent_left
@@ -3433,7 +3419,7 @@ msgstr "Урьдчилан харах"
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "Previous"
-msgstr "Өмнөх"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -3522,7 +3508,7 @@ msgstr "Нийтлэгдсэн"
 #: model:ir.model.fields,field_description:website.field_website_page_date_publish
 #, python-format
 msgid "Publishing Date"
-msgstr "Нийтлэх огноо"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.http_error_debug
@@ -3605,12 +3591,12 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page_menu_ids
 msgid "Related Menus"
-msgstr "Холбоотой цэсүүд"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu_page_id
 msgid "Related Page"
-msgstr "Холбоотой хуудас"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -3812,6 +3798,11 @@ msgid "Show in Top Menu"
 msgstr ""
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Show your address on a map in the"
+msgstr ""
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Simple and obvious"
 msgstr "Энгийн бас тодорхой"
@@ -3854,13 +3845,13 @@ msgstr ""
 #: code:addons/website/controllers/main.py:219
 #, python-format
 msgid "Sort by Name"
-msgstr "Нэрээр эрэмбэлэх"
+msgstr ""
 
 #. module: website
 #: code:addons/website/controllers/main.py:218
 #, python-format
 msgid "Sort by Url"
-msgstr "Холбоосоор эрэмбэлэх"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -4045,7 +4036,7 @@ msgstr "Богино байх тусмаа сайн"
 #. module: website
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 msgid "There are currently no pages for your website."
-msgstr "Таны вэбсайтад одоогоор хуудас байхгүй байна."
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4103,7 +4094,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "This is a \""
-msgstr "Энэ бол \""
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.page_404
@@ -4157,7 +4148,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team
 msgid "Tony Fred, CEO"
-msgstr "Tony Fred, CEO"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -4288,11 +4279,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 msgid "Url"
 msgstr "Url"
-
-#. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Use Google Map on your website ("
-msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
@@ -4841,7 +4827,7 @@ msgstr "Та өөр хайлтын нөхцлийг ашиглана уу."
 #: code:addons/website/static/src/xml/website.backend.xml:100
 #, python-format
 msgid "Your Client ID:"
-msgstr "Таны Client ID:"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_banner
@@ -4890,7 +4876,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 msgid "Your search '"
-msgstr "Таны хайлт '"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -5066,7 +5052,7 @@ msgstr "таны вэбсайтыг хүмүүс хэрхэн олдогийг �
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
 msgid "link"
-msgstr "холбоос"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -5085,7 +5071,7 @@ msgstr "эсвэл Мастерыг засварлах"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "page, snippets, ...)"
+msgid "page"
 msgstr ""
 
 #. module: website

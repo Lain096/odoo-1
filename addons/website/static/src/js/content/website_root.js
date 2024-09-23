@@ -43,7 +43,6 @@ var WebsiteRoot = BodyManager.extend({
     }),
     custom_events: _.extend({}, BodyManager.prototype.custom_events || {}, {
         animation_start_demand: '_onAnimationStartDemand',
-        animation_stop_demand: '_onAnimationStopDemand',
         ready_to_clean_for_save: '_onAnimationStopDemand',
     }),
 
@@ -166,21 +165,12 @@ var WebsiteRoot = BodyManager.extend({
      * in edition mode for example.
      *
      * @private
-     * @param {jQuery} [$from]
-     *        only stop the animations linked to the given element(s) or one of
-     *        its descendants
      */
-    _stopAnimations: function ($from) {
-        var removedAnimations = _.map(this.animations, function (animation) {
-            if (!$from
-             || $from.filter(animation.el).length
-             || $from.find(animation.el).length) {
-                animation.destroy();
-                return animation;
-            }
-            return null;
+    _stopAnimations: function () {
+        _.each(this.animations, function (animation) {
+            animation.destroy();
         });
-        this.animations = _.difference(this.animations, removedAnimations);
+        this.animations = [];
     },
 
     //--------------------------------------------------------------------------
@@ -204,10 +194,9 @@ var WebsiteRoot = BodyManager.extend({
      * stopped.
      *
      * @private
-     * @param {OdooEvent} ev
      */
-    _onAnimationStopDemand: function (ev) {
-        this._stopAnimations(ev.data.$target);
+    _onAnimationStopDemand: function () {
+        this._stopAnimations();
     },
     /**
      * @todo review

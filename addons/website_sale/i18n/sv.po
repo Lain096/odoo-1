@@ -13,10 +13,8 @@
 # Robin Chatfield <robin.chatfield@gmail.com>, 2017
 # lynnliuying <lynn.liu1971@gmail.com>, 2017
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2018
-# Chrille Hedberg <hedberg.chrille@gmail.com>, 2019
-# Jakob Krabbe <jakob.krabbe@vertel.se>, 2019
-# fah_odoo <fah@odoo.com>, 2020
-# Kim Asplund <kim.asplund@gmail.com>, 2020
+# Chrille Hedberg <hedberg.chrille@gmail.com>, 2018
+# Kim Asplund <kim.asplund@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -24,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:55+0000\n"
 "PO-Revision-Date: 2017-09-20 10:27+0000\n"
-"Last-Translator: Kim Asplund <kim.asplund@gmail.com>, 2020\n"
+"Last-Translator: Kim Asplund <kim.asplund@gmail.com>, 2019\n"
 "Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +33,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
 msgid "&amp;nbsp;"
-msgstr "&amp;nbsp;"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_lines
@@ -438,7 +436,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.suggested_products_list
 msgid "<strong>Add to Cart</strong>"
-msgstr "<strong>Lägg till i kundvagnen</strong>"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -525,7 +523,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
 msgid "<strong>Payment Information:</strong>"
-msgstr "<strong>Betalningsinformation:</strong>"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -649,7 +647,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.extra_info
 msgid "A document to provide"
-msgstr "Ett dokument att tillhandahålla"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -685,7 +683,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order_is_abandoned_cart
 msgid "Abandoned Cart"
-msgstr "Övergiven Kundvagn"
+msgstr ""
 
 #. module: website_sale
 #: code:addons/website_sale/models/crm_team.py:45
@@ -693,7 +691,7 @@ msgstr "Övergiven Kundvagn"
 #: model:ir.ui.menu,name:website_sale.menu_orders_abandoned_orders
 #, python-format
 msgid "Abandoned Carts"
-msgstr "Övergivna Kundvagnar"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -701,12 +699,12 @@ msgstr "Övergivna Kundvagnar"
 #: model:ir.ui.view,arch_db:website_sale.crm_team_salesteams_view_kanban_inherit_website_sale
 #, python-format
 msgid "Abandoned Carts to Recover"
-msgstr "Övergivna Kundvagnar att Återta"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_cart_abandoned_delay
 msgid "Abandoned Delay"
-msgstr "Övergiven Fördröjning"
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_11
@@ -766,12 +764,12 @@ msgstr "Alla produkter"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Allow shoppers to compare products based on their attributes"
-msgstr "Tillåt kunder att jämföra produkter baserat på attribut"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_pricelist_selectable
 msgid "Allow the end user to choose this price list"
-msgstr "Tillåt slutkund att välja den här prislistan"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_sale_pricelist_form_view
@@ -792,7 +790,7 @@ msgstr "Alternativprodukter:"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_crm_team_abandoned_carts_amount
 msgid "Amount of Abandoned Carts"
-msgstr "Antal Övergivna Kundvagnar"
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_14
@@ -840,7 +838,7 @@ msgstr "Tilldelning"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Assignation of online orders"
-msgstr "Tilldelning av onlinebeställningar"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_catalog_variants_action
@@ -864,12 +862,12 @@ msgstr ""
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:93
 #, python-format
 msgid "Average Order"
-msgstr "Medeltal Order"
+msgstr ""
 
 #. module: website_sale
 #: model:res.country.group,name:website_sale.benelux
 msgid "BeNeLux"
-msgstr "BeNeLux"
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_1
@@ -888,14 +886,14 @@ msgstr ""
 #. module: website_sale
 #: model:product.pricelist,name:website_sale.list_benelux
 msgid "Benelux"
-msgstr "Benelux"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:104
 #, python-format
 msgid "Best Sellers"
-msgstr "Storsäljare"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.bill_to
@@ -957,7 +955,7 @@ msgstr "Antal i kundvagnen"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_cart_recovery_mail_template
 msgid "Cart Recovery Email"
-msgstr "Epost för kundvagnsåterhämtning"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -967,7 +965,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order_cart_recovery_email_sent
 msgid "Cart recovery email already sent"
-msgstr "Kundvagnsåterhämtnings epost redan skickad"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -975,7 +973,7 @@ msgstr "Kundvagnsåterhämtnings epost redan skickad"
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:84
 #, python-format
 msgid "Carts"
-msgstr "Kundvagnar"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -991,12 +989,12 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sort
 msgid "Catalog price: High to Low"
-msgstr "Katalogpris: Högt till Lågt"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sort
 msgid "Catalog price: Low to High"
-msgstr "Katalogpris: Lågt till Högt"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.product_public_category_action
@@ -1051,7 +1049,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart
 msgid "Click here"
-msgstr "Klicka här"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -1070,14 +1068,14 @@ msgstr ""
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:28
 #, python-format
 msgid "Click on <em>Continue</em> to create the product."
-msgstr "Klicka på <em>Fortsätt</em> för att skapa produkten."
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:60
 #, python-format
 msgid "Click on this button so your customers can see it."
-msgstr "Klicka på den här knappen så dina kunder kan se det."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.product_public_category_action
@@ -1112,32 +1110,32 @@ msgstr "Komponenter"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with DHL"
-msgstr "Räkna ut leveranskostnad för att skicka med DHL"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with FedEx"
-msgstr "Räkna ut leveranskostnad och skicka med FedEx"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with UPS"
-msgstr "Räkna ut leveranskostnad och skicka med UPS"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with USPS"
-msgstr "Räkna ut leveranskostnad och skicka med USPS"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with bpost"
-msgstr "Räkna ut leveranskostnad och skicka med bpost"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs on orders"
-msgstr "Räknaut leveranskostnad på beställningar"
+msgstr ""
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.Computer_all_in_one
@@ -1179,7 +1177,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:5
 #, python-format
 msgid "Confirm orders when you get paid."
-msgstr "Verifiera order när du har blivit betald."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1194,7 +1192,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce
 msgid "Confirmed Orders"
-msgstr "Verifierade Ordrar"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_res_partner
@@ -1324,14 +1322,13 @@ msgid ""
 "Delivery methods are only used internally: the customer doesn't pay for "
 "shipping costs"
 msgstr ""
-"Leveransmetoder används bara internt: kunden betalar inte leverans kostnad"
 
 #. module: website_sale
 #: selection:res.config.settings,sale_delivery_settings:0
 msgid ""
 "Delivery methods are selectable on the website: the customer pays for "
 "shipping costs"
-msgstr "Leveransmetoder är valbara på webbsidan: kunden betalar för leverans"
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_11
@@ -1376,12 +1373,12 @@ msgstr ""
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:50
 #, python-format
 msgid "Drag this website block and drop it in your page."
-msgstr "Dra det här webside blocket och släpp det på din websida."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_code
 msgid "E-commerce Promotional Code"
-msgstr "E-commerce kampanjkod"
+msgstr ""
 
 #. module: website_sale
 #: model:product.pricelist,name:website_sale.list_europe
@@ -1438,14 +1435,14 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Email sent to the customer after the checkout"
-msgstr "Epost skickad till kund efter betalning"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:24
 #, python-format
 msgid "Enter a name for your new product"
-msgstr "Skriv ett namn för din nya produkt"
+msgstr ""
 
 #. module: website_sale
 #: code:addons/website_sale/models/product.py:92
@@ -1752,7 +1749,7 @@ msgstr ""
 #: code:addons/website_sale/controllers/main.py:518
 #, python-format
 msgid "Invalid Email! Please enter a valid email address."
-msgstr "Felaktig epost! Vänligen fyll i en giltig epost."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_module_website_sale_stock
@@ -1773,7 +1770,7 @@ msgstr "Fakturering"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Issue invoices to customers"
-msgstr "Utfärda fakturor till kunderna"
+msgstr ""
 
 #. module: website_sale
 #: code:addons/website_sale/models/sale_order.py:157
@@ -1842,12 +1839,12 @@ msgstr "Senast uppdaterad"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
 msgid "Last Week"
-msgstr "Förra veckan"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
 msgid "Last Year"
-msgstr "Förra året"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1862,7 +1859,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Let the customer enter a shipping address"
-msgstr "Tillåt kunden att specificera en leverans adress"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1874,7 +1871,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:15
 #, python-format
 msgid "Let's create your first product."
-msgstr "Då skapar vi din första produkt."
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -2026,7 +2023,7 @@ msgstr "Produkter saknas."
 #. module: website_sale
 #: selection:res.config.settings,sale_delivery_settings:0
 msgid "No shipping management on website"
-msgstr "Ingen leverans hantering på webbsidan"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_sale_pricelist_form_view
@@ -2041,7 +2038,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_crm_team_abandoned_carts_count
 msgid "Number of Abandoned Carts"
-msgstr "Antal övergivna kundvagnar"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -2078,7 +2075,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order_only_services
 msgid "Only Services"
-msgstr "Endast Tjänster"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -2090,7 +2087,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_module_website_sale_options
 msgid "Optional Products"
-msgstr "Alternativa Produkter"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2518,7 +2515,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce
 msgid "Recovery Email to Send"
-msgstr "Återhämtnings Epost att Skicka"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image_product_tmpl_id
@@ -2603,7 +2600,7 @@ msgstr "Försäljning"
 #: model:ir.model.fields,field_description:website_sale.field_website_salesteam_id
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Sales Channel"
-msgstr "Säljkanal"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sale_report_view_pivot_website
@@ -2714,7 +2711,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Sell content to download or URL links"
-msgstr "Sälj nedladdningsbart material eller en URL länk"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -2724,12 +2721,12 @@ msgstr "Sälj i flera valutor"
 #. module: website_sale
 #: model:ir.actions.server,name:website_sale.ir_actions_server_sale_cart_recovery_email
 msgid "Send a Cart Recovery Email"
-msgstr "Skicka kundvagns återhämtnings epost"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sale_order_view_form_cart_recovery
 msgid "Send a Recovery Email"
-msgstr "Skicka ett återhämtnings mail"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -2796,7 +2793,7 @@ msgstr "Fraktkostnader"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_sale_delivery_settings
 msgid "Shipping Management"
-msgstr "Leverans Hantering"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.products
@@ -2837,7 +2834,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
 msgid "Sign Up"
-msgstr "Registrera dig"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_sale
@@ -2883,7 +2880,7 @@ msgstr "Programvara"
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:109
 #, python-format
 msgid "Sold"
-msgstr "Såld"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2896,7 +2893,7 @@ msgstr ""
 #: code:addons/website_sale/controllers/main.py:536
 #, python-format
 msgid "Some required fields are empty."
-msgstr "Vissa nödvändiga fält är toma."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.404
@@ -2911,7 +2908,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sort
 msgid "Sorting by :"
-msgstr "Sortera efter:"
+msgstr ""
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.Speakers
@@ -2936,7 +2933,7 @@ msgstr "Län"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
 msgid "Street 2"
-msgstr "Gatuadress 2"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
@@ -2991,7 +2988,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.suggested_products_list
 msgid "Suggested Accessories:"
-msgstr "Rekommenderade Tillval:"
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_11
@@ -3001,7 +2998,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
 msgid "TIN / VAT"
-msgstr "FO / Moms"
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_11
@@ -3152,7 +3149,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.product
 msgid "This combination does not exist."
-msgstr "Kombinationen existerar inte."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_public_category_image
@@ -3166,7 +3163,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart
 msgid "This is your current cart."
-msgstr "Det här är din kundvagn."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.coupon_form
@@ -3199,7 +3196,7 @@ msgstr "Totalt"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_popover
 msgid "True"
-msgstr "Sant"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_attribute_type
@@ -3242,7 +3239,7 @@ msgstr "Styckpris"
 #: model:ir.ui.menu,name:website_sale.menu_orders_unpaid_orders
 #, python-format
 msgid "Unpaid Orders"
-msgstr "Obetalda Ordrar"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -3366,7 +3363,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_module_website_sale_wishlist
 msgid "Wishlists"
-msgstr "Önskelistor"
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_1
@@ -3444,8 +3441,6 @@ msgid ""
 "Your Address\n"
 "                                        <small> or </small>"
 msgstr ""
-"Din Adress\n"
-"                                        <small> eller </small>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.extra_info
@@ -3461,17 +3456,17 @@ msgstr "Kundvagnen är tom!"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.payment_confirmation_status
 msgid "Your payment has been authorized."
-msgstr "Din betalning har bekräftas."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart
 msgid "Your previous cart has already been completed."
-msgstr "Din tidigare kundvagn har redan blivit slutförd."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
 msgid "Zip Code"
-msgstr "Post No."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner

@@ -3,25 +3,23 @@
 # * mass_mailing
 # 
 # Translators:
-# Denis Trepalin <zekarious@gmail.com>, 2017
-# Max Belyanin <maxbelyanin@gmail.com>, 2017
-# Gennady Marchenko <gennadym@gmail.com>, 2017
-# Sergey Vilizhanin, 2017
-# Masha Koc <mariya.kos.ua@gmail.com>, 2017
-# Максим Дронь <dronmax@gmail.com>, 2017
+# Martin Trigaux, 2017
 # Collex100, 2017
-# Viktor Pogrebniak <vp@aifil.ru>, 2018
+# Masha Koc <mariya.kos.ua@gmail.com>, 2017
+# Max Belyanin <maxbelyanin@gmail.com>, 2017
+# Максим Дронь <dronmax@gmail.com>, 2017
+# Viktor Pogrebniak <vp@aifil.ru>, 2017
+# Denis Trepalin <zekarious@gmail.com>, 2017
+# Sergey Vilizhanin <sv@grimmette.ru>, 2017
+# Gennady Marchenko <gennadym@gmail.com>, 2017
 # sergeiruzkiicode <sergei.ruzki@icode.by>, 2018
-# Martin Trigaux, 2019
-# Ivan Yelizariev <yelizariev@it-projects.info>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:08+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2019\n"
+"POT-Creation-Date: 2018-02-19 13:43+0000\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
+"Last-Translator: sergeiruzkiicode <sergei.ruzki@icode.by>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,14 +42,14 @@ msgstr "$20"
 msgid ""
 "% <br/>\n"
 "                                                <strong>Clicks</strong>"
-msgstr "% <br/> <strong>клики</strong>"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_campaign_kanban
 msgid ""
 "%<br/>\n"
 "                                                <strong>Replied</strong>"
-msgstr "% <br/> <strong>ответы</strong>"
+msgstr ""
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mass_mailing.py:466
@@ -203,7 +201,7 @@ msgstr "<span class=\"fa fa-copyright\"/> 2016 Все права защищен�
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_form
 msgid "<span> times</span>"
-msgstr "<span>время</span>"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_comparison_table
@@ -259,7 +257,7 @@ msgstr "Актив"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_unique_ab_testing
 msgid "Allow A/B Testing"
-msgstr "Разрешить проверку A / B"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_footer_tag_line
@@ -661,17 +659,12 @@ msgstr "Email"
 #: model:ir.ui.menu,name:mass_mailing.mass_mailing_menu_root
 #: model:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Email Marketing"
-msgstr "Email-маркетинг"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_mail_statistics
 msgid "Email Statistics"
 msgstr "Статистика почты"
-
-#. module: mass_mailing
-#: model:ir.model,name:mass_mailing.model_mail_template
-msgid "Email Templates"
-msgstr "Шаблоны писем"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_thread
@@ -713,7 +706,7 @@ msgstr "Исключение"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_search
 msgid "Exclude Bounced"
-msgstr "исключить отказ"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_search
@@ -828,10 +821,6 @@ msgid ""
 " lets you send different mailings to randomly selected recipients and test "
 "the effectiveness of the mailings, without causing duplicate messages."
 msgstr ""
-"Если выбрано, получателям будет отправляться только один раз в течение всей "
-"кампании. Это позволяет отправлять различные рассылки избранным случайно "
-"получателям и проверять эффективность рассылки, не вызывая дублированных "
-"сообщений."
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mass_mailing.py:474
@@ -1024,7 +1013,7 @@ msgstr "Управление кампаниями массовых рассыл�
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Manage campaigns of mass emails with process stages"
-msgstr "Управление кампаниями массовых рассылок с этапами процесса"
+msgstr ""
 
 #. module: mass_mailing
 #: model:mail.mass_mailing.tag,name:mass_mailing.mass_mail_tag_1
@@ -1129,7 +1118,7 @@ msgstr "Тег Массовой рассылки"
 #: model:ir.cron,cron_name:mass_mailing.ir_cron_mass_mailing_queue
 #: model:ir.cron,name:mass_mailing.ir_cron_mass_mailing_queue
 msgid "Mass Mailing: Process queue"
-msgstr "Массовая рассылка: очередь процесса"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,name:mass_mailing.action_create_ab_mass_mailings_from_campaign
@@ -1199,7 +1188,7 @@ msgstr "Название"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_search
 msgid "Name / Email"
-msgstr "Имя / Email"
+msgstr ""
 
 #. module: mass_mailing
 #: model:mail.mass_mailing.campaign,name:mass_mailing.mass_mail_campaign_1
@@ -1231,7 +1220,7 @@ msgstr "Количество контактов"
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_kanban
 msgid "Number of bounced email."
-msgstr "Количество отсканированных электронных писем."
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_campaign_clicks_ratio
@@ -1375,12 +1364,12 @@ msgstr "Модель получателей"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_mailing_model_name
 msgid "Recipients Model Name"
-msgstr "Модель получателей"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_mailing_model_real
 msgid "Recipients Real Model"
-msgstr "Реальная модель получателей"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount1
@@ -1747,16 +1736,12 @@ msgstr ""
 msgid ""
 "This is useful if your marketing campaigns are composed of several emails"
 msgstr ""
-"Это полезно, если ваши маркетинговые кампании состоят из нескольких "
-"электронных писем"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
 "This is useful if your marketing campaigns are composed of several emails."
 msgstr ""
-"Это полезно, если ваши маркетинговые кампании состоят из нескольких "
-"электронных писем."
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -1779,8 +1764,6 @@ msgid ""
 "This tool is advised if your marketing campaign is composed of several "
 "emails."
 msgstr ""
-"Этот инструмент рекомендуется, если ваша маркетинговая кампания состоит из "
-"нескольких электронных писем."
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -1821,12 +1804,6 @@ msgstr "Отписаться"
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_contact_unsubscription_date
 msgid "Unsubscription Date"
 msgstr "Дата отписки"
-
-#. module: mass_mailing
-#: code:addons/mass_mailing/models/mass_mailing.py:639
-#, python-format
-msgid "Unsupported mass mailing model %s"
-msgstr "Неподдерживаемая модель массовой рассылки% s"
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
@@ -1964,7 +1941,7 @@ msgstr "например новостная рассылка для клиент
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_contact_form
 msgid "e.g. John Smith"
-msgstr "напр., Степан Бандера"
+msgstr ""
 
 #. module: mass_mailing
 #: model:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form

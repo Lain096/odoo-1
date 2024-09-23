@@ -10,8 +10,6 @@
 # Leandro Noijovich <eliel.sorcerer@gmail.com>, 2018
 # Martin Trigaux, 2018
 # ExcaliberX <excaliberx@gmail.com>, 2018
-# דודי מלכה <Dudimalka6@gmail.com>, 2019
-# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -19,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:18+0000\n"
-"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020\n"
+"Last-Translator: ExcaliberX <excaliberx@gmail.com>, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +54,7 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_holidays.py:123
 #, python-format
 msgid "%g remaining out of %g"
-msgstr "%g נשארו מתוך %g"
+msgstr ""
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_holidays.py:333
@@ -100,17 +98,17 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_kanban
 msgid "<small class=\"text-muted\">from</small>"
-msgstr "<small class=\"text-muted\">מ</small>"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_kanban
 msgid "<small class=\"text-muted\">to</small>"
-msgstr "<small class=\"text-muted\">ל</small>"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
 msgid "<strong>Departments and Employees</strong>"
-msgstr "<strong>מחלקות ועובדים</strong>"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_show_leaves
@@ -120,7 +118,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.hr_department_view_kanban
 msgid "Absence"
-msgstr "היעדרות"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_department_absence_of_today
@@ -137,13 +135,13 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.hr_employee_action_from_department
 msgid "Absent Employees"
-msgstr "עובדים נעדרים"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_is_absent_totay
 #: model:ir.ui.view,arch_db:hr_holidays.hr_employee_view_search
 msgid "Absent Today"
-msgstr "נעדר היום"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_status_active
@@ -163,7 +161,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.edit_holiday_new
 msgid "Add a reason..."
-msgstr "הוסף סיבה ..."
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_holidays_dashboard
@@ -252,7 +250,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_evaluation_report_graph
 msgid "Appraisal Analysis"
-msgstr "ניתוח נתוני הערכת עובדים"
+msgstr ""
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_holidays.py:580
@@ -267,7 +265,7 @@ msgstr "אשר"
 #: selection:hr.holidays.summary.employee,holiday_type:0
 #: model:mail.message.subtype,name:hr_holidays.mt_holidays_approved
 msgid "Approved"
-msgstr "אושר"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
@@ -287,7 +285,7 @@ msgstr "שחור"
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Blue"
-msgstr "כחול"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.holidays.summary.dept,holiday_type:0
@@ -298,12 +296,12 @@ msgstr ""
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Brown"
-msgstr "חום"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.holidays,holiday_type:0
 msgid "By Employee"
-msgstr "לפי עובד"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.holidays,holiday_type:0
@@ -320,7 +318,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_can_reset
 msgid "Can reset"
-msgstr "יכול לאפס"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_summary_dept
@@ -380,7 +378,7 @@ msgstr "צבע"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_status_color_name
 msgid "Color in Report"
-msgstr "צבע בדוח"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.edit_holiday_new
@@ -443,7 +441,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
 msgid "Current Year"
-msgstr "שנה נוכחית"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_hr_holidays_dashboard
@@ -504,7 +502,7 @@ msgstr "עובד"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_category_id
 msgid "Employee Tag"
-msgstr "תג עובד"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_holiday_employee
@@ -514,7 +512,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_summary_employee_emp
 msgid "Employee(s)"
-msgstr "עובד(ים)"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_date_to
@@ -548,7 +546,7 @@ msgstr "מאת"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_leave_date_from
 msgid "From Date"
-msgstr "מתאריך"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_payslip_status
@@ -564,12 +562,12 @@ msgstr "קבץ לפי"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_report_note
 msgid "HR Comments"
-msgstr "הערות משאבי אנוש"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_department
 msgid "HR Department"
-msgstr "מחלקת משאבי אנוש"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_holidays_summary_dept
@@ -609,7 +607,7 @@ msgstr ""
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Ivory"
-msgstr "שנהב"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays___last_update
@@ -640,12 +638,12 @@ msgstr "תאריך עדכון אחרון"
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Lavender"
-msgstr "לבנדר"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_holidays
 msgid "Leave"
-msgstr "עזוב"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_resource_calendar_leaves
@@ -664,7 +662,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_holidays.edit_holiday_new
 #: model:ir.ui.view,arch_db:hr_holidays.view_holiday_new_calendar
 msgid "Leave Request"
-msgstr "בקשת חופשה"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.hr_holidays_action_request_from_department
@@ -854,7 +852,7 @@ msgstr ""
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Light Blue"
-msgstr "כחול בהיר"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -864,17 +862,17 @@ msgstr ""
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Light Cyan"
-msgstr "טורקיז בהיר"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Light Green"
-msgstr "ירוק בהיר"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Light Pink"
-msgstr "ורוד בהיר"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -884,7 +882,7 @@ msgstr ""
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Light Yellow"
-msgstr "צהוב בהיר"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_linked_request_ids
@@ -894,7 +892,7 @@ msgstr ""
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Magenta"
-msgstr "ארגמן"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_manager_id
@@ -958,7 +956,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
 msgid "My Requests"
-msgstr "הבקשות שלי"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
@@ -976,7 +974,7 @@ msgstr "חדש"
 #: model:ir.ui.view,arch_db:hr_holidays.view_holiday_employee
 #: model:ir.ui.view,arch_db:hr_holidays.view_holiday_simple
 msgid "Number of Days"
-msgstr "מספר ימים"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_leaves_count
@@ -992,7 +990,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:res.groups,name:hr_holidays.group_hr_holidays_user
 msgid "Officer"
-msgstr "פקיד בכיר"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_status_categ_id
@@ -1054,7 +1052,7 @@ msgstr "הדפס"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_notes
 msgid "Reasons"
-msgstr "סיבות"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -1066,18 +1064,18 @@ msgstr "אדום"
 #: model:ir.ui.view,arch_db:hr_holidays.edit_holiday_new
 #, python-format
 msgid "Refuse"
-msgstr "סרב"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.employee,current_leave_state:0 selection:hr.holidays,state:0
 #: model:mail.message.subtype,name:hr_holidays.mt_holidays_refused
 msgid "Refused"
-msgstr "מסורב"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_user_id
 msgid "Related user name for the resource to manage its access."
-msgstr "שם משתמש קשור למשאב לניהול הגישה שלו."
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_holiday
@@ -1086,7 +1084,7 @@ msgstr "שם משתמש קשור למשאב לניהול הגישה שלו."
 #: model:ir.ui.view,arch_db:hr_holidays.view_holiday_employee
 #: model:ir.ui.view,arch_db:hr_holidays.view_holiday_simple
 msgid "Remaining Days"
-msgstr "ימים שנשארו"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_status_remaining_leaves
@@ -1206,7 +1204,7 @@ msgstr "סטטוס"
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.report_holidayssummary
 msgid "Sum"
-msgstr "סכום"
+msgstr ""
 
 #. module: hr_holidays
 #: sql_constraint:hr.holidays:0
@@ -1239,7 +1237,7 @@ msgstr ""
 #. module: hr_holidays
 #: sql_constraint:hr.holidays:0
 msgid "The start date must be anterior to the end date."
-msgstr "תאריך ההתחלה חייב להיות לפני לתאריך הסיום."
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_state
@@ -1305,7 +1303,7 @@ msgstr ""
 #. module: hr_holidays
 #: selection:hr.holidays,state:0
 msgid "To Submit"
-msgstr "להגיש"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_department_total_employee
@@ -1333,7 +1331,7 @@ msgstr "סוג"
 #. module: hr_holidays
 #: model:hr.holidays.status,name:hr_holidays.holiday_status_unpaid
 msgid "Unpaid"
-msgstr "לא שולם"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
@@ -1354,7 +1352,7 @@ msgstr "אשר"
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
 msgid "Validator"
-msgstr "מאשר"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -1369,12 +1367,12 @@ msgstr ""
 #. module: hr_holidays
 #: selection:hr.employee,current_leave_state:0
 msgid "Waiting Approval"
-msgstr "ממתין לאישור"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.employee,current_leave_state:0
 msgid "Waiting Second Approval"
-msgstr "ממתין לאישור שני"
+msgstr ""
 
 #. module: hr_holidays
 #: model:mail.message.subtype,name:hr_holidays.mt_holidays_first_validated
@@ -1384,7 +1382,7 @@ msgstr ""
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
 msgid "Wheat"
-msgstr "חיטה"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_double_validation

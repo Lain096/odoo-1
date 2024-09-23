@@ -3,25 +3,23 @@
 # * survey
 # 
 # Translators:
-# Denis Baranov <baranov@itlibertas.com>, 2017
-# Sergey Vilizhanin, 2017
-# Masha Koc <mariya.kos.ua@gmail.com>, 2017
-# Denis Trepalin <zekarious@gmail.com>, 2017
-# Max Belyanin <maxbelyanin@gmail.com>, 2017
+# Martin Trigaux, 2017
 # Максим Дронь <dronmax@gmail.com>, 2017
 # Collex100, 2017
-# Martin Trigaux, 2017
+# Max Belyanin <maxbelyanin@gmail.com>, 2017
+# Denis Trepalin <zekarious@gmail.com>, 2017
+# Masha Koc <mariya.kos.ua@gmail.com>, 2017
+# Sergey Vilizhanin <sv@grimmette.ru>, 2017
+# Denis Baranov <baranov@itlibertas.com>, 2017
 # Viktor Pogrebniak <vp@aifil.ru>, 2017
 # sergeiruzkiicode <sergei.ruzki@icode.by>, 2018
-# Ivan Yelizariev <yelizariev@it-projects.info>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:24+0000\n"
-"Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2019\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
+"Last-Translator: sergeiruzkiicode <sergei.ruzki@icode.by>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -268,13 +266,11 @@ msgid ""
 "Add a list of email of recipients (will not be converted into contacts). "
 "Separated by commas, semicolons or newline..."
 msgstr ""
-"Добавьте список электронных адресов получателей (не конвертированы в "
-"контакты). Обособленно запятыми, запятыми-точками или строкой ..."
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_email_compose_message
 msgid "Add existing contacts..."
-msgstr "Добавьте существующие контакты ..."
+msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.fcol_2_1_3
@@ -1650,7 +1646,7 @@ msgstr "Страница соцопроса"
 #. module: survey
 #: model:ir.actions.server,name:survey.survey_action_server_clean_test_answers
 msgid "Survey: Clean test answers"
-msgstr "Опрос: очистить тестовые вопросы"
+msgstr ""
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.action_survey_form
@@ -1668,7 +1664,7 @@ msgstr "Тест"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_test_entry
 msgid "Test Entry"
-msgstr "Тестовая запись"
+msgstr ""
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_form
@@ -1820,7 +1816,7 @@ msgstr "Этим ответом должен быть адрес электро�
 #: code:addons/survey/tests/test_survey.py:107
 #, python-format
 msgid "This is not a date"
-msgstr "Это не дата"
+msgstr ""
 
 #. module: survey
 #: code:addons/survey/models/survey.py:565
@@ -1944,7 +1940,7 @@ msgstr "Типы ответов"
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Upcoming Activities"
-msgstr "Будущие виды деятельности"
+msgstr ""
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_email_compose_message

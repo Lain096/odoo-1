@@ -6,15 +6,13 @@
 # fanha99 <fanha99@hotmail.com>, 2017
 # Martin Trigaux, 2017
 # Duy BQ <duybq86@gmail.com>, 2018
-# Christine Nguyen <dungnt@trobz.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
-"PO-Revision-Date: 2017-09-20 10:27+0000\n"
-"Last-Translator: Christine Nguyen <dungnt@trobz.com>, 2019\n"
+"PO-Revision-Date: 2017-09-20 09:54+0000\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,18 +34,18 @@ msgstr "Tất cả Quốc gia"
 #. module: website_membership
 #: model:ir.ui.view,arch_db:website_membership.index
 msgid "Associations"
-msgstr "Hiệp hội"
+msgstr ""
 
 #. module: website_membership
 #: model:ir.ui.view,arch_db:website_membership.index
 msgid "Find a business partner"
-msgstr "Tìm đối tác kinh doanh"
+msgstr ""
 
 #. module: website_membership
 #: code:addons/website_membership/controllers/main.py:126
 #, python-format
 msgid "Free Members"
-msgstr "Miễn phí thành viên"
+msgstr ""
 
 #. module: website_membership
 #: model:ir.ui.view,arch_db:website_membership.opt_index_country
@@ -63,12 +61,12 @@ msgstr "Thành viên"
 #. module: website_membership
 #: model:ir.ui.view,arch_db:website_membership.index
 msgid "No result found."
-msgstr "Không tìm thấy kết quả."
+msgstr ""
 
 #. module: website_membership
 #: model:ir.ui.view,arch_db:website_membership.index
 msgid "Our Members Directory"
-msgstr "Thư mục thành viên của chúng tôi"
+msgstr ""
 
 #. module: website_membership
 #: model:ir.ui.view,arch_db:website_membership.opt_index_google_map

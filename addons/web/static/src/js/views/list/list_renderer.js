@@ -582,7 +582,7 @@ var ListRenderer = BasicRenderer.extend({
                     .data('id', record.id)
                     .append($cells);
         if (this.hasSelectors) {
-            $tr.prepend(this._renderSelector('td', !record.res_id));
+            $tr.prepend(this._renderSelector('td'));
         }
         this._setDecorationClasses(record, $tr);
         return $tr;
@@ -602,19 +602,15 @@ var ListRenderer = BasicRenderer.extend({
      * view.  This is rendered as an input inside a div, so we can properly
      * style it.
      *
-     * Note that it takes a tag in argument, because selectors in the header
+     * Note that it takes a tag in argument, because selectores in the header
      * are renderd in a th, and those in the tbody are in a td.
      *
      * @private
-     * @param {string} tag either th or td
-     * @param {boolean} disableInput if true, the input generated will be disabled
+     * @param {any} tag either th or td
      * @returns {jQueryElement}
      */
-    _renderSelector: function (tag, disableInput) {
+    _renderSelector: function (tag) {
         var $content = dom.renderCheckbox();
-        if (disableInput) {
-            $content.find("input[type='checkbox']").prop('disabled', disableInput);
-        }
         return $('<' + tag + ' width="1">')
                     .addClass('o_list_record_selector')
                     .append($content);
@@ -775,7 +771,7 @@ var ListRenderer = BasicRenderer.extend({
      */
     _onToggleSelection: function (event) {
         var checked = $(event.currentTarget).prop('checked') || false;
-        this.$('tbody .o_list_record_selector input:not(":disabled")').prop('checked', checked);
+        this.$('tbody .o_list_record_selector input').prop('checked', checked);
         this._updateSelection();
     },
 });

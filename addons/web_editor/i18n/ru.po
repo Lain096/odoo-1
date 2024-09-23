@@ -3,28 +3,25 @@
 # * web_editor
 # 
 # Translators:
+# Amaro Vita <vita.amaro@gmail.com>, 2017
+# Collex100, 2017
+# Martin Trigaux, 2017
+# Sergey Vilizhanin <sv@grimmette.ru>, 2017
+# Gennady Marchenko <gennadym@gmail.com>, 2017
+# Максим Дронь <dronmax@gmail.com>, 2017
+# Viktor Pogrebniak <vp@aifil.ru>, 2017
+# Masha Koc <mariya.kos.ua@gmail.com>, 2017
 # Denis Trepalin <zekarious@gmail.com>, 2017
 # Alex Puchkov <ap@alteco.co>, 2017
-# Gennady Marchenko <gennadym@gmail.com>, 2017
 # Max Belyanin <maxbelyanin@gmail.com>, 2017
-# Viktor Pogrebniak <vp@aifil.ru>, 2017
-# Sergey Vilizhanin, 2017
-# Максим Дронь <dronmax@gmail.com>, 2017
-# Masha Koc <mariya.kos.ua@gmail.com>, 2017
-# Amaro Vita <vita.amaro@gmail.com>, 2017
-# Martin Trigaux, 2017
-# Collex100, 2017
-# sergeiruzkiicode <sergei.ruzki@icode.by>, 2018
-# Vasiliy Korobatov <korobatov@gmail.com>, 2019
-# Ivan Yelizariev <yelizariev@it-projects.info>, 2019
-# 
+# sergeiruzkiicode <sergei.ruzki@icode.by>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
-"PO-Revision-Date: 2017-09-20 10:25+0000\n"
-"Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2019\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
+"Last-Translator: sergeiruzkiicode <sergei.ruzki@icode.by>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +34,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:193
 #, python-format
 msgid "(URL or Embed)"
-msgstr "(URL или Вставить)"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -95,7 +92,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Accepts"
-msgstr "принимает"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -261,7 +258,7 @@ msgstr "Жирный"
 #: code:addons/web_editor/static/src/js/widgets/ace.js:827
 #, python-format
 msgid "Careful !"
-msgstr "Осторожно!"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -340,7 +337,7 @@ msgstr "Содержимое для перевода"
 #: code:addons/web_editor/static/src/xml/editor.xml:194
 #, python-format
 msgid "Copy-paste your URL or embed code here"
-msgstr "Скопируйте и вставьте вашу URL-адрес или вставьте ваш код здесь"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -378,7 +375,7 @@ msgstr "Настройка"
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Dailymotion"
-msgstr "Dailymotion"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
@@ -493,7 +490,7 @@ msgstr "Эпсилон"
 #: code:addons/web_editor/static/src/js/widgets/ace.js:93
 #, python-format
 msgid "Expected "
-msgstr "ожидаются"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -670,35 +667,35 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:219
 #, python-format
 msgid "Hide Dailymotion logo"
-msgstr "Скрыть логотип Dailymotion"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:216
 #, python-format
 msgid "Hide Youtube logo"
-msgstr "Скрыть логотип Youtube"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:213
 #, python-format
 msgid "Hide fullscreen button"
-msgstr "Скрыть полноэкранную кнопку"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:210
 #, python-format
 msgid "Hide player controls"
-msgstr "Скрыть элементы управления плеером"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:222
 #, python-format
 msgid "Hide sharing button"
-msgstr "Скрыть кнопку распространение"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -731,8 +728,6 @@ msgid ""
 "If you reset this file, all your customizations will be lost as it will be "
 "reverted to the default file."
 msgstr ""
-"Если вы сбросите этот файл, все ваши настройки будут потеряны, поскольку они"
-" будут возвращены к файлу по умолчанию."
 
 #. module: web_editor
 #. openerp-web
@@ -756,9 +751,6 @@ msgid ""
 "In this mode, you can only translate texts. To change the structure of the page, you must edit the master page.\n"
 "        Each modification on the master page is automatically applied to all translated versions."
 msgstr ""
-"Этот режим предназначен только для перевода текстов. Для изменения структуры"
-" страницы, необходимо изменить основную. Любая модификация основной страницы"
-" автоматически применяется к переведенных."
 
 #. module: web_editor
 #. openerp-web
@@ -819,7 +811,7 @@ msgstr "Вставить видео "
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Instagram"
-msgstr "Instagram"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -919,7 +911,7 @@ msgstr "Ссылка на"
 #: code:addons/web_editor/static/src/xml/editor.xml:207
 #, python-format
 msgid "Loop"
-msgstr "цикл"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -983,7 +975,7 @@ msgstr "Ok"
 #: code:addons/web_editor/static/src/js/editor/translator.js:93
 #, python-format
 msgid "Ok, never show me this again"
-msgstr "Хорошо, больше это не показывать"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1055,7 +1047,7 @@ msgstr "Просмотр"
 #: code:addons/web_editor/static/src/xml/editor.xml:57
 #, python-format
 msgid "Previous"
-msgstr "Предыдущий"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
@@ -1166,7 +1158,7 @@ msgstr "Сброс к умолчаниям"
 #: code:addons/web_editor/static/src/js/widgets/ace.js:485
 #, python-format
 msgid "Reseting views is not supported yet"
-msgstr "Сброс просмотров еще не поддерживается"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1252,7 +1244,7 @@ msgstr "Выбрать файл"
 #: code:addons/web_editor/static/src/js/widgets/ace.js:567
 #, python-format
 msgid "Server error"
-msgstr "Ошибка сервера"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1385,14 +1377,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/widgets/widgets.js:871
 #, python-format
 msgid "The provided url does not reference any supported video"
-msgstr "Указанная URL-адрес не содержит ссылки на любое поддерживаемое видео"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/widgets/widgets.js:865
 #, python-format
 msgid "The provided url is not valid"
-msgstr "Предоставленная URL-адрес недействительна"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1414,14 +1406,14 @@ msgstr "Этот документ не сохранен!"
 #: code:addons/web_editor/static/src/xml/editor.xml:150
 #, python-format
 msgid "This file is a public view attachment"
-msgstr "Этот файл является вложением для общего просмотра"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:151
 #, python-format
 msgid "This file is attached to the current record"
-msgstr "Этот файл прилагается к текущей записи"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1456,7 +1448,7 @@ msgstr "Переведенное содержимое"
 #: code:addons/web_editor/static/src/js/editor/translator.js:91
 #, python-format
 msgid "Translation Info"
-msgstr "Информация о переводе"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1471,7 +1463,7 @@ msgstr "Прозрачный"
 #: code:addons/web_editor/static/src/xml/editor.xml:248
 #, python-format
 msgid "URL or Email"
-msgstr "URL или Email"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1492,7 +1484,7 @@ msgstr "Отменить"
 #: code:addons/web_editor/static/src/js/widgets/ace.js:86
 #, python-format
 msgid "Unexpected "
-msgstr "неожиданно"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1563,21 +1555,21 @@ msgstr "Видео URL?"
 #: code:addons/web_editor/static/src/xml/editor.xml:193
 #, python-format
 msgid "Video code"
-msgstr "код видео"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Vimeo"
-msgstr "Vimeo"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Vine.co"
-msgstr "Vine.co"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
@@ -1595,7 +1587,7 @@ msgstr "Белый"
 #: code:addons/web_editor/static/src/xml/ace.xml:10
 #, python-format
 msgid "XML (HTML)"
-msgstr "XML (HTML)"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1616,14 +1608,14 @@ msgstr "Вы собираетесь войти в режим перевода."
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Youku"
-msgstr "Youku"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Youtube"
-msgstr "Youtube"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1749,7 +1741,7 @@ msgstr "ir.ui.view"
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "videos"
-msgstr "видео"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_web_editor_converter_test

@@ -3,19 +3,18 @@
 # * account_voucher
 # 
 # Translators:
-# Sergiu Baltariu <s_baltariu@yahoo.com>, 2017
+# Cozmin Candea <office@terrabit.ro>, 2017
+# Dorin Hongu <dhongu@gmail.com>, 2017
 # Iulian Cutui <iulian.cutui@gmail.com>, 2017
 # Martin Trigaux, 2017
-# Cozmin Candea <office@terrabit.ro>, 2017
-# Dorin Hongu <dhongu@gmail.com>, 2020
-# 
+# Sergiu Baltariu <s_baltariu@yahoo.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:55+0000\n"
-"PO-Revision-Date: 2017-09-20 10:14+0000\n"
-"Last-Translator: Dorin Hongu <dhongu@gmail.com>, 2020\n"
+"PO-Revision-Date: 2018-07-27 11:55+0000\n"
+"Last-Translator: Sergiu Baltariu <s_baltariu@yahoo.com>, 2017\n"
 "Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -368,7 +367,7 @@ msgstr "Chitanta cumparaturi"
 #: model:ir.actions.act_window,name:account_voucher.action_purchase_receipt
 #: model:ir.ui.menu,name:account_voucher.menu_action_purchase_receipt
 msgid "Purchase Receipts"
-msgstr "Bonuri fiscale"
+msgstr "Chitante de Cumparaturi"
 
 #. module: account_voucher
 #: model:ir.ui.view,arch_db:account_voucher.view_purchase_receipt_form
@@ -554,8 +553,6 @@ msgid ""
 "When the purchase receipt is confirmed, you can record the\n"
 "                vendor payment related to this purchase receipt."
 msgstr ""
-"Când chitanța de achiziție este confirmată  se poate înregistra plata în "
-"legătură cu această chitanță de achiziție."
 
 #. module: account_voucher
 #: model:ir.actions.act_window,help:account_voucher.action_sale_receipt
@@ -563,8 +560,6 @@ msgid ""
 "When the sale receipt is confirmed, you can record the customer\n"
 "                payment related to this sales receipt."
 msgstr ""
-"Când chitanța de vânzare este confirmată  se poate înregistra încasarea în "
-"legătură cu această chitanță de vânzare."
 
 #. module: account_voucher
 #: code:addons/account_voucher/models/account_voucher.py:438

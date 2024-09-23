@@ -2,19 +2,12 @@
 # This file contains the translation of the following modules:
 # * fleet
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# prassanna john paul augustin <prasaugus@gmail.com>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:08+0000\n"
-"PO-Revision-Date: 2017-09-20 10:17+0000\n"
-"Last-Translator: Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019\n"
+"POT-Creation-Date: 2018-07-27 11:56+0000\n"
+"PO-Revision-Date: 2018-07-27 11:56+0000\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,7 +72,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_active
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_active
 msgid "Active"
-msgstr "செயலில்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
@@ -112,13 +105,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_cost_amount
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_cost_amount
 msgid "Amount"
-msgstr "தொகை"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Archived"
-msgstr "காப்பகப்படுத்தியவை"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_9
@@ -211,7 +204,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type_category
 msgid "Category"
-msgstr "வகை"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_cost_type
@@ -310,7 +303,7 @@ msgstr ""
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,state:0
 msgid "Closed"
-msgstr "மூடப்பட்ட"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_color
@@ -320,7 +313,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_color
 msgid "Color Index"
-msgstr "வண்ண குறியீட்டு"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_color
@@ -335,12 +328,12 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_company_id
 msgid "Company"
-msgstr "நிறுவனம்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.menu,name:fleet.fleet_configuration
 msgid "Configuration"
-msgstr "கட்டமைப்பு"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.service.type,category:0
@@ -429,7 +422,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_cost_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_cost_id
 msgid "Cost"
-msgstr "செலவு"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_description
@@ -516,7 +509,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_create_uid
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type_create_date
@@ -531,7 +524,7 @@ msgstr "உருவாக்கியவர்"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_create_date
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_state_id
@@ -550,7 +543,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_date
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_date
 msgid "Date"
-msgstr "தேதி"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_date
@@ -600,7 +593,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_display_name
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_17
@@ -808,7 +801,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_search
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Group By"
-msgstr "மூலம் குழு"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
@@ -894,7 +887,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_id_2917
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_29
@@ -910,7 +903,7 @@ msgstr ""
 #: selection:fleet.vehicle.log.contract,state:0
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
 msgid "In Progress"
-msgstr "முன்னேற்றம்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_cost_ids
@@ -969,7 +962,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_inv_ref
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_inv_ref
 msgid "Invoice Reference"
-msgstr "விலைப்பட்டியல் குறிப்பு"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_junior
@@ -987,11 +980,6 @@ msgid "Km"
 msgstr ""
 
 #. module: fleet
-#: selection:fleet.vehicle,fuel_type:0
-msgid "LPG"
-msgstr ""
-
-#. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type___last_update
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle___last_update
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost___last_update
@@ -1004,7 +992,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state___last_update
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer
@@ -1024,7 +1012,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_write_uid
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type_write_date
@@ -1039,7 +1027,7 @@ msgstr "கடைசியாக புதுப்பிக்கப்பட�
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_write_date
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_contract_leasing
@@ -1071,7 +1059,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_location
 msgid "Location"
-msgstr "இருப்பிடம்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_location
@@ -1083,7 +1071,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_image
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_image
 msgid "Logo"
-msgstr "சின்னம்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_image_medium
@@ -1125,12 +1113,12 @@ msgstr ""
 #. module: fleet
 #: model:res.groups,name:fleet.fleet_group_manager
 msgid "Manager"
-msgstr "மேலாளர்"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle,transmission:0
 msgid "Manual"
-msgstr "கையேடு"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_image_medium
@@ -1157,7 +1145,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Model"
-msgstr "மாதிரி"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_form
@@ -1205,7 +1193,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 msgid "Month"
-msgstr "மாதம்"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,cost_frequency:0
@@ -1223,7 +1211,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_name
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_name
 msgid "Name"
-msgstr "பெயர்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_contract_renewal_name
@@ -1233,7 +1221,7 @@ msgstr ""
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,cost_frequency:0
 msgid "No"
-msgstr "இல்லை"
+msgstr ""
 
 #. module: fleet
 #: code:addons/fleet/models/fleet_vehicle.py:81
@@ -1248,14 +1236,14 @@ msgstr ""
 #: code:addons/fleet/models/fleet_vehicle.py:223
 #, python-format
 msgid "None"
-msgstr "யாரும்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_notes
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_notes
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Notes"
-msgstr "குறிப்புக்கள்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_doors
@@ -1393,12 +1381,12 @@ msgstr ""
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_16
 msgid "Options"
-msgstr "விருப்பங்கள்"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.cost,cost_type:0
 msgid "Other"
-msgstr "மற்ற"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_33
@@ -1417,7 +1405,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_parent_id
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 msgid "Parent"
-msgstr "பெற்றோர்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_parent_id
@@ -1532,12 +1520,12 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.menu,name:fleet.menu_fleet_reporting
 msgid "Reporting"
-msgstr "அறிக்கையிடல்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_residual_value
 msgid "Residual Value"
-msgstr "எஞ்சிய மதிப்பு"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_15
@@ -1582,7 +1570,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_sequence
 msgid "Sequence"
-msgstr "வரிசை"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.service.type,category:0
@@ -1608,7 +1596,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_service_count
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "Services"
-msgstr "சேவைகள்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_graph
@@ -1672,7 +1660,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_id
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_state_view_tree
 msgid "State"
-msgstr "நிலை"
+msgstr ""
 
 #. module: fleet
 #: sql_constraint:fleet.vehicle.state:0
@@ -1689,7 +1677,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_state
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Status"
-msgstr "நிலைமை"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_5
@@ -1700,12 +1688,12 @@ msgstr ""
 #. module: fleet
 #: sql_constraint:fleet.vehicle.tag:0
 msgid "Tag name already exists !"
-msgstr "Tag name already exists !"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_ids
 msgid "Tags"
-msgstr "மேற்கோள்கள்"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_3
@@ -1758,7 +1746,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_tree
 msgid "Total"
-msgstr "மொத்த"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_amount
@@ -1814,7 +1802,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_cost_subtype_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_cost_subtype_id
 msgid "Type"
-msgstr "வகை"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_service_type
@@ -1833,7 +1821,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_odometer_unit
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_unit_2906
 msgid "Unit"
-msgstr "அலகு"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_odometer_unit
@@ -1853,7 +1841,7 @@ msgstr ""
 #. module: fleet
 #: model:res.groups,name:fleet.fleet_group_user
 msgid "User"
-msgstr "பயனர்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_car_value
@@ -1978,7 +1966,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_vendor_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_vendor_id
 msgid "Vendor"
-msgstr "விற்பனையாளர்"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_vendors
@@ -2039,7 +2027,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 msgid "Year"
-msgstr "ஆண்டு"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_year

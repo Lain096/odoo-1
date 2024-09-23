@@ -4,22 +4,19 @@
 # 
 # Translators:
 # Yihya Hugirat <hugirat@gmail.com>, 2017
-# yacov mosbacher <ymosba@gmail.com>, 2018
+# yacov mosbacher (‫יעקב מוסבכר‬‎) <ymosba@gmail.com>, 2018
 # שהאב חוסיין <shhab89@gmail.com>, 2018
-# Moshe Flam <pashute@gmail.com>, 2018
-# ExcaliberX <excaliberx@gmail.com>, 2018
 # Martin Trigaux, 2018
 # ilan kl <ilan@qaroads.co.il>, 2018
-# Amit Spilman <amit@laylinetech.com>, 2019
-# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020
-# 
+# Moshe Flam <pashute@gmail.com>, 2018
+# ExcaliberX <excaliberx@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
-"PO-Revision-Date: 2017-09-20 10:27+0000\n"
-"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
+"Last-Translator: ExcaliberX <excaliberx@gmail.com>, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,14 +95,14 @@ msgstr "&amp;bull;"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "&amp;nbsp;"
-msgstr "ו"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.payment_confirmation_status
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 #: model:ir.ui.view,arch_db:website_quote.so_template
 msgid "&amp;times;"
-msgstr "וזמנים"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_template
@@ -146,12 +143,12 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.chatter
 msgid "<i class=\"fa fa-comment\"/> Feedback"
-msgstr "<i class=\"fa fa-comment\"/> משוב"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "<i class=\"fa fa-times\"/> Reject"
-msgstr "<i class=\"fa fa-times\"/> דחה"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -225,7 +222,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.report_saleorder_validity_date
 msgid "<strong>Expiration Date:</strong>"
-msgstr "<strong>תאריך תפוגה:</strong>"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -304,7 +301,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.pricing
 msgid "<strong>Total:</strong>"
-msgstr "<strong>סה\"כ:</strong>"
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
@@ -331,7 +328,7 @@ msgstr "פעיל"
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.sale_order_form_quote
 msgid "Add to order lines"
-msgstr "הוסף לשורות הזמנה"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,name:website_quote.product_product_quote_3
@@ -357,7 +354,7 @@ msgstr "סכום"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_amount_undiscounted
 msgid "Amount Before Discount"
-msgstr "סכום לפני הנחה"
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
@@ -494,7 +491,7 @@ msgstr "אישור"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_mail_template_id
 msgid "Confirmation Mail"
-msgstr "דואר אישור"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_require_payment
@@ -571,7 +568,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_res_config_settings_default_template_id
 msgid "Default Template"
-msgstr "תבנית ברירת מחדל"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_name
@@ -640,7 +637,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_form
 msgid "Edit Template"
-msgstr "ערוך תבנית"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation_content
@@ -681,7 +678,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.model.fields,help:website_quote.field_sale_quote_line_sequence
 msgid "Gives the sequence order when displaying a list of sale quote lines."
-msgstr "נותן את סדר הרצף בעת הצגת רשימה של שורות הצעת מחיר למכירה."
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,help:website_quote.field_sale_order_option_sequence
@@ -697,11 +694,6 @@ msgid ""
 "                                your references, your methodology or\n"
 "                                guarantees, your team, SLA, terms and conditions, etc."
 msgstr ""
-"תבניות הצעת מחיר נהדרות יעזרו באופן משמעותי\n"
-"                                <strong>להגדיל את אחוזי ההצלחה שלך</strong>. \n"
-"                                החלק הראשון עוסק בדרך כלל בחברה שלך,\n"
-"                                הפניות שלך, המתודולוגיה שלך או\n"
-"                                ערבויות, הצוות שלך, SLA, תנאים והגבלות וכו '."
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_1
@@ -770,7 +762,7 @@ msgstr ""
 msgid ""
 "If unchecked, it will allow you to hide the quotation template without "
 "removing it."
-msgstr "אם לא מסומן, יאפשר להסתיר את תבנית הצעת המחיר מבלי להסיר אותה."
+msgstr ""
 
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:103
@@ -780,12 +772,11 @@ msgid ""
 "If we store your payment information on our server, subscription payments "
 "will be made automatically."
 msgstr ""
-"אם נשמור את פרטי התשלום שלך בשרת שלנו, תשלומי המנוי יבוצעו באופן אוטומטי."
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "Incl. tax)"
-msgstr "כולל מע\"מ"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -950,7 +941,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.model.fields,help:website_quote.field_sale_quote_template_number_of_days
 msgid "Number of days for the validity date computation of the quotation"
-msgstr "מספר הימים לחישוב תאריך התוקף של הצעת המחיר"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -982,13 +973,13 @@ msgstr ""
 #: selection:sale.order,require_payment:0
 #: selection:sale.quote.template,require_payment:0
 msgid "Online Payment"
-msgstr "תשלום אלקטרוני"
+msgstr ""
 
 #. module: website_quote
 #: selection:sale.order,require_payment:0
 #: selection:sale.quote.template,require_payment:0
 msgid "Online Signature"
-msgstr "חתימה אלקטרונית"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_1
@@ -1006,29 +997,29 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_template
 msgid "Optional Product:"
-msgstr "מוצר אופציונלי"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_line_option_line_id
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_options
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_options
 msgid "Optional Products Lines"
-msgstr "שורות מוצרים אופציונליים"
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid "Our Offer"
-msgstr "ההצעה שלנו"
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid "Our Quality"
-msgstr "האיכות שלנו"
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid "Our Service"
-msgstr "השירות שלנו"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -1064,22 +1055,22 @@ msgstr ""
 #: code:addons/website_quote/controllers/main.py:197
 #, python-format
 msgid "Pay & Confirm"
-msgstr "שלם ואשר"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "Pay with"
-msgstr "שלם עם"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.menu,name:website_quote.payment_acquirer_menu_sale
 msgid "Payment Acquirers"
-msgstr "תשלום רוכשים"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation_content
 msgid "Payment Terms:"
-msgstr "תנאי תשלום:"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.sale_order_form_quote
@@ -1127,7 +1118,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_template
 msgid "Product:"
-msgstr "מוצר:"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.pricing
@@ -1168,7 +1159,7 @@ msgstr "הצעת מחיר"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_number_of_days
 msgid "Quotation Duration"
-msgstr "משך הצעת מחיר"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model,name:website_quote.model_sale_quote_option
@@ -1180,26 +1171,26 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_name
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_form
 msgid "Quotation Template"
-msgstr "תבנית הצעת מחיר"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model,name:website_quote.model_sale_quote_line
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_quote_line
 msgid "Quotation Template Lines"
-msgstr "שורות תבנית הצעת מחיר"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_line_quote_id
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_option_template_id
 msgid "Quotation Template Reference"
-msgstr "מזהה תבנית הצעת מחיר"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.actions.act_window,name:website_quote.action_sale_quotation_template
 #: model:ir.ui.menu,name:website_quote.menu_sale_quote_template
 #: model:ir.ui.view,arch_db:website_quote.res_config_settings_view_form
 msgid "Quotation Templates"
-msgstr "תבניות הצעת מחיר"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_quote_viewed
@@ -1209,13 +1200,13 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_form
 msgid "Quotation expires after"
-msgstr "הצעת המחיר פגה לאחר"
+msgstr ""
 
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:50
 #, python-format
 msgid "Quotation viewed by customer"
-msgstr "הצעת המחיר נצפתה ע\"י הלקוח"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation_content
@@ -1246,12 +1237,12 @@ msgstr ""
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Requirements"
-msgstr "דרישות"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model,name:website_quote.model_sale_order_option
 msgid "Sale Options"
-msgstr "אפשרויות מכירה"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model,name:website_quote.model_sale_quote_template
@@ -1268,18 +1259,18 @@ msgstr "שורת הזמנה"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_order_id
 msgid "Sales Order Reference"
-msgstr "מזהה הזמנת לקוח"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.sale_order_form_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_form
 msgid "Sales Quotation Template Lines"
-msgstr "שורות תבנית הצעת מחיר"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_search
 msgid "Search Quotation Template"
-msgstr "חפש תבנית הצעת מחיר"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_layout_category_id
@@ -1342,13 +1333,12 @@ msgid ""
 "Tell us why you are refusing this quotation, this will help us improve our "
 "services."
 msgstr ""
-"ספר לנו מדוע אתה מסרב להצעת מחיר זו, הדבר יסייע לנו בשיפור השירותים שלנו."
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.pricing
 #: model:ir.ui.view,arch_db:website_quote.so_template
 msgid "Terms &amp; Conditions"
-msgstr "תנאים והגבלות"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_note
@@ -1361,8 +1351,6 @@ msgid ""
 "The Administrator can set default Terms & Conditions in Sales Settings. "
 "Terms set here will show up instead if you select this quotation template."
 msgstr ""
-"המנהל יכול להגדיר ברירת מחדל לתנאים והגבלות בהגדרות המכירה.תנאים שמוגדרים "
-"כאן יופיעו במקום אם תבחר את תבנית הצעת מחיר זו."
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
@@ -1402,7 +1390,7 @@ msgstr ""
 msgid ""
 "This e-mail template will be sent on confirmation. Leave empty to send "
 "nothing."
-msgstr "תבנית דואר אלקטרוני זו תישלח בעת האישור. השאר ריק כדי לא לשלוח דבר."
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
@@ -1555,7 +1543,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_form
 msgid "Website Description"
-msgstr "תיאור אתר אינטרנט"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -1592,17 +1580,12 @@ msgid ""
 "                        on the left is generated automatically using the styles you\n"
 "                        used in your description (heading 1, heading 2, ...)"
 msgstr ""
-"אתה יכול <strong>להגדיר תיאור לכל מוצר</strong>. Odoo יצור \n"
-"                        אוטומטית הצעת מחיר עם התיאורים של כל המוצרים.\n"
-"                        תוכן העניינים\n"
-"                        נוצר אוטומטית בעזרת הסגנונות שבהם השתמשת בתיאור שלך (כותרת 1, כותרת 2, ...)\n"
-"                        "
 
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:150
 #, python-format
 msgid "You cannot add options to a confirmed order."
-msgstr "אינך יכול להוסיף אפשרויות להזמנה מאושרת."
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation_content
@@ -1655,7 +1638,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.payment_confirmation_status
 msgid "Your payment has been authorized."
-msgstr "התשלום שלך אושר."
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
@@ -1665,7 +1648,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "day"
-msgstr "יום"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation

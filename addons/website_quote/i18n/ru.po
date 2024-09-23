@@ -3,26 +3,23 @@
 # * website_quote
 # 
 # Translators:
-# Denis Trepalin <zekarious@gmail.com>, 2017
-# Вадим Кунгурцев <kvadim@aport.ru>, 2017
-# Max Belyanin <maxbelyanin@gmail.com>, 2017
-# Masha Koc <mariya.kos.ua@gmail.com>, 2017
+# Martin Trigaux, 2017
+# Sergey Vilizhanin <sv@grimmette.ru>, 2017
+# Collex100, 2017
 # Максим Дронь <dronmax@gmail.com>, 2017
 # Владимир Куряев <istercul@gmail.com>, 2017
-# Martin Trigaux, 2017
-# Sergey Vilizhanin, 2017
-# Collex100, 2017
+# Masha Koc <mariya.kos.ua@gmail.com>, 2017
+# Denis Trepalin <zekarious@gmail.com>, 2017
 # Viktor Pogrebniak <vp@aifil.ru>, 2017
-# Oleg Kuryan <oleg@ventor.tech>, 2019
-# Ivan Yelizariev <yelizariev@it-projects.info>, 2019
-# 
+# Вадим Кунгурцев <kvadim@aport.ru>, 2017
+# Max Belyanin <maxbelyanin@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
-"PO-Revision-Date: 2017-09-20 10:27+0000\n"
-"Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2019\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
+"Last-Translator: Max Belyanin <maxbelyanin@gmail.com>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -650,7 +647,7 @@ msgstr "3 день"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_res_config_settings_default_template_id
 msgid "Default Template"
-msgstr "Шаблон по умолчанию"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_name
@@ -856,8 +853,6 @@ msgid ""
 "If unchecked, it will allow you to hide the quotation template without "
 "removing it."
 msgstr ""
-"Если этот параметр не будет обозначено, он позволит вам скрыть шаблон "
-"коммерческой предложении, не удалив его."
 
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:103
@@ -1074,13 +1069,13 @@ msgstr ""
 #: selection:sale.order,require_payment:0
 #: selection:sale.quote.template,require_payment:0
 msgid "Online Payment"
-msgstr "платеж онлайн"
+msgstr ""
 
 #. module: website_quote
 #: selection:sale.order,require_payment:0
 #: selection:sale.quote.template,require_payment:0
 msgid "Online Signature"
-msgstr "Онлайн-подпись"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_1
@@ -1165,7 +1160,7 @@ msgstr "Оплатить & подтвердить"
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "Pay with"
-msgstr "  Оплатить"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.menu,name:website_quote.payment_acquirer_menu_sale
@@ -1308,7 +1303,7 @@ msgstr "Ценовое предложение просмотренно"
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_form
 msgid "Quotation expires after"
-msgstr "Коммерческое предложение заканчивается после"
+msgstr ""
 
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:50
@@ -1367,7 +1362,7 @@ msgstr "Строка заказа на продажу"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_order_id
 msgid "Sales Order Reference"
-msgstr "Ссылка на заказ на продажу"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.sale_order_form_quote
@@ -1378,7 +1373,7 @@ msgstr "Шаблон строк коммерческого предложени�
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_search
 msgid "Search Quotation Template"
-msgstr "Поиск шаблона коммерческого предложения"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_layout_category_id
@@ -1461,9 +1456,6 @@ msgid ""
 "The Administrator can set default Terms & Conditions in Sales Settings. "
 "Terms set here will show up instead if you select this quotation template."
 msgstr ""
-"Администратор может установить сроки и условия по умолчанию в настройках "
-"продаж. Условия, установленные здесь, будут отображаться, если вы выберете "
-"этот шаблон коммерческого предложения."
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1

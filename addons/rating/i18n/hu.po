@@ -3,19 +3,16 @@
 # * rating
 # 
 # Translators:
-# Martin Trigaux, 2017
+# krnkris <krnkris@freemail.hu>, 2017
 # gezza <geza.nagy@oregional.hu>, 2017
-# krnkris, 2017
-# Ákos Nagy <akos.nagy@oregional.hu>, 2019
-# Tamás Németh <ntomasz81@gmail.com>, 2019
-# 
+# Martin Trigaux <mat@odoo.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
-"PO-Revision-Date: 2017-09-20 10:22+0000\n"
-"Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2019\n"
+"PO-Revision-Date: 2017-09-20 09:53+0000\n"
+"Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +30,7 @@ msgstr ""
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_form
 msgid "<span class=\"o_stat_text\">Resource</span>"
-msgstr "<span class=\"o_stat_text\">Erőforrás</span>"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_access_token
@@ -113,7 +110,7 @@ msgstr ""
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_external_page_view
 msgid "Go to our website"
-msgstr "Látogasson el honlapunkra"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
@@ -124,7 +121,7 @@ msgstr "Csoportosítás ezzel"
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
 #: selection:rating.rating,rating_text:0
 msgid "Highly dissatisfied"
-msgstr "Nagyon elégedetlen"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin_id
@@ -181,23 +178,23 @@ msgstr "Hónap"
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "My Ratings"
-msgstr "Értékeléseim"
+msgstr ""
 
 #. module: rating
 #: selection:rating.rating,rating_text:0
 msgid "No Rating yet"
-msgstr "Még nincs értékelés"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
 #: selection:rating.rating,rating_text:0
 msgid "Not satisfied"
-msgstr "Nem elégedett"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_rated_partner_id
 msgid "Owner of the rated resource"
-msgstr "Az értékelt erőforrás tulajdonosa"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_parent_res_id
@@ -222,12 +219,12 @@ msgstr ""
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
 msgid "Rated User"
-msgstr "Értékelt felhasználó"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_rated_partner_id
 msgid "Rated person"
-msgstr "Értékelt személy"
+msgstr ""
 
 #. module: rating
 #: model:ir.actions.act_window,name:rating.action_view_rating
@@ -256,7 +253,7 @@ msgstr "Értékelés átlaga"
 #: model:ir.model.fields,field_description:rating.field_project_task_rating_last_feedback
 #: model:ir.model.fields,field_description:rating.field_rating_mixin_rating_last_feedback
 msgid "Rating Last Feedback"
-msgstr "Legutóbbi visszajelzés értékelése"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_mail_channel_rating_last_image
@@ -264,7 +261,7 @@ msgstr "Legutóbbi visszajelzés értékelése"
 #: model:ir.model.fields,field_description:rating.field_project_task_rating_last_image
 #: model:ir.model.fields,field_description:rating.field_rating_mixin_rating_last_image
 msgid "Rating Last Image"
-msgstr "Legutóbbi kép értékelése"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_mail_channel_rating_last_value
@@ -285,7 +282,7 @@ msgstr "Értékelés maximuma"
 #: model:ir.model.fields,field_description:rating.field_mail_message_rating_value
 #: model:ir.model.fields,field_description:rating.field_survey_mail_compose_message_rating_value
 msgid "Rating Value"
-msgstr "Értékelés értéke"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_mail_channel_rating_count
@@ -298,7 +295,7 @@ msgstr "Érték számolás"
 #. module: rating
 #: sql_constraint:rating.rating:0
 msgid "Rating should be between 0 to 10"
-msgstr "Az értékelésnek 0 és 10 között kell lennie"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_rating
@@ -330,7 +327,7 @@ msgstr "Vonatkozó dokumentum modell"
 #: model:ir.model.fields,field_description:rating.field_mail_message_rating_ids
 #: model:ir.model.fields,field_description:rating.field_survey_mail_compose_message_rating_ids
 msgid "Related ratings"
-msgstr "Kapcsolódó értékelések"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
@@ -340,13 +337,13 @@ msgstr "Erőforrás"
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_res_name
 msgid "Resource name"
-msgstr "Erőforrás neve"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
 #: selection:rating.rating,rating_text:0
 msgid "Satisfied"
-msgstr "Elégedett"
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_access_token
@@ -356,23 +353,23 @@ msgstr "Biztonsági token"
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_external_page_submit
 msgid "Send Feedback"
-msgstr "Visszajelzés küldése"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_form
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_tree
 msgid "Submitted on"
-msgstr "Beküldve"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_external_page_submit
 msgid "Thanks! We appreciate your feedback."
-msgstr "Köszönjük! Méltányoljuk az Ön visszajelzését."
+msgstr ""
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_res_name
 msgid "The name of the rated resource."
-msgstr "Az értékelt erőforrás neve."
+msgstr ""
 
 #. module: rating
 #: model:ir.actions.act_window,help:rating.action_view_rating
@@ -382,12 +379,12 @@ msgstr "Ehhez a tárgyhoz jelenleg nincs értékelés."
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_external_page_view
 msgid "We appreciate your feedback!"
-msgstr "Méltányoljuk a visszajelzését."
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_external_page_submit
 msgid "Would be great if you can provide more information:"
-msgstr "Nagyszerű lenne, ha további információkat is meg tudna adni:"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_search
@@ -397,7 +394,7 @@ msgstr "Év"
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_external_page_submit
 msgid "Your rating has been submitted."
-msgstr "Az értékelése elküldve."
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_external_page_submit
@@ -414,13 +411,13 @@ msgstr ""
 #: code:addons/rating/controllers/main.py:21
 #, python-format
 msgid "highly dissatisfied"
-msgstr "nagyon elégedetlen"
+msgstr ""
 
 #. module: rating
 #: code:addons/rating/controllers/main.py:20
 #, python-format
 msgid "not satisfied"
-msgstr "nem elégedett"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_rating_view_kanban
@@ -431,7 +428,7 @@ msgstr "ezen"
 #: code:addons/rating/controllers/main.py:22
 #, python-format
 msgid "satisfied"
-msgstr "elégedett"
+msgstr ""
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_external_page_submit

@@ -3,28 +3,27 @@
 # * website_quote
 # 
 # Translators:
-# Zuhair Hammadi <zuhair12@gmail.com>, 2017
-# Mohammed Ibrahim <m.ibrahim@mussder.com>, 2017
-# AMAAL RU <Fabu1410@yahoo.com>, 2017
-# amrnegm <amrnegm.01@gmail.com>, 2017
+# Shaima Safar <shaima.safar@open-inside.com>, 2017
 # Osama Ahmaro <osamaahmaro@gmail.com>, 2017
-# Ghaith Gammar <g.gammar@saharaifs.net>, 2017
-# Mohammed Albasha <m.albasha.ma@gmail.com>, 2017
+# Mustafa Rawi <mustafa@cubexco.com>, 2017
 # Nasma Elazrag <n.azrak@gmail.com>, 2017
 # hoxhe Aits <hoxhe0@gmail.com>, 2017
 # Martin Trigaux, 2017
-# Shaima Safar <shaima.safar@open-inside.com>, 2017
+# Mohammed Ibrahim <m.ibrahim@mussder.com>, 2017
+# Ghaith Gammar <g.gammar@saharaifs.net>, 2017
+# Mohammed Albasha <m.albasha.ma@gmail.com>, 2017
 # Akram Alfusayal <akram_ma@hotmail.com>, 2017
-# nle_odoo, 2018
-# Mustafa Rawi <mustafa@cubexco.com>, 2019
-# 
+# amrnegm <amrnegm.01@gmail.com>, 2017
+# Zuhair Hammadi <zuhair12@gmail.com>, 2017
+# AMAAL RU <Fabu1410@yahoo.com>, 2017
+# nle_odoo, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
-"PO-Revision-Date: 2017-09-20 10:27+0000\n"
-"Last-Translator: Mustafa Rawi <mustafa@cubexco.com>, 2019\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
+"Last-Translator: nle_odoo, 2017\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,7 +165,6 @@ msgstr "<i class=\"fa fa-times\"/> رفض"
 msgid ""
 "<i>You will be able to create dynamic page interacting with the ORM.</i>"
 msgstr ""
-"<i>ستتمكن من إنشاء صفحات ديناميكية تتفاعل مع كائن رسم خرائط العلاقات.</i>"
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -176,7 +174,7 @@ msgstr ""
 msgid ""
 "<i>You will be able to develop a full application with backend and user "
 "interface.</i>"
-msgstr "<i>ستتمكن من تطوير تطبيق بالكامل بواجهة خلفية وواجهة مستخدم.</i>"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -242,7 +240,6 @@ msgid ""
 "<strong>Having attended this course, participants should be able "
 "to:</strong>"
 msgstr ""
-"<strong>بحضورهم هذه الدورة التعليمية، ينبغي أن يتمكن المشاركون من:</strong>"
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -338,7 +335,7 @@ msgstr "نشط"
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.sale_order_form_quote
 msgid "Add to order lines"
-msgstr "إضافته لبنود الأمر"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,name:website_quote.product_product_quote_3
@@ -354,7 +351,7 @@ msgstr ""
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Advanced JQuery"
-msgstr "مستوى متقدم في JQuery"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.pricing
@@ -382,7 +379,7 @@ msgstr "مؤرشف"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Arrays"
-msgstr "مصفوفات"
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
@@ -448,7 +445,7 @@ msgstr "إرسال الفاتورة إلى:"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Bootstrap CSS"
-msgstr "Bootstrap CSS"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -456,7 +453,7 @@ msgstr "Bootstrap CSS"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Bring your own laptop."
-msgstr "أحضر حاسوبك المحمول."
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -464,7 +461,7 @@ msgstr "أحضر حاسوبك المحمول."
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Building a Full Application"
-msgstr "صنع تطبيق كامل"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -472,7 +469,7 @@ msgstr "صنع تطبيق كامل"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Calling the ORM"
-msgstr "التواصل مع كائن رسم خرائط العلاقات"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
@@ -501,7 +498,7 @@ msgstr "تأكيد"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_mail_template_id
 msgid "Confirmation Mail"
-msgstr "رسالة التأكيد"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_require_payment
@@ -520,7 +517,7 @@ msgstr "اتصل بنا"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Controllers and Views"
-msgstr "المتحكمات وأدوات العرض"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -578,7 +575,7 @@ msgstr "يوم 3"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_res_config_settings_default_template_id
 msgid "Default Template"
-msgstr "القالب الافتراضي"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_name
@@ -609,7 +606,7 @@ msgstr "الوصف للموقع"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Develop a new module for a particular application."
-msgstr "تطوير موديول جديد لتطبيق معين."
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.pricing
@@ -688,7 +685,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.model.fields,help:website_quote.field_sale_quote_line_sequence
 msgid "Gives the sequence order when displaying a list of sale quote lines."
-msgstr "يعرض ترتيب التسلسل عند عرض قائمة بنود عروض أسعار المبيعات."
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,help:website_quote.field_sale_order_option_sequence
@@ -704,11 +701,6 @@ msgid ""
 "                                your references, your methodology or\n"
 "                                guarantees, your team, SLA, terms and conditions, etc."
 msgstr ""
-"يساعد استخدام قوالب جيدة لعروض الأسعار على\n"
-"                                <strong>تحسين معدل نجاحك</strong>.\n"
-"                                عادةً ما يحتوي القسم الأول على تعريف بشركتك،\n"
-"                                وعملائك، ومنهجية عملك وضماناتك، وفريقك،\n"
-"                                واتفاقية مستوى الخدمة والشروط والأحكام التي تعمل بناءً عليهم، إلخ."
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_1
@@ -740,7 +732,7 @@ msgstr ""
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Hello World"
-msgstr "مرحبًا بالعالم"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.chatter
@@ -753,7 +745,7 @@ msgstr "السجل"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "How to Debug"
-msgstr "كيفية اكتشاف الأخطاء"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_id
@@ -777,7 +769,7 @@ msgstr ""
 msgid ""
 "If unchecked, it will allow you to hide the quotation template without "
 "removing it."
-msgstr "عند إلغاء اختياره، يمكنك إخفاء قالب عرض السعر دون حذفه."
+msgstr ""
 
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:103
@@ -787,8 +779,6 @@ msgid ""
 "If we store your payment information on our server, subscription payments "
 "will be made automatically."
 msgstr ""
-"إذا قمنا بتخزين بيانات عملية دفعك على سيرفراتنا، سيتم سداد قيمة مدفوعات "
-"الاشتراك أوتوماتيكيًا."
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
@@ -801,7 +791,7 @@ msgstr "شامل الضرائب)"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Install and administer your own server;"
-msgstr "تثبيت وإدارة سيرفرك الخاص؛"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -809,7 +799,7 @@ msgstr "تثبيت وإدارة سيرفرك الخاص؛"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Integrated Help"
-msgstr "مساعدة مدمجة"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.navigation_menu
@@ -822,7 +812,7 @@ msgstr "المقدمة"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Introduction to JQuery"
-msgstr "مقدمة لـJQuery"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -830,7 +820,7 @@ msgstr "مقدمة لـJQuery"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Introduction to Javascript"
-msgstr "مقدمة لـJavascript"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -838,7 +828,7 @@ msgstr "مقدمة لـJavascript"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Introduction to QWeb"
-msgstr "مقدمة لـQWeb"
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
@@ -921,7 +911,7 @@ msgstr ""
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Loops"
-msgstr "الحلقات التكرارية"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_1
@@ -958,7 +948,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.model.fields,help:website_quote.field_sale_quote_template_number_of_days
 msgid "Number of days for the validity date computation of the quotation"
-msgstr "عدد أيام احتساب تاريخ الصلاحية لعرض الأسعار"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -966,7 +956,7 @@ msgstr "عدد أيام احتساب تاريخ الصلاحية لعرض الأ
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Odoo Official Website"
-msgstr "موقع أودو الرسمي"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -974,7 +964,7 @@ msgstr "موقع أودو الرسمي"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Odoo Web Client"
-msgstr "عميل ويب أودو"
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
@@ -996,7 +986,7 @@ msgstr "السداد عبر الإنترنت"
 #: selection:sale.order,require_payment:0
 #: selection:sale.quote.template,require_payment:0
 msgid "Online Signature"
-msgstr "التوقيع الإلكتروني"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_1
@@ -1026,17 +1016,17 @@ msgstr "بنود المنتجات الاختيارية"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid "Our Offer"
-msgstr "عرضنا"
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid "Our Quality"
-msgstr "جودتنا"
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid "Our Service"
-msgstr "خدمتنا"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -1056,7 +1046,7 @@ msgstr ""
 msgid ""
 "Participants preferably have a functional knowledge of our software (see "
 "Functional Training)."
-msgstr "يُفضل أن يملك المشاركون معرفة عملية ببرنامجنا (انظر التدريب العملي)."
+msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
@@ -1072,17 +1062,17 @@ msgstr ""
 #: code:addons/website_quote/controllers/main.py:197
 #, python-format
 msgid "Pay & Confirm"
-msgstr "دفع وتأكيد"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "Pay with"
-msgstr "ادفع بـ"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.menu,name:website_quote.payment_acquirer_menu_sale
 msgid "Payment Acquirers"
-msgstr "معالجات السداد"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation_content
@@ -1158,7 +1148,7 @@ msgstr ""
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Python Objects"
-msgstr "كائنات بايثون"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_quantity
@@ -1176,7 +1166,7 @@ msgstr "التسعيرة"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_number_of_days
 msgid "Quotation Duration"
-msgstr "مدة عرض السعر"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model,name:website_quote.model_sale_quote_option
@@ -1200,7 +1190,7 @@ msgstr "بنود قالب العرض"
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_line_quote_id
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_option_template_id
 msgid "Quotation Template Reference"
-msgstr "رقم إشارة قالب عرض السعر"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.actions.act_window,name:website_quote.action_sale_quotation_template
@@ -1217,7 +1207,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_form
 msgid "Quotation expires after"
-msgstr "تنتهي صلاحية عرض السعر بعد"
+msgstr ""
 
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:50
@@ -1246,7 +1236,7 @@ msgstr "رفض هذا العرض"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Report Engine"
-msgstr "معالج التقارير"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -1276,18 +1266,18 @@ msgstr "سطر أمر المبيعات"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_order_id
 msgid "Sales Order Reference"
-msgstr "رقم إشارة أمر المبيعات"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.sale_order_form_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_form
 msgid "Sales Quotation Template Lines"
-msgstr "بنود قالب عرض سعر المبيعات"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_search
 msgid "Search Quotation Template"
-msgstr "البحث في قوالب عروض الأسعار"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_layout_category_id
@@ -1349,7 +1339,7 @@ msgstr "التدريب التقني"
 msgid ""
 "Tell us why you are refusing this quotation, this will help us improve our "
 "services."
-msgstr "أخبرنا بسبب رفضك لعرض السعر، سيساعدنا هذا على تحسين خدماتنا."
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.pricing
@@ -1368,8 +1358,6 @@ msgid ""
 "The Administrator can set default Terms & Conditions in Sales Settings. "
 "Terms set here will show up instead if you select this quotation template."
 msgstr ""
-"يمكن للمسؤول تعيين الشروط والأحكام الافتراضية في إعدادات المبيعات. ستظهر "
-"الشروط المعينة هنا بدلًا منها إذا اخترت قالب عرض الأسعار هذا."
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
@@ -1410,8 +1398,6 @@ msgid ""
 "This e-mail template will be sent on confirmation. Leave empty to send "
 "nothing."
 msgstr ""
-"سيتم إرسال هذا القالب البريدي عند التأكيد. اتركه خاليًا لكي لا يتم إرسال "
-"شيء."
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
@@ -1453,7 +1439,7 @@ msgstr ""
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "To get more information, visit the"
-msgstr "للمزيد من المعلومات، قم بزيارة"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.pricing
@@ -1471,7 +1457,7 @@ msgstr ""
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Training Center Module"
-msgstr "موديول مركز التدريب"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -1479,7 +1465,7 @@ msgstr "موديول مركز التدريب"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Underscore"
-msgstr "شرطة سفلية"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -1487,7 +1473,7 @@ msgstr "شرطة سفلية"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Understand the development concepts and architecture;"
-msgstr "تعرف على مبادئ وبنية عملية التطوير؛"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_price_unit
@@ -1531,7 +1517,7 @@ msgstr "اعتماد الأمر"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Variables &amp; Operators"
-msgstr "متغيرات ومعاملات"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_1
@@ -1564,7 +1550,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_form
 msgid "Website Description"
-msgstr "وصف الموقع"
+msgstr ""
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -1601,11 +1587,6 @@ msgid ""
 "                        on the left is generated automatically using the styles you\n"
 "                        used in your description (heading 1, heading 2, ...)"
 msgstr ""
-"يمكنك تعيين <strong>وصف لكل منتج</strong>. ستنشئ أودو\n"
-"                        تلقائيًا عرض أسعار باستخدام الوصف المتوفر للمنتجات\n"
-"                        في العرض المقدّم. جدول المحتويات الموجود على اليسار\n"
-"                        يُنشئ تلقائيًا باستخدام الأنماط التي استخدمتها\n"
-"                        في وصفك (العنوان 1، العنوان 2، ...)"
 
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:150
@@ -1664,7 +1645,7 @@ msgstr ""
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.payment_confirmation_status
 msgid "Your payment has been authorized."
-msgstr "تم قبول دفعتك."
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
@@ -1688,7 +1669,7 @@ msgstr "أيام"
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "drinks and lunch;"
-msgstr "شراب وغداء؛"
+msgstr ""
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation

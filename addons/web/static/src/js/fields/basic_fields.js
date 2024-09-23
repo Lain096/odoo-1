@@ -689,7 +689,7 @@ var FieldBoolean = AbstractField.extend({
      * @returns {jQuery} the focusable checkbox input
      */
     getFocusableElement: function () {
-        return this.mode === 'readonly' ? $() : this.$input;
+        return this.$input || $();
     },
     /**
      * A boolean field is always set since false is a valid value.
@@ -1228,7 +1228,6 @@ var AbstractFieldBinary = AbstractField.extend({
         }
     },
     on_clear: function () {
-        this.$('.o_input_file').val('');
         this.set_filename('');
         this._setValue(false);
         this._render();
@@ -1295,13 +1294,22 @@ var FieldBinaryFile = AbstractFieldBinary.extend({
         this.filename_value = this.recordData[this.attrs.filename];
     },
     _renderReadonly: function () {
-        var visible = !!(this.value && this.res_id);
-        this.$el.empty().css('cursor', 'not-allowed');
-        this.do_toggle(visible);
-        if (visible) {
-            this.$el.css('cursor', 'pointer')
-                    .text(this.filename_value || '')
-                    .prepend($('<span class="fa fa-download"/>'), ' ');
+        this.do_toggle(!!this.value);
+        if (this.value) {
+            this.$el.empty().append($("<span/>").addClass('fa fa-download'));
+            if (this.recordData.id) {
+                this.$el.css('cursor', 'pointer');
+            } else {
+                this.$el.css('cursor', 'not-allowed');
+            }
+            if (this.filename_value) {
+                this.$el.append(" " + this.filename_value);
+            }
+        }
+        if (!this.res_id) {
+            this.$el.css('cursor', 'not-allowed');
+        } else {
+            this.$el.css('cursor', 'pointer');
         }
     },
     _renderEdit: function () {
@@ -1338,7 +1346,7 @@ var FieldBinaryFile = AbstractFieldBinary.extend({
                     'id': this.res_id,
                     'field': this.name,
                     'filename_field': filename_fieldname,
-                    'filename': this.recordData[filename_fieldname] || "",
+                    'filename': this.recordData[filename_fieldname] || null,
                     'download': true,
                     'data': utils.is_bin_size(this.value) ? null : this.value,
                 },
@@ -1890,28 +1898,11 @@ var FieldProgressBar = AbstractField.extend({
         if (this.recordData[this.nodeOptions.current_value]) {
             this.value = this.recordData[this.nodeOptions.current_value];
         }
-
-        // The few next lines determine if the widget can write on the record or not
-        this.editable_readonly = !!this.nodeOptions.editable_readonly;
-        // "hard" readonly
-        this.readonly = this.nodeOptions.readonly || !this.nodeOptions.editable;
-
-        this.canWrite = !this.readonly && (
-            this.mode === 'edit' ||
-            (this.editable_readonly && this.mode === 'readonly') ||
-            (this.viewType === 'kanban') // Keep behavior before commit
-        );
-
-        // Boolean to toggle if we edit the numerator (value) or the denominator (max_value)
-        this.edit_max_value = !!this.nodeOptions.edit_max_value;
         this.max_value = this.recordData[this.nodeOptions.max_value] || 100;
-
+        this.readonly = this.nodeOptions.readonly || !this.nodeOptions.editable;
+        this.edit_max_value = this.nodeOptions.edit_max_value || false;
         this.title = _t(this.attrs.title || this.nodeOptions.title) || '';
-
-        // Ability to edit the field through the bar
-        // /!\ this feature is disabled
-        this.enableBarAsInput = false;
-        this.edit_on_click = this.enableBarAsInput && this.mode === 'readonly' && !this.edit_max_value;
+        this.edit_on_click = !this.nodeOptions.edit_max_value || false;
 
         this.write_mode = false;
     },
@@ -1919,19 +1910,19 @@ var FieldProgressBar = AbstractField.extend({
         var self = this;
         this._render_value();
 
-        if (this.canWrite) {
+        if (!this.readonly) {
             if (this.edit_on_click) {
                 this.$el.on('click', '.o_progress', function (e) {
                     var $target = $(e.currentTarget);
-                    var numValue = Math.floor((e.pageX - $target.offset().left) / $target.outerWidth() * self.max_value);
-                    self.on_update(numValue);
+                    self.value = Math.floor((e.pageX - $target.offset().left) / $target.outerWidth() * self.max_value);
                     self._render_value();
+                    self.on_update(self.value);
                 });
             } else {
                 this.$el.on('click', function () {
                     if (!self.write_mode) {
                         var $input = $('<input>', {type: 'text', class: 'o_progressbar_value o_input'});
-                        $input.on('blur', self.on_change_input.bind(self));
+                        $input.on('blur', _.bind(self.on_change_input, self));
                         self.$('.o_progressbar_value').replaceWith($input);
                         self.write_mode = true;
                         self._render_value();
@@ -1941,25 +1932,24 @@ var FieldProgressBar = AbstractField.extend({
         }
         return this._super();
     },
-    /**
-     * Updates the widget with value
-     *
-     * @param {Number} value
-     */
     on_update: function (value) {
-        if (this.edit_max_value) {
-            this.max_value = value;
-            this._isValid = true;
-            var changes = {};
-            changes[this.nodeOptions.max_value] = this.max_value;
-            this.trigger_up('field_changed', {
-                dataPointID: this.dataPointID,
-                changes: changes,
-            });
-        } else {
-            // _setValues accepts string and will parse it
-            var formattedValue = this._formatValue(value);
-            this._setValue(formattedValue);
+        if (!isNaN(value)) {
+            if (this.edit_max_value) {
+                try {
+                    this.max_value = this._parseValue(value);
+                    this._isValid = true;
+                } catch (e) {
+                    this._isValid = false;
+                }
+                var changes = {};
+                changes[this.nodeOptions.max_value] = this.max_value;
+                this.trigger_up('field_changed', {
+                    dataPointID: this.dataPointID,
+                    changes: changes,
+                });
+            } else {
+                this._setValue(value);
+            }
         }
     },
     on_change_input: function (e) {
@@ -1967,42 +1957,29 @@ var FieldProgressBar = AbstractField.extend({
         if (e.type === 'change' && !$input.is(':focus')) {
             return;
         }
-
-        var parsedValue;
-        try {
-            // Cover all numbers with parseFloat
-            parsedValue = field_utils.parse.float($input.val());
-        } catch (error) {
-            this.do_warn(_t("Wrong value entered!"), _t("Only Integer or Float Value should be valid."));
-        }
-
-        if (parsedValue !== undefined) {
-            if (e.type === 'input') { // ensure what has just been typed in the input is a number
-                // returns NaN if not a number
-                this._render_value(parsedValue);
-                if (parsedValue === 0) {
+        if (isNaN($input.val())) {
+            this.do_warn(_t("Wrong value entered!"), _t("Only Integer Value should be valid."));
+        } else {
+            if (e.type === 'input') {
+                this._render_value($input.val());
+                if (parseFloat($input.val()) === 0) {
                     $input.select();
                 }
-            } else { // Implicit type === 'blur': we commit the value
+            } else {
                 if (this.edit_max_value) {
-                    parsedValue = parsedValue || 100;
+                    this.max_value = $(e.target).val();
+                } else {
+                    this.value = $(e.target).val() || 0;
                 }
-
                 var $div = $('<div>', {class: 'o_progressbar_value'});
                 this.$('.o_progressbar_value').replaceWith($div);
                 this.write_mode = false;
 
-                this.on_update(parsedValue);
                 this._render_value();
+                this.on_update(this.edit_max_value ? this.max_value : this.value);
             }
         }
     },
-    /**
-     * Renders the value
-     *
-     * @private
-     * @param {Number} v
-     */
     _render_value: function (v) {
         var value = this.value;
         var max_value = this.max_value;

@@ -3,20 +3,19 @@
 # * mrp_repair
 # 
 # Translators:
-# Yaroslav Molochko <onorua@gmail.com>, 2017
+# Bohdan Lisnenko, 2017
 # ТАрас <tratatuta@i.ua>, 2017
 # Martin Trigaux, 2017
-# trolka <trolka.olug@gmail.com>, 2018
-# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2018
-# Bohdan Lisnenko, 2019
-# 
+# Alina Semeniuk <alinasemeniuk1@gmail.com>, 2017
+# Yaroslav Molochko <onorua@gmail.com>, 2017
+# Olga Lugova <trolka.olug@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 14:52+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Bohdan Lisnenko, 2019\n"
+"PO-Revision-Date: 2018-04-27 14:52+0000\n"
+"Last-Translator: Olga Lugova <trolka.olug@gmail.com>, 2018\n"
 "Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,9 +56,9 @@ msgid ""
 msgstr ""
 "* Статус \"Чернетка\" використовується, коли користувач кодує нове та непідтверджене замовлення на ремонт.\n"
 "* Статус \"Підтверджено\" використовується, коли користувач підтверджує замовлення на ремонт.\n"
-"* Статус \"Виконано до відновлення\" використовується для початку ремонту, користувач може почати ремонт тільки після підтвердження замовлення на ремонт.\n"
+"* Статус \"Готово до відновлення\" використовується для початку ремонту, користувач може почати ремонт тільки після підтвердження замовлення на ремонт.\n"
 "* Статус рахунка-фактури використовується для створення рахунку-фактури до чи після ремонту.\n"
-"* Статус \"Виконано\" встановлюється, коли ремонт завершено.\n"
+"* Статус \"Готово\" встановлюється, коли ремонт завершено.\n"
 "* Статус \"Скасовано\" використовується, коли користувач скасовує замовлення на ремонт."
 
 #. module: mrp_repair
@@ -331,7 +330,7 @@ msgstr "Ви дійсно хочете створити рахунок-факт�
 #. module: mrp_repair
 #: selection:mrp.repair.line,state:0
 msgid "Done"
-msgstr "Виконано"
+msgstr "Готово"
 
 #. module: mrp_repair
 #: selection:mrp.repair.line,state:0

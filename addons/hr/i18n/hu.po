@@ -4,10 +4,9 @@
 # 
 # Translators:
 # Tamás Dombos, 2017
+# gezza <geza.nagy@oregional.hu>, 2018
 # krnkris, 2018
 # Martin Trigaux, 2018
-# gezza <geza.nagy@oregional.hu>, 2019
-# Tamás Németh <ntomasz81@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -15,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:17+0000\n"
-"Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2019\n"
+"Last-Translator: Martin Trigaux, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,8 +71,6 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.hr_kanban_view_employees
@@ -274,7 +271,7 @@ msgstr "Vállalat"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings_resource_calendar_id
 msgid "Company Working Hours"
-msgstr "Vállalati munkaidő"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_complete_name
@@ -739,7 +736,7 @@ msgstr "Indítson új termékekre kampányokat és ajánlatokat"
 #. module: hr
 #: selection:hr.employee,marital:0
 msgid "Legal Cohabitant"
-msgstr "Bejegyzett élettársi kapcsolat"
+msgstr ""
 
 #. module: hr
 #: selection:hr.employee,gender:0
@@ -1057,7 +1054,7 @@ msgstr ""
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Show organizational chart on employee form"
-msgstr "Szervezeti ábra megjelenítése az alkalmazottaknál"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -1370,7 +1367,7 @@ msgstr "Munkahelyi mobil"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Work Organization"
-msgstr "Munkahelyi szervezet"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form

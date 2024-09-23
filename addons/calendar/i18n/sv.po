@@ -3,26 +3,22 @@
 # * calendar
 # 
 # Translators:
+# Martin Trigaux, 2017
+# Anders Wallenquist <anders.wallenquist@vertel.se>, 2017
+# Patrik Lermon <patrik.lermon@gmail.com>, 2017
+# Robert Frykelius <robert.frykelius@linserv.se>, 2017
+# Kim Asplund <kim.asplund@gmail.com>, 2017
+# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2017
 # Moa Nicklasson <Moa.nicklasson@hotmail.se>, 2017
 # Daniel Forslund <daniel.forslund@gmail.com>, 2017
-# Patrik Lermon <patrik.lermon@gmail.com>, 2017
-# Kim Asplund <kim.asplund@gmail.com>, 2017
-# Kristoffer Grundström <lovaren@gmail.com>, 2017
-# Robert Frykelius <robert.frykelius@linserv.se>, 2017
-# Anders Wallenquist <anders.wallenquist@vertel.se>, 2017
 # Martin Wilderoth <martin.wilderoth@linserv.se>, 2017
-# Martin Trigaux, 2018
-# Lisa <lisa.oskoma@vertel.se>, 2020
-# Peter Ojaäär <peter.ojaaar@arbetsformedlingen.se>, 2020
-# Mikael Holm <mikael.holm@vertel.se>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-06 08:01+0000\n"
-"PO-Revision-Date: 2017-09-20 10:16+0000\n"
-"Last-Translator: Mikael Holm <mikael.holm@vertel.se>, 2020\n"
+"PO-Revision-Date: 2018-06-06 08:01+0000\n"
+"Last-Translator: Martin Wilderoth <martin.wilderoth@linserv.se>, 2017\n"
 "Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -336,12 +332,12 @@ msgstr "%s % har avböjt inbjudan"
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_5
 msgid "1 Day(s)"
-msgstr "1 Dag(ar)"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_3
 msgid "1 Hour(s)"
-msgstr "1 Timme(ar)"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_1
@@ -404,7 +400,7 @@ msgstr "Aktivitet"
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_activity_type
 msgid "Activity Type"
-msgstr "Aktivitetstyp"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_allday
@@ -608,7 +604,7 @@ msgstr "Dokument"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_res_id
 msgid "Document ID"
-msgstr "Dokument ID"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_res_model_id
@@ -711,7 +707,7 @@ msgstr "Alla"
 #: code:addons/calendar/models/mail_activity.py:38
 #, python-format
 msgid "Feedback: "
-msgstr "Återkoppling:"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,byday:0
@@ -900,7 +896,7 @@ msgstr "Möte"
 #: code:addons/calendar/models/calendar.py:937
 #, python-format
 msgid "Meeting '%s' starts '%s' and ends '%s'"
-msgstr "Möte '%s' börjar '%s' och slutar '%s'"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -1063,7 +1059,7 @@ msgstr "Integritet"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_rrule_type
 msgid "Recurrence"
-msgstr "Återkommande"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_end_type
@@ -1140,7 +1136,7 @@ msgstr "Ansvarig"
 #. module: calendar
 #: selection:calendar.alarm,type:0
 msgid "SMS Text Message"
-msgstr "SMS Text Meddelande"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_sa

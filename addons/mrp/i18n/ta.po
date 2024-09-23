@@ -2,19 +2,12 @@
 # This file contains the translation of the following modules:
 # * mrp
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# Thirunavukkarasu Deivasigamani <thiru_electrifiers@yahoo.co.in>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Thirunavukkarasu Deivasigamani <thiru_electrifiers@yahoo.co.in>, 2019\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -149,7 +142,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "<span>New</span>"
-msgstr "<span>புதிய</span>"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
@@ -164,7 +157,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "<span>View</span>"
-msgstr "<span>நோக்கு</span>"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
@@ -231,7 +224,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Quantity</strong>"
-msgstr "அளவு"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_workcenter_productivity_loss_kanban
@@ -284,7 +277,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_active
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_search
 msgid "Active"
-msgstr "செயலில்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_active_move_line_ids
@@ -307,7 +300,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "All"
-msgstr "அனைத்து"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.bom,ready_to_produce:0
@@ -335,14 +328,14 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 msgid "Approve"
-msgstr "ஒப்புதல்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_routing_search_view
 #: model:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
 #: model:ir.ui.view,arch_db:mrp.view_mrp_workcenter_search
 msgid "Archived"
-msgstr "காப்பகப்படுத்தியவை"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,name:mrp.product_assembly
@@ -375,7 +368,7 @@ msgstr ""
 #. module: mrp
 #: selection:mrp.workcenter.productivity.loss,loss_type:0
 msgid "Availability"
-msgstr "கிடைக்கும்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
@@ -573,12 +566,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 #: model:ir.ui.view,arch_db:mrp.view_mrp_product_produce_wizard
 msgid "Cancel"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.production,state:0 selection:mrp.workorder,state:0
 msgid "Cancelled"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:329
@@ -685,7 +678,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_code
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view_kanban
 msgid "Code"
-msgstr "குறியீடு"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_color
@@ -696,7 +689,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model,name:mrp.model_res_company
 msgid "Companies"
-msgstr "நிறுவனங்கள்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_company_id
@@ -706,7 +699,7 @@ msgstr "நிறுவனங்கள்"
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_company_id
 #: model:ir.ui.view,arch_db:mrp.view_mrp_workcenter_search
 msgid "Company"
-msgstr "நிறுவனம்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_component_tree_view
@@ -723,13 +716,13 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_configuration
 msgid "Configuration"
-msgstr "கட்டமைப்பு"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 #: selection:mrp.production,state:0
 msgid "Confirmed"
-msgstr "உறுதி"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -800,7 +793,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_create_uid
 #: model:ir.model.fields,field_description:mrp.field_stock_warn_insufficient_qty_unbuild_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_create_date
@@ -820,7 +813,7 @@ msgstr "உருவாக்கியவர்"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_create_date
 #: model:ir.model.fields,field_description:mrp.field_stock_warn_insufficient_qty_unbuild_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
@@ -850,7 +843,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
 msgid "Date"
-msgstr "தேதி"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_date_planned_finished
@@ -887,7 +880,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "Description"
-msgstr "விளக்கம்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_note
@@ -913,7 +906,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_form_embedded_bom
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_form_embedded_product
 msgid "Discard"
-msgstr "நிராகரி"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_display_name
@@ -935,7 +928,7 @@ msgstr "நிராகரி"
 #: model:ir.model.fields,field_description:mrp.field_report_mrp_mrp_bom_structure_report_display_name
 #: model:ir.model.fields,field_description:mrp.field_stock_warn_insufficient_qty_unbuild_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_line_qty_done
@@ -946,7 +939,7 @@ msgstr "காட்சி பெயர்"
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_work_order_search
 #: selection:mrp.production,state:0 selection:mrp.unbuild,state:0
 msgid "Done"
-msgstr "முடிந்தது"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_line_done_wo
@@ -957,14 +950,14 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 #: selection:mrp.unbuild,state:0
 msgid "Draft"
-msgstr "வரைவு"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_time_cycle
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_duration
 #: model:ir.ui.view,arch_db:mrp.oee_tree_view
 msgid "Duration"
-msgstr "காலம்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.oee_tree_view
@@ -1016,7 +1009,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_date_finished
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_date_end
 msgid "End Date"
-msgstr "கடைசி தேதி"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_duration_expected
@@ -1036,7 +1029,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_datas_fname
 msgid "File Name"
-msgstr "கோப்பு பெயர்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_file_size
@@ -1099,7 +1092,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Future Activities"
-msgstr "எதிர்கால செயல்பாடுகள்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
@@ -1135,7 +1128,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_workcenter_form_view_filter
 msgid "Group By"
-msgstr "மூலம் குழு"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_routing_search_view
@@ -1144,7 +1137,7 @@ msgstr "மூலம் குழு"
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 #: model:ir.ui.view,arch_db:mrp.view_mrp_workcenter_search
 msgid "Group By..."
-msgstr "மூலம் குழு ..."
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
@@ -1176,7 +1169,7 @@ msgstr ""
 #. module: mrp
 #: selection:mrp.document,priority:0
 msgid "High"
-msgstr "உயர்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_id
@@ -1198,7 +1191,7 @@ msgstr "உயர்"
 #: model:ir.model.fields,field_description:mrp.field_report_mrp_mrp_bom_structure_report_id
 #: model:ir.model.fields,field_description:mrp.field_stock_warn_insufficient_qty_unbuild_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_product_id
@@ -1261,7 +1254,7 @@ msgstr ""
 #: selection:mrp.production,state:0 selection:mrp.workcenter,working_state:0
 #: selection:mrp.workorder,state:0
 msgid "In Progress"
-msgstr "முன்னேற்றம்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_index_content
@@ -1382,7 +1375,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_report_mrp_mrp_bom_structure_report___last_update
 #: model:ir.model.fields,field_description:mrp.field_stock_warn_insufficient_qty_unbuild___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_write_uid
@@ -1402,7 +1395,7 @@ msgstr "கடைசியாக திருத்திய"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_write_uid
 #: model:ir.model.fields,field_description:mrp.field_stock_warn_insufficient_qty_unbuild_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_write_date
@@ -1422,7 +1415,7 @@ msgstr "கடைசியாக புதுப்பிக்கப்பட�
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_write_date
 #: model:ir.model.fields,field_description:mrp.field_stock_warn_insufficient_qty_unbuild_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
@@ -1437,7 +1430,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Late Activities"
-msgstr "தாமதமான செயல்பாடுகள்"
+msgstr ""
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:445
@@ -1450,7 +1443,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_location_id
 msgid "Location"
-msgstr "இருப்பிடம்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production_location_src_id
@@ -1478,7 +1471,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_lot_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_lot_id
 msgid "Lot"
-msgstr "நிறைய"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_production_lot
@@ -1504,7 +1497,7 @@ msgstr ""
 #. module: mrp
 #: selection:mrp.document,priority:0
 msgid "Low"
-msgstr "குறைந்த"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings_module_mrp_maintenance
@@ -1519,7 +1512,7 @@ msgstr ""
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_manager
 msgid "Manager"
-msgstr "மேலாளர்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter_time_cycle_manual
@@ -1677,7 +1670,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_message
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_tree
 msgid "Message"
-msgstr "செய்தி"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_mimetype
@@ -1730,7 +1723,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "My Activities"
-msgstr "எனது செயல்பாடுகள்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_search
@@ -1741,7 +1734,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_name
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_name
 msgid "Name"
-msgstr "பெயர்"
+msgstr ""
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:46
@@ -1755,7 +1748,7 @@ msgstr "பெயர்"
 #: code:addons/mrp/models/mrp_unbuild.py:82
 #, python-format
 msgid "New"
-msgstr "புதிய"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,description:mrp.product_product_laptop_keypad
@@ -1805,7 +1798,7 @@ msgstr ""
 #. module: mrp
 #: selection:mrp.production,availability:0
 msgid "None"
-msgstr "யாரும்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
@@ -1827,7 +1820,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_routing_form_view
 msgid "Notes"
-msgstr "குறிப்புக்கள்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type_count_mo_late
@@ -1988,14 +1981,14 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_workcenter_form_view_filter
 #: selection:mrp.workorder,state:0
 msgid "Pending"
-msgstr "நிலுவையில்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_performance
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 #: selection:mrp.workcenter.productivity.loss,loss_type:0
 msgid "Performance"
-msgstr "செயல்திறன்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
@@ -2022,7 +2015,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 #: selection:mrp.production,state:0
 msgid "Planned"
-msgstr "திட்டமிட்ட"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
@@ -2058,7 +2051,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_priority
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_priority
 msgid "Priority"
-msgstr "முன்னுரிமை"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.res_config_settings_view_form
@@ -2115,7 +2108,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.view_mrp_bom_line_filter
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Product"
-msgstr "தயாரிப்பு"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings_module_mrp_plm
@@ -2143,7 +2136,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_message_product_tmpl_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_product_tmpl_id
 msgid "Product Template"
-msgstr "தயாரிப்பு டெம்ப்ளேட்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_product_uom_id
@@ -2297,7 +2290,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_production_tree_view
 #: model:ir.ui.view,arch_db:mrp.view_finisehd_move_line
 msgid "Quantity"
-msgstr "அளவு"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_line_lot_produced_qty
@@ -2364,7 +2357,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_name
 msgid "Reason"
-msgstr "காரணம்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_product_produce
@@ -2392,7 +2385,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_name
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_cost_report
 msgid "Reference"
-msgstr "குறிப்பு"
+msgstr ""
 
 #. module: mrp
 #: sql_constraint:mrp.production:0
@@ -2423,7 +2416,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_reporting
 msgid "Reporting"
-msgstr "அறிக்கையிடல்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_serial
@@ -2469,7 +2462,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_user_id
 msgid "Responsible"
-msgstr "பொறுப்பான"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_routing_id
@@ -2521,7 +2514,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_form_embedded_bom
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_form_embedded_product
 msgid "Save"
-msgstr "சேமி"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.res_config_settings_view_form
@@ -2591,7 +2584,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_message_view_search
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 msgid "Search"
-msgstr "தேடு"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
@@ -2635,7 +2628,7 @@ msgstr ""
 #: code:addons/mrp/static/src/xml/mrp.xml:8
 #, python-format
 msgid "Select"
-msgstr "தேர்வு"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,name:mrp.product_product_build_kit
@@ -2656,7 +2649,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss_sequence
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_sequence
 msgid "Sequence"
-msgstr "வரிசை"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter_batch
@@ -2677,7 +2670,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 #: model:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "Settings"
-msgstr "அமைப்புகள்"
+msgstr ""
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_unbuild.py:89
@@ -2695,7 +2688,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Show all records which has next action date is before today"
 msgstr ""
-"அடுத்த நடவடிக்கை தேதி இன்றைய தினம் கொண்டிருக்கும் எல்லா பதிவுகளையும் காட்டுக"
 
 #. module: mrp
 #: model:product.product,description:mrp.product_product_computer_desk_head
@@ -2712,7 +2704,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_origin
 msgid "Source"
-msgstr "ஆதாரம்"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,description:mrp.product_product_computer_desk_screw
@@ -2730,7 +2722,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_date_start
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_date_start
 msgid "Start Date"
-msgstr "தொடக்க தேதி"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
@@ -2741,7 +2733,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_state
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_production_state
 msgid "State"
-msgstr "நிலை"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_state
@@ -2751,7 +2743,7 @@ msgstr "நிலை"
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_workcenter_form_view_filter
 msgid "Status"
-msgstr "நிலைமை"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_move
@@ -2965,7 +2957,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_work_order_search
 msgid "This Month"
-msgstr "இந்த மாதம்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
@@ -2993,7 +2985,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_time_ids
 msgid "Time"
-msgstr "நேரம்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_time_efficiency
@@ -3085,13 +3077,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_work_order_search
 msgid "Today"
-msgstr "இன்று"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Today Activities"
-msgstr "இன்று செயல்பாடுகள்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_cost_report
@@ -3136,12 +3128,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_tracking
 #: model:ir.model.fields,field_description:mrp.field_stock_move_needs_lots
 msgid "Tracking"
-msgstr "கண்காணிப்பு"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_type
 msgid "Type"
-msgstr "வகை"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
@@ -3197,7 +3189,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_product_uom_id
 #: model:ir.ui.view,arch_db:mrp.mrp_production_tree_view
 msgid "Unit of Measure"
-msgstr "அளவீட்டு அலகு"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_line_product_uom_id
@@ -3276,7 +3268,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
 #: model:res.groups,name:mrp.group_mrp_user
 msgid "User"
-msgstr "பயனர்"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.res_config_settings_view_form
@@ -3305,7 +3297,7 @@ msgstr ""
 #. module: mrp
 #: selection:mrp.document,priority:0
 msgid "Very High"
-msgstr "மிக அதிக"
+msgstr ""
 
 #. module: mrp
 #: selection:mrp.production,priority:0
@@ -3346,7 +3338,7 @@ msgstr ""
 #: code:addons/mrp/wizard/mrp_product_produce.py:204
 #, python-format
 msgid "Warning"
-msgstr "எச்சரிக்கை"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_picking_type_id

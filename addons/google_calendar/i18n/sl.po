@@ -5,15 +5,14 @@
 # Translators:
 # matjaz k <matjaz@mentis.si>, 2018
 # Martin Trigaux, 2018
-# Matjaz Mozetic <m.mozetic@matmoz.si>, 2019
-# 
+# Matjaž Mozetič <m.mozetic@matmoz.si>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 11:35+0000\n"
-"PO-Revision-Date: 2017-09-20 10:17+0000\n"
-"Last-Translator: Matjaz Mozetic <m.mozetic@matmoz.si>, 2019\n"
+"PO-Revision-Date: 2017-10-10 11:35+0000\n"
+"Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>, 2018\n"
 "Language-Team: Slovenian (https://www.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -238,7 +237,7 @@ msgstr "Nastavitve"
 #: code:addons/google_calendar/static/src/js/google_calendar.js:117
 #, python-format
 msgid "Sync with <b>Google</b>"
-msgstr "Sinhroniziraj z <b>Google</b>"
+msgstr ""
 
 #. module: google_calendar
 #. openerp-web
@@ -261,14 +260,6 @@ msgid ""
 msgstr ""
 "Račun, ki ga želite sinhronizirati (%s) je drugačen od tistega, ki ste ga "
 "zadnjega uporabili (%s)!"
-
-#. module: google_calendar
-#: code:addons/google_calendar/models/google_calendar.py:277
-#, python-format
-msgid ""
-"The event \"%s\", %s (ID: %s) cannot be synchronized because of the "
-"following error: %s"
-msgstr ""
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_res_users_google_calendar_token_validity
@@ -313,4 +304,4 @@ msgstr ""
 #. module: google_calendar
 #: model:ir.model,name:google_calendar.model_res_config_settings
 msgid "res.config.settings"
-msgstr "res.config.settings"
+msgstr ""

@@ -8,7 +8,6 @@
 # Martin Trigaux, 2018
 # JanisJanis <jbojars@gmail.com>, 2018
 # Arnis Putniņš <arnis@allegro.lv>, 2018
-# ievaputnina <ievai.putninai@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -16,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:24+0000\n"
-"Last-Translator: ievaputnina <ievai.putninai@gmail.com>, 2019\n"
+"Last-Translator: Arnis Putniņš <arnis@allegro.lv>, 2018\n"
 "Language-Team: Latvian (https://www.transifex.com/odoo/teams/41243/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +42,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/search_filters.js:226
 #, python-format
 msgid " and "
-msgstr " un "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -51,7 +50,7 @@ msgstr " un "
 #: code:addons/web/static/src/js/chrome/search_view.js:203
 #, python-format
 msgid " or "
-msgstr " vai "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -109,7 +108,7 @@ msgstr "pirms %d dienām"
 #: code:addons/web/static/src/js/core/translation.js:112
 #, python-format
 msgid "%d hours ago"
-msgstr "pirms %d stundām"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -123,7 +122,7 @@ msgstr "pirms %d minūtēm"
 #: code:addons/web/static/src/js/core/translation.js:116
 #, python-format
 msgid "%d months ago"
-msgstr "pirms %d mēnešiem"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -137,7 +136,7 @@ msgstr ""
 #: code:addons/web/static/src/js/core/translation.js:118
 #, python-format
 msgid "%d years ago"
-msgstr "pirms %d gadiem"
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.webclient_bootstrap
@@ -220,7 +219,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/field_utils.js:256
 #, python-format
 msgid "1 record"
-msgstr "1 ieraksts"
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
@@ -246,14 +245,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:637
 #, python-format
 msgid "ALL"
-msgstr "VISI"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:638
 #, python-format
 msgid "ANY"
-msgstr "JEBKURŠ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -267,7 +266,7 @@ msgstr "Piekļuve Liegta"
 #: code:addons/web/static/src/js/services/crash_manager.js:15
 #, python-format
 msgid "Access Error"
-msgstr "Piekļuves kļūda"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -356,7 +355,7 @@ msgstr "Pievienot pielāgotu grupu"
 #: code:addons/web/static/src/xml/base.xml:645
 #, python-format
 msgid "Add filter"
-msgstr "Pievienot filtru"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -370,14 +369,14 @@ msgstr "Pievienot jaunu kolonnu"
 #: code:addons/web/static/src/xml/base.xml:705
 #, python-format
 msgid "Add new value"
-msgstr "Pievienot jaunu vērtību"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/basic_fields.js:1582
 #, python-format
 msgid "Add to Favorites"
-msgstr "Pievienot favorītiem"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -405,7 +404,7 @@ msgstr "Izvērstā meklēšana..."
 #: code:addons/web/static/src/js/core/dialog.js:209
 #, python-format
 msgid "Alert"
-msgstr "Brīdinājums"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -421,21 +420,21 @@ msgstr "Visi"
 #: code:addons/web/static/src/js/views/calendar/calendar_renderer.js:351
 #, python-format
 msgid "All day"
-msgstr "Visu dienu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:499
 #, python-format
 msgid "All users"
-msgstr "Visi lietotāji"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:145
 #, python-format
 msgid "An error occurred"
-msgstr "Radās kļūda"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -452,7 +451,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1357
 #, python-format
 msgid "And more"
-msgstr "Pievienot vēl"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -504,7 +503,7 @@ msgstr "Vai Jūs esat pārliecināts, ka vēlaties izdzēst šo kolonnu?"
 #: code:addons/web/static/src/js/chrome/search_menus.js:261
 #, python-format
 msgid "Are you sure that you want to remove this filter?"
-msgstr "Vai tiešām vēlaties noņemt šo filtru?"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -770,7 +769,7 @@ msgstr "Izveidot"
 #: code:addons/web/static/src/js/views/form/form_controller.js:516
 #, python-format
 msgid "Create "
-msgstr "Izveidot"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -820,21 +819,21 @@ msgstr "Izveidoja :"
 #: code:addons/web/static/src/xml/base.xml:301
 #, python-format
 msgid "Creation Date:"
-msgstr "Izveidošanas datums:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:297
 #, python-format
 msgid "Creation User:"
-msgstr "Izveidošanas lietotājs:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome/search_menus.js:182
 #, python-format
 msgid "Custom Filter"
-msgstr "Pielāgots filtrs"
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
@@ -854,14 +853,14 @@ msgstr "Diena"
 #: code:addons/web/static/src/js/fields/basic_fields.js:1658
 #, python-format
 msgid "Deactivate"
-msgstr "Deaktivizēt"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:456
 #, python-format
 msgid "Default:"
-msgstr "Noklusējums:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -879,7 +878,7 @@ msgstr "Dzēst"
 #: code:addons/web/static/src/js/views/list/list_editable_renderer.js:502
 #, python-format
 msgid "Delete row "
-msgstr "Izdzēst rindu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -893,7 +892,7 @@ msgstr "Dzēst šo pielikumu"
 #: code:addons/web/static/src/xml/base.xml:975
 #, python-format
 msgid "Delete this file"
-msgstr "Izdzēst šo failu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -919,7 +918,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/calendar/calendar_renderer.js:132
 #, python-format
 msgid "Do you really want to delete this filter from favorites ?"
-msgstr "Vai tiešām vēlaties dzēst šo filtru no favorītiem?"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -940,28 +939,28 @@ msgstr "Filtrs"
 #: code:addons/web/static/src/js/widgets/domain_selector.js:520
 #, python-format
 msgid "Domain error"
-msgstr "Domēna kļūda"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:41
 #, python-format
 msgid "Domain:"
-msgstr "Domēns:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core/misc.js:16
 #, python-format
 msgid "Don't leave yet,<br />it's still loading..."
-msgstr "Lūdzu uzgaidiet, vēl arvien ladējas.."
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:549
 #, python-format
 msgid "Download xls"
-msgstr "Lejupielādēt xls"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -987,7 +986,7 @@ msgstr "Labot"
 #: code:addons/web/static/src/xml/base.xml:236
 #, python-format
 msgid "Edit Action"
-msgstr "Labot"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1008,7 +1007,7 @@ msgstr "Labot kolonnu"
 #: code:addons/web/static/src/xml/base.xml:613
 #, python-format
 msgid "Edit Domain"
-msgstr "Labot domēnu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1081,7 +1080,7 @@ msgstr "E-pasts"
 #. module: web
 #: model:ir.ui.view,arch_db:web.external_layout_standard
 msgid "Email:"
-msgstr "E-pasts:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1098,7 +1097,7 @@ msgstr "Error"
 #: code:addons/web/controllers/main.py:802
 #, python-format
 msgid "Error, password not changed !"
-msgstr "Kļūda, parole nav nomainīta!"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1112,14 +1111,14 @@ msgstr "Kopējais kalendārs"
 #: code:addons/web/static/src/js/views/calendar/calendar_model.js:510
 #, python-format
 msgid "Everything"
-msgstr "Viss"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:548
 #, python-format
 msgid "Expand all"
-msgstr "Paplašinat visu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1133,7 +1132,7 @@ msgstr "Eksportēt"
 #: code:addons/web/static/src/js/widgets/data_export.js:200
 #, python-format
 msgid "Export Data"
-msgstr "Eksportēt datus"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1147,7 +1146,7 @@ msgstr ""
 #: code:addons/web/static/src/js/widgets/data_export.js:202
 #, python-format
 msgid "Export To File"
-msgstr "Eksportēt failā"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1175,7 +1174,7 @@ msgstr "Ārējais ID"
 #: code:addons/web/static/src/js/chrome/view_manager.js:496
 #, python-format
 msgid "Failed to evaluate search criterions"
-msgstr "Neizdevās novērtēt meklēšanas kritērijus"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1196,7 +1195,7 @@ msgstr "Favorīti"
 #: code:addons/web/static/src/xml/base.xml:17
 #, python-format
 msgid "Field:"
-msgstr "Lauks:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1225,14 +1224,14 @@ msgstr "Lauki eksportam"
 #: code:addons/web/static/src/js/fields/basic_fields.js:1153
 #, python-format
 msgid "File Upload"
-msgstr "Failu augšupielāde"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/basic_fields.js:1133
 #, python-format
 msgid "File upload"
-msgstr "Failu augšupielāde"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1246,7 +1245,7 @@ msgstr "Filtrs"
 #: code:addons/web/static/src/js/chrome/search_menus.js:86
 #, python-format
 msgid "Filter name is required."
-msgstr "Nepieciešams filtra nosaukums"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1260,7 +1259,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/search_menus.js:93
 #, python-format
 msgid "Filter with same name already exists."
-msgstr "Filtrs ar tādu pašu nosaukumu jau eksistē"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1274,7 +1273,7 @@ msgstr "Filtri"
 #: code:addons/web/static/src/xml/base.xml:547
 #, python-format
 msgid "Flip axis"
-msgstr "Apvērst asis"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1334,7 +1333,7 @@ msgstr "Grupēt pēc"
 #: code:addons/web/static/src/js/chrome/search_inputs.js:691
 #, python-format
 msgid "Group by: %s"
-msgstr "Grupēt pēc: %s"
+msgstr ""
 
 #. module: web
 #: model:ir.model,name:web.model_ir_http
@@ -1447,14 +1446,14 @@ msgstr "Valodas"
 #: code:addons/web/static/src/xml/base.xml:309
 #, python-format
 msgid "Latest Modification Date:"
-msgstr "Pēdējais modificēšanas datums:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:305
 #, python-format
 msgid "Latest Modification by:"
-msgstr "Pēdējoreiz modificēja:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1489,7 +1488,7 @@ msgstr "Ielādēt vairāk... ("
 #: code:addons/web/static/src/js/chrome/loading.js:58
 #, python-format
 msgid "Loading"
-msgstr "Notiek ielāde"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1515,7 +1514,7 @@ msgstr "Ienākt"
 #: code:addons/web/static/src/xml/base.xml:1335
 #, python-format
 msgid "Log out"
-msgstr "Iziet"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1576,7 +1575,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:535
 #, python-format
 msgid "Measures"
-msgstr "Mērs"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1590,14 +1589,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:107
 #, python-format
 msgid "Method:"
-msgstr "Metode:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:16
 #, python-format
 msgid "Missing Record"
-msgstr "Trūkstošs ieraksts"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1611,7 +1610,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:352
 #, python-format
 msgid "Modified by :"
-msgstr "Modificēja:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1619,7 +1618,7 @@ msgstr "Modificēja:"
 #: code:addons/web/static/src/xml/base.xml:94
 #, python-format
 msgid "Modifiers:"
-msgstr "Modifikatori:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1735,7 +1734,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/graph/graph_renderer.js:97
 #, python-format
 msgid "No data to display"
-msgstr "Nav datu, ko parādīt"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1763,7 +1762,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/relational_fields.js:444
 #, python-format
 msgid "No results to show..."
-msgstr "Nav rezultātu, ko parādīt..."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1844,7 +1843,7 @@ msgstr ""
 #: code:addons/web/static/src/js/services/crash_manager.js:198
 #, python-format
 msgid "Odoo Warning"
-msgstr "Odoo brīdinājums"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1870,7 +1869,7 @@ msgstr "Ok"
 #: code:addons/web/static/src/xml/base.xml:161
 #, python-format
 msgid "Old Password"
-msgstr "Vecā parole"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1894,13 +1893,6 @@ msgid "Only Integer Value should be valid."
 msgstr "Only Integer Value should be valid."
 
 #. module: web
-#. openerp-web
-#: code:addons/web/static/src/js/fields/basic_fields.js:1982
-#, python-format
-msgid "Only Integer or Float Value should be valid."
-msgstr ""
-
-#. module: web
 #: code:addons/web/controllers/main.py:494
 #, python-format
 msgid ""
@@ -1912,7 +1904,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:492
 #, python-format
 msgid "Only you"
-msgstr "Tikai jūs"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1933,7 +1925,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:223
 #, python-format
 msgid "Open View"
-msgstr "Atvērt skatu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2094,7 +2086,7 @@ msgstr "Drukāt"
 #: code:addons/web/static/src/xml/base.xml:564
 #, python-format
 msgid "Quarter"
-msgstr "Ceturksnis"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2122,21 +2114,21 @@ msgstr "Izņemt"
 #: code:addons/web/static/src/xml/base.xml:1197
 #, python-format
 msgid "Remove All"
-msgstr "Noņemt visus"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/basic_fields.js:1582
 #, python-format
 msgid "Remove from Favorites"
-msgstr "Noņemt no favorītiem"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/web_calendar.xml:57
 #, python-format
 msgid "Remove this favorite from the list"
-msgstr "Noņemt šo favorītu no saraksta"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2218,14 +2210,14 @@ msgstr "Saglabāt pašreizējo atlasi"
 #: code:addons/web/static/src/js/widgets/debug_manager.js:443
 #, python-format
 msgid "Save default"
-msgstr "Saglabāt noklusējumu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1203
 #, python-format
 msgid "Save fields list"
-msgstr "Saglabāt lauku sarakstu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2239,7 +2231,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/search_inputs.js:361
 #, python-format
 msgid "Search %(field)s at: %(value)s"
-msgstr "Meklēt laukā %(field)s : %(value)s"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2248,14 +2240,14 @@ msgstr "Meklēt laukā %(field)s : %(value)s"
 #: code:addons/web/static/src/js/chrome/search_inputs.js:402
 #, python-format
 msgid "Search %(field)s for: %(value)s"
-msgstr "Meklēt laukā %(field)s : %(value)s"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/relational_fields.js:400
 #, python-format
 msgid "Search More..."
-msgstr "Meklēt vairāk:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2276,7 +2268,7 @@ msgstr "Meklēt: "
 #: code:addons/web/static/src/xml/base.xml:150
 #, python-format
 msgid "See details"
-msgstr "Apskatīties detaļas"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2304,14 +2296,14 @@ msgstr ""
 #: code:addons/web/static/src/js/widgets/debug_manager.js:168
 #, python-format
 msgid "Select a view"
-msgstr "Izvēlēties skatu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/basic_fields.js:2345
 #, python-format
 msgid "Selected records"
-msgstr "Izvēlētie ieraksti"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2332,7 +2324,7 @@ msgstr "Iestatīt kā noklusējumu"
 #: code:addons/web/static/src/xml/base.xml:259
 #, python-format
 msgid "Set Defaults"
-msgstr "Iestatīt noklusējuma vērtības"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2353,7 +2345,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:33
 #, python-format
 msgid "Size:"
-msgstr "Izmērs:"
+msgstr ""
 
 #. module: web
 #: code:addons/web/controllers/main.py:1134
@@ -2373,7 +2365,7 @@ msgstr ""
 #: code:addons/web/static/src/js/core/misc.js:14
 #, python-format
 msgid "Still loading..."
-msgstr "Vēl arvien notiek ielāde..."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2387,35 +2379,35 @@ msgstr "Joprojām ielādē... <br />Lūdzu, esiet pacietīgi"
 #: code:addons/web/static/src/xml/web_calendar.xml:80
 #, python-format
 msgid "Summary:"
-msgstr "Kopsavilkums:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1331
 #, python-format
 msgid "Support"
-msgstr "Atbalsts"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/basic_fields.js:1675
 #, python-format
 msgid "Switch Off"
-msgstr "Izslēgt"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/basic_fields.js:1676
 #, python-format
 msgid "Switch On"
-msgstr "Ieslēgt"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/widgets/domain_selector.js:567
 #, python-format
 msgid "Syntax error"
-msgstr "Sintakses kļūda"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2429,14 +2421,14 @@ msgstr ""
 #: code:addons/web/static/src/js/widgets/switch_company_menu.js:38
 #, python-format
 msgid "Tap on the list to change company"
-msgstr "Klikšķiniet uz saraksta, lai nomainītu kompāniju"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:240
 #, python-format
 msgid "Technical Translation"
-msgstr "Tehniskais tulkojums"
+msgstr ""
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.external_layout_boxed
@@ -2473,7 +2465,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/basic/basic_controller.js:387
 #, python-format
 msgid "The following fields are invalid:"
-msgstr "Sekojošie lauki nav derīgi:"
+msgstr ""
 
 #. module: web
 #: code:addons/web/controllers/main.py:796
@@ -2496,8 +2488,6 @@ msgid ""
 "The record has been modified, your changes will be discarded. Do you want to"
 " proceed?"
 msgstr ""
-"Ieraksts ir mainīts, Jūsu veiktās izmaiņas tiks izmestas. Vai vēlaties "
-"turpināt?"
 
 #. module: web
 #. openerp-web
@@ -2528,7 +2518,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/basic_fields.js:1153
 #, python-format
 msgid "There was a problem while uploading your file"
-msgstr "Radās problēma augšupielādējot failu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2621,7 +2611,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:292
 #, python-format
 msgid "Trying to reconnect..."
-msgstr "Mēģina atjaunot savienojumu ..."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2645,7 +2635,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/list/list_controller.js:142
 #, python-format
 msgid "Unarchive"
-msgstr "Atarhivēt"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2687,14 +2677,14 @@ msgstr ""
 #: code:addons/web/static/src/js/_deprecated/data.js:739
 #, python-format
 msgid "Unnamed"
-msgstr "Nenosaukts"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/pivot/pivot_view.js:95
 #, python-format
 msgid "Untitled"
-msgstr "Bez nosaukuma"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2708,7 +2698,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:69
 #, python-format
 msgid "Upgrade now"
-msgstr "Atjaunināt tagad"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2722,14 +2712,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:926
 #, python-format
 msgid "Upload your file"
-msgstr "Augšupielādējiet failu"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/relational_fields.js:1581
 #, python-format
 msgid "Uploading Error"
-msgstr "Augšupielādes kļūda"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2738,7 +2728,7 @@ msgstr "Augšupielādes kļūda"
 #: code:addons/web/static/src/xml/base.xml:985
 #, python-format
 msgid "Uploading..."
-msgstr "Augšupielādē..."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2759,7 +2749,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:238
 #, python-format
 msgid "View Fields"
-msgstr "Rādīt laukus"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2869,7 +2859,7 @@ msgstr "Yes"
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:301
 #, python-format
 msgid "You are back online"
-msgstr "Jūs esat atpakaļ tiešsaistē"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2931,7 +2921,7 @@ msgstr ""
 #: code:addons/web/static/src/js/services/crash_manager.js:59
 #, python-format
 msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Jūsu Odoo sesija ir beigusies. Lūdzu, pārlādējiet esošo mājaslapu"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2955,7 +2945,7 @@ msgstr ""
 #: code:addons/web/static/src/js/core/translation.js:113
 #, python-format
 msgid "a day ago"
-msgstr "pirms dienas"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2976,7 +2966,7 @@ msgstr "apmēram mēnesi atpakaļ"
 #: code:addons/web/static/src/js/core/translation.js:117
 #, python-format
 msgid "about a year ago"
-msgstr "apmēram pirms gada"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2990,7 +2980,7 @@ msgstr "apmēram stundu atpakaļ"
 #: code:addons/web/static/src/xml/base.xml:644
 #, python-format
 msgid "all records"
-msgstr "visi ieraksti"
+msgstr ""
 
 #. module: web
 #: model:ir.model,name:web.model_base
@@ -3033,14 +3023,14 @@ msgstr "lielāks nekā"
 #: code:addons/web/static/src/js/chrome/search_filters.js:301
 #, python-format
 msgid "greater than or equal to"
-msgstr "lielāks vai vienāds ar"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/widgets/domain_selector.js:25
 #, python-format
 msgid "in"
-msgstr "iekš"
+msgstr ""
 
 #. module: web
 #: model:ir.model,name:web.model_ir_qweb_field_image
@@ -3055,14 +3045,14 @@ msgstr "ir.qweb.field.image"
 #: code:addons/web/static/src/xml/base.xml:732
 #, python-format
 msgid "is"
-msgstr "ir"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome/search_filters.js:183
 #, python-format
 msgid "is after"
-msgstr "ir pēc"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3076,7 +3066,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/search_filters.js:184
 #, python-format
 msgid "is before"
-msgstr "ir pirms"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3090,7 +3080,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/search_filters.js:185
 #, python-format
 msgid "is between"
-msgstr "ir starp"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3171,14 +3161,14 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/search_filters.js:300
 #, python-format
 msgid "less than"
-msgstr "mazāks par"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core/translation.js:108
 #, python-format
 msgid "less than a minute ago"
-msgstr "mazāk kā pirms minūtes"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3186,7 +3176,7 @@ msgstr "mazāk kā pirms minūtes"
 #: code:addons/web/static/src/js/chrome/search_filters.js:302
 #, python-format
 msgid "less than or equal to"
-msgstr "mazāks vai vienāds ar"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3194,7 +3184,7 @@ msgstr "mazāks vai vienāds ar"
 #: code:addons/web/static/src/xml/base.xml:734
 #, python-format
 msgid "not"
-msgstr "nav"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3222,7 +3212,7 @@ msgstr ""
 #: code:addons/web/static/src/js/widgets/domain_selector.js:26
 #, python-format
 msgid "not in"
-msgstr "nav iekš"
+msgstr ""
 
 #. module: web
 #. openerp-web

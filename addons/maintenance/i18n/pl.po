@@ -8,7 +8,7 @@
 # Marcin Młynarczyk <mlynarczyk@gmail.com>, 2017
 # Zdzisław Krajewski <zdzichucb@gmail.com>, 2017
 # Mariusz, 2017
-# Dariusz Żbikowski <darek@krokus.com.pl>, 2017
+# zbik2607 <darek@krokus.com.pl>, 2017
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2017
 # Martin Trigaux, 2017
 # Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2017
@@ -16,7 +16,6 @@
 # Tomasz Leppich <t.leppich@gmail.com>, 2018
 # Daniel Koć <daniel@xn--ko-wla.pl>, 2018
 # Paweł Wodyński <pw@myodoo.pl>, 2018
-# Karol Rybak <karolrybak85@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -24,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-30 13:41+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Karol Rybak <karolrybak85@gmail.com>, 2020\n"
+"Last-Translator: Paweł Wodyński <pw@myodoo.pl>, 2018\n"
 "Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -302,12 +301,12 @@ msgstr "Konsola"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_next_action_date
 msgid "Date of the next preventive maintenance"
-msgstr "Data następnej konserwacji zapobiegawczej"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request_request_date
 msgid "Date requested for the maintenance to happen"
-msgstr "Wymagana data przeprowadzenia konserwacji"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request_schedule_date
@@ -315,8 +314,6 @@ msgid ""
 "Date the maintenance team plans the maintenance.  It should not differ much "
 "from the Request Date. "
 msgstr ""
-"Data, kiedy zespół konserwacyjny planuje konserwację. Nie powinna się "
-"znacznie różnić od daty zgłoszenia. "
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request_close_date
@@ -326,7 +323,7 @@ msgstr "Data zakończenia konserwacji."
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_period
 msgid "Days between each preventive maintenance"
-msgstr "Dni między każdą konserwacją zapobiegawczą"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_alias_defaults
@@ -440,14 +437,14 @@ msgstr "Akcesoria"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category_fold
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_stage_fold
 msgid "Folded in Maintenance Pipe"
-msgstr "Składana w ścieżce konserwacyji"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,help:maintenance.hr_equipment_request_action
 #: model:ir.actions.act_window,help:maintenance.hr_equipment_request_action_link
 msgid ""
 "Follow the process of the request and communicate with the collaborator."
-msgstr "Śledź proces zgłoszenia i komunikuj się ze współpracownikiem."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -601,22 +598,22 @@ msgstr " Wniosek o obsługę"
 #. module: maintenance
 #: model:mail.message.subtype,name:maintenance.mt_cat_req_created
 msgid "Maintenance Request Created"
-msgstr "Utworzono zgłoszenie konserwacji"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_stage_view_tree
 msgid "Maintenance Request Stage"
-msgstr "Etap zgłoszenia konserwacji"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_stage_view_search
 msgid "Maintenance Request Stages"
-msgstr "Etapy zgłoszenia konserwacji"
+msgstr ""
 
 #. module: maintenance
 #: model:mail.message.subtype,description:maintenance.mt_req_created
 msgid "Maintenance Request created"
-msgstr "Utworzono Zgłoszenie konserwacji"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,name:maintenance.hr_equipment_request_action
@@ -666,12 +663,12 @@ msgstr "Rodzaj konserwacji"
 #: model:ir.cron,cron_name:maintenance.maintenance_requests_cron
 #: model:ir.cron,name:maintenance.maintenance_requests_cron
 msgid "Maintenance: generate preventive maintenance requests"
-msgstr "Konserwacja: generuj zgłoszenia konserwacji zapobiegawczej"
+msgstr ""
 
 #. module: maintenance
 #: model:maintenance.team,name:maintenance.equipment_team_metrology
 msgid "Metrology"
-msgstr "Metrologia"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_model
@@ -716,7 +713,7 @@ msgstr "Nowy wniosek"
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Next Preventive Maintenance"
-msgstr "Następna konserwacja zapobiegawcza"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,help:maintenance.maintenance_request_action_reports
@@ -741,17 +738,17 @@ msgstr "Liczba wniosków"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_block
 msgid "Number of Requests Blocked"
-msgstr "Liczba zablokowanych zgłoszeń"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_date
 msgid "Number of Requests Scheduled"
-msgstr "Liczba zaplanowanych zgłoszeń"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_unscheduled
 msgid "Number of Requests Unscheduled"
-msgstr "Liczba niezaplanowanych zgłoszeń"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team_todo_request_count_high_priority
@@ -837,12 +834,12 @@ msgstr "Działania prewencyjne"
 #: code:addons/maintenance/models/maintenance.py:227
 #, python-format
 msgid "Preventive Maintenance - %s"
-msgstr "Konserwacja zapobiegawcza - %s"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Preventive Maintenance Frequency"
-msgstr "Częstotliwość konserwacji zapobiegawczej"
+msgstr ""
 
 #. module: maintenance
 #: model:maintenance.equipment.category,name:maintenance.equipment_printer
@@ -963,7 +960,7 @@ msgstr "Odpad"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_scrap_date
 msgid "Scrap Date"
-msgstr "Data zezłomowania"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_search
@@ -985,7 +982,7 @@ msgstr "Numer Seryjny"
 #: model:ir.model.fields,help:maintenance.field_maintenance_request_archive
 msgid ""
 "Set archive to true to hide the maintenance request without deleting it."
-msgstr "Archiwizuj, aby ukryć zgłoszenie konserwacji bez usuwania go."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
@@ -1032,7 +1029,7 @@ msgstr "Podwykonawca"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_name
 msgid "Subjects"
-msgstr "Tematy"
+msgstr ""
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request_maintenance_team_id
@@ -1100,7 +1097,7 @@ msgstr ""
 #. module: maintenance
 #: model:res.groups,comment:maintenance.group_equipment_manager
 msgid "The user will be able to manage equipments."
-msgstr "Użytkownik będzie mógł zarządzać sprzętem."
+msgstr ""
 
 #. module: maintenance
 #: model:ir.actions.act_window,help:maintenance.hr_equipment_action
@@ -1211,8 +1208,6 @@ msgid ""
 "You cannot delete an equipment category containing equipments or maintenance"
 " requests."
 msgstr ""
-"Nie można usunąć kategorii sprzętu zawierającej sprzęt lub zgłoszenia "
-"konserwacji."
 
 #. module: maintenance
 #: model:ir.ui.view,arch_db:maintenance.hr_equipment_view_form

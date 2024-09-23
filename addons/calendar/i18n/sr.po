@@ -4,16 +4,14 @@
 # 
 # Translators:
 # Martin Trigaux, 2017
-# Slobodan Simić <slsimic@gmail.com>, 2019
-# Uros Kalajdzic <ukalajdzic@gmail.com>, 2020
-# 
+# Slobodan Simić <slsimic@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-06 08:01+0000\n"
-"PO-Revision-Date: 2017-09-20 10:16+0000\n"
-"Last-Translator: Uros Kalajdzic <ukalajdzic@gmail.com>, 2020\n"
+"PO-Revision-Date: 2018-06-06 08:01+0000\n"
+"Last-Translator: Slobodan Simić <slsimic@gmail.com>, 2017\n"
 "Language-Team: Serbian (https://www.transifex.com/odoo/teams/41243/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -516,7 +514,7 @@ msgstr "Kontakt"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_create_uid
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type_create_uid
 msgid "Created by"
-msgstr "Kreirano"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_create_date
@@ -552,7 +550,7 @@ msgstr "Dan u mesecu"
 #. module: calendar
 #: selection:calendar.alarm,interval:0 selection:calendar.event,rrule_type:0
 msgid "Day(s)"
-msgstr "Дан(и)"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -1126,7 +1124,7 @@ msgstr "Odgovoran"
 #. module: calendar
 #: selection:calendar.alarm,type:0
 msgid "SMS Text Message"
-msgstr "СМС порука"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_sa

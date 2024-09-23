@@ -3,19 +3,17 @@
 # * delivery
 # 
 # Translators:
+# Cozmin Candea <office@terrabit.ro>, 2017
+# Dorin Hongu <dhongu@gmail.com>, 2017
 # Martin Trigaux, 2017
 # Adrian Munteanu <adrian.munteanu@itconstruction.ro>, 2017
-# Cozmin Candea <office@terrabit.ro>, 2017
-# Dorin Hongu <dhongu@gmail.com>, 2020
-# Foldi Robert <foldirobert@nexterp.ro>, 2021
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 15:01+0000\n"
-"PO-Revision-Date: 2017-09-20 10:16+0000\n"
-"Last-Translator: Foldi Robert <foldirobert@nexterp.ro>, 2021\n"
+"POT-Creation-Date: 2018-02-19 13:43+0000\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
+"Last-Translator: Adrian Munteanu <adrian.munteanu@itconstruction.ro>, 2017\n"
 "Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +31,6 @@ msgstr "${(object.name or '').replace('/','_')}"
 msgid ""
 "${object.company_id.name} Delivery Order (Ref ${object.name or 'n/a' })"
 msgstr ""
-"${object.company_id.name} Comandă livrare (Ref ${object.name or 'n/a' })"
 
 #. module: delivery
 #: model:mail.template,subject:delivery.mail_template_data_delivery_notification
@@ -141,7 +138,7 @@ msgstr "<strong>Transportator</strong>"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.report_delivery_document2
 msgid "<strong>Tracking Number</strong>"
-msgstr "<strong>Număr urmărire </strong>"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.report_delivery_document2
@@ -152,7 +149,7 @@ msgstr "<strong>Greutate</strong>"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_integration_level
 msgid "Action while validating Delivery Orders"
-msgstr "Acțiune în timpul validării comenzilor de livrare"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_active
@@ -258,13 +255,6 @@ msgstr "Creat în"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_debug_logging
 msgid "Debug logging"
-msgstr "Jurnal de depanare"
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:13
-#, python-format
-msgid "Debug requests"
 msgstr ""
 
 #. module: delivery
@@ -280,7 +270,7 @@ msgstr "Transportator"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_price_rule_form
 msgid "Delivery Cost"
-msgstr "Costul de livrare"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
@@ -290,7 +280,7 @@ msgstr "Informații livrare"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_delivery_message
 msgid "Delivery Message"
-msgstr "Mesaj livrare"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_res_partner_property_delivery_carrier_id
@@ -310,20 +300,20 @@ msgstr "Metode de livrare"
 #. module: delivery
 #: model:ir.model,name:delivery.model_choose_delivery_package
 msgid "Delivery Package Selection Wizard"
-msgstr "Expert de selecție a pachetului de livrare"
+msgstr ""
 
 #. module: delivery
 #: model:ir.actions.act_window,name:delivery.action_delivery_packaging_view
 #: model:ir.ui.menu,name:delivery.menu_delivery_packagings
 #: model:ir.ui.view,arch_db:delivery.product_packaging_delivery_tree
 msgid "Delivery Packages"
-msgstr "Livrare Pachete"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_package_delivery_packaging_id
 #: model:ir.ui.view,arch_db:delivery.product_packaging_delivery_form
 msgid "Delivery Packaging"
-msgstr "Livrare Ambalaje"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_delivery_price_rule
@@ -338,24 +328,17 @@ msgstr "Livrare produs"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_delivery_rating_success
 msgid "Delivery Rating Success"
-msgstr "Evaluare de livrare cu succes"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Destination Availability"
-msgstr "Destinații Disponibile"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_sequence
 msgid "Determine the display order"
 msgstr "Determină ordinea de afișare"
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:14
-#, python-format
-msgid "Disable debug"
-msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.choose_delivery_package_view_form
@@ -381,18 +364,12 @@ msgstr ""
 "prețuri atașate la fiecare metodă."
 
 #. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:16
-#, python-format
-msgid "Enable debug"
-msgstr ""
-
-#. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_prod_environment
 msgid "Environment"
 msgstr "Mediu"
 
 #. module: delivery
+#: code:addons/delivery/models/delivery_grid.py:50
 #: code:addons/delivery/models/delivery_grid.py:109
 #, python-format
 msgid "Error: no matching grid."
@@ -404,7 +381,6 @@ msgstr ""
 #, python-format
 msgid "Error: this delivery method is not available for this address."
 msgstr ""
-"Eroare: această metodă de livrare nu este disponibilă pentru această adresă."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_delivery_price
@@ -415,8 +391,6 @@ msgstr "Preț estimat de livrare"
 #: model:ir.model.fields,help:delivery.field_sale_order_carrier_id
 msgid "Fill this field if you plan to invoice the shipping based on picking."
 msgstr ""
-"Completați acest câmp dacă intenționați să facturați expedierea pe baza "
-"alegerii."
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -424,8 +398,6 @@ msgid ""
 "Filling this form allows you to filter delivery carriers according to the "
 "delivery address of your customer."
 msgstr ""
-"Completarea acestui formular vă permite să filtrați operatorii de transport "
-"în funcție de adresa de livrare a clientului dvs."
 
 #. module: delivery
 #: selection:delivery.carrier,delivery_type:0
@@ -443,7 +415,7 @@ msgstr "Fără taxă de livrare"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_free_over
 msgid "Free if order amount is above"
-msgstr "Gratuit dacă valoarea comenzii este mai mare"
+msgstr ""
 
 #. module: delivery
 #: selection:delivery.carrier,integration_level:0
@@ -489,8 +461,6 @@ msgid ""
 "If the order total amount (shipping excluded) is above or equal to this "
 "value, the customer benefits from a free shipping"
 msgstr ""
-"Dacă suma totală a comenzii (cu excepția livrării) este mai mare sau egală "
-"cu această valoare, clientul beneficiază de o livrare gratuită"
 
 #. module: delivery
 #: code:addons/delivery/models/delivery_carrier.py:125
@@ -500,14 +470,11 @@ msgid ""
 "The shipping is free because the order amount exceeds %.2f.\n"
 "(The actual shipping cost is: %.2f)"
 msgstr ""
-"Info:\n"
-"Transportul este gratuit, deoarece suma comenzii depășește %.2f.\n"
-"(Costul real de transport este:%.2f)"
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Install more Providers"
-msgstr "Instalează alți furnizori"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_integration_level
@@ -558,7 +525,7 @@ msgstr "Lungimea trebuie sa fie pozitivă"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_debug_logging
 msgid "Log requests in order to ease debugging"
-msgstr "Înregistrați solicitările pentru a ușura depanarea"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
@@ -578,7 +545,7 @@ msgstr "Marja nu poate fi mai mică de -100%"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Margin on Rate"
-msgstr "Marja pe tarif"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_product_packaging_max_weight
@@ -610,7 +577,7 @@ msgstr "Nume"
 #. module: delivery
 #: selection:product.packaging,package_carrier_type:0
 msgid "No carrier integration"
-msgstr "Nicio integrare a operatorului de transport"
+msgstr ""
 
 #. module: delivery
 #: code:addons/delivery/models/sale_order.py:73
@@ -619,19 +586,10 @@ msgid "No carrier set for this order."
 msgstr ""
 
 #. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:15
-#, python-format
-msgid "No debug"
-msgstr ""
-
-#. module: delivery
 #: code:addons/delivery/models/delivery_grid.py:100
 #, python-format
 msgid "No price rule matching this order; delivery cost cannot be computed."
 msgstr ""
-"Nicio regulă de preț care să corespundă acestei comenzi; costul de livrare "
-"nu poate fi calculat."
 
 #. module: delivery
 #: model:delivery.carrier,name:delivery.normal_delivery_carrier
@@ -720,19 +678,12 @@ msgstr "Prețuri"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_price_rule_ids
 msgid "Pricing Rules"
-msgstr "Reguli de preț"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_product_template
 msgid "Product Template"
 msgstr "Șablon produs"
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:9
-#, python-format
-msgid "Production Environment"
-msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_delivery_type
@@ -786,7 +737,7 @@ msgstr ""
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
 msgid "Send to Shipper"
-msgstr "Trimite la Curier"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_sequence
@@ -803,7 +754,6 @@ msgstr "Setează preț"
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_prod_environment
 msgid "Set to True if your credentials are certified for production."
 msgstr ""
-"Setați la True dacă acreditările dvs. sunt certificate pentru producție."
 
 #. module: delivery
 #: code:addons/delivery/models/stock_picking.py:168
@@ -812,8 +762,6 @@ msgid ""
 "Shipment sent to carrier %s for shipping with tracking number %s<br/>Cost: "
 "%.2f %s"
 msgstr ""
-"Livrare trimisă către transportatorul %s pentru expediere cu AWB%s<br/> "
-"Cost:%.2f%s"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_carrier_price
@@ -830,7 +778,7 @@ msgstr "Greutate livrare"
 #: model:ir.ui.view,arch_db:delivery.report_package_barcode_delivery
 #: model:ir.ui.view,arch_db:delivery.report_package_barcode_small_delivery
 msgid "Shipping Weight:"
-msgstr "Masă livrată:"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_product_product_hs_code
@@ -847,27 +795,6 @@ msgstr "Stări"
 #: model:ir.model,name:delivery.model_stock_move
 msgid "Stock Move"
 msgstr "Mișcare stoc"
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:12
-#, python-format
-msgid "Switch to production environment"
-msgstr ""
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:10
-#, python-format
-msgid "Switch to test environment"
-msgstr ""
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:11
-#, python-format
-msgid "Test Environment"
-msgstr ""
 
 #. module: delivery
 #: model:delivery.carrier,name:delivery.delivery_carrier
@@ -911,7 +838,7 @@ msgstr "Referință urmărire"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_carrier_tracking_url
 msgid "Tracking URL"
-msgstr "URL de urmărire"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_picking
@@ -983,7 +910,7 @@ msgstr "Masă de livrat"
 #: model:ir.ui.view,arch_db:delivery.report_package_barcode_delivery
 #: model:ir.ui.view,arch_db:delivery.report_package_barcode_small_delivery
 msgid "Weight:"
-msgstr "Masa:"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_product_packaging_width
@@ -1016,8 +943,6 @@ msgid ""
 "Your delivery method has no redirect on courier provider's website to track "
 "this order."
 msgstr ""
-"Metoda de livrare nu are nicio redirecționare pe site-ul furnizorului de "
-"curierat pentru a urmări această comandă."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_zip_from
@@ -1027,7 +952,7 @@ msgstr "Zip From"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_zip_to
 msgid "Zip To"
-msgstr "La codul postal"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form

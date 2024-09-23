@@ -4,10 +4,10 @@
 # 
 # Translators:
 # Martin Trigaux, 2017
+# Michael Yeung, 2017
 # Cécile Collart <cco@odoo.com>, 2018
 # Bill Hsu <hcm86@icloud.com>, 2018
-# 敬雲 林 <chingyun@yuanchih-consult.com>, 2019
-# Michael Yeung, 2019
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2018
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Michael Yeung, 2019\n"
+"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2018\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,8 +100,6 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -798,7 +796,7 @@ msgstr "創建工單"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_created_production_id
 msgid "Created Production Order"
-msgstr "已創建製造訂單"
+msgstr "已創建生產訂單"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty_create_uid
@@ -1759,7 +1757,7 @@ msgstr "MRP 工作中心"
 #. module: mrp
 #: model:ir.actions.server,name:mrp.production_order_server_action
 msgid "Mrp: Plan Production Orders"
-msgstr "Mrp：計劃製造訂單"
+msgstr "Mrp：計劃生產訂單"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
@@ -2243,22 +2241,22 @@ msgstr "生產消息"
 #: model:ir.model.fields,field_description:mrp.field_stock_move_line_production_id
 #: model:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "Production Order"
-msgstr "製造訂單"
+msgstr "生產單"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "Production Order # :"
-msgstr "製造訂單 # :"
+msgstr "生產單 # :"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_production_id
 msgid "Production Order for finished products"
-msgstr "完工產品的製造訂單"
+msgstr "完工產品的生產訂單"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_raw_material_production_id
 msgid "Production Order for raw materials"
-msgstr "原材料的製造訂單"
+msgstr "原材料的生產訂單"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
@@ -2444,7 +2442,7 @@ msgstr "每個公司的參考必須唯一！"
 #: model:ir.model.fields,help:mrp.field_mrp_production_origin
 msgid ""
 "Reference of the document that generated this production order request."
-msgstr "生成這張製造訂單的前置單據編號。"
+msgstr "生成這張生產訂單的前置單據編號。"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_ir_attachment_id
@@ -2784,7 +2782,7 @@ msgstr "開始工作"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_state
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_production_state
 msgid "State"
-msgstr "狀態"
+msgstr "州/省"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild_state
@@ -2970,13 +2968,13 @@ msgid ""
 "The operations for producing this BoM.  When a routing is specified, the "
 "production orders will  be executed through work orders, otherwise "
 "everything is processed in the production order itself. "
-msgstr "生產這個BoM的製程。 當途程被指定時，將通過工單執行製造訂單，否則所有工作都將在製造訂單本身中進行處理。"
+msgstr "生產這個BoM的製程。 當途程被指定時，將通過工單執行生產訂單，否則所有工作都將在生產訂單本身中進行處理。"
 
 #. module: mrp
 #: code:addons/mrp/wizard/mrp_product_produce.py:95
 #, python-format
 msgid "The production order for '%s' has no quantity specified"
-msgstr "『%s』 的製造訂單沒有指定的數量"
+msgstr "『%s』 的生產訂單沒有指定的數量"
 
 #. module: mrp
 #: sql_constraint:mrp.production:0
@@ -3229,7 +3227,7 @@ msgstr "拆解單"
 msgid ""
 "Unbuild Orders are used to break down a product you manufactured or "
 "purchased into its components, based on its Bill of Material."
-msgstr "拆解單是用來分解您生產或購買的產品的組件，根據其材料清單。"
+msgstr "未建立訂單是用來分解您生產或購買的產品的組件，根據其材料清單。"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_cost_report
@@ -3671,7 +3669,7 @@ msgstr "您可以從您的電腦上傳一個文件或者複製/粘貼一個網�
 #, python-format
 msgid ""
 "You can not cancel production order, a work order is still in progress."
-msgstr "您不能取消生產中的製造訂單，工單還在進行當中。"
+msgstr "您不能取消生產中的生產單，工單還在進行當中。"
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_workorder.py:244

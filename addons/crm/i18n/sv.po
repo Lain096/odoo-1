@@ -16,13 +16,11 @@
 # Frida E, 2017
 # Robert Frykelius <robert.frykelius@linserv.se>, 2017
 # Patrik Lermon <patrik.lermon@gmail.com>, 2017
-# Kristoffer Grundström <lovaren@gmail.com>, 2017
+# Kristoffer Grundström <hamnisdude@gmail.com>, 2017
 # Martin Trigaux, 2018
+# Chrille Hedberg <hedberg.chrille@gmail.com>, 2018
+# Anders Wallenquist <anders.wallenquist@vertel.se>, 2018
 # Kim Asplund <kim.asplund@gmail.com>, 2019
-# Chrille Hedberg <hedberg.chrille@gmail.com>, 2019
-# Anders Wallenquist <anders.wallenquist@vertel.se>, 2019
-# Lisa <lisa.oskoma@vertel.se>, 2020
-# Jakob Krabbe <jakob.krabbe@vertel.se>, 2020
 # 
 msgid ""
 msgstr ""
@@ -30,7 +28,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 11:58+0000\n"
 "PO-Revision-Date: 2017-09-20 10:16+0000\n"
-"Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2020\n"
+"Last-Translator: Kim Asplund <kim.asplund@gmail.com>, 2019\n"
 "Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -159,7 +157,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_res_partner_meeting_count
 #: model:ir.model.fields,field_description:crm.field_res_users_meeting_count
 msgid "# Meetings"
-msgstr "# möten"
+msgstr "# Möten"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_nbr_activities
@@ -189,8 +187,6 @@ msgid ""
 "<b>Drag &amp; drop opportunities</b> between columns as you progress in your"
 " sales cycle."
 msgstr ""
-"<b>Dra &amp; släpp affärsmöjlighet</b> mellan kolumner i den takt din "
-"säljcykel utvecklas."
 
 #. module: crm
 #. openerp-web
@@ -219,10 +215,6 @@ msgid ""
 "attached to this opportunity.</p><p class=\"mb0\">Type <i>'@'</i> to mention"
 " people - it's like cc-ing on emails.</p>"
 msgstr ""
-"<p><b>Skicka meddelanden</b> till dina prospektiva kunder och få svar "
-"automatiskt knutna till dina affärsmöjligheter och få svar "
-"automatiskt.</p><p class=\"mb0\">Skriv <i>'@'</i> för att nämna personer - "
-"fungerar som cc när du skickar e-post.</p>"
 
 #. module: crm
 #. openerp-web
@@ -329,13 +321,11 @@ msgid ""
 "<span class=\"o_stat_text\" attrs=\"{'invisible': [('meeting_count', '&lt;', 2)]}\"> Meetings</span>\n"
 "                                    <span class=\"o_stat_text\" attrs=\"{'invisible': [('meeting_count', '&gt;', 1)]}\"> Meeting</span>"
 msgstr ""
-"<span class=\"o_stat_text\" attrs=\"{'invisible': [('meeting_count', '&lt;', 2)]}\"> Möten</span>\n"
-"                                    <span class=\"o_stat_text\" attrs=\"{'invisible': [('meeting_count', '&gt;', 1)]}\"> Möten</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
 msgid "<span class=\"oe_grey\"> at </span>"
-msgstr "<span class=\"oe_grey\"> på </span>"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -784,7 +774,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Activities Todo"
-msgstr "Aktiviteter att göra"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_kanban_state
@@ -794,22 +784,22 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report_mail_activity_type_id
 msgid "Activity Type"
-msgstr "Aktivitetstyp"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_menu_config_activity_types
 msgid "Activity Types"
-msgstr "Aktivitetstyp"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Add Features"
-msgstr "Lägg till funktioner"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Add a qualification step before creating an opportunity"
-msgstr "Lägg till ett kvalificeringssteg innan affärsmöjlighet skapas"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
@@ -930,12 +920,12 @@ msgstr "Tilldela kundämnen till"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Assign these opportunities to"
-msgstr "Knyt dessa affärsmöjligheter till"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner
 msgid "Assign this opportunity to"
-msgstr "Tilldela denna affärsmöjlighet till"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_opening_date
@@ -1079,8 +1069,6 @@ msgid ""
 "Check this box to filter and qualify incoming requests as leads before "
 "converting them into opportunities and assigning them to a salesperson."
 msgstr ""
-"Kryssa denna ruta för att filtrera och kvalificera inkommande förfrågningar "
-"innan de konverteras till affärsmöjlighet och de knyts till en säljare."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_use_opportunities
@@ -1171,7 +1159,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_date_closed
 msgid "Closed Date"
-msgstr "Avslutsdatum"
+msgstr ""
 
 #. module: crm
 #: code:addons/crm/wizard/crm_lead_to_opportunity.py:87
@@ -1320,7 +1308,7 @@ msgstr "Konvertera till affärsmöjlighet"
 #: model:ir.actions.act_window,name:crm.action_crm_lead2opportunity_partner
 #, python-format
 msgid "Convert to opportunity"
-msgstr "Konvertera till affärsmöjlighet"
+msgstr "Omvandla till affärsmöjlighet"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_message_bounce
@@ -1347,7 +1335,7 @@ msgstr "Skapa"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_create_opportunity_simplified
 msgid "Create & Edit"
-msgstr "Skapa och redigera"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1387,7 +1375,7 @@ msgstr "Skapa en ny kund"
 #: model:ir.actions.act_window,name:crm.create_opportunity_simplified
 #: model:ir.ui.view,arch_db:crm.view_create_opportunity_simplified
 msgid "Create an Opportunity"
-msgstr "Skapa en affärsmöjlighet"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1930,7 +1918,7 @@ msgstr "Från %s: %s"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Future Activities"
-msgstr "Framtida aktivieteter"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -1970,7 +1958,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_lost
 msgid "Get Lost Reason"
-msgstr "Fånga förlustorsak"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_email_cc
@@ -2074,7 +2062,7 @@ msgstr "Hög"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_dashboard_graph_group_pipeline
 msgid "How this channel's dashboard graph will group the results."
-msgstr "Hur denna kanals översiktsgraf kommer gruppera resultaten."
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_id
@@ -2288,7 +2276,7 @@ msgstr "Senast uppdaterad"
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Late Activities"
-msgstr "Försenade aktiviteter"
+msgstr ""
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:882
@@ -2479,13 +2467,13 @@ msgstr "Förlorade"
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Lost Reason"
-msgstr "Förlustorsak"
+msgstr ""
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lost_reason_action
 #: model:ir.ui.menu,name:crm.menu_crm_lost_reason
 msgid "Lost Reasons"
-msgstr "Förlusrorsaker"
+msgstr ""
 
 #. module: crm
 #: selection:crm.lead,priority:0 selection:crm.opportunity.report,priority:0
@@ -2530,7 +2518,7 @@ msgstr "Märk vinst"
 #. module: crm
 #: model:ir.actions.server,name:crm.action_mark_as_lost
 msgid "Mark as lost"
-msgstr "Märk förlorad"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
@@ -2558,7 +2546,7 @@ msgstr "Medel"
 #: code:addons/crm/models/crm_lead.py:924
 #, python-format
 msgid "Meeting scheduled at '%s'<br> Subject: %s <br> Duration: %s hour(s)"
-msgstr "Möte planterat till  '%s'<br> Ämne: %s <br> Tid: %s timmar"
+msgstr ""
 
 #. module: crm
 #. openerp-web
@@ -2698,7 +2686,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "My Activities"
-msgstr "Mina aktivieteter"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -2750,7 +2738,7 @@ msgstr "Ny"
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_opportunity_form
 msgid "New Opportunity"
-msgstr "Ny affärsmöjlighet"
+msgstr ""
 
 #. module: crm
 #. openerp-web
@@ -2830,7 +2818,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_opportunities_count
 msgid "Number of open opportunities"
-msgstr "Antal öppna affärsmöjligheter"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2895,12 +2883,12 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Open Opportunities"
-msgstr "Öppna affärsmöjligheter"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Open Opportunity"
-msgstr "Öppen affärsmöjlighet"
+msgstr ""
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_case_form_view_salesteams_opportunity
@@ -3293,7 +3281,7 @@ msgstr ""
 #: model:crm.stage,name:crm.stage_lead2
 #, python-format
 msgid "Qualified"
-msgstr "Kvalificerad"
+msgstr ""
 
 #. module: crm
 #. openerp-web
@@ -3407,7 +3395,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Sales Channel"
-msgstr "Säljkanal"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_config
@@ -3572,7 +3560,7 @@ msgstr "Inställningar"
 #. module: crm
 #: model:res.groups,name:crm.group_use_lead
 msgid "Show Lead Menu"
-msgstr "Visa kundämnesmenyn"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3596,7 +3584,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Show all records which has next action date is before today"
-msgstr "Visa ella poster som har nästa händelse före idag"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
@@ -4003,7 +3991,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Today Activities"
-msgstr "Dagens aktiviteter"
+msgstr ""
 
 #. module: crm
 #: model:crm.lost.reason,name:crm.lost_reason_1
@@ -4053,13 +4041,13 @@ msgstr "Ej tilldelade"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Unassigned Lead"
-msgstr "Icke tilldelade kundämnen"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_unassigned_leads_count
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Unassigned Leads"
-msgstr "Icke tilldelade kundämnen"
+msgstr ""
 
 #. module: crm
 #: code:addons/crm/models/crm_team.py:211

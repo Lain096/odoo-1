@@ -6,16 +6,13 @@
 # Yihya Hugirat <hugirat@gmail.com>, 2017
 # Martin Trigaux, 2018
 # ExcaliberX <excaliberx@gmail.com>, 2018
-# דודי מלכה <Dudimalka6@gmail.com>, 2019
-# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
-"PO-Revision-Date: 2017-09-20 10:23+0000\n"
-"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2019\n"
+"PO-Revision-Date: 2017-09-20 09:53+0000\n"
+"Last-Translator: ExcaliberX <excaliberx@gmail.com>, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,12 +23,12 @@ msgstr ""
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 msgid "<span class=\"o_stat_text\"> Orders</span>"
-msgstr "<span class=\"o_stat_text\"> הזמנות</span>"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 msgid "<span class=\"o_stat_text\"> Quotation(s) </span>"
-msgstr "<span class=\"o_stat_text\">הצעות מחיר </span>"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_account_invoice
@@ -41,7 +38,7 @@ msgstr "חשבונית"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_res_users_target_sales_invoiced
 msgid "Invoiced in Sales Orders Target"
-msgstr "חויב ביעד הזמנות לקוח"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_crm_lead
@@ -51,7 +48,7 @@ msgstr "ליד/הזדמנות"
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.sale_view_inherit123
 msgid "Log in the chatter from which opportunity the order originates"
-msgstr "התחבר לשיחה ממנה נובעת הזדמנות להזמנה"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
@@ -61,12 +58,12 @@ msgstr "הצעת מחיר חדשה"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead_sale_number
 msgid "Number of Quotations"
-msgstr "מס' הצעות המחיר"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order_opportunity_id
 msgid "Opportunity"
-msgstr "הזדמנות"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead_order_ids
@@ -77,7 +74,7 @@ msgstr "הזמנות"
 #: code:addons/sale_crm/models/crm_team.py:12
 #, python-format
 msgid "Pipeline"
-msgstr "צינור עיבוד נתונים"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.actions.act_window,name:sale_crm.sale_action_quotations_new
@@ -93,12 +90,12 @@ msgstr "הצעות מחיר"
 #. module: sale_crm
 #: model:ir.actions.act_window,name:sale_crm.sale_action_orders
 msgid "Sale orders"
-msgstr "הזמנות מכירה "
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_crm_team
 msgid "Sales Channel"
-msgstr "ערוץ מכירות"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_sale_order
@@ -108,7 +105,7 @@ msgstr "הזמנת מכירות"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead_sale_amount_total
 msgid "Sum of Orders"
-msgstr "סכום ההזמנות"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order_tag_ids
@@ -118,7 +115,7 @@ msgstr "תגיות"
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_crm_lead_sale_amount_total
 msgid "Untaxed Total of Confirmed Orders"
-msgstr "סך הכל של הזמנות מאושרות"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_res_users

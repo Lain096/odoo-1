@@ -3,27 +3,24 @@
 # * lunch
 # 
 # Translators:
+# Martin Trigaux, 2017
+# fanha99 <fanha99@hotmail.com>, 2017
+# son dang <son.dang@doda100.com>, 2017
+# Tuan Tran <tmtuan.projects@gmail.com>, 2017
 # Su Pham Nghiep Vu <nghiepvusupham58@gmail.com>, 2017
+# Duy BQ <duybq86@gmail.com>, 2017
 # file aio <fileaio@gmail.com>, 2017
 # Phạm Lân <phamquanglan@gmail.com>, 2017
 # lam nguyen <lamev.inc@gmail.com>, 2017
-# fanha99 <fanha99@hotmail.com>, 2017
-# Martin Trigaux, 2017
 # Thang Duong Bao <nothingctrl@gmail.com>, 2017
-# Tuan Tran <tmtuan.projects@gmail.com>, 2017
-# son dang <son.dang@doda100.com>, 2017
-# Dao Nguyen <trucdao.uel@gmail.com>, 2019
-# Dung Nguyen Thi <dungnt@trobz.com>, 2019
-# Duy BQ <duybq86@gmail.com>, 2020
-# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2020
-# 
+# thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2020\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
+"Last-Translator: thanh nguyen <thanhnguyen.icsc@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,7 +65,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_product_action
 msgid "A product is defined by its name, category, price and vendor."
-msgstr "Một sản phẩm sẽ quy định tên, danh mục, giá và nhà cung cấp nó."
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_active
@@ -235,12 +232,12 @@ msgstr "Cấu hình"
 #: model:ir.actions.act_window,name:lunch.lunch_cashmove_action_control_accounts
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_menu_control_accounts
 msgid "Control Accounts"
-msgstr "Kiểm soát tài khoản"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_order_line_action_control_suppliers
 msgid "Control Vendors"
-msgstr "Kiểm soát nhà cung cấp"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_create_uid
@@ -310,7 +307,7 @@ msgstr "Tên hiển thị"
 #: code:addons/lunch/static/src/xml/lunch.xml:7
 #, python-format
 msgid "Don't forget the alerts displayed in the reddish area"
-msgstr "Đừng quên các cảnh báo được hiển thị trong vùng màu đỏ"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_menu_payment
@@ -364,13 +361,11 @@ msgid ""
 "Helps you handle your lunch needs, if you are a manager you will be able to "
 "create new products, cashmoves and to confirm or cancel orders."
 msgstr ""
-"Giúp bạn giải quyết nhu cầu ăn trưa, nếu bạn là người quản lý, bạn sẽ có "
-"thểtạo ra món mới, chuyển tiền và xác nhận hoặc hủy bỏ đơn đặt hàng."
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_product_category_action
 msgid "Here you can access all categories for the lunch products."
-msgstr "Ở đây bạn có thể xem tất cả các danh mục của các món ăn trưa."
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_cashmove_action_payment
@@ -382,7 +377,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_order_line_action_by_supplier
 msgid "Here you can see today's orders grouped by vendors."
-msgstr "Ở đây bạn có thể xem các đơn hàng hôm nay nhóm theo nhà cung cấp."
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_cashmove_action_account
@@ -470,13 +465,13 @@ msgstr "Bữa trưa"
 #. module: lunch
 #: model:ir.model,name:lunch.model_lunch_alert
 msgid "Lunch Alert"
-msgstr "Cảnh báo bữa ăn"
+msgstr ""
 
 #. module: lunch
 #: code:addons/lunch/models/lunch.py:265
 #, python-format
 msgid "Lunch Cashmove"
-msgstr "Chuyển tiền bữa trưa"
+msgstr ""
 
 #. module: lunch
 #: code:addons/lunch/models/lunch.py:66
@@ -495,7 +490,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_cancel
 msgid "Lunch: Cancel meals"
-msgstr "Bữa trưa: Hủy bữa ăn"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_order
@@ -505,7 +500,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_confirm
 msgid "Lunch: Receive meals"
-msgstr "Bữa trưa: Nhận suất ăn"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_admin
@@ -532,7 +527,7 @@ msgstr "Thứ Hai"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search
 msgid "My Account grouped"
-msgstr "Gom theo tài khoản của tôi"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_title
@@ -558,7 +553,7 @@ msgstr "Mới"
 #: model:ir.actions.act_window,name:lunch.lunch_order_action_form
 #: model:ir.ui.menu,name:lunch.lunch_order_menu_form
 msgid "New Order"
-msgstr "Đơn mới"
+msgstr ""
 
 #. module: lunch
 #: code:addons/lunch/wizard/lucky_order.py:39
@@ -569,7 +564,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
 msgid "Not Received"
-msgstr "Chưa nhận được"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_line_note
@@ -612,12 +607,12 @@ msgstr "Tháng đặt hàng"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_tree
 msgid "Order lines Tree"
-msgstr "Danh sách chi tiết đặt món"
+msgstr ""
 
 #. module: lunch
 #: selection:lunch.order.line,state:0
 msgid "Ordered"
-msgstr "Đã đặt"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_view_form
@@ -700,7 +695,7 @@ msgstr "Tên sản phẩm"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_product_view_search
 msgid "Product Search"
-msgstr "Tìm sản phẩm"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_product_action
@@ -713,18 +708,18 @@ msgstr "Sản phẩm"
 #: model:ir.ui.view,arch_db:lunch.lunch_product_category_view_form
 #: model:ir.ui.view,arch_db:lunch.lunch_product_view_form
 msgid "Products Form"
-msgstr "Thông tin món"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_product_view_tree
 msgid "Products Tree"
-msgstr "Danh sách món"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_kanban
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_tree
 msgid "Receive"
-msgstr "Nhận"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
@@ -750,7 +745,7 @@ msgstr "Thứ Bảy"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_alert_view_form
 msgid "Schedule Date"
-msgstr "Lịch trình ngày"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_alert_view_form
@@ -768,7 +763,7 @@ msgstr "Tìm kiếm"
 #: code:addons/lunch/static/src/xml/lunch.xml:5
 #, python-format
 msgid "Select a product and put your order comments on the note."
-msgstr "Chọn món và điền các yêu cầu thêm của mình vào phần ghi chú."
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_view_form
@@ -794,7 +789,7 @@ msgstr "Tình trạng"
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_order_line_action_control_suppliers
 msgid "Summary of all lunch orders, grouped by vendor and by date."
-msgstr "Tổng quát tất cả các xuất ăn, nhóm theo nhà cung cấp và ngày."
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_sunday
@@ -818,15 +813,13 @@ msgid ""
 "There is no previous order recorded. Click on \"My Lunch\" and then create a"
 " new lunch order."
 msgstr ""
-"There is no previous order recorded. Click on \"My Lunch\" and then create a"
-" new lunch order."
 
 #. module: lunch
 #. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:4
 #, python-format
 msgid "This is the first time you order a meal"
-msgstr "Đây là lần đầu tiên bạn đặt một bữa ăn"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_thursday
@@ -841,7 +834,7 @@ msgstr "Hôm nay"
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.lunch_order_line_menu_by_supplier
 msgid "Today's Orders"
-msgstr "Đặt món hôm nay"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_total
@@ -896,7 +889,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_cashmove_action_account
 msgid "Your Account"
-msgstr "Tài khoản của bạn"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_menu_form
@@ -914,30 +907,28 @@ msgstr ""
 #, python-format
 msgid "Your favorite meals will be created based on your last orders."
 msgstr ""
-"Bữa ăn yêu thích của bạn sẽ được tạo dựa trên các đơn hàng trước đây của "
-"bạn."
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_form
 msgid "cashmove form"
-msgstr "cashmove form"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_tree
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_tree_2
 msgid "cashmove tree"
-msgstr "cashmove tree"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model,name:lunch.model_lunch_cashmove
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search_2
 msgid "lunch cashmove"
-msgstr "lunch cashmove"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search
 msgid "lunch employee payment"
-msgstr "thanh toán bữa ăn của nhân viên"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model,name:lunch.model_lunch_order_line

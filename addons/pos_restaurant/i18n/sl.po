@@ -5,8 +5,7 @@
 # Translators:
 # matjaz k <matjaz@mentis.si>, 2018
 # Martin Trigaux, 2018
-# Matjaz Mozetic <m.mozetic@matmoz.si>, 2019
-# Tadej Lupšina <tadej@hbs.si>, 2019
+# Matjaž Mozetič <m.mozetic@matmoz.si>, 2018
 # 
 msgid ""
 msgstr ""
@@ -14,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:21+0000\n"
-"Last-Translator: Tadej Lupšina <tadej@hbs.si>, 2019\n"
+"Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>, 2018\n"
 "Language-Team: Slovenian (https://www.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +34,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
 msgid "<strong>Point of Sale: </strong>"
-msgstr "<strong>Prodajna točka: </strong>"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor_background_image
@@ -54,7 +53,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Accept customer tips or convert their change to a tip"
-msgstr "Sprejmite napetnino strank ali spremenite njihov ostanek v napetnino "
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_active
@@ -66,7 +65,7 @@ msgstr "Aktivno"
 #: code:addons/pos_restaurant/static/src/js/notes.js:54
 #, python-format
 msgid "Add Note"
-msgstr "Dodaj opombo"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
@@ -81,12 +80,12 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Allow to print bill before payment"
-msgstr "Omogoči tiskanje računov pred plačilom"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config_iface_printbill
 msgid "Allows to print the Bill before payment."
-msgstr "Omogoči tiskanje računov pred plačilom"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table_name
@@ -106,14 +105,14 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_table_form
 msgid "Appearance"
-msgstr "Videz"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:562
 #, python-format
 msgid "Are you sure ?"
-msgstr "Ali ste prepričan ?"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -126,7 +125,7 @@ msgstr "Nazaj"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_background_color
 msgid "Background Color"
-msgstr "Barva ozadja"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_background_image
@@ -170,7 +169,7 @@ msgstr "PREKLICANO"
 #: code:addons/pos_restaurant/static/src/js/floors.js:425
 #, python-format
 msgid "Changes could not be saved"
-msgstr "Spremembe ni bilo mogoče shraniti"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
@@ -263,14 +262,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_customer_count
 #, python-format
 msgid "Guests"
-msgstr "Gostje"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:946
 #, python-format
 msgid "Guests ?"
-msgstr "Gostje ?"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -278,7 +277,7 @@ msgstr "Gostje ?"
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:21
 #, python-format
 msgid "Guests:"
-msgstr "Gostje:"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_height
@@ -288,7 +287,7 @@ msgstr "Višina"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_position_h
 msgid "Horizontal Position"
-msgstr "Vodoravni položaj"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_id
@@ -328,7 +327,7 @@ msgstr "Zadnjič posodobljeno"
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Manage table orders"
-msgstr "Upravljanje naročil za mize"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -343,7 +342,7 @@ msgstr "NOVO"
 #: code:addons/pos_restaurant/static/src/xml/multiprint.xml:73
 #, python-format
 msgid "NOTE"
-msgstr "OPOMBA"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -357,7 +356,7 @@ msgstr "Opomba"
 #: code:addons/pos_restaurant/static/src/js/floors.js:495
 #, python-format
 msgid "Number of Seats ?"
-msgstr "Število sedežev ?"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -425,7 +424,7 @@ msgstr "Tiskanje"
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Print orders at the kitchen, at the bar, etc."
-msgstr "Natisni naročila v kuhinji, v baru itd."
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer_product_categories_ids
@@ -440,7 +439,7 @@ msgstr "Naziv tiskalnika"
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Printers"
-msgstr "Tiskalniki"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer_proxy_ip
@@ -478,12 +477,12 @@ msgstr ""
 #. module: pos_restaurant
 #: selection:restaurant.table,shape:0
 msgid "Round"
-msgstr "Okrogla"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_seats
 msgid "Seats"
-msgstr "Sedeži"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_sequence
@@ -500,7 +499,7 @@ msgstr "Postregel"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_shape
 msgid "Shape"
-msgstr "Oblika"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -517,7 +516,7 @@ msgstr ""
 #. module: pos_restaurant
 #: selection:restaurant.table,shape:0
 msgid "Square"
-msgstr "Kvadrat"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -541,25 +540,25 @@ msgstr "Razpredelnica"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config_is_table_management
 msgid "Table Management"
-msgstr "Upravljane miz"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_name
 msgid "Table Name"
-msgstr "Naziv mize"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:483
 #, python-format
 msgid "Table Name ?"
-msgstr "Naziv mize ?"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_table_ids
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_form
 msgid "Tables"
-msgstr "Razpredelnice"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -649,19 +648,19 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Tip Product"
-msgstr "Izdelek za napitnino"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Tips"
-msgstr "Napetnina"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:37
 #, python-format
 msgid "Transfer"
-msgstr "Prenos"
+msgstr "Transfer"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor_sequence
@@ -671,7 +670,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_position_v
 msgid "Vertical Position"
-msgstr "Navpični položaj"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_width

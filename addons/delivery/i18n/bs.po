@@ -6,15 +6,14 @@
 # Bole <bole@dajmi5.com>, 2017
 # Martin Trigaux, 2017
 # Boško Stojaković <bluesoft83@gmail.com>, 2019
-# Ervin Cerović, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 15:01+0000\n"
+"POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2017-09-20 10:16+0000\n"
-"Last-Translator: Ervin Cerović, 2021\n"
+"Last-Translator: Boško Stojaković <bluesoft83@gmail.com>, 2019\n"
 "Language-Team: Bosnian (https://www.transifex.com/odoo/teams/41243/bs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +31,6 @@ msgstr "${(object.name or '').replace('/','_')}"
 msgid ""
 "${object.company_id.name} Delivery Order (Ref ${object.name or 'n/a' })"
 msgstr ""
-"${object.company_id.name} Zahtjev za dostavu (Ref ${object.name or 'n/a' })"
 
 #. module: delivery
 #: model:mail.template,subject:delivery.mail_template_data_delivery_notification
@@ -59,22 +57,6 @@ msgid ""
 "<p>Thank you,</p>\n"
 "      </data>"
 msgstr ""
-"<?xml version=\"1.0\"?>\n"
-"<data><p>Poštovani ${object.partner_id.name},</p>\n"
-"<p>Drago nam je što vas možemo informirati da je vaša narudžba upravo poslana.</p>\n"
-"<p>\n"
-"%if object.carrier_tracking_ref:\n"
-"  Vaš broj za praćenje pošiljke je:\n"
-"  %if object.carrier_tracking_url:\n"
-"    <a href=\"${object.carrier_tracking_url}\" target=\"_blank\">${object.carrier_tracking_ref}</a>.\n"
-"  %else:\n"
-"    ${object.carrier_tracking_ref}.\n"
-"  %endif\n"
-"%endif\n"
-"</p>\n"
-"<p>Pogledajte vašu narudžbu za više informacija.</p>\n"
-"<p>Zahvaljujemo,</p>\n"
-"      </data>"
 
 #. module: delivery
 #: model:mail.template,body_html:delivery.mail_template_data_delivery_notification
@@ -132,58 +114,6 @@ msgid ""
 "        </table>\n"
 "      "
 msgstr ""
-"<?xml version=\"1.0\"?>\n"
-"<table border=\"0\" width=\"100%\" cellpadding=\"0\" bgcolor=\"#ededed\" style=\"font-family:Arial,Helvetica,sans-serif; padding: 20px; background-color: #ededed\" summary=\"o_mail_notification\">\n"
-"          <tbody>\n"
-"            <!-- HEADER -->\n"
-"            <tr>\n"
-"              <td align=\"center\" style=\"min-width: 590px;\">\n"
-"                <table width=\"650\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
-"                  <tr>\n"
-"                    <td valign=\"middle\">\n"
-"                      <span style=\"font-size:20px; color:white; font-weight: bold;\">${object.record_name}</span>\n"
-"                    </td>\n"
-"                    <td valign=\"middle\" align=\"right\">\n"
-"                      <img src=\"/logo.png\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${user.company_id.name}\"/>\n"
-"                    </td>\n"
-"                  </tr>\n"
-"                </table>\n"
-"              </td>\n"
-"            </tr>\n"
-"            <!-- CONTENT -->\n"
-"            <tr>\n"
-"              <td align=\"center\" style=\"min-width: 590px;\">\n"
-"                <table width=\"650\" border=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\" style=\"min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px;\">\n"
-"                  <tbody>\n"
-"                    <td valign=\"top\" style=\"color: #555; font-size: 14px;\">${object.body | safe}</td>\n"
-"                  </tbody>\n"
-"                </table>\n"
-"              </td>\n"
-"            </tr>\n"
-"            <!-- FOOTER -->\n"
-"            <tr>\n"
-"              <td align=\"center\" style=\"min-width: 590px;\">\n"
-"                <table width=\"650\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px;\">\n"
-"                  <tr>\n"
-"                    <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">${user.company_id.name}<br/>${user.company_id.phone or ''}</td>\n"
-"                    <td valign=\"middle\" align=\"right\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
-"                      % if user.company_id.email:\n"
-"                      <a href=\"mailto:${user.company_id.email}\" style=\"text-decoration:none; color: white;\">${user.company_id.email}</a><br/>\n"
-"                      % endif\n"
-"                      % if user.company_id.website:\n"
-"                        <a href=\"${user.company_id.website}\" style=\"text-decoration:none; color: white;\">${user.company_id.website}</a>\n"
-"                      % endif\n"
-"                    </td>\n"
-"                  </tr>\n"
-"                </table>\n"
-"              </td>\n"
-"            </tr>\n"
-"            <tr>\n"
-"              <td align=\"center\">Podržao <a href=\"https://www.odoo.com\">Odoo</a>.</td>\n"
-"            </tr>\n"
-"          </tbody>\n"
-"        </table>\n"
-"      "
 
 #. module: delivery
 #: code:addons/delivery/models/delivery_carrier.py:76
@@ -193,9 +123,6 @@ msgid ""
 "                    Buy Odoo Enterprise now to get more providers.\n"
 "                </p>"
 msgstr ""
-"<p class=\"oe_view_nocontent\">\n"
-"                    Kupite Odoo Enterprise odmah da biste dobili više provajdera.\n"
-"                </p>"
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.choose_delivery_package_view_form
@@ -211,7 +138,7 @@ msgstr "<strong>Prevoznik</strong>"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.report_delivery_document2
 msgid "<strong>Tracking Number</strong>"
-msgstr "<strong>Broj praćenja</strong>"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.report_delivery_document2
@@ -222,7 +149,7 @@ msgstr "<strong>Težina</strong>"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_integration_level
 msgid "Action while validating Delivery Orders"
-msgstr "Akcija dok se validiraju Zahtjevi za isporuku"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_active
@@ -284,7 +211,7 @@ msgstr "Prevoznik"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_order_form_with_carrier
 msgid "Check price"
-msgstr "Provjeri cijenu"
+msgstr ""
 
 #. module: delivery
 #: model:ir.actions.act_window,help:delivery.action_delivery_carrier_form
@@ -328,14 +255,7 @@ msgstr "Kreirano"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_debug_logging
 msgid "Debug logging"
-msgstr "Zapisnik programskih grešaka"
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:13
-#, python-format
-msgid "Debug requests"
-msgstr "Zahtjevi za traženje grešaka"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.menu,name:delivery.menu_delivery
@@ -350,7 +270,7 @@ msgstr "Prevoznik za isporuku"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_price_rule_form
 msgid "Delivery Cost"
-msgstr "Trošak dostave"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
@@ -360,7 +280,7 @@ msgstr "Informacija isporuke"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_delivery_message
 msgid "Delivery Message"
-msgstr "Poruka dostave"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_res_partner_property_delivery_carrier_id
@@ -380,7 +300,7 @@ msgstr "Metode ispuruke"
 #. module: delivery
 #: model:ir.model,name:delivery.model_choose_delivery_package
 msgid "Delivery Package Selection Wizard"
-msgstr "Čarobnjak odabira pakovanja dostave"
+msgstr ""
 
 #. module: delivery
 #: model:ir.actions.act_window,name:delivery.action_delivery_packaging_view
@@ -393,7 +313,7 @@ msgstr "Paketi isporuke"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_package_delivery_packaging_id
 #: model:ir.ui.view,arch_db:delivery.product_packaging_delivery_form
 msgid "Delivery Packaging"
-msgstr "Pakovanje dostave"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_delivery_price_rule
@@ -408,24 +328,17 @@ msgstr "Proizvod dostave"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_delivery_rating_success
 msgid "Delivery Rating Success"
-msgstr "Stopa uspješnosti dostave"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Destination Availability"
-msgstr "Dostupnost odredišta"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_sequence
 msgid "Determine the display order"
 msgstr "Odredi redosljed prikaza"
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:14
-#, python-format
-msgid "Disable debug"
-msgstr "Onemogući traženje grešaka"
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.choose_delivery_package_view_form
@@ -446,16 +359,6 @@ msgid ""
 "                UPS Express, UPS Standard) with a set of pricing rules attached\n"
 "                to each method."
 msgstr ""
-"Svaki dostavljač (npr. UPS) može imati nekoliko načina dostave (npr.\n"
-"                UPS Express, UPS Standard) sa određenim setom cijena za svaki\n"
-"                pojedini način."
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:16
-#, python-format
-msgid "Enable debug"
-msgstr "Omogući traženje grešaka"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_prod_environment
@@ -466,14 +369,14 @@ msgstr "Okruženje"
 #: code:addons/delivery/models/delivery_grid.py:109
 #, python-format
 msgid "Error: no matching grid."
-msgstr "Greška: nema odgovarajuće mreže."
+msgstr ""
 
 #. module: delivery
 #: code:addons/delivery/models/delivery_carrier.py:206
 #: code:addons/delivery/models/delivery_grid.py:50
 #, python-format
 msgid "Error: this delivery method is not available for this address."
-msgstr "Greška: ovaj način dostave nije dostupan za ovu adresu."
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_delivery_price
@@ -493,8 +396,6 @@ msgid ""
 "Filling this form allows you to filter delivery carriers according to the "
 "delivery address of your customer."
 msgstr ""
-"Popunjavanje ovog obrasca omogućava vam da filtrirate dostavljače prema "
-"adresi dostave za vašeg kupca."
 
 #. module: delivery
 #: selection:delivery.carrier,delivery_type:0
@@ -512,7 +413,7 @@ msgstr "Proizvod za besplatnu isporuku"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_free_over
 msgid "Free if order amount is above"
-msgstr "Besplatno ako je iznos narudžbe iznad"
+msgstr ""
 
 #. module: delivery
 #: selection:delivery.carrier,integration_level:0
@@ -558,8 +459,6 @@ msgid ""
 "If the order total amount (shipping excluded) is above or equal to this "
 "value, the customer benefits from a free shipping"
 msgstr ""
-"Ako je ukupni iznos narudžbe (bez dostave) veći ili jednak ovom iznosu, "
-"kupac može dobiti besplatnu dostavu."
 
 #. module: delivery
 #: code:addons/delivery/models/delivery_carrier.py:125
@@ -569,9 +468,6 @@ msgid ""
 "The shipping is free because the order amount exceeds %.2f.\n"
 "(The actual shipping cost is: %.2f)"
 msgstr ""
-"Napomena:\n"
-"Ova dostava je besplatna jer je vrijednost narudžbe iznad %.2f.\n"
-"(Stvarni troškovi dostave iznose: %.2f)"
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -627,7 +523,7 @@ msgstr "Dužina mora biti pozitivna"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_debug_logging
 msgid "Log requests in order to ease debugging"
-msgstr "Zapisnik zahtjeva radi lakšeg otklanjanja grešaka"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
@@ -647,7 +543,7 @@ msgstr "Marža ne može biti niža od -100%"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Margin on Rate"
-msgstr "Stopa marže"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_product_packaging_max_weight
@@ -688,19 +584,10 @@ msgid "No carrier set for this order."
 msgstr "Prevoznik nije postavljen za ovaj prodajni nalog."
 
 #. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:15
-#, python-format
-msgid "No debug"
-msgstr "Bez traženja grešaka"
-
-#. module: delivery
 #: code:addons/delivery/models/delivery_grid.py:100
 #, python-format
 msgid "No price rule matching this order; delivery cost cannot be computed."
 msgstr ""
-"Nema cjenovnih pravila za ovu narudžbu; troškovi dostave se ne mogu "
-"izračunati."
 
 #. module: delivery
 #: model:delivery.carrier,name:delivery.normal_delivery_carrier
@@ -754,7 +641,7 @@ msgstr "Operacije pakovanja"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_package_stock_quant_package_id
 msgid "Physical Package"
-msgstr "Fizički paket"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_quant_package
@@ -768,8 +655,6 @@ msgid ""
 "Please use \"Check price\" in order to compute a shipping price for this "
 "quotation."
 msgstr ""
-"Molimo koristite \"Provjeri cijenu\" da bi se izračunala cijena dostave za "
-"ovu ponudu."
 
 #. module: delivery
 #: selection:delivery.price.rule,variable:0
@@ -797,13 +682,6 @@ msgstr "Cijenovna pravila"
 #: model:ir.model,name:delivery.model_product_template
 msgid "Product Template"
 msgstr "Predlog proizvoda"
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:9
-#, python-format
-msgid "Production Environment"
-msgstr "Proizvodno okruženje"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_delivery_type
@@ -852,7 +730,7 @@ msgstr "Sačuvaj"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
 msgid "Send Confirmation Email"
-msgstr "Pošalji email potvrde"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
@@ -883,8 +761,6 @@ msgid ""
 "Shipment sent to carrier %s for shipping with tracking number %s<br/>Cost: "
 "%.2f %s"
 msgstr ""
-"Pošiljka poslana dostavljaču %s za isporuku sa brojem za praćenje "
-"%s<br/>Troškovi: %.2f %s"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_carrier_price
@@ -901,7 +777,7 @@ msgstr "Težina isporuke"
 #: model:ir.ui.view,arch_db:delivery.report_package_barcode_delivery
 #: model:ir.ui.view,arch_db:delivery.report_package_barcode_small_delivery
 msgid "Shipping Weight:"
-msgstr "Težina isporuke:"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_product_product_hs_code
@@ -920,27 +796,6 @@ msgid "Stock Move"
 msgstr "Kretanje zalihe"
 
 #. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:12
-#, python-format
-msgid "Switch to production environment"
-msgstr "Prebaci na proizvodno okruženje"
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:10
-#, python-format
-msgid "Switch to test environment"
-msgstr "Prebaci na testno okruženje"
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:11
-#, python-format
-msgid "Test Environment"
-msgstr "Testno okruženje"
-
-#. module: delivery
 #: model:delivery.carrier,name:delivery.delivery_carrier
 #: model:product.product,name:delivery.product_product_delivery_poste
 #: model:product.template,name:delivery.product_product_delivery_poste_product_template
@@ -954,9 +809,6 @@ msgid ""
 "                according to your settings; on the sales order (based on the\n"
 "                quotation) or the invoice (based on the delivery orders)."
 msgstr ""
-"Ovi načini vam omogućavaju automatski izračun cijena dostave\n"
-"                prema vašim postavkama; na nalogu za prodaju (na osnovu\n"
-"                ponude) ili računa (zasnovano na nalozima za dostavu)."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_res_partner_property_delivery_carrier_id
@@ -968,7 +820,7 @@ msgstr ""
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_margin
 msgid "This percentage will be added to the shipping price."
-msgstr "Ovaj postotak će biti dodan na cijenu dostave."
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
@@ -983,7 +835,7 @@ msgstr "Referenca praćenja"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_carrier_tracking_url
 msgid "Tracking URL"
-msgstr "URL praćenja"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_picking
@@ -1053,7 +905,7 @@ msgstr "Težina za isporuku"
 #: model:ir.ui.view,arch_db:delivery.report_package_barcode_delivery
 #: model:ir.ui.view,arch_db:delivery.report_package_barcode_small_delivery
 msgid "Weight:"
-msgstr "Težina:"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_product_packaging_width
@@ -1079,7 +931,7 @@ msgstr ""
 #: code:addons/delivery/models/sale_order.py:71
 #, python-format
 msgid "You can add delivery price only on unconfirmed quotations."
-msgstr "Možete dodati cijene dostave samo na nepotvrđene ponude."
+msgstr ""
 
 #. module: delivery
 #: code:addons/delivery/models/stock_picking.py:182
@@ -1088,8 +940,6 @@ msgid ""
 "Your delivery method has no redirect on courier provider's website to track "
 "this order."
 msgstr ""
-"Vaš način isporuke nema preusmjerenje na web stranicu dostavljača da bi se "
-"pratila ova narudžba."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_zip_from

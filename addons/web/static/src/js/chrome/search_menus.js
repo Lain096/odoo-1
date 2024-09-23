@@ -387,6 +387,7 @@ return Widget.extend({
         prop.destroy();
     },
     commit_search: function () {
+        console.log('Estoy en el control....')
         var filters = _.invoke(this.propositions, 'get_filter'),
             filters_widgets = _.map(filters, function (filter) {
                 return new search_inputs.Filter(filter, this);

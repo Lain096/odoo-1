@@ -3,20 +3,17 @@
 # * account_asset
 # 
 # Translators:
+# Yihya Hugirat <hugirat@gmail.com>, 2017
 # שהאב חוסיין <shhab89@gmail.com>, 2018
 # Martin Trigaux, 2018
 # ExcaliberX <excaliberx@gmail.com>, 2018
-# Yihya Hugirat <hugirat@gmail.com>, 2018
-# דודי מלכה <Dudimalka6@gmail.com>, 2019
-# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-09-20 10:14+0000\n"
-"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020\n"
+"PO-Revision-Date: 2017-11-30 13:11+0000\n"
+"Last-Translator: ExcaliberX <excaliberx@gmail.com>, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +31,7 @@ msgstr " (העתק)"
 #: code:addons/account_asset/models/account_asset.py:540
 #, python-format
 msgid " (grouped)"
-msgstr "(מקובץ)"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_entry_count
@@ -61,7 +58,7 @@ msgstr ""
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_depreciation_confirmation_wizard_date
 msgid "Account Date"
-msgstr "תאריך חשבון"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_move
@@ -71,20 +68,20 @@ msgstr "רשומת החשבון"
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_account_depreciation_id
 msgid "Account used in the depreciation entries, to decrease the asset value."
-msgstr "חשבון לפקודות פחת, להפחתת ערך הנכס."
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_account_depreciation_expense_id
 msgid ""
 "Account used in the periodical entries, to record a part of the asset as "
 "expense."
-msgstr "חשבון לפקודות תקופתיות הזוקף חלק מהנכס כהוצאה."
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_account_asset_id
 msgid ""
 "Account used to record the purchase of the asset at its original price."
-msgstr "חשבון המשמש לרישום רכישת הנכס במחירו המקורי."
+msgstr ""
 
 #. module: account_asset
 #. openerp-web
@@ -102,7 +99,7 @@ msgstr "פעיל"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Additional Options"
-msgstr "אפשרויות נוספות"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:597
@@ -113,12 +110,12 @@ msgstr "סכום"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_depreciation_value
 msgid "Amount of Depreciation Lines"
-msgstr "סכום פקודות פחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_installment_value
 msgid "Amount of Installment Lines"
-msgstr "סכום פקודות התשלום"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_account_analytic_id
@@ -138,14 +135,14 @@ msgstr "פעיל"
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_account_asset_id
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_search
 msgid "Asset Account"
-msgstr "חשבון הנכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_invoice_line_asset_category_id
 #: model:ir.ui.view,arch_db:account_asset.view_asset_asset_report_search
 #: model:ir.ui.view,arch_db:account_asset.view_invoice_asset_category
 msgid "Asset Category"
-msgstr "סוג נכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.asset_modify_form
@@ -165,7 +162,7 @@ msgstr ""
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_name
 msgid "Asset Name"
-msgstr "שם הנכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_invoice_line_asset_start_date
@@ -178,14 +175,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_asset.field_product_template_asset_category_id
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Asset Type"
-msgstr "סוג הנכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.actions.act_window,name:account_asset.action_account_asset_asset_list_normal_purchase
 #: model:ir.ui.menu,name:account_asset.menu_action_account_asset_asset_list_normal_purchase
 #: model:ir.ui.view,arch_db:account_asset.res_config_settings_view_form
 msgid "Asset Types"
-msgstr "סוגי נכסים"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_asset_category
@@ -193,13 +190,13 @@ msgstr "סוגי נכסים"
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_tree
 msgid "Asset category"
-msgstr "קטגורית הנכס"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:286
 #, python-format
 msgid "Asset created"
-msgstr "נכס נוצר"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_asset_depreciation_line
@@ -210,12 +207,12 @@ msgstr ""
 #: code:addons/account_asset/models/account_asset.py:318
 #, python-format
 msgid "Asset sold or disposed. Accounting entry awaiting for validation."
-msgstr "נכס נמכר או נגרע. פקודת היומן ממתינה לאישור."
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_asset_asset
 msgid "Asset/Revenue Recognition"
-msgstr "הכרה בנכס או הכנסה"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.actions.act_window,name:account_asset.action_account_asset_asset_form
@@ -243,17 +240,17 @@ msgstr ""
 #. module: account_asset
 #: model:ir.ui.menu,name:account_asset.menu_finance_config_assets
 msgid "Assets and Revenues"
-msgstr "נכסים והכנסות"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_search
 msgid "Assets in closed state"
-msgstr "נכסים לא מופעלים"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_search
 msgid "Assets in draft and open states"
-msgstr "נכסים במצב טיוטה או פתוח"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_asset_report_search
@@ -286,7 +283,7 @@ msgstr "קטגוריה"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Category of asset"
-msgstr "קטגורית הנכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_open_asset
@@ -347,7 +344,7 @@ msgstr "חברה"
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_method
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_method
 msgid "Computation Method"
-msgstr "שיטת ההפחתה"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_depreciation_confirmation_wizard
@@ -357,7 +354,7 @@ msgstr ""
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Compute Depreciation"
-msgstr "חשב פחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
@@ -397,7 +394,7 @@ msgstr "נוצר ב-"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_depreciated_value
 msgid "Cumulative Depreciation"
-msgstr "פחת מצטבר"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:597
@@ -425,7 +422,7 @@ msgstr "תאריך"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Date of asset"
-msgstr "תאריך הנכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_asset_report_search
@@ -435,36 +432,36 @@ msgstr ""
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_asset_report_search
 msgid "Date of depreciation"
-msgstr "תאריך הפחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Deferred Revenue Account"
-msgstr "חשבון להקמת ההכנסה הנדחית"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_product_product_deferred_revenue_category_id
 #: model:ir.model.fields,field_description:account_asset.field_product_template_deferred_revenue_category_id
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Deferred Revenue Type"
-msgstr "סוג של הכנסה נדחית"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_search
 msgid "Deferred Revenues"
-msgstr "הכנסות נדחות"
+msgstr ""
 
 #. module: account_asset
 #: selection:account.asset.asset,method:0
 #: selection:account.asset.category,method:0
 msgid "Degressive"
-msgstr "אחוז קבוע מהיתרה הפוחתת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_method_progress_factor
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_method_progress_factor
 msgid "Degressive Factor"
-msgstr "האחוז הקבוע"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
@@ -474,23 +471,23 @@ msgstr "הוצאה משימוש"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Depreciation Board"
-msgstr "לוח פחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_depreciation_date
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_depreciation_date
 msgid "Depreciation Date"
-msgstr "תאריך פחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_account_depreciation_id
 msgid "Depreciation Entries: Asset Account"
-msgstr "פקודות פחת: חשבון הנכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_account_depreciation_expense_id
 msgid "Depreciation Entries: Expense Account"
-msgstr "פקודות פחת: הוצאות פחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_move_id
@@ -500,23 +497,23 @@ msgstr ""
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Depreciation Information"
-msgstr "מידע על הפחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_depreciation_line_ids
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Depreciation Lines"
-msgstr "שורות פחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Depreciation Method"
-msgstr "שיטת פחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_asset_report_search
 msgid "Depreciation Month"
-msgstr "חודש פחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_name
@@ -527,7 +524,7 @@ msgstr ""
 #: code:addons/account_asset/wizard/asset_modify.py:85
 #, python-format
 msgid "Depreciation board modified"
-msgstr "לוח הפחת שונה"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:600
@@ -549,13 +546,13 @@ msgstr "השם המוצג"
 #: code:addons/account_asset/models/account_asset.py:327
 #, python-format
 msgid "Disposal Move"
-msgstr "פקודת גריעה"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:330
 #, python-format
 msgid "Disposal Moves"
-msgstr "פקודות גריעה"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:579
@@ -602,22 +599,22 @@ msgstr ""
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_depreciation_confirmation_wizard
 msgid "Generate Entries"
-msgstr "צור פקודות יומן"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_gross_value
 msgid "Gross Amount"
-msgstr "סכום ברוטו"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_value
 msgid "Gross Value"
-msgstr "ערך ברוטו"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Gross value of asset"
-msgstr "ערך ברוטו של נכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_asset_report_search
@@ -633,7 +630,7 @@ msgstr "קבץ לפי..."
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_group_entries
 msgid "Group Journal Entries"
-msgstr "קבץ רשומות יומן"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_id
@@ -675,7 +672,7 @@ msgstr "שורה בחשבונית"
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_asset_salvage_value
 msgid "It is the amount you plan to have that you cannot depreciate."
-msgstr "הסכום שאתה מתכנן שיהיה לך שאתה לא יכול להפחית."
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
@@ -692,7 +689,7 @@ msgstr "יומנים"
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 #, python-format
 msgid "Journal Entries"
-msgstr "רשומות יומן"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset___last_update
@@ -726,7 +723,7 @@ msgstr "תאריך עדכון אחרון"
 #: selection:account.asset.asset,method:0
 #: selection:account.asset.category,method:0
 msgid "Linear"
-msgstr "ליניארי"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_move_check
@@ -736,19 +733,19 @@ msgstr ""
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.asset_modify_form
 msgid "Modify"
-msgstr "שנה"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.actions.act_window,name:account_asset.action_asset_modify
 #: model:ir.model,name:account_asset.model_asset_modify
 #: model:ir.ui.view,arch_db:account_asset.asset_modify_form
 msgid "Modify Asset"
-msgstr "בצע שינויים בנכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Modify Depreciation"
-msgstr "בצע שינויים בפחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_search
@@ -758,7 +755,7 @@ msgstr "חודש"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_invoice_line_asset_mrr
 msgid "Monthly Recurring Revenue"
-msgstr "הכנסות חודשיות חוזרות"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_remaining_value
@@ -775,24 +772,24 @@ msgstr "הערה"
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_method_number
 #: model:ir.model.fields,field_description:account_asset.field_asset_modify_method_number
 msgid "Number of Depreciations"
-msgstr "מספר פקודות פחת"
+msgstr ""
 
 #. module: account_asset
 #: selection:account.asset.asset,method_time:0
 #: selection:account.asset.category,method_time:0
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Number of Entries"
-msgstr "מספר רשומות"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_method_period
 msgid "Number of Months in a Period"
-msgstr "מספר החודשים בין פקודות"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "One Entry Every"
-msgstr "פקודת יומן כל"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:599
@@ -806,17 +803,17 @@ msgstr "שותף"
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_method_period
 #: model:ir.model.fields,field_description:account_asset.field_asset_modify_method_period
 msgid "Period Length"
-msgstr "אורך תקופה"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Periodicity"
-msgstr "מחזוריות"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.actions.act_window,name:account_asset.action_asset_depreciation_confirmation_wizard
 msgid "Post Depreciation Lines"
-msgstr "רשום תנועות פחת"
+msgstr ""
 
 #. module: account_asset
 #. openerp-web
@@ -831,7 +828,7 @@ msgstr "פורסם"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_posted_value
 msgid "Posted Amount"
-msgstr "פחת שנרשם"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_asset_report_search
@@ -847,7 +844,7 @@ msgstr "תבנית לפריט"
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_prorata
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_prorata
 msgid "Prorata Temporis"
-msgstr "הפחתה ממועד ההפעלה"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:370
@@ -865,12 +862,12 @@ msgstr "רכש"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_asset_report_search
 msgid "Purchase Month"
-msgstr "חודש רכישה"
+msgstr ""
 
 #. module: account_asset
 #: selection:account.asset.category,type:0
 msgid "Purchase: Asset"
-msgstr "רכש: נכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_modify_name
@@ -880,12 +877,12 @@ msgstr "סיבה"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Recognition Account"
-msgstr "חשבון לחיוב ההכנסה הנדחית שהוכרה"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Recognition Income Account"
-msgstr "חשבון ההכנסות"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_code
@@ -900,7 +897,7 @@ msgstr "שארית"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_value_residual
 msgid "Residual Value"
-msgstr "סכום להכרה"
+msgstr ""
 
 #. module: account_asset
 #: selection:account.asset.asset,state:0 selection:asset.asset.report,state:0
@@ -911,7 +908,7 @@ msgstr "פעיל"
 #. module: account_asset
 #: selection:account.asset.category,type:0
 msgid "Sale: Revenue Recognition"
-msgstr "מכירה: הכרה בהכנסה"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_search
@@ -921,17 +918,17 @@ msgstr "מכירות"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_salvage_value
 msgid "Salvage Value"
-msgstr "ערך שארית"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_search
 msgid "Search Asset Category"
-msgstr "חפש סוג נכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "Sell or Dispose"
-msgstr "מכור או גרע"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_sequence
@@ -951,7 +948,7 @@ msgstr ""
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_parent_state
 msgid "State of Asset"
-msgstr "מצב הנכס"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_state
@@ -968,7 +965,7 @@ msgstr ""
 #: model:ir.model.fields,help:account_asset.field_account_asset_asset_method_number
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_method_number
 msgid "The number of depreciations needed to depreciate your asset"
-msgstr "מספר פקודות הפחת הנדרשות לצורך ביצוע פחת על הנכס שלך"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_invoice.py:62
@@ -997,13 +994,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_method_time
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_method_time
 msgid "Time Method"
-msgstr "שיטת ההכרה בהכנסה"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Time Method Based On"
-msgstr "קריטריון למחזוריות הפחת"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_type
@@ -1017,12 +1014,12 @@ msgstr "סוג"
 #: code:addons/account_asset/static/src/js/account_asset.js:55
 #, python-format
 msgid "Unposted"
-msgstr "לא נרשם"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_unposted_value
 msgid "Unposted Amount"
-msgstr "פחת שלא נרשם"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
@@ -1066,7 +1063,7 @@ msgstr ""
 #: code:addons/account_asset/models/account_asset.py:610
 #, python-format
 msgid "You cannot delete posted installment lines."
-msgstr "אינך יכול למחוק שורות תשלומים שפורסמו."
+msgstr ""
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_asset_depreciation_confirmation_wizard
@@ -1076,12 +1073,12 @@ msgstr ""
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "e.g. Computers"
-msgstr "למשל מחשבים"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_asset_form
 msgid "e.g. Laptop iBook"
-msgstr "למשל מחשב נייד iBook"
+msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.asset_modify_form

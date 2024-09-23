@@ -7,16 +7,13 @@
 # שהאב חוסיין <shhab89@gmail.com>, 2018
 # Martin Trigaux, 2018
 # ExcaliberX <excaliberx@gmail.com>, 2018
-# דודי מלכה <Dudimalka6@gmail.com>, 2019
-# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:24+0000\n"
-"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2019\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
+"Last-Translator: ExcaliberX <excaliberx@gmail.com>, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,14 +29,14 @@ msgstr ""
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_to_batch_form
 msgid "Add pickings to batch"
-msgstr "הוסף את הבחירות לאצווה"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_to_batch_action
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_to_batch_action_stock_picking
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_to_batch_form
 msgid "Add to Batch"
-msgstr "הוסף לאצווה"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.view_picking_internal_search_inherit_stock_picking_batch
@@ -54,28 +51,28 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 #, python-format
 msgid "Batch Picking"
-msgstr "בחירת אצווה"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch_name
 msgid "Batch Picking Name"
-msgstr "שם ליקוט הזמנות מרובות"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_batch_action
 #: model:ir.ui.menu,name:stock_picking_batch.stock_picking_batch_menu
 msgid "Batch Pickings"
-msgstr "קבוצת איסופים"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Batch Pickings not finished"
-msgstr "בחירת אצווה לא גמור"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch_id_8938
 msgid "Batch associated to this picking"
-msgstr "אצווה המשויכת לבחירה זו"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
@@ -86,7 +83,7 @@ msgstr "בטל"
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Cancel picking"
-msgstr "בטל בחירה"
+msgstr ""
 
 #. module: stock_picking_batch
 #: selection:stock.picking.batch,state:0
@@ -106,7 +103,7 @@ msgstr "אשר"
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Confirm picking"
-msgstr "אשר בחירה "
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch_create_uid
@@ -171,13 +168,13 @@ msgstr ""
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_immediate_transfer
 msgid "Immediate Transfer"
-msgstr "העברה מיידית"
+msgstr ""
 
 #. module: stock_picking_batch
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:92
 #, python-format
 msgid "Immediate Transfer?"
-msgstr "העברה מיידית?"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
@@ -205,39 +202,39 @@ msgstr "תאריך עדכון אחרון"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch_picking_ids
 msgid "List of picking associated to this batch"
-msgstr "רשימת בחירה המשויכת לאצווה זו"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch_name
 msgid "Name of the batch picking"
-msgstr "שם של ליקוט הזמנות מרובות"
+msgstr ""
 
 #. module: stock_picking_batch
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:52
 #, python-format
 msgid "Nothing to print."
-msgstr "אין מה להדפיס."
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch_user_id
 msgid "Person responsible for this batch picking"
-msgstr "אחראי על בחירת אצווה זו"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_immediate_transfer_pick_to_backorder_ids
 msgid "Pick To Backorder"
-msgstr "לקט להזמנה חוזרת"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_immediate_transfer_pick_to_backorder_ids
 msgid "Picking to backorder"
-msgstr "ליקוט להזמנה חוזרת"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch_picking_ids
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Pickings"
-msgstr "בחירות"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
@@ -257,12 +254,12 @@ msgstr "פעיל"
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Search Batch Picking"
-msgstr "חפש ליקוט הזמנות מרובות"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_to_batch_form
 msgid "Select a batch"
-msgstr "בחר אצווה"
+msgstr ""
 
 #. module: stock_picking_batch
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:59
@@ -271,7 +268,6 @@ msgid ""
 "Some pickings are still waiting for goods. Please check or force their "
 "availability before setting this batch to done."
 msgstr ""
-"כמה קטעים עדיין מחכים לסחורה. בדוק או אלץ את זמינותם לפני הגדרת אצווה זו."
 
 #. module: stock_picking_batch
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:77
@@ -309,7 +305,7 @@ msgstr "מחוז"
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_tree
 msgid "Stock Batch Picking"
-msgstr "מלאי של ליקוט הזמנות מרובות"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
@@ -319,10 +315,6 @@ msgid ""
 "            It may also be useful to assign jobs (one person = one batch) or\n"
 "            help the timing management of operations (tasks to be done at 1pm)."
 msgstr ""
-"מטרת בחירת האצווה היא לבצע פעולות קבוצתיות\n"
-"(צריך) שנדרש לבצע יחד על מנת להגביר את היעילות שלהם.\n"
-"זה עשוי להיות גם שימושי כדי להקצות מקומות עבודה (אדם אחד = אצווה אחת) או\n"
-"לסייע וניהול תזמון הפעולות (משימות להיעשות בשעה 13:00)."
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_picking
@@ -333,7 +325,7 @@ msgstr "העברה"
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:63
 #, python-format
 msgid "Transferred by"
-msgstr "הועברו על ידי"
+msgstr ""
 
 #. module: stock_picking_batch
 #: model:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter

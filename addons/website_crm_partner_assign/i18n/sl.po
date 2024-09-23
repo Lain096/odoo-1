@@ -4,21 +4,17 @@
 # 
 # Translators:
 # matjaz k <matjaz@mentis.si>, 2018
+# Martin Trigaux, 2018
+# Matjaž Mozetič <m.mozetic@matmoz.si>, 2018
 # Vida Potočnik <vida.potocnik@mentis.si>, 2018
 # jl2035 <jaka.luthar@gmail.com>, 2018
-# Martin Trigaux, 2018
-# Matjaz Mozetic <m.mozetic@matmoz.si>, 2019
-# Jasmina Macur <jasmina@hbs.si>, 2019
-# Grega Vavtar <grega@hbs.si>, 2019
-# Tadej Lupšina <tadej@hbs.si>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:25+0000\n"
-"Last-Translator: Tadej Lupšina <tadej@hbs.si>, 2019\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
+"Last-Translator: jl2035 <jaka.luthar@gmail.com>, 2018\n"
 "Language-Team: Slovenian (https://www.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -141,7 +137,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_lead
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "<strong>Message and communication history</strong>"
-msgstr "<strong>Komunikacije in kronologija</strong>"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: model:ir.model.fields,field_description:website_crm_partner_assign.field_crm_partner_report_assign_activation
@@ -385,7 +381,7 @@ msgstr "Datum pregleda"
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "Deadline:"
-msgstr "Rok:"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: model:ir.model.fields,field_description:website_crm_partner_assign.field_crm_lead_report_assign_delay_open
@@ -425,7 +421,7 @@ msgstr "Ste vzpostavili stik s kupcem?"
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "Edit Contact"
-msgstr "Uredi stik"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
@@ -476,7 +472,7 @@ msgstr "Filtriranje po državi"
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "Filter by Level"
-msgstr "Filtriraj po stopnji"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: model:ir.model.fields,field_description:website_crm_partner_assign.field_crm_lead_forward_to_partner_partner_id
@@ -640,7 +636,7 @@ msgstr "Indic"
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_lead
 msgid "Lead -"
-msgstr "Indic -"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.view_report_crm_lead_assign_graph
@@ -756,7 +752,7 @@ msgstr "Naziv"
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunities
 msgid "New Opportunity"
-msgstr "Nova priložnost"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: code:addons/website_crm_partner_assign/controllers/main.py:52
@@ -845,7 +841,7 @@ msgstr "Naši partnerji"
 #: code:addons/website_crm_partner_assign/controllers/main.py:104
 #, python-format
 msgid "Overdue Activities"
-msgstr "Zapadle aktivnosti"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: model:ir.model.fields,field_description:website_crm_partner_assign.field_crm_lead_report_assign_delay_expected
@@ -956,7 +952,7 @@ msgstr "Prioriteta"
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "Priority:"
-msgstr "Prioriteta:"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: code:addons/website_crm_partner_assign/controllers/main.py:113
@@ -995,7 +991,7 @@ msgstr "Preprodajalci"
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.view_report_crm_lead_assign_filter
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.view_report_crm_partner_assign_filter
 msgid "Sales Channel"
-msgstr "Prodajni kanal"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_lead
@@ -1092,7 +1088,7 @@ msgstr "Predloge posredovane e-pošte ni v podatkovni zbirki"
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_leads
 msgid "There are no leads."
-msgstr "Ni indicev."
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunities
@@ -1103,12 +1099,12 @@ msgstr ""
 #: code:addons/website_crm_partner_assign/controllers/main.py:102
 #, python-format
 msgid "This Week Activities"
-msgstr "Aktivnosti v tem tednu"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_lead
 msgid "This lead is a spam"
-msgstr "Ta indic je neželena pošta"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunities
@@ -1119,7 +1115,7 @@ msgstr "Naziv"
 #: code:addons/website_crm_partner_assign/controllers/main.py:101
 #, python-format
 msgid "Today Activities"
-msgstr "Današnje aktivnosti"
+msgstr ""
 
 #. module: website_crm_partner_assign
 #: model:ir.model.fields,field_description:website_crm_partner_assign.field_crm_partner_report_assign_turnover
@@ -1212,7 +1208,7 @@ msgstr "npr. Zlati partner"
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "on"
-msgstr "na"
+msgstr "vklopljeno"
 
 #. module: website_crm_partner_assign
 #: model:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunities

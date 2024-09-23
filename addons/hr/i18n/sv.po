@@ -7,14 +7,12 @@
 # Robert Frykelius <robert.frykelius@linserv.se>, 2017
 # Patrik Lermon <patrik.lermon@gmail.com>, 2017
 # Daniel Forslund <daniel.forslund@gmail.com>, 2017
-# Kristoffer Grundström <lovaren@gmail.com>, 2018
+# Kristoffer Grundström <hamnisdude@gmail.com>, 2018
 # Frida E, 2018
 # Martin Trigaux, 2018
 # Peter Wickenberg <peter@wickenberg.nu>, 2018
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2018
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2018
-# Åke C. Engquist <ake.engquist@arbetsformedlingen.se>, 2020
-# Jakob Krabbe <jakob.krabbe@vertel.se>, 2020
 # 
 msgid ""
 msgstr ""
@@ -22,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:17+0000\n"
-"Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2020\n"
+"Last-Translator: Chrille Hedberg <hedberg.chrille@gmail.com>, 2018\n"
 "Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,7 +69,7 @@ msgstr "<i>Du lär dig självständigt och snabbt</i>"
 #: model:hr.job,website_description:hr.job_hrm
 #: model:hr.job,website_description:hr.job_marketing
 msgid "<i>You easily manage them</i>"
-msgstr "<i>Du kan enkelt hantera dem</i>"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.res_config_settings_view_form
@@ -229,7 +227,7 @@ msgstr "Klicka för att definiera en ny arbetsroll"
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Close to the perfection ..."
-msgstr "Nära perfektion ..."
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_coach_id
@@ -260,7 +258,7 @@ msgstr "Bolag"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings_resource_calendar_id
 msgid "Company Working Hours"
-msgstr "Företagets arbetstid"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_complete_name
@@ -515,7 +513,7 @@ msgstr ""
 #: model:hr.job,website_description:hr.job_developer
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Good knowledge of the programming language"
-msgstr "God kännedom av programmeringsspråket"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_cto
@@ -928,12 +926,12 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_address_home_id
 msgid "Private Address"
-msgstr "Privatadress"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Private Information"
-msgstr "Privat information"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
@@ -953,7 +951,7 @@ msgstr "Rekrytering"
 #. module: hr
 #: selection:hr.job,state:0
 msgid "Recruitment in Progress"
-msgstr "Pågående rekrytering"
+msgstr ""
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
@@ -1058,7 +1056,7 @@ msgstr "Singel"
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
 msgid "Skills"
-msgstr "Kompetens"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_image_small
@@ -1190,7 +1188,7 @@ msgstr "Användare"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.hr_job_view_kanban
 msgid "Vacancies :"
-msgstr "Lediga platser :"
+msgstr ""
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_visa_expire
@@ -1247,7 +1245,7 @@ msgstr ""
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
 msgid "What we offer"
-msgstr "Vad vi erbjuder"
+msgstr ""
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
@@ -1258,7 +1256,7 @@ msgstr "Vad vi erbjuder"
 #: model:hr.job,website_description:hr.job_marketing
 #: model:hr.job,website_description:hr.job_trainee
 msgid "What you will do ..."
-msgstr "Vad du kommer att göra..."
+msgstr ""
 
 #. module: hr
 #: selection:hr.employee,marital:0

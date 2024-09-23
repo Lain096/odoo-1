@@ -7,16 +7,15 @@
 # Michal Veselý <michal@veselyberanek.net>, 2018
 # Martin Trigaux, 2018
 # Ladislav Tomm <tomm@helemik.cz>, 2018
-# Rastislav Brencic <rastislav.brencic@azet.sk>, 2020
-# trendspotter, 2021
+# trendspotter <j.podhorecky@volny.cz>, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 15:01+0000\n"
+"POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2017-09-20 10:16+0000\n"
-"Last-Translator: trendspotter, 2021\n"
+"Last-Translator: trendspotter <j.podhorecky@volny.cz>, 2018\n"
 "Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -185,7 +184,7 @@ msgstr "Na základě pravidel"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_weight_bulk
 msgid "Bulk Weight"
-msgstr "Objemová hmotnost"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_stock_quant_package_shipping_weight
@@ -260,13 +259,6 @@ msgid "Debug logging"
 msgstr ""
 
 #. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:13
-#, python-format
-msgid "Debug requests"
-msgstr ""
-
-#. module: delivery
 #: model:ir.ui.menu,name:delivery.menu_delivery
 msgid "Delivery"
 msgstr "Dodání"
@@ -274,7 +266,7 @@ msgstr "Dodání"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_search
 msgid "Delivery Carrier"
-msgstr "Přepravce zásilek"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_price_rule_form
@@ -316,7 +308,7 @@ msgstr ""
 #: model:ir.ui.menu,name:delivery.menu_delivery_packagings
 #: model:ir.ui.view,arch_db:delivery.product_packaging_delivery_tree
 msgid "Delivery Packages"
-msgstr "Dodací balíčky"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_package_delivery_packaging_id
@@ -327,7 +319,7 @@ msgstr "Dodací balení"
 #. module: delivery
 #: model:ir.model,name:delivery.model_delivery_price_rule
 msgid "Delivery Price Rules"
-msgstr "Pravidla ceny doručení"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_product_id
@@ -347,13 +339,6 @@ msgstr "Dostupnost cíle"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_sequence
 msgid "Determine the display order"
-msgstr "Určete pořadí zobrazení"
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:14
-#, python-format
-msgid "Disable debug"
 msgstr ""
 
 #. module: delivery
@@ -375,16 +360,6 @@ msgid ""
 "                UPS Express, UPS Standard) with a set of pricing rules attached\n"
 "                to each method."
 msgstr ""
-"Každý dopravce (např. UPS) může mít několik způsobů doručení (např. UPS "
-"Express, UPS Standard) se sadou cenových pravidel připojených ke každému "
-"způsobu."
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:16
-#, python-format
-msgid "Enable debug"
-msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_prod_environment
@@ -392,6 +367,7 @@ msgid "Environment"
 msgstr "Prostředí"
 
 #. module: delivery
+#: code:addons/delivery/models/delivery_grid.py:50
 #: code:addons/delivery/models/delivery_grid.py:109
 #, python-format
 msgid "Error: no matching grid."
@@ -402,7 +378,7 @@ msgstr ""
 #: code:addons/delivery/models/delivery_grid.py:50
 #, python-format
 msgid "Error: this delivery method is not available for this address."
-msgstr "Chyba: tato metoda doručení není k dispozici pro tuto adresu."
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_delivery_price
@@ -413,8 +389,6 @@ msgstr "Odhadovaná dodací cena"
 #: model:ir.model.fields,help:delivery.field_sale_order_carrier_id
 msgid "Fill this field if you plan to invoice the shipping based on picking."
 msgstr ""
-"Vyplňte toto pole, pokud máte v úmyslu fakturovat přepravu na základě "
-"vyzvednutí."
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -436,22 +410,22 @@ msgstr "Pevná cena"
 #: model:product.product,name:delivery.product_product_delivery
 #: model:product.template,name:delivery.product_product_delivery_product_template
 msgid "Free delivery charges"
-msgstr "Doprava zdarma"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_free_over
 msgid "Free if order amount is above"
-msgstr "Zdarma, pokud je objednávka vyšší"
+msgstr ""
 
 #. module: delivery
 #: selection:delivery.carrier,integration_level:0
 msgid "Get Rate"
-msgstr "Získejte sazbu"
+msgstr ""
 
 #. module: delivery
 #: selection:delivery.carrier,integration_level:0
 msgid "Get Rate and Create Shipment"
-msgstr "Získejte sazbu a vytvořte zásilku"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_search
@@ -462,7 +436,7 @@ msgstr "Seskupit podle"
 #: model:ir.model.fields,field_description:delivery.field_product_product_hs_code
 #: model:ir.model.fields,field_description:delivery.field_product_template_hs_code
 msgid "HS Code"
-msgstr "HS kód"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_product_packaging_height
@@ -487,8 +461,6 @@ msgid ""
 "If the order total amount (shipping excluded) is above or equal to this "
 "value, the customer benefits from a free shipping"
 msgstr ""
-"Pokud je celková částka objednávky (bez dopravy) vyšší nebo rovna této "
-"hodnotě, zákazník má benefit z bezplatné dopravy"
 
 #. module: delivery
 #: code:addons/delivery/models/delivery_carrier.py:125
@@ -502,12 +474,12 @@ msgstr ""
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "Install more Providers"
-msgstr "Instalovat více poskytovatelů"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_integration_level
 msgid "Integration Level"
-msgstr "Úroveň integrace"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_invoice_shipping_on_delivery
@@ -517,7 +489,7 @@ msgstr "Zaslání faktury při dodání"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_line_is_delivery
 msgid "Is a Delivery"
-msgstr "Je dodávka"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_package___last_update
@@ -568,7 +540,7 @@ msgstr "Marže"
 #. module: delivery
 #: sql_constraint:delivery.carrier:0
 msgid "Margin cannot be lower than -100%"
-msgstr "Marže nemůže být nižší než -100%"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -614,13 +586,6 @@ msgid "No carrier set for this order."
 msgstr ""
 
 #. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:15
-#, python-format
-msgid "No debug"
-msgstr ""
-
-#. module: delivery
 #: code:addons/delivery/models/delivery_grid.py:100
 #, python-format
 msgid "No price rule matching this order; delivery cost cannot be computed."
@@ -631,7 +596,7 @@ msgstr ""
 #: model:product.product,name:delivery.product_product_delivery_normal
 #: model:product.template,name:delivery.product_product_delivery_normal_product_template
 msgid "Normal Delivery Charges"
-msgstr "Normální poplatky za doručení"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_number_of_packages
@@ -651,14 +616,14 @@ msgstr "Balení"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_product_packaging_shipper_package_code
 msgid "Package Code"
-msgstr "Kód balení"
+msgstr ""
 
 #. module: delivery
 #: code:addons/delivery/models/stock_picking.py:34
 #: code:addons/delivery/models/stock_picking.py:124
 #, python-format
 msgid "Package Details"
-msgstr "Detaily balení"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_package_ids
@@ -703,7 +668,7 @@ msgstr "Cena"
 #: model:ir.ui.view,arch_db:delivery.view_delivery_price_rule_form
 #: model:ir.ui.view,arch_db:delivery.view_delivery_price_rule_tree
 msgid "Price Rules"
-msgstr "Cenová pravidla"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
@@ -713,19 +678,12 @@ msgstr "Ceny"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_price_rule_ids
 msgid "Pricing Rules"
-msgstr "Cenová pravidla"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_product_template
 msgid "Product Template"
 msgstr "Šablona výrobku"
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:9
-#, python-format
-msgid "Production Environment"
-msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_delivery_type
@@ -754,7 +712,7 @@ msgstr "Vrátit dodávku"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule_list_base_price
 msgid "Sale Base Price"
-msgstr "Základní cena prodeje"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule_list_price
@@ -779,7 +737,7 @@ msgstr "Odeslat potvrzovací e-mail"
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
 msgid "Send to Shipper"
-msgstr "Poslat odesílateli"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_sequence
@@ -796,8 +754,6 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_prod_environment
 msgid "Set to True if your credentials are certified for production."
 msgstr ""
-"Pokud jsou vaše přihlašovací údaje certifikovány pro výrobu, nastavte na "
-"true."
 
 #. module: delivery
 #: code:addons/delivery/models/stock_picking.py:168
@@ -816,7 +772,7 @@ msgstr "Cena dopravy"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_package_shipping_weight
 #: model:ir.model.fields,field_description:delivery.field_stock_quant_package_shipping_weight
 msgid "Shipping Weight"
-msgstr "Přepravní váha"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.report_package_barcode_delivery
@@ -841,27 +797,6 @@ msgid "Stock Move"
 msgstr "Pohyb zásob"
 
 #. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:12
-#, python-format
-msgid "Switch to production environment"
-msgstr ""
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:10
-#, python-format
-msgid "Switch to test environment"
-msgstr ""
-
-#. module: delivery
-#. openerp-web
-#: code:addons/delivery/static/src/js/delivery_translations.js:11
-#, python-format
-msgid "Test Environment"
-msgstr ""
-
-#. module: delivery
 #: model:delivery.carrier,name:delivery.delivery_carrier
 #: model:product.product,name:delivery.product_product_delivery_poste
 #: model:product.template,name:delivery.product_product_delivery_poste_product_template
@@ -875,9 +810,6 @@ msgid ""
 "                according to your settings; on the sales order (based on the\n"
 "                quotation) or the invoice (based on the delivery orders)."
 msgstr ""
-"Tyto metody umožňují automaticky vypočítat cenu za dodání\n"
-"podle vašich nastavení; na prodejní objednávce (na základě\n"
-"nabídky) nebo faktury (na základě dodacích objednávek)."
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_res_partner_property_delivery_carrier_id
@@ -888,7 +820,7 @@ msgstr "Způsob dodání bude použit při fakturaci z naskladnění."
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier_margin
 msgid "This percentage will be added to the shipping price."
-msgstr "Toto procento bude připočteno k přepravní ceně."
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
@@ -898,12 +830,12 @@ msgstr "Sledování"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_carrier_tracking_ref
 msgid "Tracking Reference"
-msgstr "Sledovací reference"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_carrier_tracking_url
 msgid "Tracking URL"
-msgstr "Sledovací URL"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_picking
@@ -963,12 +895,12 @@ msgstr "Hmotnost * Objem"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_move_weight_uom_id
 msgid "Weight Unit of Measure"
-msgstr "Hmotnostní měrná jednotka"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking_shipping_weight
 msgid "Weight for Shipping"
-msgstr "Váha k přepravě"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.report_package_barcode_delivery
@@ -1007,18 +939,16 @@ msgid ""
 "Your delivery method has no redirect on courier provider's website to track "
 "this order."
 msgstr ""
-"Váš způsob doručení nemá přesměrování na webu kurýrního poskytovatele, který"
-" by sledoval tuto objednávku."
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_zip_from
 msgid "Zip From"
-msgstr "PSČ odkud"
+msgstr ""
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_zip_to
 msgid "Zip To"
-msgstr "PSČ kam"
+msgstr ""
 
 #. module: delivery
 #: model:ir.ui.view,arch_db:delivery.view_delivery_carrier_form

@@ -3,22 +3,19 @@
 # * crm
 # 
 # Translators:
+# Martin Trigaux, 2017
 # Saba Khmaladze <skhmaladze@uglt.org>, 2018
 # Giorgi Melitauri <gmelitauri@live.com>, 2018
 # Gizo Kobakhidze <040168@gmail.com>, 2018
-# Martin Trigaux, 2018
+# David Machakhelidze <david.machakhelidze@gmail.com>, 2018
 # Temur, 2018
-# Gvantsa Gvinianidze <gvantsa@live.com>, 2019
-# Vasil Grigalashvili <info@clouddesk.info>, 2019
-# Davit Matchakhelidze <david.machakhelidze@gmail.com>, 2021
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 11:58+0000\n"
-"PO-Revision-Date: 2017-09-20 10:16+0000\n"
-"Last-Translator: Davit Matchakhelidze <david.machakhelidze@gmail.com>, 2021\n"
+"PO-Revision-Date: 2018-04-20 11:58+0000\n"
+"Last-Translator: Temur, 2018\n"
 "Language-Team: Georgian (https://www.transifex.com/odoo/teams/41243/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -147,7 +144,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_res_partner_meeting_count
 #: model:ir.model.fields,field_description:crm.field_res_users_meeting_count
 msgid "# Meetings"
-msgstr "# შეხვედრები"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_nbr_activities
@@ -713,7 +710,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Accept Emails From"
-msgstr "ელ.ფოსტის დაშვებული გამომგზავნები"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -741,7 +738,7 @@ msgstr "ქმედებები"
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Activities Analysis"
-msgstr "ქმედებების ანალიზი"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_users_target_sales_done
@@ -751,22 +748,22 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Activities Todo"
-msgstr "შესასრულებელი ქმედებები"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_kanban_state
 msgid "Activity State"
-msgstr "მოქმედენის მდგომარეობა"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report_mail_activity_type_id
 msgid "Activity Type"
-msgstr "ქმედების ტიპი"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_menu_config_activity_types
 msgid "Activity Types"
-msgstr "ქმედების ტიპები"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -776,7 +773,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Add a qualification step before creating an opportunity"
-msgstr "დაამატე საკვალიფიკაციო საფეხური შესაძლებლობის შექმნამდე"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
@@ -843,7 +840,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
 msgid "Analysis"
-msgstr "ანალიზი"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -872,7 +869,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Archived"
-msgstr "დაარქივებული"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
@@ -903,7 +900,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_opening_date
 msgid "Assignation Date"
-msgstr "მინიჭების თარიღი"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_date_open
@@ -931,7 +928,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Avg. of Probability"
-msgstr "საშუალო ალბათობა"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -962,7 +959,7 @@ msgstr ""
 #: code:addons/crm/models/crm_lead.py:381
 #, python-format
 msgid "Boom! Team record for the past 30 days."
-msgstr "ვაშა! გუნდის რეკორდი ბოლო 30 დღის მდგომარეობით!"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1000,7 +997,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Campaign"
-msgstr "კამპანიები"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
@@ -1024,7 +1021,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage_on_change
 msgid "Change Probability Automatically"
-msgstr "ავტომატურად შეცვალე ალბათობა"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1128,7 +1125,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_date_closed
 msgid "Closed Date"
-msgstr "დახურვის თარიღი"
+msgstr ""
 
 #. module: crm
 #: code:addons/crm/wizard/crm_lead_to_opportunity.py:87
@@ -1967,7 +1964,7 @@ msgstr "დაჯგუფება"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_dashboard_graph_group_pipeline
 msgid "Group by"
-msgstr "დაჯგუფება"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_number_group
@@ -2031,7 +2028,7 @@ msgstr "მაღალი"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_dashboard_graph_group_pipeline
 msgid "How this channel's dashboard graph will group the results."
-msgstr "როგორ დააჯგუფებს შედეგებს არხის დაფაზე გრაფიკი "
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_id
@@ -2148,7 +2145,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
 msgid "Internal Notes"
-msgstr "შიდა ჩანაწერები"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3364,7 +3361,7 @@ msgstr ""
 #: model:ir.ui.menu,name:crm.crm_team_config
 #: model:ir.ui.menu,name:crm.sales_team_menu_report_crm
 msgid "Sales Channels"
-msgstr "რეალიზაციის არხები"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3402,7 +3399,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Salesperson"
-msgstr "გამყიდველი"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4114,7 +4111,7 @@ msgstr "მომხმარებელი"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_user_email
 msgid "User Email"
-msgstr "ელ.ფოსტა"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_user_login

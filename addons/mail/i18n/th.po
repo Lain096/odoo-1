@@ -14,7 +14,6 @@
 # Seksan Poltree <seksan.poltree@gmail.com>, 2018
 # Martin Trigaux, 2018
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2018
-# Odoo Thaidev <odoothaidev@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -22,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Odoo Thaidev <odoothaidev@gmail.com>, 2020\n"
+"Last-Translator: Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2018\n"
 "Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -125,7 +124,7 @@ msgstr ""
 #: code:addons/mail/models/mail_channel.py:682
 #, python-format
 msgid " This channel is private. People must be invited to join it."
-msgstr "ช่องนี้เป็นช่องส่วนตัว ผู้คนจะต้องได้รับเชิญให้เข้าร่วม"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type_days
@@ -149,13 +148,13 @@ msgstr ""
 #: code:addons/mail/wizard/invite.py:29
 #, python-format
 msgid "%(user_name)s invited you to follow %(document)s document: %(title)s"
-msgstr "%(user_name)s เชิญให้คุณติดตาม %(document)s document: %(title)s"
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/wizard/invite.py:31
 #, python-format
 msgid "%(user_name)s invited you to follow a new document."
-msgstr "%(user_name)s เชิญให้คุณติดตามเอกสารใหม่."
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -169,7 +168,7 @@ msgstr "%d ข้อความ"
 #: code:addons/mail/static/src/js/activity.js:89
 #, python-format
 msgid "%d days overdue"
-msgstr "%d วัน ที่เลยกำหนด"
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/models/mail_template.py:248
@@ -194,7 +193,7 @@ msgstr "%s ได้เข้าร่วมเครือค่าย %s"
 #: code:addons/mail/static/src/xml/client_action.xml:211
 #, python-format
 msgid "&nbsp;("
-msgstr "&nbsp;("
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -215,7 +214,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/activity.xml:49
 #, python-format
 msgid ", due on"
-msgstr ", ครบกำหนด"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -229,21 +228,21 @@ msgstr "-------- แสดงข้อความเก่า --------"
 #: code:addons/mail/static/src/xml/systray.xml:78
 #, python-format
 msgid "0 Future"
-msgstr "0 อนาคต"
+msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:74
 #, python-format
 msgid "0 Late"
-msgstr "0 ล่าช้า"
+msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:76
 #, python-format
 msgid "0 Today"
-msgstr "0 วันนี้"
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:686
@@ -264,9 +263,6 @@ msgid ""
 "href=\"#\" class=\"o_channel_redirect\" data-oe-"
 "id=\"%(channel_id)s\">#%(channel_name)s</a></div>"
 msgstr ""
-"<div class=\"o_mail_notification\">%(author)s invited %(new_partner)s to <a "
-"href=\"#\" class=\"o_channel_redirect\" data-oe-"
-"id=\"%(channel_id)s\">#%(channel_name)s</a></div>"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:592
@@ -275,8 +271,6 @@ msgid ""
 "<div class=\"o_mail_notification\">created <a href=\"#\" "
 "class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
 msgstr ""
-"<div class=\"o_mail_notification\">สร้างโดย <a href=\"#\" "
-"class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:516
@@ -286,8 +280,6 @@ msgid ""
 "<div class=\"o_mail_notification\">joined <a href=\"#\" "
 "class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
 msgstr ""
-"<div class=\"o_mail_notification\">เข้าร่วมแล้ว <a href=\"#\" "
-"class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:182
@@ -296,8 +288,6 @@ msgid ""
 "<div class=\"o_mail_notification\">left <a href=\"#\" "
 "class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
 msgstr ""
-"<div class=\"o_mail_notification\">ออกจาก <a href=\"#\" "
-"class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
 
 #. module: mail
 #. openerp-web
@@ -308,9 +298,6 @@ msgid ""
 "messages.</p><p><i>You might need to invite users from the Settings app "
 "first.</i></p>"
 msgstr ""
-"<p><b>Chat with coworkers</b> in real-time using direct "
-"messages.</p><p><i>You might need to invite users from the Settings app "
-"first.</i></p>"
 
 #. module: mail
 #. openerp-web
@@ -321,9 +308,6 @@ msgid ""
 " notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. "
 "Start your message with <i>'/'</i> to get the list of possible commands.</p>"
 msgstr ""
-"<p><b>Write a message</b> to the members of the channel here.</p> <p>You can"
-" notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. "
-"Start your message with <i>'/'</i> to get the list of possible commands.</p>"
 
 #. module: mail
 #. openerp-web
@@ -334,9 +318,6 @@ msgid ""
 " groups.</p> <p>Try to <b>create your first channel</b> (e.g. sales, "
 "marketing, product XYZ, after work party, etc).</p>"
 msgstr ""
-"<p>Channels make it easy to organize information across different topics and"
-" groups.</p> <p>Try to <b>create your first channel</b> (e.g. sales, "
-"marketing, product XYZ, after work party, etc).</p>"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
@@ -365,12 +346,6 @@ msgid ""
 "                                    If you want to use only selected records please uncheck this selection box :\n"
 "                                </span>"
 msgstr ""
-"<span attrs=\"{'invisible': [('use_active_domain', '=', True)]}\">\n"
-"                                    If you want to send it for all the records matching your search criterion, check this box :\n"
-"                                </span>\n"
-"                                <span attrs=\"{'invisible': [('use_active_domain', '=', False)]}\">\n"
-"                                    If you want to use only selected records please uncheck this selection box :\n"
-"                                </span>"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
@@ -378,8 +353,6 @@ msgid ""
 "<span class=\"o_stat_text\">Add</span>\n"
 "                                    <span class=\"o_stat_text\">Context Action</span>"
 msgstr ""
-"<span class=\"o_stat_text\">Add</span>\n"
-"                                    <span class=\"o_stat_text\">Context Action</span>"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
@@ -387,8 +360,6 @@ msgid ""
 "<span class=\"o_stat_text\">Remove</span>\n"
 "                                    <span class=\"o_stat_text\">Context Action</span>"
 msgstr ""
-"<span class=\"o_stat_text\">Remove</span>\n"
-"                                    <span class=\"o_stat_text\">Context Action</span>"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
@@ -400,12 +371,6 @@ msgid ""
 "                                The email will be sent for all the records selected in the list.<br/>\n"
 "                                Confirming this wizard will probably take a few minutes blocking your browser."
 msgstr ""
-"<strong>\n"
-"                                    All records matching your current search filter will be mailed,\n"
-"                                    not only the ids selected in the list view.\n"
-"                                </strong><br/>\n"
-"                                The email will be sent for all the records selected in the list.<br/>\n"
-"                                Confirming this wizard will probably take a few minutes blocking your browser."
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_activity_done
@@ -418,13 +383,11 @@ msgid ""
 "<strong>Only records checked in list view will be used.</strong><br/>\n"
 "                                The email will be sent for all the records selected in the list."
 msgstr ""
-"<strong>Only records checked in list view will be used.</strong><br/>\n"
-"                                The email will be sent for all the records selected in the list."
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
 msgid "<strong>Recommended Activities</strong>"
-msgstr "<strong>Recommended Activities</strong>"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_defaults
@@ -435,8 +398,6 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
-"A Python dictionary that will be evaluated to provide default values when "
-"creating new records for this alias."
 
 #. module: mail
 #: model:ir.actions.act_window,help:mail.mail_shortcode_action
@@ -444,8 +405,6 @@ msgid ""
 "A shortcode is a keyboard shortcut. For instance, you type #gm and it will "
 "be transformed into \"Good Morning\"."
 msgstr ""
-"A shortcode is a keyboard shortcut. For instance, you type #gm and it will "
-"be transformed into \"Good Morning\"."
 
 #. module: mail
 #: model:ir.model,name:mail.model_res_groups
@@ -519,7 +478,7 @@ msgstr "ต้องดำเนินการ"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype_default
 msgid "Activated by default when subscribing."
-msgstr "Activated by default when subscribing."
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_alias_search
@@ -530,7 +489,7 @@ msgstr "เปิดใช้งาน"
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_active_domain
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_active_domain
 msgid "Active domain"
-msgstr "เปิดใช้งาน"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -578,27 +537,27 @@ msgstr "กิจกรรม"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_activity_mixin
 msgid "Activity Mixin"
-msgstr "Activity Mixin"
+msgstr ""
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_activity_type
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 msgid "Activity Type"
-msgstr "ประเภทกิจกรรม"
+msgstr ""
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_activity_type_action
 #: model:ir.ui.menu,name:mail.menu_mail_activity_type
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Activity Types"
-msgstr "Activity Types"
+msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:37
 #, python-format
 msgid "Activity type"
-msgstr "Activity type"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -628,7 +587,7 @@ msgstr "เพิ่มผู้ติดตาม"
 #: code:addons/mail/models/ir_actions.py:36
 #, python-format
 msgid "Add Followers can only be done on a mail thread model"
-msgstr "Add Followers can only be done on a mail thread model"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_user_signature
@@ -694,7 +653,7 @@ msgstr "นามแฝง"
 #: model:ir.model.fields,field_description:mail.field_mail_test_alias_contact
 #: model:ir.model.fields,field_description:mail.field_res_users_alias_contact
 msgid "Alias Contact Security"
-msgstr "Alias Contact Security"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_config_settings_alias_domain
@@ -707,7 +666,7 @@ msgstr "ชื่อโดเมน"
 #: model:ir.model.fields,field_description:mail.field_mail_channel_alias_name
 #: model:ir.model.fields,field_description:mail.field_mail_test_alias_name
 msgid "Alias Name"
-msgstr "ชื่อเรียก"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias_alias_domain
@@ -723,7 +682,7 @@ msgstr "ชื่อโดเมน"
 #: model:ir.model.fields,field_description:mail.field_mail_channel_alias_model_id
 #: model:ir.model.fields,field_description:mail.field_mail_test_alias_model_id
 msgid "Aliased Model"
-msgstr "Aliased Model"
+msgstr ""
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.action_view_mail_alias
@@ -761,8 +720,6 @@ msgid ""
 "Answers do not go in the original document discussion thread. This has an "
 "impact on the generated message-id."
 msgstr ""
-"คำตอบไม่อยู่ในเธรดการสนทนาของเอกสารต้นฉบับ "
-"สิ่งนี้มีผลกระทบต่อรหัสข้อความที่สร้างขึ้น"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_model_id
@@ -808,8 +765,6 @@ msgid ""
 "Attachments are linked to a document through model / res_id and to the "
 "message through this field."
 msgstr ""
-"Attachments are linked to a document through model / res_id and to the "
-"message through this field."
 
 #. module: mail
 #: selection:mail.alias,alias_contact:0
@@ -819,7 +774,7 @@ msgstr ""
 #. module: mail
 #: selection:mail.alias,alias_contact:0
 msgid "Authenticated Partners"
-msgstr "Authenticated Partners"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_author_id
@@ -833,7 +788,7 @@ msgstr "ผู้แต่ง"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
 msgid "Author Signature (mass mail only)"
-msgstr "Author Signature (mass mail only)"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message_author_id
@@ -844,8 +799,6 @@ msgid ""
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
 msgstr ""
-"Author of the message. If not set, email_from may hold an email address that"
-" did not match any partner."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_author_avatar
@@ -853,7 +806,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_message_author_avatar
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_author_avatar
 msgid "Author's avatar"
-msgstr "Author's avatar"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_group_public_id
@@ -887,7 +840,7 @@ msgstr "สามารถใช้ส่งจดหมายจำนวนม
 #: code:addons/mail/static/src/xml/followers.xml:89
 #, python-format
 msgid "Be careful with channels following internal notifications"
-msgstr "Be careful with channels following internal notifications"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_body_html
@@ -901,17 +854,17 @@ msgstr "เนื้อความ"
 #: model:ir.model.fields,field_description:mail.field_res_partner_message_bounce
 #: model:ir.model.fields,field_description:mail.field_res_users_message_bounce
 msgid "Bounce"
-msgstr "Bounce"
+msgstr ""
 
 #. module: mail
 #: selection:mail.notification,email_status:0
 msgid "Bounced"
-msgstr "Bounced"
+msgstr ""
 
 #. module: mail
 #: model:mail.activity.type,name:mail.mail_activity_data_call
 msgid "Call"
-msgstr "Call"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -942,18 +895,18 @@ msgstr ""
 #. module: mail
 #: model:ir.model,name:mail.model_mail_shortcode
 msgid "Canned Response / Shortcode"
-msgstr "Canned Response / Shortcode"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail_email_cc
 msgid "Carbon copy message recipients"
-msgstr "Carbon copy message recipients"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_email_cc
 #: model:ir.model.fields,help:mail.field_mail_template_email_cc
 msgid "Carbon copy recipients (placeholders may be used here)"
-msgstr "Carbon copy recipients (placeholders may be used here)"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity_activity_category
@@ -982,7 +935,7 @@ msgstr "ทอน"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_field
 msgid "Changed Field"
-msgstr "Changed Field"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_partner_channel_id
@@ -994,12 +947,12 @@ msgstr "ช่องทาง"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_channel_message_ids
 msgid "Channel Message"
-msgstr "Channel Message"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_channel_type
 msgid "Channel Type"
-msgstr "Channel Type"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -1044,7 +997,7 @@ msgstr "การสนทนา"
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_shortcode_action
 msgid "Chat Shortcode"
-msgstr "Chat Shortcode"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_child_ids
@@ -1052,7 +1005,7 @@ msgstr "Chat Shortcode"
 #: model:ir.model.fields,field_description:mail.field_mail_message_child_ids
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_child_ids
 msgid "Child Messages"
-msgstr "Child Messages"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_preview_form
@@ -1084,12 +1037,12 @@ msgstr "ปิดแล้ว"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
 msgid "Comma-separated carbon copy recipients addresses"
-msgstr "Comma-separated carbon copy recipients addresses"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
 msgid "Comma-separated ids of recipient partners"
-msgstr "Comma-separated ids of recipient partners"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_partner_to
@@ -1097,18 +1050,17 @@ msgstr "Comma-separated ids of recipient partners"
 msgid ""
 "Comma-separated ids of recipient partners (placeholders may be used here)"
 msgstr ""
-"Comma-separated ids of recipient partners (placeholders may be used here)"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
 msgid "Comma-separated recipient addresses"
-msgstr "Comma-separated recipient addresses"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_email_to
 #: model:ir.model.fields,help:mail.field_mail_template_email_to
 msgid "Comma-separated recipient addresses (placeholders may be used here)"
-msgstr "Comma-separated recipient addresses (placeholders may be used here)"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_search
@@ -1385,19 +1337,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_auto_delete
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_auto_delete
 msgid "Delete Emails"
-msgstr "ลบอีเมล"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_auto_delete_message
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_auto_delete_message
 msgid "Delete Message Copy"
-msgstr "ลบสําเนาข้อความ"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message_auto_delete
 #: model:ir.model.fields,help:mail.field_survey_mail_compose_message_auto_delete
 msgid "Delete sent emails (mass mailing only)"
-msgstr "ลบอีเมลที่ส่ง (ส่งจดหมายจํานวนมากเท่านั้น)"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -1505,8 +1457,6 @@ msgid ""
 "Do not keep a copy of the email in the document communication history (mass "
 "mailing only)"
 msgstr ""
-"อย่าเก็บสำเนาอีเมลไว้ในประวัติการสื่อสารของเอกสาร "
-"(การส่งจดหมายจำนวนมากเท่านั้น)"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_followers
@@ -1599,7 +1549,7 @@ msgstr "อีเมล"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_form
 msgid "Email Alias"
-msgstr "นามแฝงอีเมล"
+msgstr ""
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_alias
@@ -1667,8 +1617,6 @@ msgid ""
 "Email address of the sender. This field is set when no matching partner is "
 "found and replaces the author_id field in the chatter."
 msgstr ""
-"ที่อยู่อีเมลของผู้ส่ง ฟิลด์นี้ถูกตั้งค่าเมื่อไม่พบคู่ที่ตรงกันและแทนที่ฟิลด์"
-" author_id ในการแชท."
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
@@ -2087,7 +2035,7 @@ msgstr "อนาคต"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Future Activities"
-msgstr "กิจกรรมในอนาคต"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_form
@@ -2120,12 +2068,12 @@ msgstr "กลุ่ม"
 #. module: mail
 #: selection:res.users,notification_type:0
 msgid "Handle by Emails"
-msgstr "จัดการโดยอีเมลล์"
+msgstr ""
 
 #. module: mail
 #: selection:res.users,notification_type:0
 msgid "Handle in Odoo"
-msgstr "จัดการในระบบ odoo"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_search
@@ -2411,13 +2359,13 @@ msgstr "กล่องจดหมาย"
 #: model:ir.model.fields,help:mail.field_mail_message_parent_id
 #: model:ir.model.fields,help:mail.field_survey_mail_compose_message_parent_id
 msgid "Initial thread message."
-msgstr "ข้อความ"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.menu,name:mail.mail_channel_integrations_menu
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_form
 msgid "Integrations"
-msgstr "Integrations"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype_internal
@@ -2451,7 +2399,7 @@ msgstr ""
 #: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
 msgid "Invitation"
-msgstr "คำเชิญ"
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/wizard/invite.py:53
@@ -2571,12 +2519,6 @@ msgstr "เป็นการแจ้งเตือน"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_res_partner_needaction_rel_is_read
 msgid "Is Read"
-msgstr ""
-
-#. module: mail
-#: code:addons/mail/models/mail_notification.py:0
-#, python-format
-msgid "Can not update the message or recipient of a notification."
 msgstr ""
 
 #. module: mail
@@ -2759,7 +2701,7 @@ msgstr "ล่าช้า"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Late Activities"
-msgstr "กิจกรรมล่าสุด"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_kanban
@@ -2863,7 +2805,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_message_mail_activity_type_id
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_mail_activity_type_id
 msgid "Mail Activity Type"
-msgstr "ประเภทกิจกรรมถัดไป"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_form
@@ -3014,7 +2956,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_message_record_name
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_record_name
 msgid "Message Record Name"
-msgstr "ข้อความ"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype_name
@@ -3069,8 +3011,6 @@ msgid ""
 "Message type: email for email message, notification for system message, "
 "comment for other messages such as user replies"
 msgstr ""
-"ประเภทข้อความ: อีเมลสําหรับข้อความอีเมล, การแจ้งเตือนสําหรับข้อความของระบบ, "
-"ข้อคิดเห็นสําหรับข้อความอื่น ๆ เช่นการตอบกลับของผู้ใช้"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message_message_id
@@ -3231,7 +3171,7 @@ msgstr "ชื่อ"
 #: model:ir.model.fields,help:mail.field_mail_message_record_name
 #: model:ir.model.fields,help:mail.field_survey_mail_compose_message_record_name
 msgid "Name get of the related document."
-msgstr "ชื่อที่ได้จากเอกสารที่เกี่ยวข้อง"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_report_name
@@ -3361,7 +3301,7 @@ msgstr "กิจกรรมถัดไป"
 #: model:ir.model.fields,field_description:mail.field_stock_picking_activity_date_deadline
 #: model:ir.model.fields,field_description:mail.field_survey_survey_activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "วันที่สิ้นสุดกิจกรรมถัดไป"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_account_invoice_activity_summary
@@ -3385,7 +3325,7 @@ msgstr "วันที่สิ้นสุดกิจกรรมถัดไ
 #: model:ir.model.fields,field_description:mail.field_stock_picking_activity_summary
 #: model:ir.model.fields,field_description:mail.field_survey_survey_activity_summary
 msgid "Next Activity Summary"
-msgstr "สรุปกิจกรรมถัดไป"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_account_invoice_activity_type_id
@@ -3409,7 +3349,7 @@ msgstr "สรุปกิจกรรมถัดไป"
 #: model:ir.model.fields,field_description:mail.field_stock_picking_activity_type_id
 #: model:ir.model.fields,field_description:mail.field_survey_survey_activity_type_id
 msgid "Next Activity Type"
-msgstr "ประเภทกิจกรรมถัดไป"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_has_recommended_activities
@@ -3465,7 +3405,7 @@ msgstr "ไม่มีข้อความที่ติดดาว"
 #: model:ir.model.fields,field_description:mail.field_mail_message_no_auto_thread
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_no_auto_thread
 msgid "No threading for answers"
-msgstr "No threading for answers"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_note
@@ -3643,7 +3583,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_stock_production_lot_message_needaction_counter
 #: model:ir.model.fields,help:mail.field_survey_survey_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "จํานวนข้อความที่ต้องการการดําเนินการ"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_account_analytic_account_message_unread_counter
@@ -3707,7 +3647,7 @@ msgstr "จํานวนข้อความที่ต้องการก
 #: model:ir.model.fields,help:mail.field_stock_production_lot_message_unread_counter
 #: model:ir.model.fields,help:mail.field_survey_survey_message_unread_counter
 msgid "Number of unread messages"
-msgstr "จํานวนข้อความที่ยังไม่ได้อ่าน"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
@@ -3743,7 +3683,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/client_action.xml:120
 #, python-format
 msgid "Offline"
-msgstr "Offline"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_old_value_char
@@ -3920,7 +3860,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_message_mail_server_id
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_mail_server_id
 msgid "Outgoing mail server"
-msgstr "อีเมลล์ขาออก"
+msgstr ""
 
 #. module: mail
 #: selection:account.invoice,activity_state:0
@@ -3941,7 +3881,7 @@ msgstr "อีเมลล์ขาออก"
 #: selection:stock.picking,activity_state:0
 #: selection:survey.survey,activity_state:0
 msgid "Overdue"
-msgstr "เกินกำหนด"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
@@ -3967,7 +3907,7 @@ msgstr "แม่"
 #: model:ir.model.fields,field_description:mail.field_mail_message_parent_id
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_parent_id
 msgid "Parent Message"
-msgstr "ข้อความ"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias_alias_parent_model_id
@@ -4264,7 +4204,7 @@ msgstr "อ้างอิง"
 #: model:ir.model.fields,field_description:mail.field_mail_wizard_invite_res_id
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_res_id
 msgid "Related Document ID"
-msgstr "รหัสเอกสารที่เกี่ยวข้อง"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_model
@@ -4277,7 +4217,7 @@ msgstr "รหัสเอกสารที่เกี่ยวข้อง"
 #: model:ir.model.fields,field_description:mail.field_mail_wizard_invite_res_model
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_model
 msgid "Related Document Model"
-msgstr "รูปแบบเอกสารที่เกี่ยวข้อง"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_followers_res_model
@@ -4297,7 +4237,7 @@ msgstr "คู่ค้าที่เกี่ยวข้อง"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype_relation_field
 msgid "Relation field"
-msgstr "Relation Field"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
@@ -4328,8 +4268,6 @@ msgid ""
 "Reply email address. Setting the reply_to bypasses the automatic thread "
 "creation."
 msgstr ""
-"Reply email address. Setting the reply_to bypasses the automatic thread "
-"creation."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_reply_to
@@ -4580,7 +4518,7 @@ msgstr "ทางลัด"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Show all records which has next action date is before today"
-msgstr "Show all records which has next action date is before today"
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:675
@@ -4713,10 +4651,6 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"สถานะตามกิจกรรม\n"
-"เกินกำหนด: วันที่ครบกำหนดผ่านไปแล้ว\n"
-"วันนี้: วันที่ทำกิจกรรมคือวันนี้\n"
-"ที่วางแผนไว้: กิจกรรมในอนาคต"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_sub_model_object_field
@@ -4864,12 +4798,6 @@ msgid ""
 msgstr ""
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "The partner can not join this channel"
-msgstr ""
-
-#. module: mail
 #: code:addons/mail/models/mail_activity.py:175
 #: code:addons/mail/models/mail_message.py:598
 #: code:addons/mail/models/mail_message.py:698
@@ -4978,7 +4906,7 @@ msgstr "วันนี้"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Today Activities"
-msgstr "กิจกรรมวันนี้"
+msgstr ""
 
 #. module: mail
 #: model:mail.activity.type,name:mail.mail_activity_data_todo
@@ -5269,7 +5197,7 @@ msgstr "การอัพโหลดไฟล์ล้มเหลว"
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_use_active_domain
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_use_active_domain
 msgid "Use active domain"
-msgstr "เปิดใช้งาน"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_template_id
@@ -5374,7 +5302,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_compose_message_is_log
 #: model:ir.model.fields,help:mail.field_survey_mail_compose_message_is_log
 msgid "Whether the message is an internal note (comment mode only)"
-msgstr "Whether the message is an internal note (comment mode only)"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_ir_model_is_mail_thread
@@ -5443,24 +5371,6 @@ msgstr ""
 "คุณสามารถติดดาวข้อความใดก็ได้ แล้วข้อความนั้นจะถูกนำไปแสดงบนช่องทางนี้"
 
 #. module: mail
-#: cod:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not remove this partner from this channel"
-msgstr ""
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not write on the record of other users"
-msgstr ""
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not write on this field"
-msgstr ""
-
-#. module: mail
 #: code:addons/mail/models/res_users.py:54
 #, python-format
 msgid ""
@@ -5494,8 +5404,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
-msgid "You have been invited to: %s"
-msgstr ""
+msgid "You have been invited to: "
+msgstr "คุณถูกเชิญเข้าสู่:"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_attachment_ids

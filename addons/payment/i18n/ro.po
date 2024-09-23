@@ -4,20 +4,18 @@
 # 
 # Translators:
 # Sergiu Baltariu <s_baltariu@yahoo.com>, 2017
+# Cozmin Candea <office@terrabit.ro>, 2017
 # Iulian Cutui <iulian.cutui@gmail.com>, 2018
-# Martin Trigaux, 2019
-# Cozmin Candea <office@terrabit.ro>, 2019
-# Dorin Hongu <dhongu@gmail.com>, 2020
-# Hongu Cosmin <cosmin513@gmail.com>, 2020
-# Foldi Robert <foldirobert@nexterp.ro>, 2021
+# Martin Trigaux, 2018
+# Dorin Hongu <dhongu@gmail.com>, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 15:01+0000\n"
+"POT-Creation-Date: 2019-01-03 15:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:20+0000\n"
-"Last-Translator: Foldi Robert <foldirobert@nexterp.ro>, 2021\n"
+"Last-Translator: Dorin Hongu <dhongu@gmail.com>, 2018\n"
 "Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,17 +31,17 @@ msgstr "&amp;times;"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_html_3ds
 msgid "3D Secure HTML"
-msgstr "HTML securizat 3D"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "<b>Amount:</b>"
-msgstr "<b>Valoare:</b>"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "<b>Reference:</b>"
-msgstr "<b>Referință:</b>"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.confirm
@@ -83,7 +81,7 @@ msgstr "<i class=\"fa fa-trash\"/> Șterge"
 #: code:addons/payment/models/payment_acquirer.py:122
 #, python-format
 msgid "<i>Cancel,</i> Your payment has been cancelled."
-msgstr "<i>Anulată</i>, plata dvs. a fost anulată."
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:118
@@ -92,8 +90,6 @@ msgid ""
 "<i>Done,</i> Your online payment has been successfully processed. Thank you "
 "for your order."
 msgstr ""
-"<i>Finalizat</i>, plata online a fost procesată cu succes. Vă mulțumim "
-"pentru comanda dumneavoastră."
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:126
@@ -103,9 +99,6 @@ msgid ""
 " The order has been confirmed but will not be paid. Do not hesitate to "
 "contact us if you have any questions on the status of your order."
 msgstr ""
-"<i>Eroare</i>, rețineți că a avut loc o eroare în timpul tranzacției. "
-"Comanda a fost confirmată, dar nu va fi achitată. Nu ezitați să ne "
-"contactați dacă aveți întrebări cu privire la starea comenzii dvs."
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:114
@@ -114,15 +107,13 @@ msgid ""
 "<i>Pending,</i> Your online payment has been successfully processed. But "
 "your order is not validated yet."
 msgstr ""
-"<i>În așteptare</i>, plata online a fost procesată cu succes. Dar comanda "
-"dvs. nu este validată încă."
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:350
 #, python-format
 msgid "<p>This card is currently linked to the following records:<p/>"
-msgstr "<p>Acest card este în prezent legat de următoarele înregistrări:<p/>"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -130,8 +121,6 @@ msgid ""
 "<span class=\"o_warning_text\">Test</span>\n"
 "                                    <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
-"<span class=\"o_warning_text\">Testare</span>\n"
-"                                    <span class=\"o_stat_text\">Mediu inconjurator</span>"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -139,8 +128,6 @@ msgid ""
 "<span class=\"text-success\">Production</span>\n"
 "                                    <span class=\"o_stat_text\">Environment</span>"
 msgstr ""
-"<span class=\"text-success\">Producție</span>\n"
-"                                    <span class=\"o_stat_text\">Mediu inconjurator</span>"
 
 #. module: payment
 #: model:payment.acquirer,cancel_msg:payment.payment_acquirer_adyen
@@ -154,7 +141,7 @@ msgstr ""
 #: model:payment.acquirer,cancel_msg:payment.payment_acquirer_stripe
 #: model:payment.acquirer,cancel_msg:payment.payment_acquirer_transfer
 msgid "<span><i>Cancel,</i> Your payment has been cancelled.</span>"
-msgstr "<span><i>Anulată</i>, plata dvs. a fost anulată.</span>"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,done_msg:payment.payment_acquirer_adyen
@@ -171,8 +158,6 @@ msgid ""
 "<span><i>Done,</i> Your online payment has been successfully processed. "
 "Thank you for your order.</span>"
 msgstr ""
-"<span><i>Finalizat</i>, plata online a fost procesată cu succes. Vă mulțumim"
-" pentru comanda dumneavoastră.</span>"
 
 #. module: payment
 #: model:payment.acquirer,error_msg:payment.payment_acquirer_adyen
@@ -191,9 +176,6 @@ msgid ""
 "hesitate to contact us if you have any questions on the status of your "
 "order.</span>"
 msgstr ""
-"<span><i>Eroare</i>, rețineți că a avut loc o eroare în timpul tranzacției. "
-"Comanda a fost confirmată, dar nu va fi achitată. Nu ezitați să ne "
-"contactați dacă aveți întrebări cu privire la starea comenzii dvs.</span>"
 
 #. module: payment
 #: model:payment.acquirer,pending_msg:payment.payment_acquirer_adyen
@@ -209,8 +191,6 @@ msgid ""
 "<span><i>Pending,</i> Your online payment has been successfully processed. "
 "But your order is not validated yet.</span>"
 msgstr ""
-"<span><i>În așteptare</i>, plata online a fost procesată cu succes. Dar "
-"comanda dvs. nu este validată încă.</span>"
 
 #. module: payment
 #: model:payment.acquirer,pending_msg:payment.payment_acquirer_transfer
@@ -218,8 +198,6 @@ msgid ""
 "<span><i>Pending</i>... The order will be validated after the "
 "payment.</span>"
 msgstr ""
-"<span><i>În așteptare</i>... Comanda va fi validată după efectuarea "
-"plății..</span>"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_acquirer_id
@@ -244,12 +222,12 @@ msgstr "Referință achizitor"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon_acquirer_ids
 msgid "Acquirers"
-msgstr "Colectori"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_icon_form_view
 msgid "Acquirers list"
-msgstr "Colectori"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_kanban
@@ -293,7 +271,7 @@ msgstr "Valoare"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_authorize_implemented
 msgid "Authorize Mechanism Supported"
-msgstr "Autorizare Mecanism Acceptat"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_authorize
@@ -366,22 +344,22 @@ msgstr ""
 #: code:addons/payment/controllers/portal.py:111
 #, python-format
 msgid "Cannot setup the payment."
-msgstr "Nu se poate configura plata."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_capture_manually
 msgid "Capture Amount Manually"
-msgstr "Capturați Valoarea Manual"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "Capture Transaction"
-msgstr "Capturare Tranzacție"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_capture_manually
 msgid "Capture the amount from Odoo, when the delivery is completed."
-msgstr "Captați suma de la Odoo la finalizarea livrării."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_city
@@ -441,7 +419,7 @@ msgstr "Modul corespondent"
 #: model:ir.model.fields,field_description:payment.field_res_partner_payment_token_count
 #: model:ir.model.fields,field_description:payment.field_res_users_payment_token_count
 msgid "Count Payment Token"
-msgstr "Nr. Jetoane de plată"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_country_ids
@@ -540,7 +518,7 @@ msgstr "E-mail"
 #. module: payment
 #: model:account.payment.method,name:payment.account_payment_method_electronic_in
 msgid "Electronic"
-msgstr "Electronic"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_email
@@ -568,7 +546,7 @@ msgstr "Mesaj de eroare"
 #: code:addons/payment/static/src/js/payment_form.js:428
 #, python-format
 msgid "Error: "
-msgstr "Eroare:"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_fees
@@ -578,19 +556,17 @@ msgstr "Taxe"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_implemented
 msgid "Fees Computation Supported"
-msgstr "Calcul Taxe Acceptat"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction_fees
 msgid "Fees amount; set by the system because depends on the acquirer"
-msgstr "Suma taxelor; stabilit de sistem deoarece depinde de dobânditor"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction_state_message
 msgid "Field used to store error and/or validation messages for information"
 msgstr ""
-"Câmp utilizat pentru stocarea mesajelor de eroare și / sau validare pentru "
-"informații"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_dom_fixed
@@ -610,12 +586,12 @@ msgstr "Formular"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_view_template_id
 msgid "Form Button Template"
-msgstr "Model Buton Formular"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,type:0
 msgid "Form with tokenization"
-msgstr "Formulare cu tokenizare"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.confirm
@@ -656,7 +632,7 @@ msgstr "Imagine"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon_image_payment_form
 msgid "Image displayed on the payment form"
-msgstr "Imagine afișată pe formularul de plată"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_ogone
@@ -672,12 +648,12 @@ msgstr "Instalează"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_module_state
 msgid "Installation State"
-msgstr "Stare Instalare"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction_reference
 msgid "Internal reference of the TX"
-msgstr "Referință internă TX"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_lang
@@ -716,7 +692,7 @@ msgstr "Lăsați la decizia clientului"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_icon_acquirer_ids
 msgid "List of Acquirers supporting this payment icon."
-msgstr "Lista de achizitori care acceptă această pictogramă de plată."
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_website_published
@@ -731,7 +707,7 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay_meth_link
 msgid "Manage your payment methods"
-msgstr "Gestionați Metode Plată"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,provider:0
@@ -806,8 +782,6 @@ msgstr "Mesaje"
 #, python-format
 msgid "Missing partner reference when trying to create a new payment token"
 msgstr ""
-"Lipsește referința partenerului când încercați să creați un nou simbol de "
-"plată"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_name
@@ -822,7 +796,7 @@ msgstr "Nume"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_token_name
 msgid "Name of the payment token"
-msgstr "Nume jeton de plată"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,save_token:0
@@ -832,7 +806,7 @@ msgstr "Niciodată"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "No payment acquirer found."
-msgstr "Nu a fost găsit nici un achizitor de plată."
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -840,7 +814,7 @@ msgstr "Nu a fost găsit nici un achizitor de plată."
 #: code:addons/payment/static/src/js/payment_form.js:308
 #, python-format
 msgid "No payment method selected"
-msgstr "Nu a fost selectată nicio metodă de plată"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_account_payment_payment_token_id
@@ -848,8 +822,6 @@ msgid ""
 "Note that tokens from acquirers set to only authorize transactions (instead "
 "of capturing the amount) are not available."
 msgstr ""
-"Rețineți că token-urile de la achizitori stabiliți să autorizeze numai "
-"tranzacțiile (în loc să capteze valoarea) nu sunt disponibile."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_payment_flow
@@ -857,8 +829,6 @@ msgid ""
 "Note: Subscriptions does not take this field in account, it uses server to "
 "server by default."
 msgstr ""
-"Notă: Abonamentele nu țin cont de acest câmp, folosește implicit serverul "
-"pentru server."
 
 #. module: payment
 #: selection:payment.acquirer,provider:0
@@ -898,7 +868,7 @@ msgstr "Nume partener"
 #: model:payment.acquirer,name:payment.payment_acquirer_payu
 #: selection:payment.acquirer,provider:0
 msgid "PayUmoney"
-msgstr "PayUmoney"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.confirm
@@ -922,19 +892,19 @@ msgstr "Colectori plăți"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_payment_flow
 msgid "Payment Flow"
-msgstr "Payment Flow"
+msgstr ""
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_icon
 #: model:ir.ui.view,arch_db:payment.payment_icon_form_view
 msgid "Payment Icon"
-msgstr "Iconiță Plată"
+msgstr ""
 
 #. module: payment
 #: model:ir.actions.act_window,name:payment.action_payment_icon
 #: model:ir.ui.menu,name:payment.payment_icon_menu
 msgid "Payment Icons"
-msgstr "Iconițe plată"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_journal_id
@@ -949,7 +919,7 @@ msgstr "Metode de plată"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_payment_token_id
 msgid "Payment Token"
-msgstr "Token de plată"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_res_partner_payment_token_ids
@@ -958,7 +928,7 @@ msgstr "Token de plată"
 #: model:ir.ui.view,arch_db:payment.payment_token_tree_view
 #: model:ir.ui.view,arch_db:payment.payment_token_view_search
 msgid "Payment Tokens"
-msgstr "Jetoane Plată"
+msgstr ""
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_transaction
@@ -979,7 +949,7 @@ msgstr "Tranzacții plată"
 #. module: payment
 #: selection:payment.acquirer,payment_flow:0
 msgid "Payment from Odoo"
-msgstr "Plată de la Oddo"
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/account_payment.py:59
@@ -1037,7 +1007,7 @@ msgstr "Telefon"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.pay
 msgid "Please configure a payment acquirer."
-msgstr "Vă rugăm să configurați un achizitor de plăți."
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1052,24 +1022,23 @@ msgstr "Vă rugăm alegeți o metodă de plată."
 #, python-format
 msgid "Please select the option to add a new payment method."
 msgstr ""
-"Vă rugăm să selectați o opțiune pentru a adăuga o metodă nouă de plată."
 
 #. module: payment
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_custom
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_transfer
 msgid "Please use the following transfer details"
-msgstr "Vă rugăm să utilizați următoarele detalii de transfer"
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_custom
 #: model:payment.acquirer,post_msg:payment.payment_acquirer_transfer
 msgid "Please use the order name as communication reference."
-msgstr "Vă rugăm să folosiți numele comenzii ca referință de comunicare."
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.confirm
 msgid "Processed by"
-msgstr "Procesat de"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,environment:0
@@ -1084,23 +1053,9 @@ msgid "Provider"
 msgstr "Furnizor"
 
 #. module: payment
-#. openerp-web
-#: code:addons/payment/static/src/js/payment_translations.js:9
-#, python-format
-msgid "Publish"
-msgstr "Publică"
-
-#. module: payment
-#. openerp-web
-#: code:addons/payment/static/src/js/payment_translations.js:8
-#, python-format
-msgid "Published"
-msgstr "Publicat"
-
-#. module: payment
 #: selection:payment.acquirer,payment_flow:0
 msgid "Redirection to the acquirer website"
-msgstr "Redirecționare către site-ul web al achizitorului"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_reference
@@ -1111,7 +1066,7 @@ msgstr "Referință"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction_acquirer_reference
 msgid "Reference of the TX as stored in the acquirer database"
-msgstr "Referința TX așa cum este stocată în baza de date a achizitorului"
+msgstr ""
 
 #. module: payment
 #: selection:payment.transaction,state:0
@@ -1131,33 +1086,33 @@ msgstr "Există câmpuri obligatorii necompletate"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_registration_view_template_id
 msgid "S2S Form Template"
-msgstr "Șablon Formular S2S"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_save_token
 msgid "Save Cards"
-msgstr "Salvați carduri"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_tokens_list
 msgid "Save my payment data"
-msgstr "Salveză-mi datele de plată"
+msgstr ""
 
 #. module: payment
 #: model:ir.actions.act_window,name:payment.payment_token_action
 #: model:ir.ui.menu,name:payment.payment_token_menu
 msgid "Saved Payment Data"
-msgstr "Date de plată salvate"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_account_payment_payment_token_id
 msgid "Saved payment token"
-msgstr "Jeton de Plată Salvat"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_token_implemented
 msgid "Saving Card Data supported"
-msgstr "Salvare Date Card Acceptată"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_sequence
@@ -1187,7 +1142,7 @@ msgstr "Server To Server"
 #: code:addons/payment/static/src/js/payment_form.js:300
 #, python-format
 msgid "Server error"
-msgstr "Eroare server"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token_short_name
@@ -1227,17 +1182,17 @@ msgstr "Stare"
 #: model:payment.acquirer,name:payment.payment_acquirer_stripe
 #: selection:payment.acquirer,provider:0
 msgid "Stripe"
-msgstr "Dungat"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_payment_icon_ids
 msgid "Supported Payment Icons"
-msgstr "Iconițe plată suportate "
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_registration_view_template_id
 msgid "Template for method registration"
-msgstr "Șablon pentru înregistrarea metodei"
+msgstr ""
 
 #. module: payment
 #: selection:payment.acquirer,environment:0
@@ -1253,7 +1208,7 @@ msgstr "Mesaj de mulțumire"
 #: code:addons/payment/models/payment_acquirer.py:627
 #, python-format
 msgid "The %s payment acquirers are not allowed to manual capture mode!"
-msgstr "%s Achizitorii de plăți nu au permisiunea de a captura manual!"
+msgstr ""
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:620
@@ -1275,8 +1230,6 @@ msgid ""
 "This field holds the image used for this payment icon, limited to "
 "1024x1024px"
 msgstr ""
-"Acest câmp conține imaginea utilizată pentru această pictogramă de plată, "
-"limitată la 1024x1024px"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_image
@@ -1294,10 +1247,6 @@ msgid ""
 " invoicing), you need it to automatically charge the customer when you issue"
 " an invoice."
 msgstr ""
-"Această opțiune permite clienților să-și salveze cardul de credit ca jeton "
-"de plată și să îl reutilizeze pentru o achiziție ulterioară. Dacă gestionați"
-" abonamentele (facturare recurentă), aveți nevoie ca acesta să încaseze "
-"automat clientul atunci când emiteți o factură."
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_country_ids
@@ -1305,8 +1254,6 @@ msgid ""
 "This payment gateway is available for selected countries. If none is "
 "selected it is available for all countries."
 msgstr ""
-"Acest gateway de plată este disponibil pentru țările selectate. Dacă nu este"
-" selectat niciunul, acesta este disponibil pentru toate țările."
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -1320,7 +1267,6 @@ msgstr ""
 msgid ""
 "Transfer information will be provided after choosing the payment aquirer."
 msgstr ""
-"Informațiile despre transfer vor fi furnizate după alegerea modului de plată"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_type
@@ -1335,22 +1281,22 @@ msgstr "Data validării"
 #. module: payment
 #: selection:payment.transaction,type:0
 msgid "Validation of the bank card"
-msgstr "Validarea cardului bancar"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_dom_var
 msgid "Variable domestic fees (in percents)"
-msgstr "Taxe interne variabile (în procente)"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_fees_int_var
 msgid "Variable international fees (in percents)"
-msgstr "Taxe internaționale variabile (în procente)"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token_verified
 msgid "Verified"
-msgstr "Verificat"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_website_published
@@ -1360,7 +1306,7 @@ msgstr "Vizibil în portal/pagină web"
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
 msgid "Void Transaction"
-msgstr "Tranzacție nulă"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1374,14 +1320,14 @@ msgstr "Atenție!"
 #: code:addons/payment/static/src/js/payment_form.js:135
 #, python-format
 msgid "We are not able to add your payment method at the moment."
-msgstr "În acest moment nu putem adăuga metoda dvs. de plată."
+msgstr ""
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:301
 #, python-format
 msgid "We are not able to add your payment method at the moment.</p>"
-msgstr "În acest moment nu putem adăuga metoda dvs. de plată </p>"
+msgstr ""
 
 #. module: payment
 #. openerp-web
@@ -1389,28 +1335,28 @@ msgstr "În acest moment nu putem adăuga metoda dvs. de plată </p>"
 #: code:addons/payment/static/src/js/payment_form.js:368
 #, python-format
 msgid "We are not able to delete your payment method at the moment."
-msgstr "Nu putem șterge metoda de plată pentru moment."
+msgstr ""
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:174
 #, python-format
 msgid "We are not able to redirect you to the payment form."
-msgstr "Nu vă putem redirecționa către formularul de plată"
+msgstr ""
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:180
 #, python-format
 msgid "We are not able to redirect you to the payment form. "
-msgstr "Nu vă putem redirecționa către formularul de plată"
+msgstr ""
 
 #. module: payment
 #. openerp-web
 #: code:addons/payment/static/src/js/payment_form.js:189
 #, python-format
 msgid "We're unable to process your payment."
-msgstr "Nu putem procesa plata."
+msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_transfer
@@ -1474,7 +1420,7 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_confirmation_status
 msgid "Your payment has been authorized."
-msgstr "Plata dvs. a fost autorizată."
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.transaction_form
@@ -1499,7 +1445,7 @@ msgstr ""
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.payment_tokens_list
 msgid "and more"
-msgstr "și altele"
+msgstr ""
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form
@@ -1518,8 +1464,6 @@ msgstr ""
 #, python-format
 msgid "e.g. Your credit card details are wrong. Please verify."
 msgstr ""
-"de exemplu. Detaliile cardului dvs. de credit sunt greșite. Vă rugăm să "
-"verificați."
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.acquirer_form

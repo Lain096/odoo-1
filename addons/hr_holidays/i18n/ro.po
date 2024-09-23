@@ -7,7 +7,6 @@
 # Cozmin Candea <office@terrabit.ro>, 2017
 # Martin Trigaux, 2017
 # Dorin Hongu <dhongu@gmail.com>, 2018
-# Foldi Robert <foldirobert@nexterp.ro>, 2020
 # 
 msgid ""
 msgstr ""
@@ -15,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:18+0000\n"
-"Last-Translator: Foldi Robert <foldirobert@nexterp.ro>, 2020\n"
+"Last-Translator: Dorin Hongu <dhongu@gmail.com>, 2018\n"
 "Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -320,7 +319,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_can_reset
 msgid "Can reset"
-msgstr "Poate reseta"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_summary_dept
@@ -540,7 +539,7 @@ msgstr "Prima aprobare"
 #: code:addons/hr_holidays/report/holidays_summary_report.py:112
 #, python-format
 msgid "Form content is missing, this report cannot be printed."
-msgstr "Lipsa conținutului formularului, acest raport nu poate fi tipărit."
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_summary_dept_date_from
@@ -567,7 +566,7 @@ msgstr "Grupează după"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_report_note
 msgid "HR Comments"
-msgstr "Comentarii HR"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_department
@@ -1314,7 +1313,7 @@ msgstr "De făcut"
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
 msgid "To Report in Payslip"
-msgstr "Pentru raportare în Payslip"
+msgstr ""
 
 #. module: hr_holidays
 #: selection:hr.holidays,state:0
@@ -1324,7 +1323,7 @@ msgstr "De Depus"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_department_total_employee
 msgid "Total Employee"
-msgstr "Numărul total de angajați"
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_holidays_remaining_leaves_user
@@ -1462,7 +1461,7 @@ msgstr "zile"
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.edit_holiday_new
 msgid "e.g. Report to the next month..."
-msgstr "de exemplu. Raportează la luna următoare ..."
+msgstr ""
 
 #. module: hr_holidays
 #: model:ir.ui.view,arch_db:hr_holidays.report_holidayssummary

@@ -1,0 +1,96 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Odoo_11_GESLON",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/odoo11local/odoo/odoo-bin",
+            "args": [
+                "--xmlrpc-port",
+                "8171",
+                "--config",
+                "${workspaceFolder}/config/odoo-geslon-server.conf",
+                // "-u",
+                // "sd_socios",
+                "--addons-path",
+                "${workspaceFolder}/odoo11local/odoo/addons"
+            ],
+            "console": "integratedTerminal"
+        },
+
+        {
+            "name": "Odoo_11_PYME",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/odoo11local/odoo/odoo-bin",
+            "args": [
+                "--xmlrpc-port",
+                "8173",
+                "--config",
+                "${workspaceFolder}/config/odoo-pyme-server.conf",
+                // "-u",
+                // "os_facturacion",
+                "--addons-path",
+                "${workspaceFolder}/odoo11local/odoo/addons"
+            ],
+            "console": "integratedTerminal"
+        },
+
+        {
+            "name": "Odoo_11_ACERGA",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/odoo11local/odoo/odoo-bin",
+            "args": [
+                "--xmlrpc-port",
+                "8175",
+                "--config",
+                "${workspaceFolder}/config/odoo-acerga-server.conf",
+                // "-u",
+                // "-i",
+                //  "SD_Company",
+                "--addons-path",
+                "${workspaceFolder}/odoo11local/odoo/addons"
+            ],
+            "console": "integratedTerminal"
+        },
+
+        {
+            "name": "Odoo_11_FLUJO",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/odoo11local/odoo/odoo-bin",
+            "args": [
+                "--xmlrpc-port",
+                "8177",
+                "--config",
+                "${workspaceFolder}/config/odoo-cetmar-server.conf",
+                // "-u",
+                // "ct_expedientes,ct_informes,ct_login,ct_main,ct_mantenimiento,ct_usuarios",
+                "--addons-path",
+                "${workspaceFolder}/odoo11local/odoo/addons"
+            ],
+            "console": "integratedTerminal"
+        },
+
+        {
+            "name": "Odoo_11_ILLA_LOCAL",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/odoo11local/odoo/odoo-bin",
+            "args": [
+                "--xmlrpc-port",
+                "8179",
+                "--config",
+                "${workspaceFolder}/config/odoo-gdoc-server.conf",
+                "-u",
+                "cd_informes,cd_main",
+                "--addons-path",
+                "${workspaceFolder}/odoo11local/odoo/addons"
+            ],
+            "console": "integratedTerminal"
+        },
+
+    ]
+}

@@ -2,18 +2,12 @@
 # This file contains the translation of the following modules:
 # * resource
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
-"PO-Revision-Date: 2017-09-20 10:23+0000\n"
-"Last-Translator: Abul Hassan M I <miabulhassan@gmail.com>, 2019\n"
+"PO-Revision-Date: 2017-09-20 09:53+0000\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +24,7 @@ msgstr ""
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_resource_active
 msgid "Active"
-msgstr "செயலில்"
+msgstr ""
 
 #. module: resource
 #: model:ir.actions.act_window,name:resource.resource_calendar_closing_days
@@ -40,7 +34,7 @@ msgstr ""
 #. module: resource
 #: model:ir.model,name:resource.model_res_company
 msgid "Companies"
-msgstr "நிறுவனங்கள்"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_hr_employee_company_id
@@ -53,7 +47,7 @@ msgstr "நிறுவனங்கள்"
 #: model:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 #: model:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Company"
-msgstr "நிறுவனம்"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance_create_uid
@@ -62,7 +56,7 @@ msgstr "நிறுவனம்"
 #: model:ir.model.fields,field_description:resource.field_resource_resource_create_uid
 #: model:ir.model.fields,field_description:resource.field_resource_test_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance_create_date
@@ -71,7 +65,7 @@ msgstr "உருவாக்கியவர்"
 #: model:ir.model.fields,field_description:resource.field_resource_resource_create_date
 #: model:ir.model.fields,field_description:resource.field_resource_test_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance_dayofweek
@@ -109,7 +103,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_resource_display_name
 #: model:ir.model.fields,field_description:resource.field_resource_test_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_resource_time_efficiency
@@ -120,7 +114,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance_date_to
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves_date_to
 msgid "End Date"
-msgstr "கடைசி தேதி"
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:734
@@ -131,7 +125,7 @@ msgstr ""
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Friday"
-msgstr "வெள்ளி "
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:74
@@ -155,12 +149,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 #: model:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Group By"
-msgstr "மூலம் குழு"
+msgstr ""
 
 #. module: resource
 #: model:ir.ui.view,arch_db:resource.view_resource_calendar_attendance_form
 msgid "Hours"
-msgstr "மணி"
+msgstr ""
 
 #. module: resource
 #: selection:resource.resource,resource_type:0
@@ -175,7 +169,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_resource_id
 #: model:ir.model.fields,field_description:resource.field_resource_test_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_leaves_resource_id
@@ -204,7 +198,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_resource___last_update
 #: model:ir.model.fields,field_description:resource.field_resource_test___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance_write_uid
@@ -213,7 +207,7 @@ msgstr "கடைசியாக திருத்திய"
 #: model:ir.model.fields,field_description:resource.field_resource_resource_write_uid
 #: model:ir.model.fields,field_description:resource.field_resource_test_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance_write_date
@@ -222,7 +216,7 @@ msgstr "கடைசியாக புதுப்பிக்கப்பட�
 #: model:ir.model.fields,field_description:resource.field_resource_resource_write_date
 #: model:ir.model.fields,field_description:resource.field_resource_test_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: resource
 #: model:ir.model,name:resource.model_resource_calendar_leaves
@@ -250,7 +244,7 @@ msgstr ""
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Monday"
-msgstr "திங்கட்கிழமை"
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:66
@@ -270,14 +264,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_resource_name
 #: model:ir.model.fields,field_description:resource.field_resource_test_name
 msgid "Name"
-msgstr "பெயர்"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves_name
 #: model:ir.ui.view,arch_db:resource.resource_calendar_leave_form
 #: model:ir.ui.view,arch_db:resource.resource_calendar_leave_tree
 msgid "Reason"
-msgstr "காரணம்"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_resource_user_id
@@ -356,7 +350,7 @@ msgstr ""
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Saturday"
-msgstr "சனிக்கிழமை"
+msgstr ""
 
 #. module: resource
 #: model:ir.ui.view,arch_db:resource.view_resource_resource_search
@@ -383,7 +377,7 @@ msgstr ""
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves_date_from
 msgid "Start Date"
-msgstr "தொடக்க தேதி"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_attendance_hour_from
@@ -405,7 +399,7 @@ msgstr ""
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Sunday"
-msgstr "ஞாயிறு"
+msgstr ""
 
 #. module: resource
 #: model:ir.model,name:resource.model_resource_test
@@ -431,7 +425,7 @@ msgstr ""
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Thursday"
-msgstr "வியாழக்கிழமை"
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:72
@@ -465,7 +459,7 @@ msgstr ""
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Tuesday"
-msgstr "செவ்வாய்க்கிழமை"
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:68
@@ -482,23 +476,23 @@ msgstr ""
 #. module: resource
 #: model:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Type"
-msgstr "வகை"
+msgstr ""
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_resource_user_id
 #: model:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "User"
-msgstr "பயனர்"
+msgstr ""
 
 #. module: resource
 #: model:ir.model,name:resource.model_res_users
 msgid "Users"
-msgstr "பயனர்கள்"
+msgstr ""
 
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Wednesday"
-msgstr "புதன்கிழமை"
+msgstr ""
 
 #. module: resource
 #: code:addons/resource/models/resource.py:70

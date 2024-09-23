@@ -1788,11 +1788,6 @@ msgid "Email support"
 msgstr ""
 
 #. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Enable billing on your Google Project"
-msgstr ""
-
-#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "End"
 msgstr "Крај"
@@ -3636,6 +3631,11 @@ msgid "Show in Top Menu"
 msgstr ""
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Show your address on a map in the"
+msgstr ""
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Simple and obvious"
 msgstr ""
@@ -4092,11 +4092,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 msgid "Url"
 msgstr "Адреса"
-
-#. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Use Google Map on your website ("
-msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
@@ -4841,7 +4836,7 @@ msgstr "или уреди главна"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "page, snippets, ...)"
+msgid "page"
 msgstr ""
 
 #. module: website

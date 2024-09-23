@@ -35,6 +35,7 @@ class Web_Editor(http.Controller):
             model=model,
             res_id=res_id,
             field=field,
+            datarecord=json.loads(kwargs['datarecord']),
             debug=request.debug)
 
         for k in kwargs:
@@ -95,11 +96,11 @@ class Web_Editor(http.Controller):
         # Make sure we have at least size=1
         size = max(1, size)
         # Initialize font
-        with tools.file_open(font.lstrip('/'), 'rb') as f:
-            font_obj = ImageFont.truetype(f, size)
+        addons_path = http.addons_manifest['web']['addons_path']
+        font_obj = ImageFont.truetype(addons_path + font, size)
 
         # if received character is not a number, keep old behaviour (icon is character)
-        icon = chr(int(icon)) if icon.isdigit() else icon
+        icon = pycompat.unichr(int(icon)) if icon.isdigit() else icon
 
         # Determine the dimensions of the icon
         image = Image.new("RGBA", (size, size), color=(0, 0, 0, 0))

@@ -14,7 +14,7 @@
 # hoxhe Aits <hoxhe0@gmail.com>, 2017
 # Ghaith Gammar <g.gammar@saharaifs.net>, 2017
 # Shaima Safar <shaima.safar@open-inside.com>, 2017
-# Mustafa Rawi <mustafa@cubexco.com>, 2019
+# Mustafa Rawi <mustafa@cubexco.com>, 2017
 # 
 msgid ""
 msgstr ""
@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:28+0000\n"
-"Last-Translator: Mustafa Rawi <mustafa@cubexco.com>, 2019\n"
+"Last-Translator: Mustafa Rawi <mustafa@cubexco.com>, 2017\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -88,7 +88,7 @@ msgstr "# من موقع المشاهدات"
 #. module: website_slides
 #: model:mail.template,subject:website_slides.slide_template_shared
 msgid "${user.name} shared a ${object.slide_type} with you!"
-msgstr "قام ${user.name} بمشاركة ${object.slide_type} معك!"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_channel_form
@@ -96,8 +96,6 @@ msgid ""
 "(Un)archiving a channel automatically (un)archives its slides. Do you want "
 "to proceed?"
 msgstr ""
-"تؤدي أرشفة (أو إلغاء أرشفة) القناة لأرشفة شرائحها تلقائيًا. هل تود "
-"الاستمرار؟"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slides_search
@@ -204,8 +202,6 @@ msgid ""
 "<i class=\"fa fa-info-circle\"/>\n"
 "                                        The social sharing module will be unlocked when a moderator will allow your publication."
 msgstr ""
-"<i class=\"fa fa-info-circle\"/>\n"
-"                                        سيتم تفعيل موديول المشاركة على مواقع التواصل الاجتماعي عندما يوافق أحد المشرفين على منشورك."
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_detail_view
@@ -237,7 +233,7 @@ msgstr "<i class=\"fa fa-thumbs-up\"/> اعجاب"
 #, python-format
 msgid ""
 "<p>This channel is private and its content is restricted to some users.</p>"
-msgstr "<p>هذه القناة خاصة ومحتواها مقصور على بعض الأعضاء.</p>"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_detail_view
@@ -368,17 +364,17 @@ msgstr "مؤرشف"
 #. module: website_slides
 #: selection:slide.slide,download_security:0
 msgid "Authenticated Users Only"
-msgstr "المستخدمون المعتمدون فقط"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
 msgid "Awesome Timesheet by Odoo"
-msgstr "سجل أنشطة رائع من أودو"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.tag,name:website_slides.tag1
 msgid "CMS"
-msgstr "نظام إدارة المحتوى"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_can_see
@@ -435,7 +431,7 @@ msgstr "اعدادات القناة"
 #, python-format
 msgid ""
 "Channel contains the given title, please change before Save or Publish."
-msgstr "تحتوي القناة على العنوان المعطى، برجاء تغييره قبل الحفظ او النشر."
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_channel
@@ -445,7 +441,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Channel visibility"
-msgstr "إمكانية ظهور القناة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.actions.act_url,name:website_slides.action_open_channels
@@ -458,7 +454,7 @@ msgstr "قنوات"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_10
 msgid "Company Culture"
-msgstr "ثقافة المؤسسة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_datas
@@ -470,7 +466,7 @@ msgstr "المحتوى"
 #: code:addons/website_slides/static/src/xml/website_slides.xml:20
 #, python-format
 msgid "Content Preview"
-msgstr "معاينة المحتوى"
+msgstr ""
 
 #. module: website_slides
 #: code:addons/website_slides/controllers/main.py:255
@@ -479,8 +475,6 @@ msgid ""
 "Could not fetch data from url. Document or access right not available.\n"
 "Here is the received response: %s"
 msgstr ""
-"تعذّر الحصول على البيانات من الرابط. قد يكون المستند أو صلاحية الوصول غير متاحين.\n"
-"الرد المستلم هو: %s"
 
 #. module: website_slides
 #: code:addons/website_slides/models/slides.py:322
@@ -489,8 +483,6 @@ msgid ""
 "Could not fetch data from url. Document or access right not available:\n"
 "%s"
 msgstr ""
-"تعذّر الحصول على البيانات من الرابطـ،. قد يكون المستند أو صلاحية الوصول غير متاحين:\n"
-"%s"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
@@ -502,7 +494,7 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/slides_upload.js:219
 #, python-format
 msgid "Create new tag '%s'"
-msgstr "إنشاء وسم جديد '%s'"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category_create_uid
@@ -528,8 +520,6 @@ msgid ""
 "Default channel for slides, all public users can access content of this "
 "channel."
 msgstr ""
-"القناة الافتراضية للشرائح، يمكن لكافة المستخدمين العموميين الوصول لمحتوى هذه"
-" القناة."
 
 #. module: website_slides
 #. openerp-web
@@ -552,7 +542,7 @@ msgstr "تجاهل"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
 msgid "Discover how easy marketing your business can be with Odoo"
-msgstr "اكتشف سهولة تسويق عملك من خلال أودو"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_0
@@ -563,18 +553,11 @@ msgid ""
 "\n"
 "Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
 msgstr ""
-"اكتشف كيف يمكنك ربط أنظمة تخطيط متطلبات المواد، ودورة حياة المنتج، والجودة، والصيانة، في تطبيق واحد لتحسين كفاءة عمليات التصنيع.\n"
-"\n"
-"اقرأ المزيد عن هذه الخصائص في: https://www.odoo.com/page/manufacturing-features\n"
-"\n"
-"واكتشف نظام تخطيط متطلبات المواد من أودو في: https://www.odoo.com/page/manufacturing"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
 msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
 msgstr ""
-"اكتشف نظام مبيعات العلاقات العامة الذي يحبه الناس: "
-"https://www.odoo.com/page/crm"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_2
@@ -583,14 +566,11 @@ msgid ""
 "\n"
 "Learn more at https://odoo.com"
 msgstr ""
-"اكتشف برنامج توفير حلول إدارة الأعمال الذي يحتوي كل شيء ويناسب أي مشروع مهما كان حجمه واستخداماته.\n"
-"\n"
-"اعرف المزيد في: https://odoo.com"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_dislikes
 msgid "Dislikes"
-msgstr "عدم الإعجاب"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category_display_name
@@ -605,7 +585,7 @@ msgstr "الاسم المعروض"
 #: model:ir.model.fields,help:website_slides.field_slide_category_sequence
 #: model:ir.model.fields,help:website_slides.field_slide_channel_sequence
 msgid "Display order"
-msgstr "ترتيب العرض"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_form
@@ -621,7 +601,7 @@ msgstr "معرف المستند"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_url
 msgid "Document URL"
-msgstr "رابط المستند"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slides_channel_header
@@ -641,55 +621,51 @@ msgid ""
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
 msgstr ""
-"حمّل سجل نشاط رائع واكتشف مدى سهولة تتبع فترات العمل وإدارة الموظفين!\n"
-"\n"
-"جوجل كروم: http://bit.ly/2613LcY\n"
-"نظام iOS: http://bit.ly/1ZUZsZD"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_download_security
 msgid "Download Security"
-msgstr "تحميل برنامج حماية"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_publish_template_id
 msgid "Email template to send slide publication through email"
-msgstr "قالب البريد المستخدم لإرسال الشرائح المنشورة بالبريد الإلكتروني"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_share_template_id
 msgid "Email template used when sharing a slide"
-msgstr "قالب البريد المستخدم عند مشاركة شريحة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_embed_code
 msgid "Embed Code"
-msgstr "تضمين كود"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_embedcount_ids
 msgid "Embed Count"
-msgstr "عدد المضمنات"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_social_embed
 msgid "Embed in your website"
-msgstr "تضمين في موقعك"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_embed
 msgid "Embedded Slides View Counter"
-msgstr "عدد مشاهدات الشرائح المضمنة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "Embeds"
-msgstr "يتضمن"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.channel,name:website_slides.channel_private
 msgid "Employee Channel"
-msgstr "قناة الموظف"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_access_error_msg
@@ -705,22 +681,22 @@ msgstr "الجميع"
 #. module: website_slides
 #: selection:slide.channel,promote_strategy:0
 msgid "Featured Presentation"
-msgstr "العرض المثبت"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_1
 msgid "Featured Presentations"
-msgstr "العروض المثبتة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_promoted_slide_id
 msgid "Featured Slide"
-msgstr "الشريحة المثبتة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_promote_strategy
 msgid "Featuring Policy"
-msgstr "سياسة التثبيت"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -728,7 +704,7 @@ msgstr "سياسة التثبيت"
 #: code:addons/website_slides/static/src/js/slides_upload.js:89
 #, python-format
 msgid "File is too big. File size cannot exceed 25MB"
-msgstr "الملف كبير للغاية. يجب ألا يتجاوز حجم الملف 25 ميجابايت"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_can_see_full
@@ -743,17 +719,17 @@ msgstr "عام"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_config_settings_website_slide_google_app_key
 msgid "Google Doc Key"
-msgstr "مفتاح مستندات جوجل"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
 msgid "Google Drive API Key"
-msgstr "مفتاح API لجوجل درايف"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_graph
 msgid "Graph of Slides"
-msgstr "رسم بياني بالشرائح"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_search
@@ -763,7 +739,7 @@ msgstr "تجميع حسب"
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_group_ids
 msgid "Groups allowed to see presentations in this channel"
-msgstr "المجموعات المسموح لها برؤية العروض في هذه القناة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_upload_group_ids
@@ -771,8 +747,6 @@ msgid ""
 "Groups allowed to upload presentations in this channel. If void, every user "
 "can upload."
 msgstr ""
-"المجموعات المسموح لها برفع العروض في هذه القناة. إذا تُركت هذه الخانة فارغة،"
-" يستطيع أي مستخدم رفع العروض."
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category_id
@@ -791,12 +765,12 @@ msgstr "الصورة"
 #. module: website_slides
 #: selection:slide.slide,slide_type:0
 msgid "Infographic"
-msgstr "مخطط المعلومات الرسومي"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slides_channel_header
 msgid "Infographics"
-msgstr "مخططات المعلومات الرسومية"
+msgstr ""
 
 #. module: website_slides
 #: code:addons/website_slides/controllers/main.py:285
@@ -805,15 +779,13 @@ msgid ""
 "Internal server error, please try again later or contact administrator.\n"
 "Here is the error message: %s"
 msgstr ""
-"خطأ داخلي بالسيرفر، برجاء المحاولة مرة أخرى لاحقًا أو التواصل مع المشرف.\n"
-"رسالة الخطأ: %s"
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:84
 #, python-format
 msgid "Invalid file type. Please select pdf or image file"
-msgstr "نوع الملف غير صالح. برجاء اختيار ملف pdf أو صورة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category___last_update
@@ -845,18 +817,18 @@ msgstr "آخر تحديث في"
 #. module: website_slides
 #: selection:slide.channel,promote_strategy:0
 msgid "Latest Published"
-msgstr "أحدث المنشورات"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
 msgid "Learn more at https://www.odoo.com/page/sales"
-msgstr "تعرف على المزيد في https://www.odoo.com/page/sales"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_likes
 #: model:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "Likes"
-msgstr "الإعجابات"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.tag,name:website_slides.tag2
@@ -871,19 +843,19 @@ msgstr "متوسط"
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_access_error_msg
 msgid "Message to display when not accessible due to access rights"
-msgstr "رسالة تُعرض عند تعذّر الاستمرار بسبب صلاحيات الوصول"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_mime_type
 msgid "Mime-type"
-msgstr "Mime-type"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_detail_view
 #: model:ir.ui.view,arch_db:website_slides.slides_channel_header
 #: selection:slide.channel,promote_strategy:0
 msgid "Most Viewed"
-msgstr "الأكثر عرضًا"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slides_channel_header
@@ -903,7 +875,7 @@ msgstr "الاسم"
 #. module: website_slides
 #: model:mail.template,subject:website_slides.slide_template_published
 msgid "New ${object.slide_type} published on ${object.channel_id.name}"
-msgstr "تم نشر ${object.slide_type} جديد على ${object.channel_id.name}"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slides_channel_header
@@ -913,7 +885,7 @@ msgstr "الأحدث"
 #. module: website_slides
 #: selection:slide.channel,promote_strategy:0
 msgid "No Featured Presentation"
-msgstr "لا يوجد عرض مثبت"
+msgstr ""
 
 #. module: website_slides
 #: selection:slide.slide,download_security:0
@@ -923,148 +895,148 @@ msgstr "لا احد"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.channel_not_found
 msgid "No channel created or published yet."
-msgstr "لم يتم إنشاء أو نشر قناة بعد."
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "No presentation available."
-msgstr "لا يوجد عرض متاح."
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.home
 msgid "No presentation published yet."
-msgstr "لم يتم نشر عرض بعد."
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category_nbr_documents
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_nbr_documents
 msgid "Number of Documents"
-msgstr "عدد المستندات"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category_nbr_infographics
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_nbr_infographics
 msgid "Number of Infographics"
-msgstr "عدد مخططات المعلومات الرسومية"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category_nbr_presentations
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_nbr_presentations
 msgid "Number of Presentations"
-msgstr "عدد العروض"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category_nbr_videos
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_nbr_videos
 msgid "Number of Videos"
-msgstr "عدد مقاطع الفيديو"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
 msgid "Odoo All-in-One Software Demonstration"
-msgstr "استعراض لبرنامج أودو الشامل"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
 msgid "Odoo CRM"
-msgstr "العلاقات العامة من أودو"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
 #: model:slide.tag,name:website_slides.tag5
 msgid "Odoo Days"
-msgstr "أيام أودو"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
 msgid "Odoo Inventory"
-msgstr "مخزون أودو"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
 msgid "Odoo MRP"
-msgstr "نظام تخطيط متطلبات المواد من أودو"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
 msgid "Odoo Marketing"
-msgstr "تسويق أودو"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
 msgid "Odoo Sales"
-msgstr "مبيعات أودو"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
 msgid "Odoo Sign Demonstration"
-msgstr "استعراض لتوقيعات أودو"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_9
 msgid "Open Days 2014 Infographic"
-msgstr "رسم بياني بالأيام المفتوحة لعام 2014"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_11
 msgid "OpenSource CMS, A performance comparison - Mantavya Gajjar"
-msgstr "نظم إدارة المحتوى مفتوح المصدر، مقارنة بين الأداء - مانتافيا غاجار"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:28
 #, python-format
 msgid "PDF or Image File"
-msgstr "ملف PDF أو صورة"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.channel,name:website_slides.channel_partial
 msgid "Partner Channel"
-msgstr "قناة الشريك"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_social_email
 msgid "Please"
-msgstr "برجاء"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides.js:56
 #, python-format
 msgid "Please <a href=\"/web?redirect=%s\">login</a> to vote this slide"
-msgstr "برجاء <a href=\"/web?redirect=%s\">تسجيل الدخول</a> للتصويت لهذه الشريحة"
+msgstr ""
 
 #. module: website_slides
 #: code:addons/website_slides/models/slides.py:325
 #: code:addons/website_slides/models/slides.py:545
 #, python-format
 msgid "Please enter valid Youtube or Google Doc URL"
-msgstr "برجاء إدخال رابط صالح من يوتيوب أو من مستندات جوجل"
+msgstr ""
 
 #. module: website_slides
 #: code:addons/website_slides/controllers/main.py:247
 #, python-format
 msgid "Please enter valid youtube or google doc url"
-msgstr "برجاء إدخال رابط صالح من يوتيوب أو من مستندات جوجل"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_embed_slide_id
 #: selection:slide.slide,slide_type:0
 msgid "Presentation"
-msgstr "عرض"
+msgstr ""
 
 #. module: website_slides
 #: model:mail.message.subtype,description:website_slides.mt_channel_slide_published
 #: model:mail.message.subtype,name:website_slides.mt_channel_slide_published
 msgid "Presentation Published"
-msgstr "تم نشر العرض"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_footer
 #: model:ir.ui.view,arch_db:website_slides.slides_channel_header
 #: model:website.menu,name:website_slides.website_menu_slides
 msgid "Presentations"
-msgstr "عروض"
+msgstr ""
 
 #. module: website_slides
 #: selection:slide.channel,visibility:0
@@ -1074,7 +1046,7 @@ msgstr "خاص"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.channels
 msgid "Private channel"
-msgstr "قناة خاصة"
+msgstr ""
 
 #. module: website_slides
 #: selection:slide.channel,visibility:0
@@ -1084,12 +1056,12 @@ msgstr "عام"
 #. module: website_slides
 #: model:slide.channel,name:website_slides.channel_public
 msgid "Public Channel"
-msgstr "قناة عامة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_date_published
 msgid "Publish Date"
-msgstr "تاريخ النشر"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_search
@@ -1099,7 +1071,7 @@ msgstr "منشور"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_publish_template_id
 msgid "Published Template"
-msgstr "القالب المنشور"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_detail_view
@@ -1109,7 +1081,7 @@ msgstr "مقترن"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.home
 msgid "Results for"
-msgstr "نتائج"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.home
@@ -1117,26 +1089,25 @@ msgid ""
 "Review your channel settings to promote your most viewed or recent published"
 " presentation"
 msgstr ""
-"راجع إعدادات قناتك لاختيار أن تقوم بالترويج لعروضك الأكثر مشاهدة أو الأحدث"
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:70
 #, python-format
 msgid "Save and Publish"
-msgstr "حفظ ونشر"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:69
 #, python-format
 msgid "Save as Draft"
-msgstr "حفظ كمسودة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_search
 msgid "Search Slides"
-msgstr "البحث في الشرائح"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_channel_form
@@ -1146,12 +1117,12 @@ msgstr "الأمن"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.channels
 msgid "Select a Channel"
-msgstr "اختيار قناة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_social_embed
 msgid "Select page to start with"
-msgstr "اختر صفحة لتبدأ بها"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category_sequence
@@ -1162,47 +1133,47 @@ msgstr "التسلسل"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_social_media
 msgid "Share Link"
-msgstr "مشاركة الرابط"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "Share count"
-msgstr "عدد المشاركات"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_social_media
 msgid "Share on Social Networks"
-msgstr "المشاركة على مواقع التواصل الاجتماعي"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_social_email
 msgid "Share with a friend"
-msgstr "المشاركة مع صديق"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_share_template_id
 msgid "Shared Template"
-msgstr "القالب المشارك"
+msgstr ""
 
 #. module: website_slides
 #: selection:slide.channel,visibility:0
 msgid "Show channel but restrict presentations"
-msgstr "إظهار القناة لكن حظر العروض"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Slide"
-msgstr "شريحة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_tag
 msgid "Slide Tag"
-msgstr "وسم الشريحة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_custom_slide_id
 msgid "Slide to Promote"
-msgstr "الشريحة المراد عمل دعاية لها"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.actions.act_window,name:website_slides.action_slides_slides
@@ -1214,17 +1185,17 @@ msgstr "الشريحة المراد عمل دعاية لها"
 #: model:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_tree
 msgid "Slides"
-msgstr "الشرائح"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_category
 msgid "Slides Category"
-msgstr "فئة الشرائح"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slides_search
 msgid "Sorry, but nothing matches your search criteria"
-msgstr "نعتذر، لكن لم يطابق أي شيء معايير بحثك"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_3
@@ -1233,9 +1204,6 @@ msgid ""
 "\n"
 "Discover more at https://www.odoo.com/page/sign"
 msgstr ""
-"توقف عن الطباعة والمسح الضوئي يدويًا. انتقل للتوقيع الإلكتروني مع توقيعات أودو!\n"
-"\n"
-"اكتشف المزيد في: https://www.odoo.com/page/sign"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -1270,25 +1238,23 @@ msgid ""
 "The document type will be set automatically based on the document URL and "
 "properties (e.g. height and width for presentation and document)."
 msgstr ""
-"سيتم تحديد نوع المستند تلقائيًا حسب رابط وخصائص المستند (مثل طول وعرض العرض "
-"والمستند)."
 
 #. module: website_slides
 #: sql_constraint:slide.slide:0
 msgid "The slide name must be unique within a channel"
-msgstr "يجب أن يكون اسم المجموعة فريدًا من نوعه داخل القناة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_embed_url
 msgid "Third Party Website URL"
-msgstr "رابط موقع جهة خارجية"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.channel,access_error_msg:website_slides.channel_partial
 #: model:slide.channel,access_error_msg:website_slides.channel_private
 #: model:slide.channel,access_error_msg:website_slides.channel_public
 msgid "This channel is private and its content is restricted to some users."
-msgstr "هذه القناة خاصة ومحتواها مقصور على بعض الأعضاء."
+msgstr ""
 
 #. module: website_slides
 #: code:addons/website_slides/controllers/main.py:251
@@ -1297,13 +1263,11 @@ msgid ""
 "This video already exists in this channel <a target=\"_blank\" "
 "href=\"/slides/slide/%s\">click here to view it </a>"
 msgstr ""
-"هذا الفيديو موجود بهذه القناة بالفعل <a target=\"_blank\" "
-"href=\"/slides/slide/%s\">اضغط هنا لعرضه</a>"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_image_thumb
 msgid "Thumbnail"
-msgstr "صورة مصغرة"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -1323,12 +1287,12 @@ msgstr "الإجمالي "
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_total_views
 msgid "Total # Views"
-msgstr "إجمالي عدد المشاهدات"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_index_content
 msgid "Transcript"
-msgstr "النص"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_slide_type
@@ -1345,7 +1309,7 @@ msgstr "غير مصنف"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.home
 msgid "Uncategorized presentation"
-msgstr "عرض غير مصنف"
+msgstr ""
 
 #. module: website_slides
 #: code:addons/website_slides/models/slides.py:534
@@ -1356,7 +1320,7 @@ msgstr "وثيقة غير محدد"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slides_grid_view
 msgid "Unpublished"
-msgstr "غير منشور"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_upload_group_ids
@@ -1390,12 +1354,12 @@ msgstr "تحميل العرض ..."
 #. module: website_slides
 #: model:slide.channel,description:website_slides.channel_private
 msgid "Used to publish internal slides of company."
-msgstr "يستخدم لنشر الشرائح الداخلية لمؤسسة."
+msgstr ""
 
 #. module: website_slides
 #: model:slide.channel,description:website_slides.channel_partial
 msgid "Used to publish slides in partner network privately."
-msgstr "يستخدم لنشر الشرائح في شبكة الشريك بسرية."
+msgstr ""
 
 #. module: website_slides
 #: selection:slide.slide,slide_type:0
@@ -1435,9 +1399,6 @@ msgid ""
 "\n"
 "Discover Odoo Inventory: https://www.odoo.com/page/warehouse"
 msgstr ""
-"برنامج إدارة المخزن للقرن الـ21.\n"
-"\n"
-"اكتشف مخزن أودو: https://www.odoo.com/page/warehouse"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_form
@@ -1449,38 +1410,38 @@ msgstr "الموقع الإلكتروني"
 #: code:addons/website_slides/static/src/js/slides_upload.js:114
 #, python-format
 msgid "You can not upload password protected file."
-msgstr "لا يمكنك رفع ملف محمي بكلمة مرور."
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides.js:65
 #, python-format
 msgid "You have already voted for this slide"
-msgstr "قمت بالفعل بالتصويت لهذه الشريحة"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:36
 #, python-format
 msgid "Youtube Video URL"
-msgstr "رابط فيديو يوتيوب"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:34
 #, python-format
 msgid "Youtube or Google Doc URL"
-msgstr "رابط يوتيوب أو من مستندات جوجل"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_slide_document_id
 msgid "Youtube or Google Document ID"
-msgstr "معرف يوتيوب أو من مستندات جوجل"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_slide_url
 msgid "Youtube or Google Document URL"
-msgstr "رابط يوتيوب أو من مستندات جوجل"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_social_email
@@ -1516,12 +1477,12 @@ msgstr "الدقة.التكوين.إعدادات"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slides_search
 msgid "results found for the given criteria"
-msgstr "النتائج المتوفرة لمعايير البحث المحددة"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.embed_slide
 msgid "suggest_slide.name"
-msgstr "suggest_slide.name"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_social_email
@@ -1531,4 +1492,4 @@ msgstr "لإرسال هذا"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_social_email
 msgid "your-friend@domain.com"
-msgstr "your-friend@domain.com"
+msgstr ""

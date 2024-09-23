@@ -68,12 +68,8 @@ rte.Class.include({
         $(".js_tweet, .js_comment").off('mouseup').trigger('mousedown');
         return this._super.apply(this, arguments);
     },
-    _saveElement: function ($el, context, withLang) {
+    _saveElement: function ($el, context) {
         var defs = [this._super.apply(this, arguments)];
-        // do not save cover in translation mode
-        if (withLang) {
-            return defs[0];
-        }
         // TODO the o_dirty class is not put on the right element for blog cover
         // edition. For some strange reason, it was forcly put (even if not
         // dirty) in <= saas-16 but this is not the case anymore.

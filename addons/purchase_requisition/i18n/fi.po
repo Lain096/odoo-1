@@ -5,16 +5,15 @@
 # Translators:
 # Marko Happonen <marko.happonen@sprintit.fi>, 2017
 # Timo Koukkari <ti.ko@netikka.fi>, 2017
+# Mikko Salmela <salmemik@gmail.com>, 2017
 # Eino Mäkitalo <eino.makitalo@netitbe.fi>, 2017
 # Veikko Väätäjä <veikko.vaataja@gmail.com>, 2017
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2017
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2017
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2017
-# Mikko Salmela <salmemik@gmail.com>, 2017
 # Mikko Närjänen <mikko.narjanen@web-veistamo.fi>, 2018
 # Martin Trigaux, 2019
 # Jussi Lehto <jussi@gulfeo.com>, 2019
-# Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2019
 # 
 msgid ""
 msgstr ""
@@ -22,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:22+0000\n"
-"Last-Translator: Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2019\n"
+"Last-Translator: Jussi Lehto <jussi@gulfeo.com>, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +47,7 @@ msgstr "<strong>Kuvaus</strong>"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Product UoM</strong>"
-msgstr "<strong> Tuote UoM </strong>"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -68,12 +67,12 @@ msgstr "<strong>Suunniteltu pvm</strong><br/>"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Scheduled Ordering Date:</strong><br/>"
-msgstr "<strong> Ajoitettu tilauspäivämäärä: </strong> <br/>"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Selection Type:</strong><br/>"
-msgstr "<strong> Valintotyyppi: </strong> <br/>"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -98,7 +97,7 @@ msgstr "Sopimuksen viite"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_type_exclusive
 msgid "Agreement Selection Type"
-msgstr "Sopimuksen valintatyyppi"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_type_id_10513
@@ -110,7 +109,7 @@ msgstr "Sopimustyyppi"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.res_config_settings_view_form
 msgid "Agreement Types"
-msgstr "Sopimustyypit"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_account_analytic_id
@@ -126,7 +125,7 @@ msgstr "Tarjouksen valinta"
 #. module: purchase_requisition
 #: model:purchase.requisition.type,name:purchase_requisition.type_single
 msgid "Blanket Order"
-msgstr "Yleistilaus"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.actions.report,name:purchase_requisition.action_report_purchase_requisitions
@@ -148,7 +147,7 @@ msgstr "Peruttu"
 #: code:addons/purchase_requisition/models/purchase_requisition.py:82
 #, python-format
 msgid "Cancelled by the agreement associated to this quotation."
-msgstr "Peruutettu tarjoukseen liittyvällä sopimuksella."
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
@@ -175,7 +174,7 @@ msgstr "Vahvistettu"
 #. module: purchase_requisition
 #: selection:product.template,purchase_requisition:0
 msgid "Create a draft purchase order"
-msgstr "Luo ostotilausluonnos"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_uid
@@ -216,7 +215,7 @@ msgstr "Näyttönimi"
 #. module: purchase_requisition
 #: selection:purchase.requisition.type,line_copy:0
 msgid "Do not create RfQ lines automatically"
-msgstr "Älä luo RfQ-linjoja automaattisesti"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -228,7 +227,7 @@ msgstr "Valmis"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line_move_dest_id
 msgid "Downstream Move"
-msgstr "Alavirtaan siirtyä"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -245,7 +244,7 @@ msgstr "Päättymiskuukausi"
 #: model:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid ""
 "Example of purchase agreements include call for tenders and blanket orders."
-msgstr "Esimerkkejä ostosopimuksista ovat tarjouspyynnöt ja yleistilaukset."
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
@@ -254,9 +253,6 @@ msgid ""
 "            (e.g. a year) and you order products within this agreement, benefiting\n"
 "            from the negociated prices."
 msgstr ""
-"Yleistilaukselle voit tallentaa sopimuksen tietyn ajanjakson\n"
-"            (esim. vuosi) ja tilaat tuotteita tämän sopimuksen puitteissa hyödyttäen\n"
-"            neuvotelluista hinnoista. "
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -278,15 +274,11 @@ msgid ""
 "            been registered, you can review and compare them and you can\n"
 "            validate some and cancel others."
 msgstr ""
-"Tarjouspyynnössä voit tallentaa tarvitsemasi tuotteet\n"
-"            ja luoda RfQ-luonti myyjille. Kun tarjoukset ovat\n"
-"            on rekisteröity, voit tarkistaa ja vertailla niitä ja voit\n"
-"            validoida ja peruuttaa toiset. "
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "In negotiation"
-msgstr "Neuvotteluissa"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition___last_update
@@ -400,13 +392,13 @@ msgstr "Ostettavat tuotteet"
 #. module: purchase_requisition
 #: selection:product.template,purchase_requisition:0
 msgid "Propose a call for tenders"
-msgstr "Ehdota tarjouspyyntö"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order_requisition_id
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line_requisition_id
 msgid "Purchase Agreement"
-msgstr "Ostosopimus"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition_type
@@ -419,7 +411,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_type_form
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_type_tree
 msgid "Purchase Agreement Types"
-msgstr "Ostosopimustyypit"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition
@@ -428,7 +420,7 @@ msgstr "Ostosopimustyypit"
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_tree
 msgid "Purchase Agreements"
-msgstr "Ostosopimukset"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_order
@@ -483,12 +475,12 @@ msgstr "Määrä"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "RFQs/Orders"
-msgstr "RFQs / tilaukset"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.product_template_form_view_inherit
 msgid "Reordering"
-msgstr "Uudelleentilaus"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition_to_so
@@ -513,7 +505,7 @@ msgstr "Pyyntö"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_stock_move_requistion_line_ids
 msgid "Requistion Line"
-msgstr "Pyyntörivi"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -534,17 +526,17 @@ msgstr "Suunniteltu päivämäärä"
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Search Purchase Agreements"
-msgstr "Etsi ostosopimukset"
+msgstr ""
 
 #. module: purchase_requisition
 #: selection:purchase.requisition.type,exclusive:0
 msgid "Select multiple RFQ"
-msgstr "Valitse useita RFQ"
+msgstr ""
 
 #. module: purchase_requisition
 #: selection:purchase.requisition.type,exclusive:0
 msgid "Select only one RFQ (exclusive)"
-msgstr "Valitse vain yksi RFQ (yksinoikeus)"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_type_exclusive
@@ -553,9 +545,6 @@ msgid ""
 "\n"
 "                    Select multiple RFQ: allows multiple purchase orders. On confirmation of a purchase order it does not cancel the remaining orders"
 msgstr ""
-"Valitse vain yksi RFQ (yksinoikeus): kun ostotilaus on vahvistettu, peruuta jäljellä oleva tilaus.\n"
-"\n"
-"                    Valitse useita RFQ: sallii useita ostotilauksia. Vahvistaessasi tilauksen se ei peruuta jäljellä olevia tilauksia "
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_type_sequence
@@ -598,8 +587,6 @@ msgstr "Toimitusehdot"
 msgid ""
 "The expected and scheduled delivery date where all the products are received"
 msgstr ""
-"Odotettu ja suunniteltu toimituspäivä, jolloin kaikki tuotteet "
-"vastaanotetaan"
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -619,12 +606,12 @@ msgstr "Yksikköhinta"
 #. module: purchase_requisition
 #: selection:purchase.requisition.type,line_copy:0
 msgid "Use lines of agreement"
-msgstr "Käytä sopimuslinjoja"
+msgstr ""
 
 #. module: purchase_requisition
 #: selection:purchase.requisition.type,quantity_copy:0
 msgid "Use quantities of agreement"
-msgstr "Käytä sopimuksen mukaisia ​​määriä"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -654,8 +641,6 @@ msgid ""
 "You have to cancel or validate every RfQ before closing the purchase "
 "requisition."
 msgstr ""
-"Jokainen RfQ on peruutettava tai vahvistettava ennen ostotilausten "
-"sulkemista."
 
 #. module: purchase_requisition
 #: model:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form

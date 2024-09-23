@@ -6,9 +6,7 @@
 # Paolo Valier, 2018
 # Martin Trigaux, 2018
 # Giovanni Perteghella <giovanni@perteghella.org>, 2018
-# Lorenzo Battistini <lb@takobi.online>, 2019
-# Léonie Bouchat <lbo@odoo.com>, 2019
-# Sergio Zanchetta <primes2h@gmail.com>, 2020
+# Lorenzo Battistini <lorenzo.battistini@agilebg.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -16,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 10:18+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2020\n"
+"Last-Translator: Lorenzo Battistini <lorenzo.battistini@agilebg.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -119,7 +117,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_recruitment_survey.hr_job_survey_inherit
 #: model:ir.ui.view,arch_db:hr_recruitment_survey.view_hr_job_kanban_inherit
 msgid "Display Interview Form"
-msgstr "Visualizza modulo colloquio"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.label,value:hr_recruitment_survey.rrow_2_1_11
@@ -134,7 +132,7 @@ msgstr "Educazione"
 #. module: hr_recruitment_survey
 #: model:survey.page,title:hr_recruitment_survey.recruitment_2
 msgid "Education and Activities"
-msgstr "Educazione e attività"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.question,question:hr_recruitment_survey.recruitment_2_3
@@ -186,12 +184,12 @@ msgstr ""
 #: model:survey.question,comments_message:hr_recruitment_survey.recruitment_2_4
 #: model:survey.question,comments_message:hr_recruitment_survey.recruitment_3_1
 msgid "If other, please specify:"
-msgstr "Se altro, precisare:"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.page,title:hr_recruitment_survey.recruitment_3
 msgid "Importance"
-msgstr "Importanza"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.label,value:hr_recruitment_survey.rcol_3_1_3
@@ -202,7 +200,7 @@ msgstr "Importante"
 #: model:ir.model.fields,field_description:hr_recruitment_survey.field_hr_job_survey_id
 #: model:ir.ui.view,arch_db:hr_recruitment_survey.view_hr_job_kanban_inherit
 msgid "Interview Form"
-msgstr "Modulo colloquio"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:ir.ui.view,arch_db:hr_recruitment_survey.res_config_settings_view_form
@@ -232,7 +230,7 @@ msgstr ""
 #. module: hr_recruitment_survey
 #: model:ir.ui.view,arch_db:hr_recruitment_survey.view_hr_job_kanban_inherit
 msgid "No Interview Form"
-msgstr "Nessun modulo colloquio"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.label,value:hr_recruitment_survey.rrow_2_1_10
@@ -242,7 +240,7 @@ msgstr ""
 #. module: hr_recruitment_survey
 #: model:survey.label,value:hr_recruitment_survey.rcol_3_1_1
 msgid "Not important"
-msgstr "Non importante"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.label,value:hr_recruitment_survey.rrow_2_1_3
@@ -252,7 +250,7 @@ msgstr ""
 #. module: hr_recruitment_survey
 #: model:survey.label,value:hr_recruitment_survey.rrow_2_1_6
 msgid "Office location"
-msgstr "Ubicazione ufficio"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.label,value:hr_recruitment_survey.rrow_2_1_9
@@ -262,7 +260,7 @@ msgstr ""
 #. module: hr_recruitment_survey
 #: model:ir.ui.view,arch_db:hr_recruitment_survey.crm_case_form_view_job_inherit
 msgid "Print interview report"
-msgstr "Stampa resoconto colloquio"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.question,question:hr_recruitment_survey.recruitment_3_1
@@ -272,7 +270,7 @@ msgstr ""
 #. module: hr_recruitment_survey
 #: model:survey.survey,title:hr_recruitment_survey.recruitment_form
 msgid "Recruitment Form"
-msgstr "Modulo di assunzione"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.label,value:hr_recruitment_survey.rrow_2_1_12
@@ -309,7 +307,7 @@ msgstr "Sondaggio"
 #: model:survey.question,validation_error_msg:hr_recruitment_survey.recruitment_2_4
 #: model:survey.question,validation_error_msg:hr_recruitment_survey.recruitment_3_1
 msgid "The answer you entered has an invalid format."
-msgstr "Il formato della tua risposta non è valido"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.survey,description:hr_recruitment_survey.recruitment_form
@@ -327,7 +325,7 @@ msgstr ""
 #: model:survey.question,constr_error_msg:hr_recruitment_survey.recruitment_2_4
 #: model:survey.question,constr_error_msg:hr_recruitment_survey.recruitment_3_1
 msgid "This question requires an answer."
-msgstr "Questa domanda richiede una risposta."
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.label,value:hr_recruitment_survey.rcol_3_1_4
@@ -337,7 +335,7 @@ msgstr "Molto importante"
 #. module: hr_recruitment_survey
 #: model:survey.question,question:hr_recruitment_survey.recruitment_1_3
 msgid "What age group do you belong to?"
-msgstr "A quale fascia d'età appartieni?"
+msgstr ""
 
 #. module: hr_recruitment_survey
 #: model:survey.question,question:hr_recruitment_survey.recruitment_1_2

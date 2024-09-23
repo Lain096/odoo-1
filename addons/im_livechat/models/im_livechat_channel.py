@@ -177,7 +177,6 @@ class ImLivechatChannel(models.Model):
             'public': 'private',
             'email_send': False,
         })
-        mail_channel._broadcast([operator_partner_id])
         return mail_channel.sudo().with_context(im_livechat_operator_partner_id=operator_partner_id).channel_info()[0]
 
     @api.model
@@ -239,9 +238,7 @@ class ImLivechatChannelRule(models.Model):
         """
         def _match(rules):
             for rule in rules:
-                # url might not be set because it comes from referer, in that
-                # case match the first rule with no regex_url
-                if re.search(rule.regex_url or '', url or ''):
+                if re.search(rule.regex_url or '', url):
                     return rule
             return False
         # first, search the country specific rules (the first match is returned)

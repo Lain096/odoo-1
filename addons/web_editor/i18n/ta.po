@@ -2,18 +2,12 @@
 # This file contains the translation of the following modules:
 # * web_editor
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
-"PO-Revision-Date: 2017-09-20 10:25+0000\n"
-"Last-Translator: Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -91,14 +85,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:974
 #, python-format
 msgid "Action"
-msgstr "அதிரடி"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:114
 #, python-format
 msgid "Add"
-msgstr "சேர்"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -273,14 +267,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/ace.xml:30
 #, python-format
 msgid "Close"
-msgstr "நெருக்கமான"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:934
 #, python-format
 msgid "Code"
-msgstr "குறியீடு"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -341,19 +335,19 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:311
 #, python-format
 msgid "Custom"
-msgstr "விருப்ப"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -398,7 +392,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:165
 #, python-format
 msgid "Description"
-msgstr "விளக்கம்"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -415,19 +409,19 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:140
 #, python-format
 msgid "Discard"
-msgstr "நிராகரி"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:51
 #, python-format
 msgid "Document"
-msgstr "ஆவணம்"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -470,7 +464,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:912
 #, python-format
 msgid "Edit"
-msgstr "தொகு"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
@@ -552,7 +546,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/ace.xml:37
 #, python-format
 msgid "Format"
-msgstr "வடிவம்"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -594,7 +588,7 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_http
 msgid "HTTP routing"
-msgstr "HTTP ரூட்டிங்"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -697,7 +691,7 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -847,17 +841,17 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -907,7 +901,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:259
 #, python-format
 msgid "Medium"
-msgstr "நடுத்தரம்"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -919,7 +913,7 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub_name
 msgid "Name"
-msgstr "பெயர்"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -941,7 +935,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/snippets.xml:34
 #, python-format
 msgid "None"
-msgstr "யாரும்"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -978,7 +972,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:201
 #, python-format
 msgid "Options"
-msgstr "விருப்பங்கள்"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1103,7 +1097,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:329
 #, python-format
 msgid "Repeat"
-msgstr "மீண்டும் மீண்டும்"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1183,14 +1177,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:13
 #, python-format
 msgid "Save"
-msgstr "சேமி"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/snippets.xml:49
 #, python-format
 msgid "Search"
-msgstr "தேடு"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1310,7 +1304,7 @@ msgstr ""
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
 msgid "Success"
-msgstr "வெற்றி"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1558,7 +1552,7 @@ msgstr ""
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
 msgid "Warning"
-msgstr "எச்சரிக்கை"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker

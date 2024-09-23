@@ -2,18 +2,12 @@
 # This file contains the translation of the following modules:
 # * project
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:55+0000\n"
-"PO-Revision-Date: 2017-09-20 10:22+0000\n"
-"Last-Translator: Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019\n"
+"PO-Revision-Date: 2018-07-27 11:55+0000\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -223,8 +217,6 @@ msgstr ""
 msgid ""
 "<b>Invite coworkers</b> via email.<br/><i>Enter one email per line.</i>"
 msgstr ""
-"மின்னஞ்சல் வழியாக சக பணியாளர்களை அழைக்கவும் .3 ஒரு வரிக்கு ஒரு மின்னஞ்சலை "
-"எழுதுங்கள்."
 
 #. module: project
 #. openerp-web
@@ -829,7 +821,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Accept Emails From"
-msgstr "மின்னஞ்சல்களை ஏற்றுக்கொள்ளுங்கள்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -854,18 +846,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_project_active
 #: model:ir.model.fields,field_description:project.field_project_task_active
 msgid "Active"
-msgstr "செயலில்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Activities"
-msgstr "நடவடிக்கைகள்"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.mail_activity_type_action_config_project_types
 #: model:ir.ui.menu,name:project.project_menu_config_activity_type
 msgid "Activity Types"
-msgstr "செயல்பாடு வகைகள்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
@@ -896,7 +888,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_id
 msgid "Alias"
-msgstr "அலைஸ்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_contact
@@ -911,7 +903,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_domain
 msgid "Alias domain"
-msgstr "அலிஸ் டொமைன்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_model_id
@@ -922,7 +914,7 @@ msgstr ""
 #: code:addons/project/controllers/portal.py:92
 #, python-format
 msgid "All"
-msgstr "அனைத்து"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -950,12 +942,12 @@ msgstr ""
 #: model:ir.model,name:project.model_account_analytic_account
 #: model:ir.model.fields,field_description:project.field_project_project_name
 msgid "Analytic Account"
-msgstr "பகுப்பாய்வு கணக்கு"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_line_ids
 msgid "Analytic Lines"
-msgstr "பகுப்பாய்வு கோடுகள்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -970,7 +962,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Archived"
-msgstr "காப்பகப்படுத்தியவை"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_form2
@@ -980,7 +972,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_start
 msgid "Assignation Date"
-msgstr "ஒதுக்கீட்டு தேதி"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
@@ -1021,7 +1013,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.portal_my_task
 msgid "Attachment"
-msgstr "இணைப்பு"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_attachment_ids
@@ -1059,7 +1051,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_balance
 msgid "Balance"
-msgstr "இருப்பு"
+msgstr ""
 
 #. module: project
 #: model:project.task.type,name:project.project_stage_data_1
@@ -1144,7 +1136,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_task_merge_wizard_form
 msgid "Cancel"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1154,7 +1146,7 @@ msgstr "ரத்து"
 #: model:project.task.type,name:project.project_stage_3
 #, python-format
 msgid "Cancelled"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1232,7 +1224,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_tags_color
 #: model:ir.model.fields,field_description:project.field_project_task_color
 msgid "Color Index"
-msgstr "வண்ண குறியீட்டு"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1242,7 +1234,7 @@ msgstr ""
 #. module: project
 #: model:ir.model,name:project.model_res_company
 msgid "Companies"
-msgstr "நிறுவனங்கள்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_company_id
@@ -1251,7 +1243,7 @@ msgstr "நிறுவனங்கள்"
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Company"
-msgstr "நிறுவனம்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_account_analytic_account_company_uom_id
@@ -1263,14 +1255,14 @@ msgstr ""
 #: model:ir.ui.menu,name:project.menu_project_config
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Configuration"
-msgstr "கட்டமைப்பு"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/tour.js:90
 #, python-format
 msgid "Configuration options are available in the Settings app."
-msgstr "அமைப்புகள் பயன்பாட்டில் உள்ளமைவு விருப்பங்கள் கிடைக்கின்றன."
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1296,7 +1288,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.view_project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 msgid "Contact"
-msgstr "தொடர்பு"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_analytic_account_id
@@ -1323,12 +1315,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "Create"
-msgstr "உருவாக்கு"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "Create & Edit"
-msgstr "உருவாக்கு & திருத்து"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_create_date
@@ -1384,7 +1376,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_merge_wizard_create_uid
 #: model:ir.model.fields,field_description:project.field_project_task_type_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_create_date
@@ -1392,7 +1384,7 @@ msgstr "உருவாக்கியவர்"
 #: model:ir.model.fields,field_description:project.field_project_task_merge_wizard_create_date
 #: model:ir.model.fields,field_description:project.field_project_task_type_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1404,12 +1396,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 msgid "Creation Date"
-msgstr "உருவாக்கம் தேதி"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_credit
 msgid "Credit"
-msgstr "கடன்"
+msgstr ""
 
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_cumulative_flow
@@ -1419,7 +1411,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_currency_id
 msgid "Currency"
-msgstr "நாணயம்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1448,14 +1440,14 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.edit_project
 #, python-format
 msgid "Customer"
-msgstr "வாடிக்கையாளர்"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:836
 #: code:addons/project/models/project.py:839
 #, python-format
 msgid "Customer Email"
-msgstr "வாடிக்கையாளர் மின்னஞ்சல்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1508,18 +1500,18 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_form2
 msgid "Days"
-msgstr "நாட்களில்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_date_deadline
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_deadline
 msgid "Deadline"
-msgstr "காலக்கெடுவை"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_debit
 msgid "Debit"
-msgstr "டெபிட்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_defaults
@@ -1538,7 +1530,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Delete"
-msgstr "அழி"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1565,7 +1557,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_type_description
 #: model:ir.ui.view,arch_db:project.view_task_form2
 msgid "Description"
-msgstr "விளக்கம்"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1585,7 +1577,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 #, python-format
 msgid "Discard"
-msgstr "நிராகரி"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_display_name
@@ -1595,7 +1587,7 @@ msgstr "நிராகரி"
 #: model:ir.model.fields,field_description:project.field_project_task_type_display_name
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1656,7 +1648,7 @@ msgstr ""
 #: model:project.task.type,name:project.project_stage_2
 #, python-format
 msgid "Done"
-msgstr "முடிந்தது"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1681,17 +1673,17 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_email_from
 msgid "Email"
-msgstr "மின்னஞ்சல்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Email Alias"
-msgstr "மின்னஞ்சல் அலிஸ்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_mail_template_id
 msgid "Email Template"
-msgstr "மின்னஞ்சல் டெம்ப்ளேட்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1707,7 +1699,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_date_end
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_end
 msgid "Ending Date"
-msgstr "Ending Date"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:556
@@ -1768,12 +1760,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 msgid "Extended Filters"
-msgstr "நீட்டிக்கப்பட்ட வடிப்பான்கள்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_form2
 msgid "Extra Info"
-msgstr "கூடுதல் தகவல்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1845,7 +1837,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Future Activities"
-msgstr "எதிர்கால செயல்பாடுகள்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.menu,name:project.menu_tasks_config
@@ -1938,7 +1930,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Group By"
-msgstr "மூலம் குழு"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1953,7 +1945,7 @@ msgstr ""
 #. module: project
 #: selection:report.project.task.user,priority:0
 msgid "High"
-msgstr "உயர்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_privacy_visibility
@@ -1969,7 +1961,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_form2
 msgid "Hours"
-msgstr "மணி"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:745
@@ -1985,7 +1977,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_type_id
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_parent_thread_id
@@ -2128,7 +2120,7 @@ msgstr ""
 #: selection:report.project.task.user,state:0
 #, python-format
 msgid "In Progress"
-msgstr "முன்னேற்றம்"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -2248,7 +2240,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_kanban_state_label
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_state
 msgid "Kanban State"
-msgstr "கான்பன் மாநிலம்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_legend_done
@@ -2278,7 +2270,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_type___last_update
 #: model:ir.model.fields,field_description:project.field_report_project_task_user___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: project
 #: code:addons/project/controllers/portal.py:89
@@ -2286,7 +2278,7 @@ msgstr "கடைசியாக திருத்திய"
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_last_stage_update
 #, python-format
 msgid "Last Stage Update"
-msgstr "கடைசி நிலை மேம்படுத்தல்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_write_uid
@@ -2295,7 +2287,7 @@ msgstr "கடைசி நிலை மேம்படுத்தல்"
 #: model:ir.model.fields,field_description:project.field_project_task_type_write_uid
 #: model:ir.model.fields,field_description:project.field_project_task_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_write_date
@@ -2303,12 +2295,12 @@ msgstr "கடைசியாக புதுப்பிக்கப்பட�
 #: model:ir.model.fields,field_description:project.field_project_task_merge_wizard_write_date
 #: model:ir.model.fields,field_description:project.field_project_task_type_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Late Activities"
-msgstr "தாமதமான செயல்பாடுகள்"
+msgstr ""
 
 #. module: project
 #: model:web.planner,tooltip_planner:project.planner_project
@@ -2348,7 +2340,7 @@ msgstr ""
 #: selection:project.task,priority:0
 #: selection:report.project.task.user,priority:0
 msgid "Low"
-msgstr "குறைந்த"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_attachment_ids
@@ -2364,7 +2356,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
 #: model:res.groups,name:project.group_project_manager
 msgid "Manager"
-msgstr "மேலாளர்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2422,7 +2414,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "My Activities"
-msgstr "எனது செயல்பாடுகள்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
@@ -2451,7 +2443,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.portal_my_tasks
 #, python-format
 msgid "Name"
-msgstr "பெயர்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -2483,7 +2475,7 @@ msgstr ""
 #: model:project.task.type,name:project.project_stage_data_0
 #, python-format
 msgid "New"
-msgstr "புதிய"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -2508,19 +2500,19 @@ msgstr ""
 #: model:ir.ui.menu,name:project.project_task_menu_activity
 #: model:ir.ui.view,arch_db:project.project_task_view_tree_activity
 msgid "Next Activities"
-msgstr "அடுத்த செயல்பாடுகள்"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:792
 #, python-format
 msgid "No Subject"
-msgstr "பொருள் இல்லை"
+msgstr ""
 
 #. module: project
 #: code:addons/project/controllers/portal.py:102
 #, python-format
 msgid "None"
-msgstr "யாரும்"
+msgstr ""
 
 #. module: project
 #: selection:project.task,priority:0
@@ -2542,7 +2534,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_notes
 msgid "Notes"
-msgstr "குறிப்புக்கள்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2662,7 +2654,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_user_id
 msgid "Owner"
-msgstr "உரிமையாளர்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_parent_model_id
@@ -2726,12 +2718,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_priority
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_priority
 msgid "Priority"
-msgstr "முன்னுரிமை"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_privacy_visibility
 msgid "Privacy"
-msgstr "தனியுரிமை"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2837,7 +2829,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 #: model:ir.ui.view,arch_db:project.view_project
 msgid "Projects"
-msgstr "திட்டங்கள்"
+msgstr ""
 
 #. module: project
 #: model:mail.channel,name:project.mail_channel_project_task
@@ -2965,12 +2957,12 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.portal_my_tasks
 msgid "Ref"
-msgstr "குறிப்பு"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_code
 msgid "Reference"
-msgstr "குறிப்பு"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3014,7 +3006,7 @@ msgstr ""
 #: model:ir.ui.menu,name:project.menu_project_report
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Reporting"
-msgstr "அறிக்கையிடல்"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3046,7 +3038,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.menu,name:project.menu_project_management
 msgid "Search"
-msgstr "தேடு"
+msgstr ""
 
 #. module: project
 #: code:addons/project/controllers/portal.py:95
@@ -3088,7 +3080,7 @@ msgstr ""
 #: code:addons/project/static/src/js/project.js:62
 #, python-format
 msgid "Select"
-msgstr "தேர்வு"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3106,7 +3098,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_sequence
 #: model:ir.model.fields,field_description:project.field_project_task_type_sequence
 msgid "Sequence"
-msgstr "வரிசை"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3131,7 +3123,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.edit_project
 #: model:ir.ui.view,arch_db:project.view_project_kanban
 msgid "Settings"
-msgstr "அமைப்புகள்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3152,7 +3144,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Show all records which has next action date is before today"
 msgstr ""
-"அடுத்த நடவடிக்கை தேதி இன்றைய தினம் கொண்டிருக்கும் எல்லா பதிவுகளையும் காட்டுக"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3208,12 +3199,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 #, python-format
 msgid "Stage"
-msgstr "மேடை"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_task_stage
 msgid "Stage Changed"
-msgstr "நிலை மாறிவிட்டது"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
@@ -3223,18 +3214,18 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_name
 msgid "Stage Name"
-msgstr "மேடை பெயர்"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_stage
 msgid "Stage changed"
-msgstr "நிலை மாறிவிட்டது"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.open_task_type_form
 #: model:ir.ui.menu,name:project.menu_project_config_project
 msgid "Stages"
-msgstr "நிலைகள்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
@@ -3254,7 +3245,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_date_start
 msgid "Start Date"
-msgstr "தொடக்க தேதி"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_date_start
@@ -3283,7 +3274,7 @@ msgstr ""
 #. module: project
 #: sql_constraint:project.tags:0
 msgid "Tag name already exists !"
-msgstr "Tag name already exists !"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.project_tags_action
@@ -3292,7 +3283,7 @@ msgstr "Tag name already exists !"
 #: model:ir.ui.menu,name:project.menu_project_tags_act
 #: model:ir.ui.view,arch_db:project.project_tags_form_view
 msgid "Tags"
-msgstr "மேற்கோள்கள்"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_project_tags
@@ -3601,8 +3592,6 @@ msgid ""
 "This stage is folded in the kanban view when there are no records in that "
 "stage to display."
 msgstr ""
-"அந்த கட்டத்தில் எந்த பதிவுகளும் இல்லாதபோது கான்பன் காட்சியில் இந்த நிலை "
-"மூடப்பட்டுள்ளது."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.mail_template_task_merge
@@ -3676,7 +3665,7 @@ msgstr ""
 #: code:addons/project/controllers/portal.py:87
 #, python-format
 msgid "Title"
-msgstr "தலைப்பு"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3701,7 +3690,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Today Activities"
-msgstr "இன்று செயல்பாடுகள்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_remaining_hours
@@ -3724,13 +3713,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Unassigned"
-msgstr "ஒதுக்கப்படாத"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_kanban
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Unread Messages"
-msgstr "படிக்காத செய்திகள்"
+msgstr ""
 
 #. module: project
 #: model:res.groups,name:project.group_subtask_project
@@ -3783,12 +3772,12 @@ msgstr ""
 #. module: project
 #: model:res.groups,name:project.group_project_user
 msgid "User"
-msgstr "பயனர்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_user_email
 msgid "User Email"
-msgstr "பயனர் மின்னஞ்சல்"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3893,12 +3882,12 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_website_message_ids
 msgid "Website Messages"
-msgstr "இணைய செய்திகள்"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_website_message_ids
 msgid "Website communication history"
-msgstr "வலைத்தள தகவல்தொடர்பு வரலாறு"
+msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner

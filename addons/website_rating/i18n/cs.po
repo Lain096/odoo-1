@@ -40,35 +40,35 @@ msgstr "Podrobnosti"
 #: code:addons/website_rating/static/src/js/website_mail.js:43
 #, python-format
 msgid "I don't like it"
-msgstr "Nelíbí se mi"
+msgstr ""
 
 #. module: website_rating
 #. openerp-web
 #: code:addons/website_rating/static/src/js/website_mail.js:42
 #, python-format
 msgid "I hate it"
-msgstr "Vadí mi to."
+msgstr ""
 
 #. module: website_rating
 #. openerp-web
 #: code:addons/website_rating/static/src/js/website_mail.js:45
 #, python-format
 msgid "I like it"
-msgstr "líbí se mi to"
+msgstr ""
 
 #. module: website_rating
 #. openerp-web
 #: code:addons/website_rating/static/src/js/website_mail.js:46
 #, python-format
 msgid "I love it"
-msgstr "Líbí se mi"
+msgstr ""
 
 #. module: website_rating
 #. openerp-web
 #: code:addons/website_rating/static/src/js/website_mail.js:44
 #, python-format
 msgid "It's okay"
-msgstr "To je v pořádku"
+msgstr ""
 
 #. module: website_rating
 #: model:ir.model,name:website_rating.model_mail_message
@@ -95,11 +95,11 @@ msgstr "Odstranit výběr"
 #. module: website_rating
 #: model:ir.model.fields,help:website_rating.field_rating_rating_website_published
 msgid "Visible on the website as a comment"
-msgstr "Viditelné na webu jako komentář"
+msgstr ""
 
 #. module: website_rating
 #. openerp-web
 #: code:addons/website_rating/static/src/xml/website_mail.xml:40
 #, python-format
 msgid "stars"
-msgstr "hvězdy"
+msgstr ""

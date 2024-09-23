@@ -3,21 +3,20 @@
 # * crm
 # 
 # Translators:
-# Linda Stockelova <stockeloval@btlnet.com>, 2018
-# Mark Lee <odoos@soti.33mail.com>, 2018
-# Seongseok Shin <shinss61@hotmail.com>, 2018
-# Martin Trigaux, 2018
+# Martin Trigaux, 2017
 # Link Up링크업 <linkup.way@gmail.com>, 2018
 # Linkup <link-up@naver.com>, 2018
-# JH CHOI <hwangtog@gmail.com>, 2019
-# 
+# Linda Stockelova <stockeloval@btlnet.com>, 2018
+# Seongseok Shin <shinss61@hotmail.com>, 2018
+# Mark Lee <odoos@soti.33mail.com>, 2018
+# 최재호 <hwangtog@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 11:58+0000\n"
-"PO-Revision-Date: 2017-09-20 10:16+0000\n"
-"Last-Translator: JH CHOI <hwangtog@gmail.com>, 2019\n"
+"PO-Revision-Date: 2018-04-20 11:58+0000\n"
+"Last-Translator: 최재호 <hwangtog@gmail.com>, 2018\n"
 "Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -512,13 +511,11 @@ msgid ""
 "<span class=\"o_stat_text\" attrs=\"{'invisible': [('meeting_count', '&lt;', 2)]}\"> Meetings</span>\n"
 "                                    <span class=\"o_stat_text\" attrs=\"{'invisible': [('meeting_count', '&gt;', 1)]}\"> Meeting</span>"
 msgstr ""
-"<span class=\"o_stat_text\" attrs=\"{'invisible': [('meeting_count', '&lt;', 2)]}\"> 회의</span>\n"
-"                                    <span class=\"o_stat_text\" attrs=\"{'invisible': [('meeting_count', '&gt;', 1)]}\"> 회의</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
 msgid "<span class=\"oe_grey\"> at </span>"
-msgstr "<span class=\"oe_grey\"> at </span>"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2009,7 +2006,7 @@ msgstr "Excel 서식"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Exclude Opt Out"
-msgstr "메일 수신 거부 제외"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
@@ -2105,7 +2102,7 @@ msgstr "완료됨"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage_fold
 msgid "Folded in Pipeline"
-msgstr "파이프라인 접기"
+msgstr ""
 
 #. module: crm
 #: model:mail.activity.type,name:crm.mail_activity_demo_followup_quote
@@ -2144,7 +2141,7 @@ msgstr "강제 배정(할당)"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Format phone numbers based on national conventions"
-msgstr "국가 규칙에 따라 전화 번호 형식 지정"
+msgstr ""
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:588
@@ -2197,7 +2194,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_lost
 msgid "Get Lost Reason"
-msgstr "실패 원인 가져오기"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_email_cc
@@ -2744,12 +2741,12 @@ msgstr "받는 전자 메일 수동 배정(할당)"
 #. module: crm
 #: model:ir.actions.server,name:crm.action_mark_activities_done
 msgid "Mark All Activities as Done"
-msgstr "모든 활동을 완료로 표시"
+msgstr ""
 
 #. module: crm
 #: model:ir.actions.server,name:crm.action_mark_late_activities_done
 msgid "Mark Late Activities as Done"
-msgstr "최근 활동을 완료로 표시"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
@@ -3334,8 +3331,6 @@ msgid ""
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
-"별칭이 있는 상위 모델입니다. 별칭 참조를 포함하는 모델은 반드시 alias_model_id(예: 프로젝트(parent_model) 및 "
-"태스크(model)에서 제공하는 모델일 필요는 없습니다.)"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_partner_id
@@ -3371,7 +3366,7 @@ msgstr "전화"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings_module_crm_phone_validation
 msgid "Phone Formatting"
-msgstr "전화번호 형식"
+msgstr ""
 
 #. module: crm
 #. openerp-web
@@ -4155,7 +4150,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_dashboard_graph_period_pipeline
 msgid "The time period this channel's dashboard graph will consider."
-msgstr "이 채널의 대시보드 그래프가 고려할 기간입니다."
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4685,7 +4680,7 @@ msgstr "당신은 의사 결정자와 논의 중이며 그는 그의 어려운�
 #: code:addons/crm/wizard/base_partner_merge.py:270
 #, python-format
 msgid "You cannot merge a contact with one of his parent."
-msgstr "연락처를 부모와 병합할 수 없습니다."
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner

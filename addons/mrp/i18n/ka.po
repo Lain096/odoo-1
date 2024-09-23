@@ -9,7 +9,6 @@
 # David Machakhelidze <david.machakhelidze@gmail.com>, 2018
 # Martin Trigaux, 2018
 # Temur, 2018
-# Gvantsa Gvinianidze <gvantsa@live.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -17,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Gvantsa Gvinianidze <gvantsa@live.com>, 2019\n"
+"Last-Translator: Temur, 2018\n"
 "Language-Team: Georgian (https://www.transifex.com/odoo/teams/41243/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -219,7 +218,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Product</strong>"
-msgstr "<strong>პროდუქტი</strong>"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.report_mrporder
@@ -234,7 +233,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Quantity</strong>"
-msgstr "<strong>რაოდენობა</strong>"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_workcenter_productivity_loss_kanban
@@ -278,7 +277,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_access_token
 msgid "Access Token"
-msgstr "წვდომის ნებართვა"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_active
@@ -345,7 +344,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
 #: model:ir.ui.view,arch_db:mrp.view_mrp_workcenter_search
 msgid "Archived"
-msgstr "დაარქივებული"
+msgstr ""
 
 #. module: mrp
 #: model:product.product,name:mrp.product_assembly
@@ -378,7 +377,7 @@ msgstr "ავტორი"
 #. module: mrp
 #: selection:mrp.workcenter.productivity.loss,loss_type:0
 msgid "Availability"
-msgstr "ხელმისაწვდომობა"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.oee_search_view
@@ -389,7 +388,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_workcenter_form_view_filter
 #: selection:mrp.production,availability:0
 msgid "Available"
-msgstr "ხელმისაწვდომია"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_product_product_produce_delay
@@ -843,7 +842,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_dashboard
 msgid "Dashboard"
-msgstr "დაფა"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_db_datas
@@ -3201,7 +3200,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_product_uom_id
 #: model:ir.ui.view,arch_db:mrp.mrp_production_tree_view
 msgid "Unit of Measure"
-msgstr "საზომი ერთეული"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_line_product_uom_id
@@ -3226,7 +3225,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Unreserve"
-msgstr "რეზერვაციის გაუქმება"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -3314,19 +3313,19 @@ msgstr ""
 #. module: mrp
 #: selection:mrp.production,priority:0
 msgid "Very Urgent"
-msgstr "ძალიან სასწრაფოა"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 #: selection:mrp.production,availability:0
 msgid "Waiting"
-msgstr "მოლოდინი"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 msgid "Waiting Availability"
-msgstr "მარაგში არსებობის ლოდინი"
+msgstr ""
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.mrp_production_action_waiting

@@ -206,9 +206,6 @@ define([
       setTimeout(function () {
         var layoutInfo = dom.makeLayoutInfo(target);
         /* ODOO: (start_modification */
-        if (!layoutInfo) {
-            return;
-        }
         var $editable = layoutInfo.editable();
         if (event.setStyleInfoFromEditable) {
             var styleInfo = modules.editor.styleFromNode($editable);

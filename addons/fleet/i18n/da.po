@@ -3,25 +3,22 @@
 # * fleet
 # 
 # Translators:
-# Pernille Kristensen <pernillekristensen1994@gmail.com>, 2017
-# Jesper Carstensen <info@danodoo.dk>, 2017
-# Morten Schou <ms@msteknik.dk>, 2017
-# Jesper Carstensen <jc@danodoo.dk>, 2017
-# jonas jensen <j.jensen@tcomp.dk>, 2017
 # Martin Trigaux, 2017
-# Ejner Sønniksen <ejner@vkdata.dk>, 2018
-# lhmflexerp <lhm@flexerp.dk>, 2019
-# Sanne Kristensen <sanne@vkdata.dk>, 2020
-# Mads Søndergaard, 2020
-# Mads Søndergaard <mads@vkdata.dk>, 2020
-# 
+# Sanne Kristensen <sanne@vkdata.dk>, 2017
+# Pernille Kristensen <pernillekristensen1994@gmail.com>, 2017
+# Ejner Sønniksen <ejner@vkdata.dk>, 2017
+# Morten Schou <ms@msteknik.dk>, 2017
+# jonas jensen <j.jensen@tcomp.dk>, 2017
+# Jesper Carstensen <info@danodoo.dk>, 2017
+# Jesper Carstensen <jc@danodoo.dk>, 2017
+# lhmflexerp <lhm@flexerp.dk>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:08+0000\n"
-"PO-Revision-Date: 2017-09-20 10:17+0000\n"
-"Last-Translator: Mads Søndergaard <mads@vkdata.dk>, 2020\n"
+"POT-Creation-Date: 2018-07-27 11:56+0000\n"
+"PO-Revision-Date: 2018-07-27 11:56+0000\n"
+"Last-Translator: lhmflexerp <lhm@flexerp.dk>, 2017\n"
 "Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,18 +66,18 @@ msgstr "A/C Diagnose"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_4
 msgid "A/C Evaporator Replacement"
-msgstr "A/C fordamper erstatning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_5
 msgid "A/C Recharge"
-msgstr "A/C genoplad"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_tree
 msgid "Activation Cost"
-msgstr "Aktiverings omkostning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_active
@@ -112,7 +109,7 @@ msgstr "Alle køretøjer"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_7
 msgid "Alternator Replacement"
-msgstr "Generator placering"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_cost_amount
@@ -130,7 +127,7 @@ msgstr "Arkiveret"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_9
 msgid "Assistance"
-msgstr "Assistance"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle,transmission:0
@@ -143,12 +140,12 @@ msgstr "Automatisk"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_auto_generated
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_auto_generated
 msgid "Automatically Generated"
-msgstr "Automatisk genereret"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_8
 msgid "Ball Joint Replacement"
-msgstr "Kuglelejre udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_9
@@ -163,7 +160,7 @@ msgstr "Udskiftning af Batteri"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_11
 msgid "Brake Caliper Replacement"
-msgstr "Bremsekalibre udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_12
@@ -173,7 +170,7 @@ msgstr "Eftersyn af Bremser"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_13
 msgid "Brake Pad(s) Replacement"
-msgstr "Bremsklods(er) udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_model_brand
@@ -198,7 +195,7 @@ msgstr "Køretøjets CO2 udledninger"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_1
 msgid "Calculation Benefit In Kind"
-msgstr "Beregningsfordel in natura"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_14
@@ -208,12 +205,12 @@ msgstr "Bilvask"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_car_value
 msgid "Catalog Value (VAT Incl.)"
-msgstr "Katalog værdi (inkl. moms)"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_15
 msgid "Catalytic Converter Replacement"
-msgstr "Katalysator udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type_category
@@ -226,17 +223,17 @@ msgstr "Kategori"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_cost_type
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_cost_type
 msgid "Category of the cost"
-msgstr "Kategori for omkostning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_16
 msgid "Charging System Diagnosis"
-msgstr "Oplader system diagnostik"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_vin_sn
 msgid "Chassis Number"
-msgstr "Karosseri nummer"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_state
@@ -248,7 +245,6 @@ msgstr "Vælg om kontrakten fortsat er gyldig eller ej"
 msgid ""
 "Choose whether the service refer to contracts, vehicle services or both"
 msgstr ""
-"Vælg hvorvidt servicen referere til kontrakter, køretøj service, eller begge"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_tag_action
@@ -338,7 +334,7 @@ msgstr "Køretøjets farve"
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_compact
 msgid "Compact"
-msgstr "Kompakt"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_company_id
@@ -363,7 +359,7 @@ msgstr "Kontrakt"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_graph
 msgid "Contract Costs Per Month"
-msgstr "Kontrakt omkostninger per måned"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_expiration_date
@@ -392,7 +388,7 @@ msgstr "Kontrakt typer"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_fuel_contract_id
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services_contract_id
 msgid "Contract attached to this cost"
-msgstr "Kontrakt vedhæftet til denne pris"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
@@ -408,7 +404,7 @@ msgstr "Kontraktinformation om et køretøj"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_tree
 msgid "Contract logs"
-msgstr "Kontrakt logs"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_kanban
@@ -445,17 +441,17 @@ msgstr "Kostpris"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_description
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_description
 msgid "Cost Description"
-msgstr "Kontrakt beskrivelse"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_form
 msgid "Cost Details"
-msgstr "Omkostning detaljer"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 msgid "Cost Subtype"
-msgstr "Omkostning undertype"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
@@ -465,12 +461,12 @@ msgstr "Udgiftstype"
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_cost
 msgid "Cost related to a vehicle"
-msgstr "Omkostning relateret til køretøj"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Cost that is paid only once at the creation of the contract"
-msgstr "Omkostning der er betalt kun én gang ved oprettelse af kontrakten"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_cost_subtype_id
@@ -478,24 +474,24 @@ msgstr "Omkostning der er betalt kun én gang ved oprettelse af kontrakten"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_fuel_cost_subtype_id
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services_cost_subtype_id
 msgid "Cost type purchased with this cost"
-msgstr "Omkostningstype købt med denne pris"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_count
 #: model:ir.ui.menu,name:fleet.menu_fleet_reporting_costs
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "Costs"
-msgstr "Omkostninger"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_costs_reporting_action
 msgid "Costs Analysis"
-msgstr "Omkostninger analyse"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_graph
 msgid "Costs Per Month"
-msgstr "Omkostninger per måned"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_cost_generated
@@ -503,9 +499,6 @@ msgid ""
 "Costs paid at regular intervals, depending on the cost frequency. If the "
 "cost frequency is set to unique, the cost will be logged at the start date"
 msgstr ""
-"Omkostninger betalt i regelmæssige intervaller, afhængig af frekvens "
-"omkostningen. Hvis frekvens omkostningen er angivet til at være unik, vil "
-"omkostningen blive logget ved startdatoen"
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
@@ -549,7 +542,7 @@ msgstr "Oprettet den"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_state_id
 msgid "Current state of the vehicle"
-msgstr "Nuværende tilstand på køretøjet"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,cost_frequency:0
@@ -571,12 +564,12 @@ msgstr "Dato"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_fuel_date
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services_date
 msgid "Date when the cost has been executed"
-msgstr "Dato hvor omkostningen er blevet eksekveret"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_start_date
 msgid "Date when the coverage of the contract begins"
-msgstr "Dato når dækningen på kontrakten påbegynder"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_expiration_date
@@ -584,13 +577,11 @@ msgid ""
 "Date when the coverage of the contract expirates (by default, one year after"
 " begin date)"
 msgstr ""
-"Dato når dækningen af kontrakten udløber (per standard, et år efter "
-"startdato)"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_acquisition_date
 msgid "Date when the vehicle has been immatriculated"
-msgstr "Dato hvor køretøjet er blevet umatrikuleret"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_2
@@ -620,12 +611,12 @@ msgstr "Vis navn"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_17
 msgid "Door Window Motor/Regulator Replacement"
-msgstr "Dør vindue motor/regulator udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_doors
 msgid "Doors Number"
-msgstr "Døre antal"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_driver_id
@@ -651,20 +642,16 @@ msgid ""
 "Each contract (e.g.: leasing) may include several services\n"
 "            (reparation, insurances, periodic maintenance)."
 msgstr ""
-"Hver kontrakt (f.eks.: leasing) kan inkludere flere tjenester\n"
-"              (reparation, forsikringer, periodisk vedligeholdelse)."
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_service_types_action
 msgid "Each service can used in contracts, as a standalone service or both."
 msgstr ""
-"Hver tjeneste kan bruges i kontrakter, som en enestående tjeneste, eller "
-"begge."
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 msgid "Effective Costs"
-msgstr "Effektive omkostninger"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
@@ -685,37 +672,37 @@ msgstr "Medarbejderbil"
 #: code:addons/fleet/models/fleet_vehicle_cost.py:44
 #, python-format
 msgid "Emptying the odometer value of a vehicle is not allowed."
-msgstr "Nulstilling af køretøjets kilometertæller er ikke tilladt."
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_18
 msgid "Engine Belt Inspection"
-msgstr "Motor rem inspektion"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_19
 msgid "Engine Coolant Replacement"
-msgstr "Motor kølevæske udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "Engine Options"
-msgstr "Motor Muligheder"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_20
 msgid "Engine/Drive Belt(s) Replacement"
-msgstr "Engine/Drivrem(me) udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_13
 msgid "Entry into service tax"
-msgstr "Indskrivning ind i tjeneste afgift"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_21
 msgid "Exhaust Manifold Replacement"
-msgstr "Udstødningsmanifold udskiftning"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,state:0
@@ -740,7 +727,7 @@ msgstr "Flåde"
 #: model:ir.cron,cron_name:fleet.ir_cron_contract_costs_generator
 #: model:ir.cron,name:fleet.ir_cron_contract_costs_generator
 msgid "Fleet: Generate contracts costs based on costs frequency"
-msgstr "Flåde: Generer kontrakt omkostninger baseret på omkostnings frekvens"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_cost_type
@@ -753,7 +740,7 @@ msgstr "Kun til internt formål"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_cost_frequency
 msgid "Frequency of the recuring cost"
-msgstr "Frekvens på gentagende omkostning"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.cost,cost_type:0
@@ -764,12 +751,12 @@ msgstr "Brændstof"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_graph
 msgid "Fuel Costs Per Month"
-msgstr "Brændstof omkostninger per måned"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_22
 msgid "Fuel Injector Replacement"
-msgstr "Brændstofindsprøjter udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_fuel_logs_count
@@ -777,7 +764,7 @@ msgstr "Brændstofindsprøjter udskiftning"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_tree
 msgid "Fuel Logs"
-msgstr "Brændstof logs"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_23
@@ -797,27 +784,27 @@ msgstr "Brændstof anvendt af køretøjet"
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_log_fuel
 msgid "Fuel log for vehicles"
-msgstr "Brændstof log for køretøjer"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
 msgid "Gasoline"
-msgstr "Benzin"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "General Properties"
-msgstr "Generelle Egenskaber"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_generated_cost_ids
 msgid "Generated Costs"
-msgstr "Genererede omkostninger"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Generated Recurring Costs"
-msgstr "Genererede gentagende omkostninger"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
@@ -847,27 +834,27 @@ msgstr "Har Kontrakter til fornyelse"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_24
 msgid "Head Gasket(s) Replacement"
-msgstr "Toppakning udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_25
 msgid "Heater Blower Motor Replacement"
-msgstr "Varmeblæser motor udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_26
 msgid "Heater Control Valve Replacement"
-msgstr "Varmeblæser kontrolventil udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_27
 msgid "Heater Core Replacement"
-msgstr "Varme element udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_28
 msgid "Heater Hose Replacement"
-msgstr "Varme slange udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_fuel_action
@@ -893,7 +880,7 @@ msgstr "Hestekræfter"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_horsepower_tax
 msgid "Horsepower Taxation"
-msgstr "Hestekræft afgift"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
@@ -950,24 +937,24 @@ msgstr "Indkommende"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Indicative Cost"
-msgstr "Indikativ omkostning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.menu,name:fleet.menu_fleet_reporting_indicative_costs
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 msgid "Indicative Costs"
-msgstr "Indikativ omkostninger "
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_costs_reporting_non_effective_action
 msgid "Indicative Costs Analysis"
-msgstr "Indikativ omkostninger analyse"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_sum_cost
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Indicative Costs Total"
-msgstr "Indikativ omkostninger samlet"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle
@@ -977,7 +964,7 @@ msgstr "Information om køretøj"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_30
 msgid "Intake Manifold Gasket Replacement"
-msgstr "Indsugningsmanifoldpakning udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
@@ -993,7 +980,7 @@ msgstr "Faktura reference"
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_junior
 msgid "Junior"
-msgstr "Junior"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle,odometer_unit:0
@@ -1004,11 +991,6 @@ msgstr "Kilometer"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_kanban
 msgid "Km"
 msgstr "Km"
-
-#. module: fleet
-#: selection:fleet.vehicle,fuel_type:0
-msgid "LPG"
-msgstr "LPG"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type___last_update
@@ -1028,7 +1010,7 @@ msgstr "Sidst ændret den"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer
 msgid "Last Odometer"
-msgstr "Sidste kilometertæller"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type_write_uid
@@ -1079,7 +1061,7 @@ msgstr "Nummerplade: fra '%s' til '%s'"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_license_plate
 msgid "License plate number of the vehicle (i = plate number for a car)"
-msgstr "Køretøjets nummerplade (i  = bil nummerplade)"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_liter
@@ -1121,12 +1103,12 @@ msgstr "Logo (lille)"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_name
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
 msgid "Make"
-msgstr "Årgang"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_id
 msgid "Make of the vehicle"
-msgstr "Køretøjets Mærke"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
@@ -1135,14 +1117,11 @@ msgid ""
 "            their related services, costs. Odoo will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
-"Administrer alle dine kontrakter (leasing, forsikringer, etc.) med\n"
-"             deres relaterede tjenester, omkostninger. Odoo vil automatisk advare\n"
-"             dig når en kontrakt skal fornyes."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_11
 msgid "Management Fee"
-msgstr "Administrations gebyr"
+msgstr ""
 
 #. module: fleet
 #: model:res.groups,name:fleet.fleet_group_manager
@@ -1168,9 +1147,6 @@ msgid ""
 "image, with aspect ratio preserved. Use this field in form views or some "
 "kanban views."
 msgstr ""
-"Foto i medium størrelse af mærket. Det bliver automatisk tilpasset til et "
-"128x128 px billede, uden at ændre aspektet. Brug dette felt i "
-"formularvisninger eller nogle kanban visninger."
 
 #. module: fleet
 #: selection:fleet.vehicle,odometer_unit:0
@@ -1188,18 +1164,18 @@ msgstr "Model"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_tree
 msgid "Model Make"
-msgstr "Model årgan"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_year
 msgid "Model Year"
-msgstr "Model årgang"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_brand_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_model_brand_menu
 msgid "Model make of Vehicle"
-msgstr "Model mærke på Køretøjet"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_name
@@ -1209,7 +1185,7 @@ msgstr "Model"
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_model
 msgid "Model of a vehicle"
-msgstr "Køretøjets model"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_id
@@ -1264,7 +1240,7 @@ msgstr "Nej"
 #: code:addons/fleet/models/fleet_vehicle.py:81
 #, python-format
 msgid "No Plate"
-msgstr "Ingen nummerplade"
+msgstr ""
 
 #. module: fleet
 #: code:addons/fleet/models/fleet_vehicle.py:212
@@ -1300,24 +1276,24 @@ msgstr "Antal siddepladser i køretøjet"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_count
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "Odometer"
-msgstr "Kilometertæller"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Odometer Details"
-msgstr "Kilometertæller detaljer"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_tree
 msgid "Odometer Logs"
-msgstr "Kilometertæller lgos"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_unit
 msgid "Odometer Unit"
-msgstr "Kilometertæller enhed"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_odometer
@@ -1325,32 +1301,32 @@ msgstr "Kilometertæller enhed"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_odometer
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer_value
 msgid "Odometer Value"
-msgstr "Kilometertæller værdi"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_graph
 msgid "Odometer Values Per Vehicle"
-msgstr "Kilometertæller værdier per køretøj"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_odometer
 msgid "Odometer at creation"
-msgstr "Kilometertæller ved oprettelse"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Odometer details"
-msgstr "Kilometertæller detaljer"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_odometer
 msgid "Odometer log for a vehicle"
-msgstr "Kilometertæller log for et køretøj"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_odometer
 msgid "Odometer measure of the vehicle at the moment of the contract creation"
-msgstr "Kilometertæller mål på køretøjet ved oprettelse af kontrakten"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_odometer
@@ -1362,7 +1338,7 @@ msgstr "Kilometertæller mål på køretøjet ved oprettelse af kontrakten"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services_odometer_id
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer
 msgid "Odometer measure of the vehicle at the moment of this log"
-msgstr "Kilometertæller mål ved denne log indskrivning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
@@ -1387,8 +1363,6 @@ msgid ""
 "Odoo helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Odoo hjælper dig med at administrere omkostningerne for dine diverse køretøjer\n"
-"          omkostninger oprettes generelt set af tjeneste og kontrakter, og vises her."
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_action
@@ -1410,7 +1384,7 @@ msgstr "Udskiftning af oliepumpe"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_contract_omnium
 msgid "Omnium"
-msgstr "Alle"
+msgstr ""
 
 #. module: fleet
 #: sql_constraint:fleet.vehicle:0
@@ -1430,12 +1404,12 @@ msgstr "Anden"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_33
 msgid "Other Maintenance"
-msgstr "Anden vedligeholdelse"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_34
 msgid "Oxygen Sensor Replacement"
-msgstr "Ilt sensor udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_parent_id
@@ -1452,32 +1426,32 @@ msgstr "Overordnet"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_fuel_parent_id
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services_parent_id
 msgid "Parent cost to this current cost"
-msgstr "Ophavene omkostning til denne nuværende omkostning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_purchaser_id
 msgid "Person to which the contract is signed for"
-msgstr "Person for hvem kontrakten er underskrevet"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_power
 msgid "Power"
-msgstr "Kraft"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_35
 msgid "Power Steering Hose Replacement"
-msgstr "Servostyring slange udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_36
 msgid "Power Steering Pump Replacement"
-msgstr "Servostyring pumpe udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_power
 msgid "Power in kW of the vehicle"
-msgstr "Køretøjets kraft i kW"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
@@ -1495,7 +1469,7 @@ msgstr "Pris pr. liter"
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_purchased
 msgid "Purchased"
-msgstr "Indkøbt"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_purchaser_id
@@ -1506,27 +1480,27 @@ msgstr "Indkøber"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_37
 msgid "Radiator Repair"
-msgstr "Radiator reaparation"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_cost_generated
 msgid "Recurring Cost Amount"
-msgstr "Gentagen omkostning mængde"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_cost_frequency
 msgid "Recurring Cost Frequency"
-msgstr "Gentagende omkostning frekvens"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_refueling
 msgid "Refueling"
-msgstr "Genoptankning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
 msgid "Refueling Details"
-msgstr "Genoptankning detaljer"
+msgstr ""
 
 #. module: fleet
 #: code:addons/fleet/models/fleet_vehicle_cost.py:200
@@ -1539,17 +1513,17 @@ msgstr "Forny kontrakt"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_12
 msgid "Rent (Excluding VAT)"
-msgstr "Leje (Eksklusiv moms)"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_8
 msgid "Repair and maintenance"
-msgstr "Reparation og vedligeholdelse"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_contract_repairing
 msgid "Repairing"
-msgstr "Reparation"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_10
@@ -1569,17 +1543,17 @@ msgstr "Restværdi"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_15
 msgid "Residual value (Excluding VAT)"
-msgstr "Restværdi (Eksklusiv moms)"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_19
 msgid "Residual value in %"
-msgstr "Restværdi i %"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_38
 msgid "Resurface Rotors"
-msgstr "Overfladebehandling af skiver"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_39
@@ -1589,12 +1563,12 @@ msgstr "Rotér dæk"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_40
 msgid "Rotor Replacement"
-msgstr "Skive udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_seats
 msgid "Seats Number"
-msgstr "Sæde antal"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_sedan
@@ -1604,7 +1578,7 @@ msgstr "Sedan"
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_senior
 msgid "Senior"
-msgstr "Senior"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_sequence
@@ -1621,14 +1595,14 @@ msgstr "Ydelse"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Service Type"
-msgstr "Service type"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_service_types_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_service_types_menu
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_service_types_view_tree
 msgid "Service Types"
-msgstr "Tjeneste typer"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.cost,cost_type:0
@@ -1640,12 +1614,12 @@ msgstr "Serviceydelser"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_graph
 msgid "Services Costs Per Month"
-msgstr "Service omkostninger per måned"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Services Details"
-msgstr "Services detaljer"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services
@@ -1653,17 +1627,17 @@ msgstr "Services detaljer"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_search
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_tree
 msgid "Services Logs"
-msgstr "Service"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_log_services
 msgid "Services for vehicles"
-msgstr "Service på køretøjer"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Set Contract In Progress"
-msgstr "Angiv igangværende kontrakt"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_image_small
@@ -1679,24 +1653,21 @@ msgid ""
 "image, with aspect ratio preserved. Use this field anywhere a small image is"
 " required."
 msgstr ""
-"Foto i lille størrelse af mærket. Det bliver automatisk tilpasset til et "
-"64x64 px billede, uden at ændre aspektet. Brug dette felt hvor der kræves et"
-" lille billede."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_6
 msgid "Snow tires"
-msgstr "Vinterdæk"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_41
 msgid "Spark Plug Replacement"
-msgstr "Tændrør udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_42
 msgid "Starter Replacement"
-msgstr "Starter udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_id
@@ -1725,7 +1696,7 @@ msgstr "Status"
 #: model:fleet.service.type,name:fleet.type_service_service_5
 #: model:fleet.service.type,name:fleet.type_service_service_7
 msgid "Summer tires"
-msgstr "Sommerdæk"
+msgstr ""
 
 #. module: fleet
 #: sql_constraint:fleet.vehicle.tag:0
@@ -1740,7 +1711,7 @@ msgstr "Tags"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_3
 msgid "Tax roll"
-msgstr "skatterulle"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_notes
@@ -1755,8 +1726,6 @@ msgid ""
 "Thanks to the different filters, Odoo can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"Takket være de forskellige filtre, kan Odoo kun printe de effektive\n"
-"            omkostninger, og sortere dem ud fra type og køretøj."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_43
@@ -1771,13 +1740,11 @@ msgid ""
 "This field holds the image used as logo for the brand, limited to "
 "1024x1024px."
 msgstr ""
-"Dette felt indeholder billedet der er anvendt som logo for mærket, begrænset"
-" til 1024x1024px."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_44
 msgid "Tie Rod End Replacement"
-msgstr "Forbindelsesstang ende udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_45
@@ -1810,37 +1777,37 @@ msgstr "Total udgifter (Eksklusiv Moms)"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_contract_renewal_total
 msgid "Total of contracts due or overdue minus one"
-msgstr "Samlet beløb for forfaldende som overskredne kontrakter, minus en"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_18
 msgid "Touring Assistance"
-msgstr "Tour assistance"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_transmission
 msgid "Transmission"
-msgstr "Gearkasse"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_47
 msgid "Transmission Filter Replacement"
-msgstr "Gearkasse filter udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_48
 msgid "Transmission Fluid Replacement"
-msgstr "Gearkasse"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_49
 msgid "Transmission Replacement"
-msgstr "Transmission udskiftning"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_transmission
 msgid "Transmission Used by the vehicle"
-msgstr "Gearkasse anvendt af køretøjet"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_cost_subtype_id
@@ -1858,7 +1825,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_vin_sn
 msgid "Unique number written on the vehicle motor (VIN/SN number)"
-msgstr "Unik nummer skrevet på køretøjets motor (VIN/SN nummer)"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_odometer_unit
@@ -1877,12 +1844,12 @@ msgstr "Enhed"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer_unit
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer_unit_2906
 msgid "Unit of the odometer "
-msgstr "Enhed på kilometertæller"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_state_sequence
 msgid "Used to order the note stages"
-msgstr "Brugt til at rangere notat stadierne"
+msgstr ""
 
 #. module: fleet
 #: model:res.groups,name:fleet.fleet_group_user
@@ -1892,7 +1859,7 @@ msgstr "Bruger"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_car_value
 msgid "Value of the bought vehicle"
-msgstr "Værdi af købt køretøj"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_vehicle_id
@@ -1915,7 +1882,7 @@ msgstr "Køretøj"
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_costs_menu
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_cost_view_tree
 msgid "Vehicle Costs"
-msgstr "Køretøj omkostninger"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
@@ -1925,7 +1892,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
 msgid "Vehicle Details"
-msgstr "Køretøj detaljer"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_action
@@ -1937,14 +1904,14 @@ msgstr ""
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_state_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_state_menu
 msgid "Vehicle Status"
-msgstr "Køretøj status"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_tag_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_tag_menu
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_tag_view_view_form
 msgid "Vehicle Tags"
-msgstr "Køretøj tags"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_vehicle_id
@@ -1952,45 +1919,45 @@ msgstr "Køretøj tags"
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_fuel_vehicle_id
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services_vehicle_id
 msgid "Vehicle concerned by this log"
-msgstr "Køretøj denne log omhandler"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_form
 msgid "Vehicle costs"
-msgstr "Køretøj omkostninger"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_menu
 #: model:ir.ui.menu,name:fleet.fleet_vehicles
 msgid "Vehicles"
-msgstr "Køretøjer"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_log_contract_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_contract_menu
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
 msgid "Vehicles Contracts"
-msgstr "Køretøjer kontrakter"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_log_fuel_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_fuel_menu
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_search
 msgid "Vehicles Fuel Logs"
-msgstr "Køretøjer brændstof logs"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_odometer_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_odometer_menu
 msgid "Vehicles Odometer"
-msgstr "Køretøjer kilometertæller"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_log_services_action
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_services_menu
 msgid "Vehicles Services Logs"
-msgstr "Køretøjer service log"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_cost_indicative_view_graph
@@ -2000,12 +1967,12 @@ msgstr "Køretøjer service log"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
 msgid "Vehicles costs"
-msgstr "Køretøjer omkostninger"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_search
 msgid "Vehicles odometers"
-msgstr "Køretøjer kilometertællere"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_insurer_id
@@ -2053,12 +2020,12 @@ msgstr "Udskiftning af viduesvisker(e)"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
 msgid "Write here all other information relative to this contract"
-msgstr "Skriv her al anden information vedrørende denne kontrakt"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract_notes
 msgid "Write here all supplementary information relative to this contract"
-msgstr "Skriv her alle uddybende information vedrørende denne kontrakt"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_form
@@ -2068,7 +2035,7 @@ msgstr "Skriv al anden information her"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Write here any other information related to the service completed."
-msgstr "Skriv her enhver anden information vedrørende den udførte tjeneste."
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search
@@ -2078,7 +2045,7 @@ msgstr "År"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_year
 msgid "Year of the model"
-msgstr "År på model"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.vehicle.log.contract,cost_frequency:0
@@ -2096,7 +2063,6 @@ msgstr ""
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_model_action
 msgid "You can define several models (e.g. A3, A4) for each make (Audi)."
 msgstr ""
-"Du kan definere flere modeller (f.eks. A3, A4) for hvert mærke (Audi)."
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_action
@@ -2140,7 +2106,7 @@ msgstr "Tags"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "show all the costs for this vehicle"
-msgstr "vis alle omkostninger for dette køretøj"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
@@ -2150,14 +2116,14 @@ msgstr "vis kontrakter for dette køretøj"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "show the fuel logs for this vehicle"
-msgstr "vis brændstof logs for dette køretøj"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "show the odometer logs for this vehicle"
-msgstr "vis kilometertæller logs for dette køretøj"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "show the services logs for this vehicle"
-msgstr "vis service logs for dette køretøj"
+msgstr ""

@@ -14,7 +14,7 @@
 # hoxhe Aits <hoxhe0@gmail.com>, 2017
 # Abdulmajeed Alomar <majeeed87@gmail.com>, 2018
 # Shaima Safar <shaima.safar@open-inside.com>, 2018
-# Mustafa Rawi <mustafa@cubexco.com>, 2019
+# Mustafa Rawi <mustafa@cubexco.com>, 2018
 # 
 msgid ""
 msgstr ""
@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:56+0000\n"
 "PO-Revision-Date: 2017-09-20 10:21+0000\n"
-"Last-Translator: Mustafa Rawi <mustafa@cubexco.com>, 2019\n"
+"Last-Translator: Mustafa Rawi <mustafa@cubexco.com>, 2018\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,13 +75,6 @@ msgstr ""
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span id=\"search_label\">Search</span> <span class=\"caret\"/>"
-msgstr ""
-
-#. module: portal
-#. openerp-web
-#: code:addons/portal/static/src/xml/portal_signature.xml:24
-#, python-format
-msgid "Accept and Sign"
 msgstr ""
 
 #. module: portal
@@ -190,7 +183,7 @@ msgstr "الاسم المعروض"
 #: code:addons/portal/static/src/xml/portal_signature.xml:14
 #, python-format
 msgid "Draw your signature"
-msgstr "ارسم توقيعك"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user_email
@@ -230,12 +223,12 @@ msgstr "في البوابة الإلكترونية"
 #: code:addons/portal/controllers/portal.py:200
 #, python-format
 msgid "Invalid Email! Please enter a valid email address."
-msgstr "البريد الإلكتروني غير صالح! برجاء إدخال بريد صالح."
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_welcome_message
 msgid "Invitation Message"
-msgstr "رسالة الدعوة"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_mixin___last_update
@@ -261,12 +254,12 @@ msgstr "آخر تحديث في"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:20
 #, python-format
 msgid "Leave a comment"
-msgstr "اترك تعليقًا"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user_user_id
 msgid "Login User"
-msgstr "تسجيل دخول المستخدم"
+msgstr ""
 
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.frontend_layout
@@ -293,7 +286,7 @@ msgstr "التالي"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:38
 #, python-format
 msgid "Oops! Something went wrong. Try to reload the page and log in."
-msgstr "عفوًا! حدث خطأ ما. حاول إعادة تحميل الصفحة وتسجيل الدخول."
+msgstr ""
 
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.portal_my_details
@@ -319,7 +312,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:portal.field_project_task_portal_url
 #: model:ir.model.fields,field_description:portal.field_sale_order_portal_url
 msgid "Portal Access URL"
-msgstr "رابط الوصول لبوابة العملاء"
+msgstr ""
 
 #. module: portal
 #: model:ir.model,name:portal.model_portal_wizard_user
@@ -336,7 +329,7 @@ msgstr "سابق"
 #: code:addons/portal/static/src/js/portal_chatter.js:102
 #, python-format
 msgid "Published on %s"
-msgstr "منشور في %s"
+msgstr ""
 
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.wizard_view
@@ -345,9 +338,6 @@ msgid ""
 "                        The email address of each selected contact must be valid and unique.\n"
 "                        If necessary, you can fix any contact's email address directly in the list."
 msgstr ""
-"اختر أي جهات اتصال ينبغي إدراجها ببوابة العملاء في القائمة بالأسفل.\n"
-"                        يجب أن يكون البريد الإلكتروني الخاص بكل جهة اتصال صالحًا وفريدًا.\n"
-"                        في حال احتجت لهذا، يمكنك تعديل أي بريد إلكتروني مباشرة في القائمة."
 
 #. module: portal
 #. openerp-web
@@ -360,26 +350,25 @@ msgstr "إرسال"
 #: code:addons/portal/wizard/portal_wizard.py:106
 #, python-format
 msgid "Several contacts have the same email: "
-msgstr "تملك عدة جهات اتصال نفس البريد الإلكتروني: "
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:103
 #, python-format
 msgid "Some contacts don't have a valid email: "
-msgstr "بعض جهات الاتصال لا تملك بريدًا إلكترونيًا صالحًا: "
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:109
 #, python-format
 msgid "Some contacts have the same email as an existing portal user:"
 msgstr ""
-"تملك بعض جهات اتصال نفس البريد الإلكتروني الخاص بمستخدم حالي لبوابة العملاء:"
 
 #. module: portal
 #: code:addons/portal/controllers/portal.py:219
 #, python-format
 msgid "Some required fields are empty."
-msgstr "بعض الحقول المطلوبة فارغة."
+msgstr ""
 
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.portal_my_details
@@ -413,12 +402,12 @@ msgstr "لا يوجد ملاحظات حتى الآن."
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.wizard_view
 msgid "This text is included in the email sent to new portal users."
-msgstr "يتم إدراج هذا النص في الرسالة المرسلة لمستخدمي بوابة العملاء الجدد."
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_wizard_welcome_message
 msgid "This text is included in the email sent to new users of the portal."
-msgstr "يتم إدراج هذا النص في الرسالة المرسلة لمستخدمي بوابة العملاء الجدد."
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:112
@@ -428,9 +417,6 @@ msgid ""
 "- Correct the emails of the relevant contacts\n"
 "- Grant access only to contacts with unique emails"
 msgstr ""
-"لحل هذه المشكلة، يمكنك فعل التالي:\n"
-"- تصحيح البريد الإلكتروني لجهات الاتصال المعنية\n"
-"- قصر صلاحية الوصول على جهات الاتصال التي تملك بريدًا فريدًا"
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user_ids
@@ -574,14 +560,14 @@ msgstr "المعالج"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:32
 #, python-format
 msgid "Write a message..."
-msgstr "كتابة رسالة..."
+msgstr ""
 
 #. module: portal
 #. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "You must be"
-msgstr "يجب أن تكون"
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:182
@@ -595,18 +581,18 @@ msgstr ""
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.portal_my_details
 msgid "Your Contact Details"
-msgstr "تفاصيل جهة اتصالك"
+msgstr ""
 
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.portal_layout
 #: model:ir.ui.view,arch_db:portal.portal_my_details
 msgid "Your Details"
-msgstr "تفاصيلك"
+msgstr ""
 
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.portal_my_home
 msgid "Your Documents"
-msgstr "مستنداتك"
+msgstr ""
 
 #. module: portal
 #. openerp-web
@@ -631,7 +617,7 @@ msgstr "الرمز البريدي / الرمز البريدي "
 #: code:addons/portal/static/src/xml/portal_chatter.xml:56
 #, python-format
 msgid "avatar"
-msgstr "الصورة الرمزية"
+msgstr ""
 
 #. module: portal
 #. openerp-web
@@ -652,7 +638,7 @@ msgstr "تعليقات"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "logged in"
-msgstr "تم تسجيل الدخول"
+msgstr ""
 
 #. module: portal
 #: model:ir.model,name:portal.model_portal_mixin
@@ -669,4 +655,4 @@ msgstr "حدد..."
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "to post a comment."
-msgstr "لكتابة تعليق."
+msgstr ""

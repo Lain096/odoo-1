@@ -1080,7 +1080,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.500
 msgid "Back"
-msgstr "Назад"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -1771,11 +1771,6 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Email support"
-msgstr ""
-
-#. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Enable billing on your Google Project"
 msgstr ""
 
 #. module: website
@@ -3030,7 +3025,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.aboutus_page_ir_ui_view
 #: model:website.page,arch_db:website.aboutus_page
 msgid "Our Team"
-msgstr "Наш тим"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.aboutus
@@ -3470,7 +3465,7 @@ msgstr ""
 #: code:addons/website/static/src/js/menu/seo.js:343
 #, python-format
 msgid "Save"
-msgstr "Сачувај"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -3606,6 +3601,11 @@ msgstr ""
 #: code:addons/website/static/src/xml/website.pageProperties.xml:86
 #, python-format
 msgid "Show in Top Menu"
+msgstr ""
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Show your address on a map in the"
 msgstr ""
 
 #. module: website
@@ -4060,11 +4060,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 msgid "Url"
 msgstr "Url"
-
-#. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Use Google Map on your website ("
-msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
@@ -4807,7 +4802,7 @@ msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "page, snippets, ...)"
+msgid "page"
 msgstr ""
 
 #. module: website

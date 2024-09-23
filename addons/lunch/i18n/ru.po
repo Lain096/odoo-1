@@ -3,26 +3,24 @@
 # * lunch
 # 
 # Translators:
+# Максим Дронь <dronmax@gmail.com>, 2017
 # Gennady Marchenko <gennadym@gmail.com>, 2017
+# Эдуард Манятовский <manyatovskiy@gmail.com>, 2017
+# Martin Trigaux <mat@odoo.com>, 2017
+# SV <sv@grimmette.ru>, 2017
 # Denis Trepalin <zekarious@gmail.com>, 2017
+# Masha Koc <mariya.kos.ua@gmail.com>, 2017
 # Viktor Pogrebniak <vp@aifil.ru>, 2017
 # Русский «kolobok2048» Ивашка <kolobok2048@gmail.com>, 2017
-# Sergey Vilizhanin, 2017
-# Masha Koc <mariya.kos.ua@gmail.com>, 2017
 # Viktor Scorpion <victorscorpion2000@gmail.com>, 2017
 # Evgeny <transingularity@gmail.com>, 2017
-# Martin Trigaux, 2017
-# Collex100, 2017
-# Максим Дронь <dronmax@gmail.com>, 2017
-# Ivan Yelizariev <yelizariev@it-projects.info>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2019\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
+"Last-Translator: Evgeny <transingularity@gmail.com>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -110,10 +108,6 @@ msgid ""
 "Alerts are used to warn employee from possible issues concerning the lunch orders.\n"
 "                To create a lunch alert you have to define its recurrence, the time interval during which the alert should be executed and the message to display."
 msgstr ""
-"Предупреждение используются для предупреждения работника от возможных "
-"проблем, связанных с заказами на обед. Для создания оповещения об обеде "
-"нужно определить его повторения, временной интервал, в течение которого "
-"оповещения должно быть выполнено, и сообщение, которое нужно отобразить."
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_cashmove_amount
@@ -134,7 +128,7 @@ msgstr "Архивировано"
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_balance_visible
 msgid "Balance Visible"
-msgstr "видимый баланс"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_start_hour
@@ -144,7 +138,7 @@ msgstr "Между"
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.view_lunch_alert_kanban
 msgid "Between:"
-msgstr "между:"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search_2
@@ -201,7 +195,7 @@ msgstr "Движение средств"
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_cash_move_balance
 msgid "Cash Move Balance"
-msgstr "Баланс кассовых операций"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_product_category_id
@@ -517,22 +511,22 @@ msgstr "Заказ обеда"
 #. module: lunch
 #: model:ir.actions.server,name:lunch.action_server_lunch_archive_product
 msgid "Lunch: Archive/Restore products"
-msgstr "Обед: архив / восстановления товаров"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_cancel
 msgid "Lunch: Cancel meals"
-msgstr "Обед: отменить пищу"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_order
 msgid "Lunch: Order meals"
-msgstr "Обед: заказ еды"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.server,name:lunch.lunch_order_line_action_confirm
 msgid "Lunch: Receive meals"
-msgstr "Обед: прием пищи"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_admin
@@ -673,12 +667,12 @@ msgstr "Платеж"
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_previous_order_ids
 msgid "Previous Order"
-msgstr "предварительный заказ"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_previous_order_widget
 msgid "Previous Order Widget"
-msgstr "Виджет предварительного заказа"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.lunch_order_menu_tree
@@ -764,7 +758,7 @@ msgstr "Получено"
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_alert_type
 msgid "Recurrence"
-msgstr "повторение"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_cashmove_action_payment

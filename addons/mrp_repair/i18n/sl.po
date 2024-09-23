@@ -5,20 +5,17 @@
 # Translators:
 # matjaz k <matjaz@mentis.si>, 2018
 # Martin Trigaux, 2018
+# Matjaž Mozetič <m.mozetic@matmoz.si>, 2018
 # Vida Potočnik <vida.potocnik@mentis.si>, 2018
 # Dejan Sraka <dejan.sraka@picolabs.si>, 2018
 # jl2035 <jaka.luthar@gmail.com>, 2018
-# Jasmina Macur <jasmina@hbs.si>, 2019
-# Tadej Lupšina <tadej@hbs.si>, 2020
-# Matjaz Mozetic <m.mozetic@matmoz.si>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 14:52+0000\n"
-"PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Matjaz Mozetic <m.mozetic@matmoz.si>, 2020\n"
+"PO-Revision-Date: 2018-04-27 14:52+0000\n"
+"Last-Translator: jl2035 <jaka.luthar@gmail.com>, 2018\n"
 "Language-Team: Slovenian (https://www.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +26,7 @@ msgstr ""
 #. module: mrp_repair
 #: model:mail.template,report_name:mrp_repair.mail_template_mrp_repair_quotation
 msgid "${(object.name or '').replace('/','_')}"
-msgstr "${(object.name or '').replace('/','_')}"
+msgstr ""
 
 #. module: mrp_repair
 #: model:mail.template,subject:mrp_repair.mail_template_mrp_repair_quotation
@@ -75,20 +72,6 @@ msgid ""
 "                <p>Thank you,</p>\n"
 "            </data>"
 msgstr ""
-"<?xml version=\"1.0\"?>\n"
-"<data><p>Spoštovani ${object.partner_id.name}</p>\n"
-"                <p>\n"
-"                Servisni nalog ${doc_name} <strong>${object.name}</strong>\n"
-"                % if object.origin:\n"
-"                (with reference: ${object.origin} )\n"
-"                % endif\n"
-"                % if object.invoice_method != 'none':\n"
-"                v znesku <strong>${format_amount(object.amount_total, object.pricelist_id.currency_id)}.</strong>\n"
-"                % endif\n"
-"                </p>\n"
-"                <p>V primeru kakršnihkoli vprašanj lahko odgovorite na to sporočilo.</p>\n"
-"                <p>Hvala,</p>\n"
-"            </data>"
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
@@ -98,12 +81,12 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Lot/Serial Number:</strong>"
-msgstr "<strong>Lot/Serijska številka:</strong>"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Operations</strong>"
-msgstr "<strong>Operacije</strong>"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
@@ -118,12 +101,12 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Product to Repair:</strong>"
-msgstr "<strong>Proizvod v popravilu:</strong>"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Shipping address :</strong>"
-msgstr "<strong>Naslov za dostavo:</strong>"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
@@ -350,7 +333,7 @@ msgstr "Pristojbine"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Future Activities"
-msgstr "Bodoče aktivnosti"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
@@ -399,7 +382,7 @@ msgstr ""
 #: code:addons/mrp_repair/models/mrp_repair.py:215
 #, python-format
 msgid "Insufficient Quantity"
-msgstr "Nezadostna količina"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_internal_notes
@@ -420,7 +403,7 @@ msgstr "Račun"
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
 msgid "Invoice Exception"
-msgstr "Obračunska izjema"
+msgstr "Napake računa"
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_fee_invoice_line_id
@@ -495,7 +478,7 @@ msgstr "Zadnjič posodobljeno"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Late Activities"
-msgstr "Aktivnosti z zamudo"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_lot_id
@@ -521,7 +504,7 @@ msgstr "Premik, ki ga je ustvaril servisni nalog"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "My Activities"
-msgstr "Moje aktivnosti"
+msgstr ""
 
 #. module: mrp_repair
 #: selection:mrp.repair,invoice_method:0
@@ -601,7 +584,7 @@ msgstr "Cenik za izbranega partnerja."
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
 msgid "Print Quotation"
-msgstr "Natisni predračun"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_fee_product_id
@@ -643,12 +626,12 @@ msgstr "Količina"
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
 msgid "Quotation"
-msgstr "Predračun"
+msgstr "Ponudba"
 
 #. module: mrp_repair
 #: model:ir.actions.report,name:mrp_repair.action_report_mrp_repair_order
 msgid "Quotation / Order"
-msgstr "Predračun / Naročilo"
+msgstr "Ponudba/Naročilo"
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_quotation_notes
@@ -658,7 +641,7 @@ msgstr "Opombe k predračunu"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Quotations"
-msgstr "Predračuni"
+msgstr "Ponudbe"
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
@@ -679,7 +662,7 @@ msgstr "Odstrani"
 #: model:ir.model.fields,field_description:mrp_repair.field_stock_move_repair_id
 #: model:ir.model.fields,field_description:mrp_repair.field_stock_warn_insufficient_qty_repair_repair_id
 msgid "Repair"
-msgstr "Popravila"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model,name:mrp_repair.model_mrp_repair_fee
@@ -701,7 +684,7 @@ msgstr "Servisni nalog"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "Repair Order #:"
-msgstr "Servisni nalog #:"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_fee_repair_id
@@ -718,7 +701,7 @@ msgstr "Nalog za popravila"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "Repair Quotation #:"
-msgstr "Servisni predračun #:"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_name
@@ -770,7 +753,7 @@ msgstr "Popravljeno"
 #. module: mrp_repair
 #: model:ir.ui.menu,name:mrp_repair.menu_repair_order
 msgid "Repairs"
-msgstr "Popravila"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
@@ -781,7 +764,7 @@ msgstr "Servisni nalogi"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Search Repair Orders"
-msgstr "Iskanje servisnih nalogov"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,help:mrp_repair.field_mrp_repair_invoice_method
@@ -797,7 +780,7 @@ msgstr ""
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form
 msgid "Send Quotation"
-msgstr "Pošlji predračun"
+msgstr ""
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:540
@@ -814,7 +797,6 @@ msgstr "Nastavi kot osnutek"
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Show all records which has next action date is before today"
 msgstr ""
-"Prikaži vse zapise z datumom naslednje aktivnosti pred današnjim datumom."
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_location_id
@@ -902,7 +884,7 @@ msgstr "Bo zaračunano"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
 msgid "Today Activities"
-msgstr "Današnje aktivnosti"
+msgstr ""
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_amount_total

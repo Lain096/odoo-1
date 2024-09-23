@@ -5,13 +5,12 @@
 # Translators:
 # Sandra Franch <sandra.franch@upc.edu>, 2018
 # Martin Trigaux, 2018
+# Carles Antoli <carlesantoli@hotmail.com>, 2018
 # Eric Antones <eantones@users.noreply.github.com>, 2018
 # RGB Consulting <odoo@rgbconsulting.com>, 2018
 # Quim - eccit <quim@eccit.com>, 2018
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2018
-# Manel Fernandez Ramirez <manelfera@outlook.com>, 2018
-# Arnau Ros, 2019
-# Carles Antoli <carlesantoli@hotmail.com>, 2020
+# Manel Fernandez <manelfera@outlook.com>, 2018
 # 
 msgid ""
 msgstr ""
@@ -19,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:55+0000\n"
 "PO-Revision-Date: 2017-09-20 10:27+0000\n"
-"Last-Translator: Carles Antoli <carlesantoli@hotmail.com>, 2020\n"
+"Last-Translator: Manel Fernandez <manelfera@outlook.com>, 2018\n"
 "Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +39,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.payment
 msgid "/shop/payment"
-msgstr "/shop/payment"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.product
@@ -147,8 +146,6 @@ msgid ""
 "<i class=\"fa fa-shopping-cart\"/>\n"
 "                    My Cart"
 msgstr ""
-"<i class=\"fa fa-shopping-cart\"/>\n"
-"                    La meva cistella"
 
 #. module: website_sale
 #: code:addons/website_sale/models/crm_team.py:58
@@ -474,7 +471,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
 msgid "<span>Confirmed</span>"
-msgstr "<span>Confirmat</span>"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
@@ -484,7 +481,7 @@ msgstr "<span>Següent </span><span class=\"fa fa-long-arrow-right\"/>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
 msgid "<span>Order</span>"
-msgstr "<span>Comanda</span>"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.wizard_checkout
@@ -602,7 +599,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
 msgid "<strong>Payment Information:</strong>"
-msgstr "<strong>Informació del pagament:</strong>"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -786,7 +783,7 @@ msgstr "Una pantalla digna d'un iPad."
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:65
 #, python-format
 msgid "AT A GLANCE"
-msgstr "D'UN COP D'ULL"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order_is_abandoned_cart
@@ -807,7 +804,7 @@ msgstr "Cistelles abandonades"
 #: model:ir.ui.view,arch_db:website_sale.crm_team_salesteams_view_kanban_inherit_website_sale
 #, python-format
 msgid "Abandoned Carts to Recover"
-msgstr "Cistelles abandonades per recuperar"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_cart_abandoned_delay
@@ -1098,7 +1095,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:84
 #, python-format
 msgid "Carts"
-msgstr "Cistelles"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1114,12 +1111,12 @@ msgstr "Catàleg"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sort
 msgid "Catalog price: High to Low"
-msgstr "Preu del catàleg: Alt a Baix"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sort
 msgid "Catalog price: Low to High"
-msgstr "Preu del catàleg: Baix a Alt"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.product_public_category_action
@@ -1182,7 +1179,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart
 msgid "Click here"
-msgstr "Fes clic aquí"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -1325,7 +1322,7 @@ msgstr "Confirmació<span class=\"chevron\"/>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce
 msgid "Confirmed Orders"
-msgstr "Comandes confirmades"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_res_partner
@@ -1338,7 +1335,7 @@ msgstr "Contacte"
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:97
 #, python-format
 msgid "Conversion"
-msgstr "Conversió"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_res_country
@@ -1994,7 +1991,7 @@ msgstr "Últim mes"
 #: model:ir.model.fields,field_description:website_sale.field_res_partner_last_website_so_id
 #: model:ir.model.fields,field_description:website_sale.field_res_users_last_website_so_id
 msgid "Last Online Sales Order"
-msgstr "Última comanda de venda en línia"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image_write_uid
@@ -2013,7 +2010,7 @@ msgstr "Actualitzat per última vegada el dia"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
 msgid "Last Week"
-msgstr "Darrera setmana"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
@@ -2033,7 +2030,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Let the customer enter a shipping address"
-msgstr "Feu que el client introdueixi una adreça d’enviament"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2045,7 +2042,7 @@ msgstr "Deixi'ls comprar directament del catàleg amb:"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:15
 #, python-format
 msgid "Let's create your first product."
-msgstr "Creem el teu primer producte."
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -2064,7 +2061,7 @@ msgstr "Visualització de la llista"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
 msgid "Log In"
-msgstr "Iniciar sessió"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2090,7 +2087,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Manage availability of products"
-msgstr "Gestiona la disponibilitat de productes"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -2163,12 +2160,12 @@ msgstr "Nom"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sort
 msgid "Name - A to Z"
-msgstr "Nom - A a Z"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sort
 msgid "Name - Z to A"
-msgstr "Nom - Z a A"
+msgstr ""
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.network
@@ -2217,7 +2214,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_crm_team_abandoned_carts_count
 msgid "Number of Abandoned Carts"
-msgstr "Nombre de cistelles abandonades"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -2244,7 +2241,7 @@ msgstr "Una vegada premi en <b>guardar</b>, el seu producte s'actualitzarà."
 #: code:addons/website_sale/models/crm_team.py:39
 #, python-format
 msgid "Online Sales"
-msgstr "Vendes en línia"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -2315,7 +2312,7 @@ msgstr "Comandes a facturar"
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:89
 #, python-format
 msgid "Orders/Day"
-msgstr "Comandes/Dia"
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_1
@@ -2342,7 +2339,7 @@ msgstr "Pagar ara <span class=\"fa fa-long-arrow-right\"/>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.payment
 msgid "Pay with"
-msgstr "Paga amb"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_ecommerce_payment_acquirers
@@ -2406,7 +2403,7 @@ msgstr "Llista de reproduccions. El perfecte mix per a cada estat d'ànim."
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart
 msgid "Please proceed your current cart."
-msgstr "Per favor processa la teva cistella actual."
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_14
@@ -2432,19 +2429,19 @@ msgstr "Preferit per alguns clients"
 #: code:addons/website_sale/controllers/backend.py:109
 #, python-format
 msgid "Previous Month"
-msgstr "Mes anterior"
+msgstr ""
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/backend.py:107
 #, python-format
 msgid "Previous Week"
-msgstr "Setmana anterior"
+msgstr ""
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/backend.py:111
 #, python-format
 msgid "Previous Year"
-msgstr "Any anterior"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_lines
@@ -2508,7 +2505,7 @@ msgstr "Catàleg de Productes"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_module_website_sale_comparison
 msgid "Product Comparison Tool"
-msgstr "Eina de comparació de productes"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.product_template_form_view
@@ -2673,12 +2670,12 @@ msgstr "Classificació"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_last_feedback
 msgid "Rating Last Feedback"
-msgstr "Darrera valoració"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_last_image
 msgid "Rating Last Image"
-msgstr "Valorant la darrera imatge"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product_rating_last_value
@@ -2693,12 +2690,12 @@ msgstr "Classificar recompte"
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_product_rating_last_feedback
 msgid "Reason of the rating"
-msgstr "Raó de la valoració"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce
 msgid "Recovery Email to Send"
-msgstr "Correu electrònic de recuperació per enviar"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image_product_tmpl_id
@@ -2772,7 +2769,7 @@ msgstr "Venda"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sale_report_view_graph_website
 msgid "Sale Report"
-msgstr "Informe de venda"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -2797,7 +2794,7 @@ msgstr "Canal de Vendes"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sale_report_view_pivot_website
 msgid "Sales Report"
-msgstr "Informe de vendes"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -3041,7 +3038,7 @@ msgstr "Mostrar múltiples imatges en eCommerce"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.confirmation
 msgid "Sign Up"
-msgstr "Registrar-se"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_sale
@@ -3087,7 +3084,7 @@ msgstr "Software"
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:109
 #, python-format
 msgid "Sold"
-msgstr "Venut"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -3117,7 +3114,7 @@ msgstr "Ordenar per preu"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.sort
 msgid "Sorting by :"
-msgstr "Ordenar per :"
+msgstr ""
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.Speakers
@@ -3142,7 +3139,7 @@ msgstr "Estat / Província..."
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
 msgid "Street 2"
-msgstr "Carrer 2"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
@@ -3388,7 +3385,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart
 msgid "This is your current cart."
-msgstr "Aquesta es la seva cistella actual."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.coupon_form
@@ -3475,7 +3472,7 @@ msgstr "Comandes no pagades"
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:75
 #, python-format
 msgid "Untaxed Total Sold"
-msgstr "Total venut sense impostos"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -3594,7 +3591,7 @@ msgstr "Perquè t'encantarà un iPad"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings_module_website_sale_wishlist
 msgid "Wishlists"
-msgstr "Llista de preferits"
+msgstr ""
 
 #. module: website_sale
 #: model:sale.order.line,website_description:website_sale.website_sale_order_line_1
@@ -3700,7 +3697,7 @@ msgstr "El seu pagament s'ha autoritzat."
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart
 msgid "Your previous cart has already been completed."
-msgstr "La vostra cistella anterior ja s'ha completat."
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address

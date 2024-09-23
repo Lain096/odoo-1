@@ -4,16 +4,14 @@
 # 
 # Translators:
 # Martin Trigaux, 2017
-# Slobodan Simić <slsimic@gmail.com>, 2019
-# Uros Kalajdzic <ukalajdzic@gmail.com>, 2020
-# 
+# Slobodan Simić <slsimic@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:08+0000\n"
-"PO-Revision-Date: 2017-09-20 10:17+0000\n"
-"Last-Translator: Uros Kalajdzic <ukalajdzic@gmail.com>, 2020\n"
+"POT-Creation-Date: 2018-07-27 11:56+0000\n"
+"PO-Revision-Date: 2018-07-27 11:56+0000\n"
+"Last-Translator: Slobodan Simić <slsimic@gmail.com>, 2017\n"
 "Language-Team: Serbian (https://www.transifex.com/odoo/teams/41243/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -515,7 +513,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_create_uid
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_create_uid
 msgid "Created by"
-msgstr "Kreirano"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type_create_date
@@ -713,7 +711,7 @@ msgstr ""
 #: model:ir.module.category,name:fleet.module_fleet_category
 #: model:ir.ui.menu,name:fleet.menu_root
 msgid "Fleet"
-msgstr "Флота"
+msgstr ""
 
 #. module: fleet
 #: model:ir.actions.server,name:fleet.ir_cron_contract_costs_generator_ir_actions_server
@@ -983,11 +981,6 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_kanban
 msgid "Km"
-msgstr ""
-
-#. module: fleet
-#: selection:fleet.vehicle,fuel_type:0
-msgid "LPG"
 msgstr ""
 
 #. module: fleet

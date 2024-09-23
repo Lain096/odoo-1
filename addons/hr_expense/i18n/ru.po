@@ -16,8 +16,6 @@
 # Collex100, 2017
 # sergeiruzkiicode <sergei.ruzki@icode.by>, 2018
 # Martin Trigaux, 2019
-# Vasiliy Korobatov <korobatov@gmail.com>, 2019
-# Ivan Yelizariev <yelizariev@it-projects.info>, 2019
 # 
 msgid ""
 msgstr ""
@@ -25,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:18+0000\n"
-"Last-Translator: Ivan Yelizariev <yelizariev@it-projects.info>, 2019\n"
+"Last-Translator: Martin Trigaux, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -322,7 +320,7 @@ msgstr "Все Расходы"
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_account_id
 msgid "An expense account is expected"
-msgstr "Ожидается счет расходов"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_analytic_account_id
@@ -647,7 +645,7 @@ msgstr "Отчет расходов"
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_sheet_register_payment_wizard
 msgid "Expense Report Register Payment wizard"
-msgstr "Отчет о расходах Мастер регистрации платежей"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet_state
@@ -738,7 +736,7 @@ msgstr "Отчет о расходах отправлен на утвержде�
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_account_move_line_expense_id
 msgid "Expense where the move line come from"
-msgstr "Расходы, на которые происходит строку перехода"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.actions.server,name:hr_expense.hr_expense_submit_action_server
@@ -929,7 +927,7 @@ msgstr "Удачного дня,<br/>-Odoo команда"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard_hide_payment_method
 msgid "Hide Payment Method"
-msgstr "Скрыть метод оплаты"
+msgstr ""
 
 #. module: hr_expense
 #: model:product.product,name:hr_expense.hotel_rent
@@ -940,12 +938,12 @@ msgstr "Размещение в отеле"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard_hr_expense_ids
 msgid "Hr Expense"
-msgstr "Расходы отдела кадров"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard_hr_expense_sheet_id
 msgid "Hr Expense Sheet"
-msgstr "Стоимость расходов на год"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_id
@@ -1018,7 +1016,7 @@ msgstr "Последнее обновление"
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings_use_mailgateway
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Let your employees record expenses by email"
-msgstr "Пусть ваши сотрудники записывают расходы по электронной почте"
+msgstr ""
 
 #. module: hr_expense
 #: model:res.groups,name:hr_expense.group_hr_expense_manager
@@ -1092,8 +1090,6 @@ msgid ""
 "No Expense account found for the product %s (or for its category), please "
 "configure one."
 msgstr ""
-"Нет счета расходов для товара% s (или для своей категории), пожалуйста, "
-"настройте его."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:231
@@ -1185,13 +1181,13 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:543
 #, python-format
 msgid "Only HR Officers can approve expenses"
-msgstr "Только кадровики могут утверждать расходы"
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:534
 #, python-format
 msgid "Only HR Officers can refuse expenses"
-msgstr "Только кадровики могут отказать в оплате расходов"
+msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -1764,11 +1760,6 @@ msgid ""
 "between brackets, the product will be set automatically. Type the expense "
 "amount in the mail subject to set it on the expense too."
 msgstr ""
-"Вы можете настроить общий псевдоним электронной почты, чтобы легко создавать"
-" входные затраты. Напишите электронное письмо с квитанцией в приложении, "
-"чтобы создать строку расходов в один клик. Если тема сообщения содержит "
-"внутреннюю справку товара в скобках, товар будет установлен автоматически. "
-"Введите сумму расходов в почтовой теме, чтобы установить ее за счет тоже."
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:598
@@ -1786,7 +1777,7 @@ msgstr "Вы не можете удалить опубликованный ра�
 #: code:addons/hr_expense/models/hr_expense.py:469
 #, python-format
 msgid "You cannot delete a posted or paid expense."
-msgstr "Вы не можете удалить опубликованные или оплаченные расходы."
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:111
@@ -1799,7 +1790,7 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:602
 #, python-format
 msgid "You cannot report expenses with different payment modes."
-msgstr "Вы не можете отчитываться о расходах с различными способами оплаты."
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:109
@@ -1865,7 +1856,7 @@ msgstr "нап., поездка в Нью-Йорк"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
 msgid "has been refused"
-msgstr "было отклонено"
+msgstr ""
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:344

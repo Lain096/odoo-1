@@ -526,10 +526,7 @@ var LineRenderer = Widget.extend(FieldManagerMixin, {
             type: 'float',
             name: 'amount',
         }], {
-            account_id: {
-                string: _t("Account"),
-                domain: [['deprecated', '=', false]],
-            },
+            account_id: {string: _t("Account")},
             label: {string: _t("Label")},
             amount: {string: _t("Account")}
         }).then(function (recordID) {
@@ -695,8 +692,7 @@ var LineRenderer = Widget.extend(FieldManagerMixin, {
      * @param {MouseEvent} event
      */
     _onSelectMoveLine: function (event) {
-        var $el = $(event.target);
-        $el.prop('disabled', true);
+        var $el = $(event.target)
         this._destroyPopover($el);
         var moveLineId = $el.closest('.mv_line').data('line-id');
         this.trigger_up('add_proposition', {'data': moveLineId});

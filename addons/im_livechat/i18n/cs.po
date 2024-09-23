@@ -8,9 +8,7 @@
 # Martin Trigaux, 2018
 # Jaroslav Helemik Nemec <nemec@helemik.cz>, 2018
 # Ladislav Tomm <tomm@helemik.cz>, 2018
-# Rastislav Brencic <rastislav.brencic@azet.sk>, 2020
-# karolína schusterová <karolina.schusterova@vdp.sk>, 2021
-# trendspotter, 2021
+# trendspotter <j.podhorecky@volny.cz>, 2019
 # 
 msgid ""
 msgstr ""
@@ -18,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:12+0000\n"
 "PO-Revision-Date: 2017-09-20 10:18+0000\n"
-"Last-Translator: trendspotter, 2021\n"
+"Last-Translator: trendspotter <j.podhorecky@volny.cz>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +27,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator_nbr_channel
 msgid "# of Sessions"
-msgstr "počet sezení"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_nbr_speaker
@@ -40,7 +38,7 @@ msgstr "počet mluvčích"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rating_percentage_satisfaction
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "% Happy"
-msgstr "% spokojeno"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_action
@@ -68,19 +66,19 @@ msgstr "Akce"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_mail_channel_anonymous_name
 msgid "Anonymous Name"
-msgstr "Anonymní jméno"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_are_you_inside
 msgid "Are you inside the matrix?"
-msgstr "Jste uvnitř matice?"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:48
 #, python-format
 msgid "Ask something ..."
-msgstr "Zeptejte se na něco ..."
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_form
@@ -96,7 +94,7 @@ msgstr "Automaticky vyskakovací okno"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_auto_popup_timer
 msgid "Auto popup timer"
-msgstr "Časovač automatického vyskočení okna"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_duration
@@ -112,7 +110,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_operator_time_to_answer
 msgid "Average time to give the first answer to the visitor"
-msgstr "Průměrná doba pro poskytnutí první odpovědi návštěvníkovi"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
@@ -125,7 +123,7 @@ msgstr "Špatný"
 #: model:ir.actions.act_window,name:im_livechat.im_livechat_canned_response_action
 #: model:ir.ui.menu,name:im_livechat.canned_responses
 msgid "Canned Responses"
-msgstr "Uchované odpovědi"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_canned_response_action
@@ -205,14 +203,14 @@ msgstr "Konfigurace"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_channel_id
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator_channel_id
 msgid "Conversation"
-msgstr "Konverzace"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
 #: code:addons/im_livechat/static/src/js/copy_clipboard.js:32
 #, python-format
 msgid "Copied !"
-msgstr "Zkopírováno !"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
@@ -220,7 +218,7 @@ msgstr "Zkopírováno !"
 #: code:addons/im_livechat/static/src/xml/copy_clipboard.xml:12
 #, python-format
 msgid "Copy Text"
-msgstr "Kopírovat text"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
@@ -283,7 +281,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:im_livechat.rating_rating_action_livechat_report
 #: model:ir.ui.menu,name:im_livechat.rating_rating_menu_livechat
 msgid "Customer Ratings"
-msgstr "Hodnocení zákazníků"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.rating_rating_action_livechat_report
@@ -365,9 +363,6 @@ msgid ""
 "Given the order to find a matching rule. If 2 rules are matching for the "
 "given url/country, the one with the lowest sequence will be chosen."
 msgstr ""
-"Určete pořadí nalezení odpovídajícího pravidla. Pokud se pro danou adresu "
-"URL / zemi shodují 2 pravidla, bude vybráno pravidlo s nejnižší "
-"posloupností."
 
 #. module: im_livechat
 #. openerp-web
@@ -487,12 +482,12 @@ msgstr "Uvolnění"
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Leave Channel"
-msgstr "Opustit Kanál"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_mail_channel_partner
 msgid "Listeners of a Channel"
-msgstr "Posluchači kanálu"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.menu_livechat_root
@@ -502,7 +497,7 @@ msgstr "Živý chat"
 #. module: im_livechat
 #: model:ir.module.category,name:im_livechat.module_category_im_livechat
 msgid "Live Support"
-msgstr "Live Podpora"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
@@ -510,13 +505,13 @@ msgstr "Live Podpora"
 #: code:addons/im_livechat/static/src/xml/im_livechat_backend.xml:21
 #, python-format
 msgid "Livechat"
-msgstr "Livechat"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_im_livechat_channel
 #: model:ir.ui.view,arch_db:im_livechat.rating_rating_view_search_livechat
 msgid "Livechat Channel"
-msgstr "Livechat kanál"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_report_channel_action
@@ -545,7 +540,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_graph
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_pivot
 msgid "Livechat Support Statistics"
-msgstr "Statistiky podpory živý chat"
+msgstr ""
 
 #. module: im_livechat
 #: model:res.groups,name:im_livechat.im_livechat_group_manager
@@ -587,7 +582,7 @@ msgstr "Název"
 #: code:addons/im_livechat/models/mail_channel.py:125
 #, python-format
 msgid "No history found"
-msgstr "Nenalezena žádná historie"
+msgstr ""
 
 #. module: im_livechat
 #. openerp-web
@@ -608,7 +603,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel_nbr_speaker
 msgid "Number of different speakers"
-msgstr "Počet různých mluvčích"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel_nbr_message
@@ -685,7 +680,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
 msgid "Rating: Bad"
-msgstr "Hodnocení: Špatné"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
@@ -700,7 +695,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.rating_rating_action_view_livechat_rating
 msgid "Ratings for livechat channel"
-msgstr "Hodnocení kanálu živý chat"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_regex_url
@@ -729,13 +724,13 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_search
 msgid "Search history"
-msgstr "Historie hledání"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 msgid "Search report"
-msgstr "zpráva o hledání"
+msgstr ""
 
 #. module: im_livechat
 #: code:addons/im_livechat/models/mail_channel.py:113
@@ -747,12 +742,12 @@ msgstr "Viz 15 posledních navštívených stránek"
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_form
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_tree
 msgid "Session Date"
-msgstr "Datum Sezení"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_form
 msgid "Session Form"
-msgstr "Formulář sezení"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.menu_reporting_livechat_channel
@@ -861,7 +856,7 @@ msgstr "Náhled"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator_time_to_answer
 msgid "Time to answer"
-msgstr "Čas na odpověď"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
@@ -871,7 +866,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_regex_url
 msgid "URL Regex"
-msgstr "URL Regex"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_web_page
@@ -903,7 +898,7 @@ msgstr "Návštěvník"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_web_page
 msgid "Web Page"
-msgstr "Webová strana"
+msgstr ""
 
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.im_livechat_channel_action
@@ -922,9 +917,6 @@ msgid ""
 "                to integrate the website live chat widget, allowing your website\n"
 "                visitors to talk in real time with your operators."
 msgstr ""
-"Pro každou webovou stránku, na kterou chcete integrovat widget živého chatu,"
-" můžete vytvořit kanály, které návštěvníkům vašeho webu umožní mluvit v "
-"reálném čase s vašimi operátory."
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.mail_channel_action

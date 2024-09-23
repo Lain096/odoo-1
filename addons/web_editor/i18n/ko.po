@@ -3,20 +3,19 @@
 # * web_editor
 # 
 # Translators:
-# Seongseok Shin <shinss61@hotmail.com>, 2018
+# Martin Trigaux, 2017
 # Link Up링크업 <linkup.way@gmail.com>, 2018
-# 방상우 <mrroom@gmail.com>, 2018
 # Linkup <link-up@naver.com>, 2018
-# Martin Trigaux, 2018
-# JH CHOI <hwangtog@gmail.com>, 2020
-# 
+# Seongseok Shin <shinss61@hotmail.com>, 2018
+# 최재호 <hwangtog@gmail.com>, 2018
+# 방상우 <mrroom@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
-"PO-Revision-Date: 2017-09-20 10:25+0000\n"
-"Last-Translator: JH CHOI <hwangtog@gmail.com>, 2020\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
+"Last-Translator: 방상우 <mrroom@gmail.com>, 2018\n"
 "Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +28,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:193
 #, python-format
 msgid "(URL or Embed)"
-msgstr "(URL 또는 임베드)"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -87,7 +86,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Accepts"
-msgstr "수락"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -253,7 +252,7 @@ msgstr "굵게"
 #: code:addons/web_editor/static/src/js/widgets/ace.js:827
 #, python-format
 msgid "Careful !"
-msgstr "주의하세요!"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -333,8 +332,6 @@ msgstr "내용 번역"
 #, python-format
 msgid "Copy-paste your URL or embed code here"
 msgstr ""
-"여기에 URL을 복사하여 붙여 넣거나 코드를 삽입하십시오\n"
-" "
 
 #. module: web_editor
 #. openerp-web
@@ -372,7 +369,7 @@ msgstr "사용자 지정"
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Dailymotion"
-msgstr "Dailymotion"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
@@ -487,7 +484,7 @@ msgstr "엡실론"
 #: code:addons/web_editor/static/src/js/widgets/ace.js:93
 #, python-format
 msgid "Expected "
-msgstr "예상됨"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -662,35 +659,35 @@ msgstr "다음은 효율적으로 번역하는데 도움이 될 영상입니다 
 #: code:addons/web_editor/static/src/xml/editor.xml:219
 #, python-format
 msgid "Hide Dailymotion logo"
-msgstr "Dailymotion 로고 숨기기"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:216
 #, python-format
 msgid "Hide Youtube logo"
-msgstr "유튜브 로고 숨기기"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:213
 #, python-format
 msgid "Hide fullscreen button"
-msgstr "전체 화면 버튼 숨기기"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:210
 #, python-format
 msgid "Hide player controls"
-msgstr "플레이어 컨트롤 숨기기"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:222
 #, python-format
 msgid "Hide sharing button"
-msgstr "공유 버튼 숨기기"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -720,7 +717,7 @@ msgstr "현재 버전을 삭제하면 저장하지 않은 모든 변경 사항�
 msgid ""
 "If you reset this file, all your customizations will be lost as it will be "
 "reverted to the default file."
-msgstr " 파일을 재설정하면 모든 맞춤 설정한 내용이 기본 파일로 되돌아가므로 손실됩니다."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -744,8 +741,6 @@ msgid ""
 "In this mode, you can only translate texts. To change the structure of the page, you must edit the master page.\n"
 "        Each modification on the master page is automatically applied to all translated versions."
 msgstr ""
-"이 모드에서는 텍스트 만 번역 할 수 있습니다. 페이지 구조를 변경하려면 마스터 페이지를 편집해야 합니다. \n"
-"      마스터 페이지의 각 수정 사항은 모든 번역된 버전에 자동으로 적용됩니다."
 
 #. module: web_editor
 #. openerp-web
@@ -806,14 +801,14 @@ msgstr "비디오 삽입"
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Instagram"
-msgstr "인스타그램"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/snippets.editor.js:1028
 #, python-format
 msgid "Install"
-msgstr "설치"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -906,7 +901,7 @@ msgstr "링크 걸기"
 #: code:addons/web_editor/static/src/xml/editor.xml:207
 #, python-format
 msgid "Loop"
-msgstr "반복"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -970,7 +965,7 @@ msgstr "OK"
 #: code:addons/web_editor/static/src/js/editor/translator.js:93
 #, python-format
 msgid "Ok, never show me this again"
-msgstr "좋습니다. 다시는 보여주지 마십시오"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1042,7 +1037,7 @@ msgstr "미리 보기"
 #: code:addons/web_editor/static/src/xml/editor.xml:57
 #, python-format
 msgid "Previous"
-msgstr "이전"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
@@ -1153,7 +1148,7 @@ msgstr "기본값으로 재설정"
 #: code:addons/web_editor/static/src/js/widgets/ace.js:485
 #, python-format
 msgid "Reseting views is not supported yet"
-msgstr "화면 재설정은 아직 지원되지 않습니다"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1239,7 +1234,7 @@ msgstr "파일에서 선택"
 #: code:addons/web_editor/static/src/js/widgets/ace.js:567
 #, python-format
 msgid "Server error"
-msgstr "서버 오류"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1370,14 +1365,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/widgets/widgets.js:871
 #, python-format
 msgid "The provided url does not reference any supported video"
-msgstr "제공된 URL이 지원되는 동영상을 참조하지 않습니다"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/widgets/widgets.js:865
 #, python-format
 msgid "The provided url is not valid"
-msgstr "입력하신 URL이 유효하지 않습니다"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1441,7 +1436,7 @@ msgstr "번역된 내용"
 #: code:addons/web_editor/static/src/js/editor/translator.js:91
 #, python-format
 msgid "Translation Info"
-msgstr "번역 정보"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1449,14 +1444,14 @@ msgstr "번역 정보"
 #: model:ir.ui.view,arch_db:web_editor.colorpicker
 #, python-format
 msgid "Transparent"
-msgstr "투명도"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:248
 #, python-format
 msgid "URL or Email"
-msgstr "URL 또는 이메일"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1477,7 +1472,7 @@ msgstr "취소"
 #: code:addons/web_editor/static/src/js/widgets/ace.js:86
 #, python-format
 msgid "Unexpected "
-msgstr "뜻밖의"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1548,14 +1543,14 @@ msgstr "동영상 URL?"
 #: code:addons/web_editor/static/src/xml/editor.xml:193
 #, python-format
 msgid "Video code"
-msgstr "동영사 코드"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Vimeo"
-msgstr "비메오"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1580,7 +1575,7 @@ msgstr "흰색"
 #: code:addons/web_editor/static/src/xml/ace.xml:10
 #, python-format
 msgid "XML (HTML)"
-msgstr "XML (HTML)"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1601,14 +1596,14 @@ msgstr "번역 모드로 변경됩니다."
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Youku"
-msgstr "Youku"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "Youtube"
-msgstr "유튜브"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1734,7 +1729,7 @@ msgstr "ir.ui.view"
 #: code:addons/web_editor/static/src/xml/editor.xml:198
 #, python-format
 msgid "videos"
-msgstr "동영상"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_web_editor_converter_test

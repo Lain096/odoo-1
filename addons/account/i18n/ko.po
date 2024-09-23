@@ -11,16 +11,16 @@
 # Spike Lee <rurouni24@gmail.com>, 2018
 # Martin Trigaux, 2018
 # Goh Gangtai <gangtai.goh@gmail.com>, 2018
-# Linkup <link-up@naver.com>, 2019
-# JH CHOI <hwangtog@gmail.com>, 2020
+# 최재호 <hwangtog@gmail.com>, 2018
+# Linkup <link-up@naver.com>, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:07+0000\n"
+"POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:13+0000\n"
-"Last-Translator: JH CHOI <hwangtog@gmail.com>, 2020\n"
+"Last-Translator: Linkup <link-up@naver.com>, 2018\n"
 "Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -435,8 +435,6 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -1302,7 +1300,7 @@ msgstr "계정"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_accountant
 msgid "Account Accountant"
-msgstr "회계사 계정"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_account_aged_trial_balance
@@ -1790,7 +1788,7 @@ msgstr "조정 세금"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard_adjustment_type
 msgid "Adjustment Type"
-msgstr "조정 유형"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_tax_template_form
@@ -2216,12 +2214,12 @@ msgstr "적용성"
 #. module: account
 #: selection:tax.adjustments.wizard,adjustment_type:0
 msgid "Applied on credit journal item"
-msgstr "대변 분개 항목에 적용됨"
+msgstr ""
 
 #. module: account
 #: selection:tax.adjustments.wizard,adjustment_type:0
 msgid "Applied on debit journal item"
-msgstr "차변 분개 항목에 적용됨"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_fiscal_position_auto_apply
@@ -2507,7 +2505,7 @@ msgstr "예금거래 명세서"
 #: code:addons/account/models/account_bank_statement.py:937
 #, python-format
 msgid "Bank Statement %s"
-msgstr "예금 거래 명세서 %s"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_account_bank_statement_line
@@ -2976,17 +2974,17 @@ msgstr "계정에 청구서를 발행하고 나면 이름을 변경할 수 없�
 #: model:ir.model.fields,field_description:account.field_res_company_chart_template_id
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_chart_template_id
 msgid "Chart Template"
-msgstr "일람표 양식"
+msgstr "차트 템플릿"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.open_account_charts_modules
 msgid "Chart Templates"
-msgstr "일람표 양식"
+msgstr "차트 템플릿"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company_account_setup_coa_done
 msgid "Chart of Account Checked"
-msgstr "검사한 계정과목 일람표"
+msgstr "검사한 계정의 차트"
 
 #. module: account
 #. openerp-web
@@ -2997,18 +2995,18 @@ msgstr "검사한 계정과목 일람표"
 #: model:ir.ui.view,arch_db:account.account_planner
 #, python-format
 msgid "Chart of Accounts"
-msgstr "계정과목 일람표"
+msgstr "계정 차트"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_chart_template_form
 #: model:ir.ui.view,arch_db:account.view_account_chart_template_tree
 msgid "Chart of Accounts Template"
-msgstr "계정과목 일람표 양식"
+msgstr "계정 차트 템플릿"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_chart_template_form
 msgid "Chart of Accounts Templates"
-msgstr "계정과목 일람표 양식"
+msgstr "계정 차트 템플릿"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -3016,13 +3014,13 @@ msgid ""
 "Chart of Accounts has been\n"
 "                            installed. You should review it and create any additional accounts."
 msgstr ""
-"계정과목 일람표가 설치되었습니다.\n"
-"                            계정과목 일람표를 검토하고 추가 계정을 생성해야 합니다."
+"계정 차트가 설치되었습니다.\n"
+"                            계정 차트를 검토하고 추각 계정을 생성해야 합니다."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_list
 msgid "Chart of accounts"
-msgstr "계정과목 일람표"
+msgstr "계정 차트"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_view_account_bnk_stmt_check
@@ -3094,7 +3092,7 @@ msgstr "회계 템플릿 선택"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:131
 #, python-format
 msgid "Choose counterpart or Create Write-off"
-msgstr "상대편 선택 또는 쓰기금지 생성"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_bank_journal_form
@@ -4266,12 +4264,6 @@ msgid ""
 msgstr "계산된 결산 잔액과 지정된 결산 잔액 간의 차이입니다."
 
 #. module: account
-#: code:addons/account/models/account_move.py:235
-#, python-format
-msgid "Difference debit - credit: "
-msgstr ""
-
-#. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Direct connection to your bank"
 msgstr "은행과 직접 연결"
@@ -4529,12 +4521,7 @@ msgid "Due date"
 msgstr "만기일"
 
 #. module: account
-#: model:ir.ui.view,arch_db:account.view_move_form
-msgid "Duplicate"
-msgstr "복제"
-
-#. module: account
-#: code:addons/account/models/account_invoice.py:1194
+#: code:addons/account/models/account_invoice.py:1176
 #, python-format
 msgid ""
 "Duplicated vendor reference detected. You probably encoded twice the same "
@@ -5633,7 +5620,7 @@ msgstr "주식 가치 평가를 위한 투입 계정"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Install Chart of Account"
-msgstr "계정과목 일람표 설치"
+msgstr "계정 차트 설치"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -6032,12 +6019,12 @@ msgstr "1월"
 #: model:ir.ui.view,arch_db:account.view_bank_statement_search
 #, python-format
 msgid "Journal"
-msgstr "분개"
+msgstr "분개장"
 
 #. module: account
 #: selection:account.report.general.ledger,sortby:0
 msgid "Journal & Partner"
-msgstr "분개 & 협력사"
+msgstr "분개장 & 협력사"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:254
@@ -6050,19 +6037,19 @@ msgstr "분개 & 협력사"
 #: model:ir.ui.view,arch_db:account.view_move_tree
 #, python-format
 msgid "Journal Entries"
-msgstr "분개 기입 항목"
+msgstr "분개"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_filter
 msgid "Journal Entries by Month"
-msgstr "월별 분개 기재"
+msgstr "월별 분개"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_move_id
 #: model:ir.model.fields,field_description:account.field_account_move_line_move_id
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Journal Entry"
-msgstr "분개 기입 항목"
+msgstr "분개"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line_move_name
@@ -9691,7 +9678,7 @@ msgstr "이 라인이 영향을 받지 않은 순수익 계정에 포함되는�
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_chart_template_id
 msgid "Template"
-msgstr "서식"
+msgstr "템플릿"
 
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position_account_template
@@ -9992,7 +9979,7 @@ msgstr "마지막 라인의 계산 유형은 \"잔액\"이 되어야 전체 금�
 #: code:addons/account/models/company.py:94
 #, python-format
 msgid "The lock date for advisors is irreversible and can't be removed."
-msgstr "조언자의 잠금 날짜는 되돌릴 수 없으며 제거할 수 없습니다."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_move_id
@@ -10020,7 +10007,7 @@ msgstr "계정 이동 라인에 사용할 이름입니다."
 #, python-format
 msgid ""
 "The new lock date for advisors must be set after the previous lock date."
-msgstr "새 조언자의 잠금 날짜는 이전 잠금 날짜 이후에 설정해야 합니다."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_refund_sequence_number_next
@@ -10070,7 +10057,7 @@ msgstr "청구서 협력사 참조"
 #, python-format
 msgid ""
 "The partners of the journal's company and the related bank account mismatch."
-msgstr "회사 분개장의 협력사와 관련 은행 계정이 일치하지 않습니다."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_payment.py:60
@@ -10802,7 +10789,7 @@ msgstr "새로운 사업을 시작하는 것이 아니라면, 가져올 고객 �
 #: model:ir.ui.view,arch_db:account.setup_financial_year_opening_form
 #: model:ir.ui.view,arch_db:account.setup_view_company_form
 msgid "Unmark as done"
-msgstr "완료로 표시 취소"
+msgstr "완료로 표시 해제"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.act_account_journal_2_account_invoice_opened
@@ -11378,7 +11365,7 @@ msgstr "부분 지불된 청구서 대금을 취소할 수 없습니다. 먼저 
 msgid ""
 "You cannot change the currency of the company since some journal items "
 "already exist"
-msgstr "일부 분개 항목이 이미 있으므로 회사의 통화를 변경할 수 없습니다."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account.py:235
@@ -11411,7 +11398,6 @@ msgid ""
 "You cannot define stricter conditions on advisors than on users. Please make"
 " sure that the lock date on advisor is set before the lock date for users."
 msgstr ""
-"사용자보다 엄격한 자문 조건을 정의할 수 없습니다. 사용자의 잠금 날짜 이전에 조언자의 잠금 날짜가 설정되어 있는지 확인합니다."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:613
@@ -11485,7 +11471,6 @@ msgid ""
 "You cannot lock a period that is not finished yet. Please make sure that the"
 " lock date for advisors is not set after the last day of the previous month."
 msgstr ""
-"아직 완료되지 않은 기간은 잠글 수 없습니다. 조언자의 잠금 날짜가 전월의 마지막 날 이후로 설정되지 않았는지 확인해 주세요."
 
 #. module: account
 #. openerp-web
@@ -11532,7 +11517,7 @@ msgstr "고객 또는 공급업체에 설정된 계정을 제거/비활성화할
 msgid ""
 "You cannot set a currency on this account as it already has some journal "
 "entries having a different foreign currency."
-msgstr "일부 분개 항목이 이미 다른 통화를 가지고 있기 때문에 이 계정에 통화를 설정할 수 없습니다."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:1368
@@ -11642,12 +11627,6 @@ msgid ""
 "You should have defined an 'Internal Transfer Account' in your cash "
 "register's journal!"
 msgstr "금전 등록기 분개에 '내부 이전 계정'을 정의해야 합니다!"
-
-#. module: account
-#: code:addons/account/models/account_cash_rounding.py:33
-#, python-format
-msgid "Please set a positive rounding value."
-msgstr "양수 반올림 값을 설정하십시오."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_refund

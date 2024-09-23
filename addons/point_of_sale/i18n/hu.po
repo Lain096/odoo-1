@@ -8,17 +8,15 @@
 # picibucor <picibucor@gmail.com>, 2017
 # gezza <geza.nagy@oregional.hu>, 2017
 # Martin Trigaux, 2017
-# krnkris, 2019
-# Tamás Németh <ntomasz81@gmail.com>, 2020
-# Ákos Nagy <akos.nagy@oregional.hu>, 2020
+# krnkris, 2017
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:07+0000\n"
+"POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:21+0000\n"
-"Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2020\n"
+"Last-Translator: krnkris, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,25 +40,25 @@ msgstr "# sorok száma"
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "$ 3.12"
-msgstr "$ 3.12"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "$ 4.40"
-msgstr "$ 4.40"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "$ 4.50"
-msgstr "$ 4.50"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "$ 8.50"
-msgstr "$ 8.50"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -151,7 +149,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "<span class=\"pos-change_amount\">$ 0.86</span>"
-msgstr "<span class=\"pos-change_amount\">$ 0.86</span>"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
@@ -163,25 +161,25 @@ msgstr ""
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "<span class=\"total-amount-formatting\">TOTAL</span>"
-msgstr "<span class=\"total-amount-formatting\">ÖSSZESEN</span>"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "<span id=\"total-amount\" class=\"pos_total-amount\">$ 469.14</span>"
-msgstr "<span id=\"total-amount\" class=\"pos_total-amount\">$ 469.14</span>"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "<span>$ 470.00</span>"
-msgstr "<span>$ 470.00</span>"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "<span>Cash (USD):</span>"
-msgstr "<span>Készpénz (USD):</span>"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
@@ -521,7 +519,7 @@ msgstr "Elérhető fizetési módok"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_available_pricelist_ids
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Available Pricelists"
-msgstr "Elérhető árlisták"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_account_journal_search_inherit_point_of_sale
@@ -1208,14 +1206,14 @@ msgstr "Eng."
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_saledetails
 msgid "Disc:"
-msgstr "Eng:"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:460
 #, python-format
 msgid "Disconnected"
-msgstr "Leválasztva"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_discount_discount
@@ -1585,13 +1583,6 @@ msgid "Group Journal Items"
 msgstr "Napló tételek csoportosítása"
 
 #. module: point_of_sale
-#. openerp-web
-#: code:addons/point_of_sale/static/src/js/models.js:135
-#, python-format
-msgid "HTTPS connection to IoT Box failed"
-msgstr ""
-
-#. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_product_uom_categ_is_pos_groupable
 #: model:ir.model.fields,field_description:point_of_sale.field_product_uom_is_pos_groupable
 msgid "Group Products in POS"
@@ -1624,7 +1615,7 @@ msgstr "Fejléc"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_is_header_or_footer
 msgid "Header & Footer"
-msgstr "Fejléc és lábléc"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_category_id
@@ -1967,15 +1958,6 @@ msgid "Make Payment"
 msgstr "Átutalás végrehajtása"
 
 #. module: point_of_sale
-#. openerp-web
-#: code:addons/point_of_sale/static/src/js/models.js:137
-#, python-format
-msgid ""
-"Make sure you are using IoT Box v18.12 or higher. Navigate to %s to accept "
-"the certificate of your IoT Box."
-msgstr ""
-
-#. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_available_pricelist_ids
 msgid ""
 "Make several pricelists available in the Point of Sale. You can also apply a"
@@ -2138,7 +2120,7 @@ msgstr "Nyomtatás száma"
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "Odoo Logo"
-msgstr "Odoo logó"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -2271,7 +2253,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_picking_type_id
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Operation Type"
-msgstr "Művelet típus"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -2594,26 +2576,19 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/js/screens.js:2034
+#: code:addons/point_of_sale/static/src/js/screens.js:2003
 #, python-format
 msgid "Please Confirm Large Amount"
 msgstr "Kérem erősítse meg a nagy mennyiséget"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/models/pos_order.py:369
+#: code:addons/point_of_sale/models/pos_order.py:344
 #, python-format
 msgid "Please define income account for this product: \"%s\" (id:%d)."
 msgstr "Kérem határozzon meg bevételi számlát ehhez a termékhez: \"%s\" (id:%d)."
 
 #. module: point_of_sale
-#. openerp-web
-#: code:addons/point_of_sale/static/src/js/screens.js:2083
-#, python-format
-msgid "Please print the invoice from the backend"
-msgstr ""
-
-#. module: point_of_sale
-#: code:addons/point_of_sale/models/pos_order.py:653
+#: code:addons/point_of_sale/models/pos_order.py:587
 #, python-format
 msgid "Please provide a partner for the sale."
 msgstr "Adjon meg egy partnert az értékesítéshez."
@@ -2818,7 +2793,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_saledetails
 msgid "Price Unit"
-msgstr "Egységár"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -2851,14 +2826,7 @@ msgstr "Nyomtatás"
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:716
-#, python-format
-msgid "Print Invoice"
-msgstr "Számla nyomtatása"
-
-#. module: point_of_sale
-#. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:719
-#: code:addons/point_of_sale/static/src/xml/pos.xml:1375
+#: code:addons/point_of_sale/static/src/xml/pos.xml:1372
 #, python-format
 msgid "Print Receipt"
 msgstr "Átvétel nyomtatása"
@@ -2928,7 +2896,7 @@ msgstr "Termékkategória"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Product Prices"
-msgstr "Termékárak"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.product_pos_category_tree_view
@@ -3708,27 +3676,18 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/js/screens.js:2094
+#: code:addons/point_of_sale/static/src/js/screens.js:2052
 #, python-format
 msgid "The order could not be sent"
 msgstr "A rendelés nem küldhető el"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/js/screens.js:2105
+#: code:addons/point_of_sale/static/src/js/screens.js:2063
 #, python-format
 msgid "The order could not be sent to the server due to an unknown error"
 msgstr ""
 "A megrendelést nem lehetett elküldeni a szerverre ismeretlen hiba miatt"
-
-#. module: point_of_sale
-#. openerp-web
-#: code:addons/point_of_sale/static/src/js/screens.js:2084
-#, python-format
-msgid ""
-"The order has been synchronized earlier. Please make the invoice from the "
-"backend for the order: "
-msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_iface_precompute_cash
@@ -4547,7 +4506,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/js/popups.js:109
 #, python-format
 msgid "error"
-msgstr "hiba"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web

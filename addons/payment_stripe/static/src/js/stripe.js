@@ -21,13 +21,9 @@ odoo.define('payment_stripe.stripe', function(require) {
         $.blockUI.defaults.css["background-color"] = '';
         $.blockUI.defaults.overlayCSS["opacity"] = '0.9';
     }
-    var stripeHandler;
     function getStripeHandler()
     {
-        if (stripeHandler) {
-            return stripeHandler;
-        }
-        var handler = stripeHandler = StripeCheckout.configure({
+        var handler = StripeCheckout.configure({
             key: $("input[name='stripe_key']").val(),
             image: $("input[name='stripe_image']").val(),
             locale: 'auto',
@@ -130,14 +126,14 @@ odoo.define('payment_stripe.stripe', function(require) {
             }).then(function (data) {
                 try { provider_form[0].innerHTML = data; } catch (e) {};
             });
-        } else if (window.location.href.indexOf("/my/orders/") !== -1) {
+        } else if (window.location.href.includes("/my/orders/")) {
             var create_tx = ajax.jsonRpc('/pay/sale/' + so_id + '/form_tx/', 'call', {
                 access_token: access_token,
                 acquirer_id: acquirer_id
             }).then(function (data) {
                 try { provider_form.innerHTML = data; } catch (e) {};
             });
-        } else if (window.location.href.indexOf("/my/invoices/") !== -1) {
+        } else if (window.location.href.includes("/my/invoices/")) {
             var create_tx = ajax.jsonRpc('/invoice/pay/' + invoice_id + '/form_tx/', 'call', {
                 access_token: access_token,
                 acquirer_id: acquirer_id

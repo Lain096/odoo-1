@@ -3,21 +3,19 @@
 # * calendar
 # 
 # Translators:
+# Quim - eccit <quim@eccit.com>, 2017
 # Sandra Franch <sandra.franch@upc.edu>, 2018
 # Martin Trigaux, 2018
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2018
 # Carles Antoli <carlesantoli@hotmail.com>, 2018
 # RGB Consulting <odoo@rgbconsulting.com>, 2018
-# Quim - eccit <quim@eccit.com>, 2018
-# Arnau Ros, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-06 08:01+0000\n"
-"PO-Revision-Date: 2017-09-20 10:16+0000\n"
-"Last-Translator: Arnau Ros, 2019\n"
+"PO-Revision-Date: 2018-06-06 08:01+0000\n"
+"Last-Translator: RGB Consulting <odoo@rgbconsulting.com>, 2018\n"
 "Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -413,37 +411,37 @@ msgstr "%s ha rebutjat la invitació "
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_5
 msgid "1 Day(s)"
-msgstr "1 Dia(es)"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_3
 msgid "1 Hour(s)"
-msgstr "1 Hora (es)"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_1
 msgid "15 Minute(s)"
-msgstr "15 Minuts"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_4
 msgid "2 Hour(s)"
-msgstr "2 Hores"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_mail_1
 msgid "3 Hour(s), by e-mail"
-msgstr "3 Hores, per correu electrònic"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_2
 msgid "30 Minute(s)"
-msgstr "30 Minuts"
+msgstr ""
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_mail_2
 msgid "6 Hour(s), by e-mail"
-msgstr "6 Hores, per correu electrònic"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -481,7 +479,7 @@ msgstr "Activitat"
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_activity_type
 msgid "Activity Type"
-msgstr "Tipus d'activitat"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_allday
@@ -497,7 +495,7 @@ msgstr "CadaDia , %s"
 #. module: calendar
 #: sql_constraint:calendar.contacts:0
 msgid "An user cannot have twice the same contact."
-msgstr "Un usuari no pot tenir dos cops el mateix contacte"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_is_attendee
@@ -562,14 +560,14 @@ msgstr "Invitació al calendari"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_mail_activity_calendar_event_id
 msgid "Calendar Meeting"
-msgstr "Calendari de reunions"
+msgstr ""
 
 #. module: calendar
 #: model:ir.actions.server,name:calendar.ir_cron_scheduler_alarm_ir_actions_server
 #: model:ir.cron,cron_name:calendar.ir_cron_scheduler_alarm
 #: model:ir.cron,name:calendar.ir_cron_scheduler_alarm
 msgid "Calendar: Event Reminder"
-msgstr "Calendari: Recordatori d'esdeveniments"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -686,17 +684,17 @@ msgstr "Document"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_res_id
 msgid "Document ID"
-msgstr "ID del document"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_res_model_id
 msgid "Document Model"
-msgstr "Model de document"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_res_model
 msgid "Document Model Name"
-msgstr "Nom del document model"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_duration
@@ -789,7 +787,7 @@ msgstr "Tothom"
 #: code:addons/calendar/models/mail_activity.py:38
 #, python-format
 msgid "Feedback: "
-msgstr "Comentaris"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,byday:0
@@ -908,7 +906,7 @@ msgstr "Convida assistent "
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_is_highlighted
 msgid "Is the Event Highlighted"
-msgstr "És l'esdeveniment destacat"
+msgstr ""
 
 #. module: calendar
 #: selection:calendar.event,byday:0
@@ -981,7 +979,7 @@ msgstr "Reunió"
 #: code:addons/calendar/models/calendar.py:937
 #, python-format
 msgid "Meeting '%s' starts '%s' and ends '%s'"
-msgstr "La reunió '%s' comença'%s' i acaba '%s'"
+msgstr ""
 
 #. module: calendar
 #: model:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -1144,7 +1142,7 @@ msgstr "Privacitat"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_rrule_type
 msgid "Recurrence"
-msgstr "Recurrència"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_end_type
@@ -1179,7 +1177,7 @@ msgstr "Regla recurrent"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm_duration
 msgid "Remind Before"
-msgstr "Recordar abans"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_alarm_ids
@@ -1221,7 +1219,7 @@ msgstr "Responsable"
 #. module: calendar
 #: selection:calendar.alarm,type:0
 msgid "SMS Text Message"
-msgstr "Missatge de text SMS"
+msgstr ""
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_sa
@@ -1360,8 +1358,6 @@ msgid ""
 "The activity is linked to a meeting. Deleting it will remove the meeting as "
 "well. Do you want to proceed ?"
 msgstr ""
-"L'activitat està enllaçada a la reunió. Eliminar l'activitat borrarà també "
-"la reunió. Vols procedir?"
 
 #. module: calendar
 #: model:ir.actions.act_window,help:calendar.action_calendar_event
@@ -1370,8 +1366,6 @@ msgid ""
 "            other applications such as the employee leaves or the business\n"
 "            opportunities."
 msgstr ""
-"El calendari està compartit entre empleats i completament integrat amb\n"
-"altres aplicacions com ara fulls d'empleats o oportunitats de negoci."
 
 #. module: calendar
 #: selection:calendar.event,byday:0

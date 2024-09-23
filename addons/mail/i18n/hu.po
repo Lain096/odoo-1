@@ -4,14 +4,12 @@
 # 
 # Translators:
 # Kovács Tibor <kovika@gmail.com>, 2017
+# gezza <geza.nagy@oregional.hu>, 2017
 # Martin Trigaux, 2017
 # krnkris, 2017
 # Kisrobert <kisrobi@gmail.com>, 2018
 # Tibor Kőnig <konig.tibor@evitalit.hu>, 2018
 # Ákos Nagy <akos.nagy@oregional.hu>, 2019
-# gezza <geza.nagy@oregional.hu>, 2019
-# Tamás Németh <ntomasz81@gmail.com>, 2021
-# Tamás Dombos, 2021
 # 
 msgid ""
 msgstr ""
@@ -19,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Tamás Dombos, 2021\n"
+"Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,7 +164,7 @@ msgstr "%d Üzenetek"
 #: code:addons/mail/static/src/js/activity.js:89
 #, python-format
 msgid "%d days overdue"
-msgstr "%d napja lejárt"
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/models/mail_template.py:248
@@ -191,7 +189,7 @@ msgstr "%s csatlakozott a %s hálózathoz."
 #: code:addons/mail/static/src/xml/client_action.xml:211
 #, python-format
 msgid "&nbsp;("
-msgstr "&nbsp;("
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -412,7 +410,7 @@ msgstr ""
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
 msgid "<strong>Recommended Activities</strong>"
-msgstr "<strong>Ajánlott tevékenységek</strong>"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_defaults
@@ -586,7 +584,7 @@ msgstr "Tevékenységtípusok"
 #: code:addons/mail/static/src/xml/activity.xml:37
 #, python-format
 msgid "Activity type"
-msgstr "Tevékenységtípus"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -982,7 +980,7 @@ msgstr "Csatorna"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_channel_message_ids
 msgid "Channel Message"
-msgstr "Csatornaüzenet"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_channel_type
@@ -1139,7 +1137,7 @@ msgstr "Gratulálok, a postaládája üres"
 #: code:addons/mail/static/src/js/client_action.js:650
 #, python-format
 msgid "Congratulations, your inbox is empty!"
-msgstr "Gratulálok, a postaládája üres!"
+msgstr ""
 
 #. module: mail
 #: model:ir.model,name:mail.model_res_partner
@@ -1497,7 +1495,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity_res_name
 msgid "Display name of the related document."
-msgstr "A kapcsolódó dokumentum neve"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message_auto_delete_message
@@ -1517,7 +1515,7 @@ msgstr "Követők dokumentuma"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_res_name
 msgid "Document Name"
-msgstr "Dokumentum név"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -1531,7 +1529,7 @@ msgstr "Elvégezve"
 #: code:addons/mail/static/src/xml/activity.xml:77
 #, python-format
 msgid "Done & Schedule Next"
-msgstr "Kész & Következő időzítése"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -2130,12 +2128,12 @@ msgstr "Csoportok"
 #. module: mail
 #: selection:res.users,notification_type:0
 msgid "Handle by Emails"
-msgstr "E-mailen keresztül"
+msgstr ""
 
 #. module: mail
 #: selection:res.users,notification_type:0
 msgid "Handle in Odoo"
-msgstr "Odoo-n keresztül"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_search
@@ -2157,7 +2155,7 @@ msgstr "Fejlécek"
 #: code:addons/mail/wizard/invite.py:35
 #, python-format
 msgid "Hello,"
-msgstr "Üdv!"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype_hidden
@@ -2444,7 +2442,7 @@ msgstr "Elsődleges összefűzött üzenet."
 #: model:ir.ui.menu,name:mail.mail_channel_integrations_menu
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_form
 msgid "Integrations"
-msgstr "Integrálások"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype_internal
@@ -2603,12 +2601,6 @@ msgstr "Ez egy üzenet"
 #: model:ir.model.fields,field_description:mail.field_mail_message_res_partner_needaction_rel_is_read
 msgid "Is Read"
 msgstr "Elolvassa"
-
-#. module: mail
-#: code:addons/mail/models/mail_notification.py:0
-#, python-format
-msgid "Can not update the message or recipient of a notification."
-msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_is_subscribed
@@ -2790,7 +2782,7 @@ msgstr "Később"
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Late Activities"
-msgstr "Késő tevékenységek"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_kanban
@@ -2883,14 +2875,14 @@ msgstr "Egy Belső megjegyzés rögzítése"
 #: code:addons/mail/static/src/xml/chatter.xml:56
 #, python-format
 msgid "Log note"
-msgstr "Megjegyzés rögzítése"
+msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:59
 #, python-format
 msgid "Log or schedule an activity"
-msgstr "Tevékenység rögzítése vagy időzítése"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_mail_activity_type_id
@@ -2940,7 +2932,7 @@ msgstr ""
 #: code:addons/mail/models/mail_thread.py:837
 #, python-format
 msgid "Mailbox unavailable - %s"
-msgstr "Postaláda nem elérhető - %s"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_partner_view_form_inherit_mail
@@ -2952,7 +2944,7 @@ msgstr "Levelezésből kilépés"
 #: code:addons/mail/static/src/xml/activity.xml:59
 #, python-format
 msgid "Mark Done"
-msgstr "Késznek jelöl"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -2971,7 +2963,7 @@ msgstr "Összeset elolvasottnak jelöl"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
 msgid "Mark as Done"
-msgstr "Késznek jelöl"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -2993,7 +2985,7 @@ msgstr "Feladatnak jelöl"
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:49
 #, python-format
 msgid "Mark as done"
-msgstr "Kész"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_image_medium
@@ -3322,14 +3314,14 @@ msgstr "Címzett szükséges művelet "
 #: code:addons/mail/static/src/xml/client_action.xml:138
 #, python-format
 msgid "New Channel"
-msgstr "Új csatorna"
+msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:137
 #, python-format
 msgid "New Message"
-msgstr "Új üzenet"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_new_value_char
@@ -3472,7 +3464,7 @@ msgstr "Következő tevékenységtípus"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_has_recommended_activities
 msgid "Next activities available"
-msgstr "Következő tevékenység elérhető"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -3480,7 +3472,7 @@ msgstr "Következő tevékenység elérhető"
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:22
 #, python-format
 msgid "No activities planned."
-msgstr "Nincsenek tervezett tevékenységek."
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -3548,7 +3540,7 @@ msgstr "Értesítés"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_users_notification_type
 msgid "Notification Management"
-msgstr "Értesítés kezelés"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_notification_ids
@@ -4170,7 +4162,7 @@ msgstr "Tervezett"
 #: code:addons/mail/static/src/xml/activity.xml:6
 #, python-format
 msgid "Planned activities"
-msgstr "Tervezett tevékenységek"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -4260,7 +4252,7 @@ msgstr "Ennek az előnézete"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_previous_activity_type_id
 msgid "Previous Activity Type"
-msgstr "Előző tevékenység típus"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_public
@@ -4515,14 +4507,14 @@ msgstr "Ütemezés"
 #: code:addons/mail/static/src/xml/chatter.xml:60
 #, python-format
 msgid "Schedule activity"
-msgstr "Tevékenység ütemezése"
+msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:56
 #, python-format
 msgid "Schedule an activity"
-msgstr "Tevékenység ütemezése"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_scheduled_date
@@ -4598,7 +4590,7 @@ msgstr "Üzenet küldése"
 #: code:addons/mail/static/src/xml/chatter.xml:53
 #, python-format
 msgid "Send message"
-msgstr "Üzenet küldése"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_email_send
@@ -4621,7 +4613,7 @@ msgstr ""
 #: code:addons/mail/static/src/js/thread_field.js:83
 #, python-format
 msgid "Sending Error"
-msgstr "Küldési hiba"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -4814,10 +4806,6 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Tevékenységeken alapuló állapot\n"
-"Lejárt: Az esedékesség dátuma már elmúlt\n"
-"Ma: A tevékenység dátuma ma van\n"
-"Tervezett: Jövőbeli tevékenységek."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_sub_model_object_field
@@ -4973,12 +4961,6 @@ msgstr ""
 "megkeresni a jogos tulajdonost a elküldési (űrlap) címről, vagy az "
 "adminisztrátor felhasználót fogja használni ha nem talált rendszer "
 "felhasználót azzal a címmel."
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "The partner can not join this channel"
-msgstr ""
 
 #. module: mail
 #: code:addons/mail/models/mail_activity.py:175
@@ -5167,7 +5149,7 @@ msgstr "UUID"
 #: code:addons/mail/models/mail_mail.py:238
 #, python-format
 msgid "Unable to connect to SMTP Server"
-msgstr "Nem lehet kapcsolódni az SMTP szerverhez"
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/models/mail_message.py:32
@@ -5398,7 +5380,7 @@ msgstr "Sablon használata"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Use your own email servers"
-msgstr "Saját e-mail szerver használata"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype_sequence
@@ -5418,7 +5400,7 @@ msgstr "Felhasználó"
 #: code:addons/mail/static/src/xml/extended_chat_window.xml:8
 #, python-format
 msgid "User name"
-msgstr "Felhasználónév"
+msgstr ""
 
 #. module: mail
 #: model:ir.model,name:mail.model_res_users
@@ -5450,7 +5432,7 @@ msgstr "Nézet"
 #: code:addons/mail/models/mail_thread.py:673
 #, python-format
 msgid "View %s"
-msgstr "%s nézet"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -5511,7 +5493,7 @@ msgstr "Ki követheti a csoport tevékenységét?"
 #: code:addons/mail/static/src/xml/activity.xml:75
 #, python-format
 msgid "Write Feedback"
-msgstr "Visszajelzés írása"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -5564,24 +5546,6 @@ msgstr ""
 "csatornában."
 
 #. module: mail
-#: cod:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not remove this partner from this channel"
-msgstr ""
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not write on the record of other users"
-msgstr ""
-
-#. module: mail
-#: code:addons/mail/models/mail_channel.py:0
-#, python-format
-msgid "You can not write on this field"
-msgstr ""
-
-#. module: mail
 #: code:addons/mail/models/res_users.py:54
 #, python-format
 msgid ""
@@ -5620,8 +5584,8 @@ msgstr "Ön hozzárendelt ehhez"
 #. openerp-web
 #: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
-msgid "You have been invited to: %s"
-msgstr ""
+msgid "You have been invited to: "
+msgstr "Ön meghívót kapott:"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_attachment_ids
@@ -5652,7 +5616,7 @@ msgstr "Leiratkozott erről <b>%s</b>."
 #: code:addons/mail/static/src/xml/client_action.xml:217
 #, python-format
 msgid "You:"
-msgstr "Ön:"
+msgstr ""
 
 #. module: mail
 #. openerp-web
@@ -5699,7 +5663,7 @@ msgstr "dokumentum"
 msgid ""
 "done\n"
 "        by"
-msgstr "elvégezve általa"
+msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
@@ -5931,7 +5895,7 @@ msgstr "ez a dokumentum"
 #: code:addons/mail/models/mail_thread.py:971
 #, python-format
 msgid "unknown error"
-msgstr "ismeretlen hiba"
+msgstr ""
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:911

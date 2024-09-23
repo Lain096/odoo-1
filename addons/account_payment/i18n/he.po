@@ -3,19 +3,16 @@
 # * account_payment
 # 
 # Translators:
+# Yihya Hugirat <hugirat@gmail.com>, 2017
 # Martin Trigaux, 2018
 # ExcaliberX <excaliberx@gmail.com>, 2018
-# Yihya Hugirat <hugirat@gmail.com>, 2018
-# Amit Spilman <amit@laylinetech.com>, 2019
-# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 11:55+0000\n"
-"PO-Revision-Date: 2017-09-20 10:14+0000\n"
-"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2019\n"
+"PO-Revision-Date: 2018-07-27 11:55+0000\n"
+"Last-Translator: ExcaliberX <excaliberx@gmail.com>, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +23,7 @@ msgstr ""
 #. module: account_payment
 #: model:ir.ui.view,arch_db:account_payment.payment_confirmation_status
 msgid "&amp;times;"
-msgstr "וזמנים"
+msgstr ""
 
 #. module: account_payment
 #: code:addons/account_payment/models/payment.py:61
@@ -74,8 +71,6 @@ msgid ""
 "<i class=\"fa fa-info\"/> You have credits card registered, you can log-in "
 "to be able to use them."
 msgstr ""
-"<i class=\"fa fa-info\"/> יש לך כרטיסי אשראי רשומים, אתה יכול להתחבר כדי "
-"שתוכל להשתמש בהם."
 
 #. module: account_payment
 #: model:ir.ui.view,arch_db:account_payment.portal_invoice_report
@@ -100,7 +95,7 @@ msgstr ""
 #: code:addons/account_payment/models/payment.py:80
 #, python-format
 msgid "Amount Mismatch (%s)"
-msgstr "סכום לא תואם (%s)"
+msgstr ""
 
 #. module: account_payment
 #: code:addons/account_payment/controllers/payment.py:50
@@ -109,7 +104,6 @@ msgid ""
 "If we store your payment information on our server, subscription payments "
 "will be made automatically."
 msgstr ""
-"אם נשמור את פרטי התשלום שלך בשרת שלנו, תשלומי המנוי יבוצעו באופן אוטומטי."
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_invoice
@@ -131,7 +125,7 @@ msgstr ""
 #: code:addons/account_payment/controllers/payment.py:47
 #, python-format
 msgid "Pay & Confirm"
-msgstr "שלם ואשר"
+msgstr ""
 
 #. module: account_payment
 #: code:addons/account_payment/models/payment.py:131
@@ -143,7 +137,7 @@ msgstr "לשלם עכשיו"
 #. module: account_payment
 #: model:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "Pay with"
-msgstr "שלם עם"
+msgstr ""
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_invoice_payment_acquirer_id
@@ -159,7 +153,7 @@ msgstr "עסקת תשלום"
 #: code:addons/account_payment/models/account_invoice.py:28
 #, python-format
 msgid "Payment Transactions"
-msgstr "עסקאות תשלום"
+msgstr ""
 
 #. module: account_payment
 #: model:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
@@ -188,14 +182,14 @@ msgstr ""
 #. module: account_payment
 #: model:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid "There was an error processing your payment: invalid invoice."
-msgstr "אירעה שגיאה בעיבוד התשלום שלך: חשבונית לא חוקית."
+msgstr ""
 
 #. module: account_payment
 #: model:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid ""
 "There was an error processing your payment: issue with credit card ID "
 "validation."
-msgstr "אירעה שגיאה בעיבוד התשלום שלך: בעיה עם אימות מזהה כרטיס האשראי."
+msgstr ""
 
 #. module: account_payment
 #: model:ir.ui.view,arch_db:account_payment.portal_invoice_error
@@ -206,7 +200,7 @@ msgstr ""
 #. module: account_payment
 #: model:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid "There was an error processing your payment: transaction failed.<br/>"
-msgstr "אירעה שגיאה בעיבוד התשלום שלך: העסקה נכשלה.<br/>"
+msgstr ""
 
 #. module: account_payment
 #: model:ir.ui.view,arch_db:account_payment.portal_invoice_error
@@ -216,7 +210,7 @@ msgstr ""
 #. module: account_payment
 #: model:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid "There was en error processing your payment: invalid credit card ID."
-msgstr "אירעה שגיאה בעיבוד התשלום שלך: מזהה כרטיס אשראי לא חוקי."
+msgstr ""
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_invoice_payment_tx_ids
@@ -227,4 +221,4 @@ msgstr "העברות לחשבון"
 #. module: account_payment
 #: model:ir.ui.view,arch_db:account_payment.payment_confirmation_status
 msgid "Your payment has been authorized."
-msgstr "התשלום שלך אושר."
+msgstr ""

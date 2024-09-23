@@ -7,21 +7,18 @@
 # Sergiu Baltariu <s_baltariu@yahoo.com>, 2017
 # sharkutz <sharkutz4life@yahoo.com>, 2017
 # Iulian Cutui <iulian.cutui@gmail.com>, 2017
+# Martin Trigaux, 2017
 # Cozmin Candea <office@terrabit.ro>, 2018
 # Sorin Trifu <sorin.trifu@bizconsulting.ro>, 2018
-# Martin Trigaux, 2019
-# Hongu Cosmin <cosmin513@gmail.com>, 2020
-# Dorin Hongu <dhongu@gmail.com>, 2020
-# Foldi Robert <foldirobert@nexterp.ro>, 2020
-# Marian Heiner <heinermarian@gmail.com>, 2021
+# Dorin Hongu <dhongu@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 09:07+0000\n"
+"POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:13+0000\n"
-"Last-Translator: Marian Heiner <heinermarian@gmail.com>, 2021\n"
+"Last-Translator: Dorin Hongu <dhongu@gmail.com>, 2019\n"
 "Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -436,8 +433,6 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Valorile stabilite aici sunt "
-"specifice companiei.\" groups=\"base.group_multi_company\"/>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -1263,7 +1258,6 @@ msgstr "O mișcare de pe linia selectată a fost deja reconciliată."
 #, python-format
 msgid "A selected statement line was already reconciled with an account move."
 msgstr ""
-"O linie de extras de cont a fost deja reconciliată cu o mutare a contului."
 
 #. module: account
 #: sql_constraint:account.fiscal.position.tax:0
@@ -1283,7 +1277,7 @@ msgstr ""
 #. module: account
 #: model:res.groups,name:account.group_warning_account
 msgid "A warning can be set on a partner (Account)"
-msgstr "O avertizare poate fi setată pe un partener (Contabilitate)"
+msgstr ""
 
 #. module: account
 #. openerp-web
@@ -1409,7 +1403,7 @@ msgstr "Reprezentare Conturi"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_reversal
 msgid "Account Move Reversal"
-msgstr "Reversarea mutării contului"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_accounts_wizard_acc_name
@@ -1506,7 +1500,7 @@ msgstr "Șablon Cont Fiscal"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_taxcloud
 msgid "Account TaxCloud"
-msgstr "Cont TaxCloud"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_chart_template_seacrh
@@ -1520,7 +1514,7 @@ msgstr "Șablon Cont"
 #: model:ir.model.fields,field_description:account.field_account_chart_template_property_stock_valuation_account_id
 #: model:ir.model.fields,field_description:account.field_res_company_property_stock_valuation_account_id
 msgid "Account Template for Stock Valuation"
-msgstr "Șablon de cont pentru evaluarea stocurilor"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_template_form
@@ -1576,12 +1570,12 @@ msgstr "Nereconciliere Cont"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_group_search
 msgid "Account group"
-msgstr "Grup de cont"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_group_search
 msgid "Account groups"
-msgstr "Grupuri de cont"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_account_move_line_reconcile
@@ -1640,7 +1634,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account_account_dest_id
 msgid "Account to Use Instead"
-msgstr "Cont pe care să îl folosești în schimb"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_cash_basis_account
@@ -1773,7 +1767,7 @@ msgstr "Stornare"
 #. module: account
 #: selection:account.cash.rounding,strategy:0
 msgid "Add a rounding line"
-msgstr "Adăugați o linie de rotunjire"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_has_second_line
@@ -1806,12 +1800,12 @@ msgstr "Adresa"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard_tax_id
 msgid "Adjustment Tax"
-msgstr "Ajustare taxă"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard_adjustment_type
 msgid "Adjustment Type"
-msgstr "Tip de ajustare"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_tax_template_form
@@ -1832,12 +1826,12 @@ msgstr "Consultant"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_include_base_amount
 msgid "Affect Base of Subsequent Taxes"
-msgstr "Afectează baza taxelor ulterioare"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_template_include_base_amount
 msgid "Affect Subsequent Taxes"
-msgstr "Afectează taxele ulterioare"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_aged_balance_view
@@ -2009,7 +2003,7 @@ msgstr "Permite gestiune rotunjire numerar "
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Allow to configure taxes using cash basis"
-msgstr "Permiteți configurarea taxelor folosind baza de numerar"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -2095,7 +2089,6 @@ msgstr "Tip valoare"
 #: model:ir.model.fields,help:account.field_account_partial_reconcile_amount
 msgid "Amount concerned by this matching. Assumed to be always positive"
 msgstr ""
-"Suma vizată de această potrivire. Se presupune a fi întotdeauna pozitiv"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile_amount_currency
@@ -2251,12 +2244,12 @@ msgstr "Aplicabilitate"
 #. module: account
 #: selection:tax.adjustments.wizard,adjustment_type:0
 msgid "Applied on credit journal item"
-msgstr "Aplicat pe credit"
+msgstr ""
 
 #. module: account
 #: selection:tax.adjustments.wizard,adjustment_type:0
 msgid "Applied on debit journal item"
-msgstr "Aplicat pe debit"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_fiscal_position_auto_apply
@@ -2295,7 +2288,7 @@ msgstr "Se aplică numai în cazul în care partenerul are un cod valid de TVA."
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Apply right VAT rates for digital products sold in EU"
-msgstr "Aplicați cote corecte de TVA pentru produsele digitale vândute în UE"
+msgstr ""
 
 #. module: account
 #: selection:res.company,fiscalyear_last_month:0
@@ -2325,17 +2318,17 @@ msgstr "Management Active"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_account_ids
 msgid "Associated Account Templates"
-msgstr "Șabloane de Cont Asociate"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_at_least_one_inbound
 msgid "At Least One Inbound"
-msgstr "Cel puțin o intrare"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_at_least_one_outbound
 msgid "At Least One Outbound"
-msgstr "Cel puțin o ieșire"
+msgstr ""
 
 #. module: account
 #: selection:res.company,fiscalyear_last_month:0
@@ -2362,7 +2355,7 @@ msgstr "Înregistrări automate"
 #: code:addons/account/wizard/setup_wizards.py:79
 #, python-format
 msgid "Automatic Balancing Line"
-msgstr "Linie de echilibrare automată"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_currency_rate_live
@@ -2484,9 +2477,6 @@ msgid ""
 "account if this is a Customer Invoice or Vendor Credit Note, otherwise a "
 "Partner bank account number."
 msgstr ""
-"Număr de cont bancar la care se va plăti factura. Un cont bancar al "
-"companiei dacă aceasta este o factură pentru client sau o notă de credit a "
-"furnizorului, altfel un număr de cont bancar partener."
 
 #. module: account
 #. openerp-web
@@ -2506,12 +2496,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_bank_statements_source
 msgid "Bank Feeds"
-msgstr "Feed-uri bancare"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_yodlee
 msgid "Bank Interface - Sync your bank feeds automatically"
-msgstr "Interfață bancară - Sincronizați fluxurile bancare în mod automat"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company_bank_journal_ids
@@ -2549,7 +2539,7 @@ msgstr "Extras bancă"
 #: code:addons/account/models/account_bank_statement.py:937
 #, python-format
 msgid "Bank Statement %s"
-msgstr "Extras de bancă %s"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_account_bank_statement_line
@@ -2710,17 +2700,17 @@ msgstr "Mesaj de blocare"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_type_include_initial_balance
 msgid "Bring Accounts Balance Forward"
-msgstr "Aduceți soldul conturilor înainte"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,help:account.open_account_journal_dashboard_kanban
 msgid "Browse available countries."
-msgstr "Căutați în țările disponibile."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_budget
 msgid "Budget Management"
-msgstr "Managementul bugetului"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.menu,name:account.account_reports_business_intelligence_menu
@@ -2772,17 +2762,17 @@ msgstr ""
 #: code:addons/account/models/chart_template.py:197
 #, python-format
 msgid "CABA"
-msgstr "CABA"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "CAMT Import"
-msgstr "Importare CAMT"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "CSV Import"
-msgstr "Importare CSV"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_visible
@@ -2872,7 +2862,7 @@ msgstr ""
 #: code:addons/account/models/account.py:594
 #, python-format
 msgid "Cannot generate an unused account code."
-msgstr "Nu se poate genera un cod de cont nefolosit."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account.py:624
@@ -2880,8 +2870,6 @@ msgstr "Nu se poate genera un cod de cont nefolosit."
 msgid ""
 "Cannot generate an unused journal code. Please fill the 'Shortcode' field."
 msgstr ""
-"Nu se poate genera un cod de cont nefolosit. Va rugam completați câmpul "
-"'Shortcode'."
 
 #. module: account
 #: selection:account.bank.accounts.wizard,account_type:0
@@ -2899,12 +2887,12 @@ msgstr "Prefix conturi numerar"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_tax_exigibility
 msgid "Cash Basis"
-msgstr "Baza de numerar"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company_tax_cash_basis_journal_id
 msgid "Cash Basis Journal"
-msgstr "Jurnal de bază al numerarului"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/chart_template.py:197
@@ -2932,19 +2920,19 @@ msgstr "Registre de casă"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_group_cash_rounding
 msgid "Cash Rounding"
-msgstr "Rotunjirea numerarului"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_cash_rounding_id
 msgid "Cash Rounding Method"
-msgstr "Metoda rotunjirii numerarului"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,name:account.rounding_list_action
 #: model:ir.ui.menu,name:account.menu_action_rounding_form_view
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Cash Roundings"
-msgstr "Rotunjirea numerarului"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -2960,7 +2948,7 @@ msgstr "Numerar și Banci"
 #: code:addons/account/models/account_bank_statement.py:185
 #, python-format
 msgid "Cash difference observed during the counting (%s)"
-msgstr "Diferența de numerar observată în timpul numărării (%s)"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:37
@@ -3001,7 +2989,7 @@ msgstr "Rest"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_writeoff_label
 msgid "Change label of the counterpart that will hold the payment difference"
-msgstr "Schimbați eticheta omologului care va păstra diferența de plată"
+msgstr ""
 
 #. module: account
 #: code:addons/account/controllers/portal.py:146
@@ -3010,9 +2998,6 @@ msgid ""
 "Changing VAT number is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
-"Modificarea numărului de TVA nu este permisă odată ce au fost emise facturi "
-"pentru contul dvs. Vă rugăm să ne contactați direct pentru această "
-"operațiune."
 
 #. module: account
 #: code:addons/account/controllers/portal.py:149
@@ -3021,9 +3006,6 @@ msgid ""
 "Changing your name is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
-"Schimbarea numelui nu este permisă odată ce facturile fiscale au fost emise "
-"pentru contul dumnneavoastră. Vă rugăm sa ne contactați direct pentru "
-"această operațiune. "
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_template_chart_template_id
@@ -3082,12 +3064,12 @@ msgstr "Plan de conturi"
 #. module: account
 #: model:ir.actions.act_window,name:account.action_view_account_bnk_stmt_check
 msgid "Check Closing Balance"
-msgstr "Verificați soldul de închidere"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_is_difference_zero
 msgid "Check if difference is zero."
-msgstr "Verifică dacă diferența este zero."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_reconcile
@@ -3095,8 +3077,6 @@ msgid ""
 "Check this box if this account allows invoices & payments matching of "
 "journal items."
 msgstr ""
-"Bifează această casetă dacă acest cont permite potrivirea facturilor și "
-"plăților elementelor din jurnal."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_refund_sequence
@@ -3137,7 +3117,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Checks"
-msgstr "Verificări"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_children_tax_ids
@@ -3145,21 +3125,21 @@ msgstr "Verificări"
 #: model:ir.ui.view,arch_db:account.view_account_tax_template_form
 #: model:ir.ui.view,arch_db:account.view_tax_form
 msgid "Children Taxes"
-msgstr "Taxe categorii subordonate"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/chart_template.py:155
 #: model:ir.actions.act_window,name:account.action_wizard_multi_chart
 #, python-format
 msgid "Choose Accounting Template"
-msgstr "Alegeți șablonul contabil"
+msgstr ""
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:131
 #, python-format
 msgid "Choose counterpart or Create Write-off"
-msgstr "Alegeți omologul sau Creați o pierdere"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_bank_journal_form
@@ -3268,12 +3248,12 @@ msgstr "Cod"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_group_code_prefix
 msgid "Code Prefix"
-msgstr "Prefixul Codului"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_cashbox_line_coin_value
 msgid "Coin/Bill Value"
-msgstr "Valoare monedă / Factură"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -3426,7 +3406,7 @@ msgstr "Compune e-mail"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Compute tax rates based on U.S. ZIP codes"
-msgstr "Calculați ratele de impozitare pe baza codurilor poștale din S.U.A."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_counterpart
@@ -3532,8 +3512,6 @@ msgid ""
 "Confirming this will create automatically a journal entry with the "
 "difference in the profit/loss account set on the cash journal."
 msgstr ""
-"Confirmand aceasta actiune, va crea automat un jurnal de intrare cu "
-"diferenta de profit/pierdere a contului setat in jurnalul de cash."
 
 #. module: account
 #. openerp-web
@@ -3635,7 +3613,7 @@ msgstr "Creează și postează mișcările"
 #: code:addons/account/models/account_journal_dashboard.py:288
 #, python-format
 msgid "Create cash statement"
-msgstr "Creați extras de numerar"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:274
@@ -3653,7 +3631,7 @@ msgstr "Creează model"
 #. module: account
 #: model:ir.actions.act_window,help:account.rounding_list_action
 msgid "Create the first cash rounding"
-msgstr "Creați prima rotunjire de numerar"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -3815,7 +3793,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile_credit_move_id
 msgid "Credit Move"
-msgstr "Credit Move"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:441
@@ -3879,7 +3857,6 @@ msgstr "Valoarea creditului"
 #: model:ir.model.fields,help:account.field_account_move_line_matched_credit_ids
 msgid "Credit journal items that are matched with this journal item."
 msgstr ""
-"Elementele jurnal de credit care se potrivesc cu acest element de jurnal."
 
 #. module: account
 #: model:ir.ui.menu,name:account.menu_action_currency_form
@@ -4039,7 +4016,7 @@ msgstr "Clienți"
 #. module: account
 #: selection:account.cash.rounding,rounding_method:0
 msgid "DOWN"
-msgstr "JOS"
+msgstr ""
 
 #. module: account
 #. openerp-web
@@ -4088,8 +4065,6 @@ msgid ""
 "Date from which the accounting is managed in Odoo. It is the date of the "
 "opening entry."
 msgstr ""
-"Data de la care se gestionează contabilitatea în Odoo. Este data intrării de"
-" deschidere."
 
 #. module: account
 #. openerp-web
@@ -4164,7 +4139,7 @@ msgstr "Metode debit"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile_debit_move_id
 msgid "Debit Move"
-msgstr "Mutare de debit"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard_debit_account_id
@@ -4180,7 +4155,6 @@ msgstr "Valoare debit"
 #: model:ir.model.fields,help:account.field_account_move_line_matched_debit_ids
 msgid "Debit journal items that are matched with this journal item."
 msgstr ""
-"Debitează articole din jurnal care se potrivesc cu acest articol din jurnal."
 
 #. module: account
 #: selection:res.company,fiscalyear_last_month:0
@@ -4190,7 +4164,7 @@ msgstr "Decembrie"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_refund_sequence
 msgid "Dedicated Credit Note Sequence"
-msgstr "Secvență dedicată notelor de credit"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_default_credit_account_id
@@ -4230,7 +4204,7 @@ msgstr "Taxe implicite"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Default taxes applied to local transactions"
-msgstr "Taxe implicite aplicate tranzacțiilor locale"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -4248,8 +4222,6 @@ msgid ""
 "Defines the smallest coinage of the currency that can be used to pay by "
 "cash."
 msgstr ""
-"Definește cea mai mică monedă a monedei care poate fi utilizată pentru a "
-"plăti în numerar."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_tax_template_form
@@ -4300,7 +4272,7 @@ msgstr "Descriere în factură"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_destination_account_id
 msgid "Destination Account"
-msgstr "Cont destinație"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_auto_apply
@@ -4315,9 +4287,6 @@ msgid ""
 "Determines where the tax is selectable. Note : 'None' means a tax can't be "
 "used by itself, however it can still be used in a group."
 msgstr ""
-"Determină unde se poate selecta taxa. Notă: „Niciuna” înseamnă că o taxă nu "
-"poate fi utilizată singură, însă poate fi utilizată în continuare într-un "
-"grup."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_difference
@@ -4334,12 +4303,6 @@ msgstr "Cont diferențe"
 msgid ""
 "Difference between the computed ending balance and the specified ending "
 "balance."
-msgstr "Diferența dintre soldul final calculat și soldul final specificat."
-
-#. module: account
-#: code:addons/account/models/account_move.py:235
-#, python-format
-msgid "Difference debit - credit: "
 msgstr ""
 
 #. module: account
@@ -4600,12 +4563,7 @@ msgid "Due date"
 msgstr "Data scadenta"
 
 #. module: account
-#: model:ir.ui.view,arch_db:account.view_move_form
-msgid "Duplicate"
-msgstr "Duplicare"
-
-#. module: account
-#: code:addons/account/models/account_invoice.py:1194
+#: code:addons/account/models/account_invoice.py:1176
 #, python-format
 msgid ""
 "Duplicated vendor reference detected. You probably encoded twice the same "
@@ -4622,7 +4580,7 @@ msgstr "Rapoarte dinamice"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_l10n_eu_service
 msgid "EU Digital Goods VAT"
-msgstr "TVA pentru bunuri digitale ale UE"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/chart_template.py:171
@@ -4630,13 +4588,13 @@ msgstr "TVA pentru bunuri digitale ale UE"
 #: code:addons/account/models/chart_template.py:196
 #, python-format
 msgid "EXCH"
-msgstr "EXCH"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_move.py:1052
 #, python-format
 msgid "Either pass both debit and credit or none."
-msgstr "Fie treceți debitul și creditul, fie niciunul."
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_mail_compose_message
@@ -4672,7 +4630,7 @@ msgstr "Dată sfârșit"
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term
 msgid "End of Following Month"
-msgstr "Sfârșitul lunii următoare"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_balance_end_real
@@ -4758,12 +4716,12 @@ msgstr "Diferență curs"
 #: model:ir.model.fields,field_description:account.field_res_company_currency_exchange_journal_id
 #: model:ir.model.fields,field_description:account.field_res_config_settings_currency_exchange_journal_id
 msgid "Exchange Gain or Loss Journal"
-msgstr "Jurnal de Profit sau Pierdere din schimb valutar"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_full_reconcile_exchange_move_id
 msgid "Exchange Move"
-msgstr "Mișcare Schimb Valutar"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -4896,7 +4854,7 @@ msgstr "Informație fiscală"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Fiscal Localization"
-msgstr "Localizare Fiscală"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account_template_position_id
@@ -4951,13 +4909,13 @@ msgstr "An fiscal"
 #: model:ir.model.fields,field_description:account.field_account_financial_year_op_fiscalyear_last_day
 #: model:ir.model.fields,field_description:account.field_res_company_fiscalyear_last_day
 msgid "Fiscalyear Last Day"
-msgstr "An Fiscal ziua trecută "
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_year_op_fiscalyear_last_month
 #: model:ir.model.fields,field_description:account.field_res_company_fiscalyear_last_month
 msgid "Fiscalyear Last Month"
-msgstr "An fiscal luna trecută "
+msgstr ""
 
 #. module: account
 #: selection:account.reconcile.model,amount_type:0
@@ -5018,7 +4976,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_line_value_amount
 msgid "For percent enter a ratio between 0-100."
-msgstr "Pentru procente introduceți un ratio între 0-100."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -5031,7 +4989,6 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_account_currency_id
 msgid "Forces all moves for this account to have this account currency."
 msgstr ""
-"Forțați toate mișcările pentru acest cont să aibă moneda acestui cont."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_template_currency_id
@@ -5051,7 +5008,7 @@ msgstr ""
 #: code:addons/account/report/account_tax.py:13
 #, python-format
 msgid "Form content is missing, this report cannot be printed."
-msgstr "Lipsa conținutului formularului, acest raport nu poate fi tipărit."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:96
@@ -5062,12 +5019,12 @@ msgstr "Referință liberă"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "From Payable accounts"
-msgstr "De la Conturi Plăți"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "From Receivable accounts"
-msgstr "De la Conturi Încasări"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_invoice_report_all_supp
@@ -5141,7 +5098,7 @@ msgstr "Generați Înregistrări"
 #. module: account
 #: model:ir.ui.menu,name:account.account_reports_legal_statements_menu
 msgid "Generic Statements"
-msgstr "Declarații generice"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -5151,7 +5108,7 @@ msgstr "Să începem"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Get warnings when invoicing specific customers"
-msgstr "Obțineți avertizări la facturarea anumitor clienți"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -5161,11 +5118,6 @@ msgid ""
 "“Bank Synchronization” in bank account settings. Then, click “Configure” on "
 "the online account to enter your bank credentials."
 msgstr ""
-"Obțineți extrasele dvs. bancare importate automat la fiecare 4 ore sau cu un"
-" singur click, folosind serviciile Yodlee și Plaid. După instalare, setați "
-"„Bank Feeds” la „Bank Synchronization” în setările contului bancar. Apoi, "
-"faceți clic pe „Configure” din contul online pentru a introduce acreditările"
-" bancare."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_line_sequence
@@ -5191,8 +5143,6 @@ msgstr ""
 msgid ""
 "Gives the sequence order when displaying a list of payment terms lines."
 msgstr ""
-"Oferă ordinea secvenței atunci când se afișează o listă de linii de termeni "
-"de plată."
 
 #. module: account
 #. openerp-web
@@ -5248,7 +5198,7 @@ msgstr "Grupați Liniile Facturii"
 #: selection:account.tax,amount_type:0
 #: selection:account.tax.template,amount_type:0
 msgid "Group of Taxes"
-msgstr "Grupul de impozite"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -5263,7 +5213,7 @@ msgstr "HALF-UP"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_has_accounting_entries
 msgid "Has Accounting Entries"
-msgstr "Are intrări contabile"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_has_invoices
@@ -5279,14 +5229,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_res_partner_has_unreconciled_entries
 #: model:ir.model.fields,field_description:account.field_res_users_has_unreconciled_entries
 msgid "Has Unreconciled Entries"
-msgstr "Are poziții nereconciliate"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_abstract_payment_hide_payment_method
 #: model:ir.model.fields,field_description:account.field_account_payment_hide_payment_method
 #: model:ir.model.fields,field_description:account.field_account_register_payments_hide_payment_method
 msgid "Hide Payment Method"
-msgstr "Ascunde metoda de plată"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_account_hide_setup_bar
@@ -5297,7 +5247,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_hide_tax_exigibility
 msgid "Hide Use Cash Basis Option"
-msgstr "Ascundeți Opțiunea Utilizare pe Bază de Numerar"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
@@ -5307,7 +5257,7 @@ msgstr "Cum influențează tipurile de cont rapoartele dvs.?"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "How total tax amount is computed in orders and invoices"
-msgstr "Cum se calculează valoarea totală a impozitului în comenzi și facturi"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_abstract_payment_id
@@ -5410,7 +5360,6 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move_reversal_journal_id
 msgid "If empty, uses the journal of the journal entry to be reversed."
 msgstr ""
-"Dacă este gol, utilizează jurnalul din nota contabilă pentru a fi inversat."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_include_base_amount
@@ -5429,8 +5378,6 @@ msgid ""
 "If set, the amount computed by this tax will be assigned to the same "
 "analytic account as the invoice line (if any)"
 msgstr ""
-"Dacă este setată, suma calculată de această taxă va fi alocată aceluiași "
-"cont analitic ca linia de facturare (dacă există)"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_active
@@ -5438,8 +5385,6 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the payment "
 "terms without removing it."
 msgstr ""
-"Dacă câmpul activ este setat la Fals, acesta vă va permite să ascundeți "
-"termenii de plată fără a-l elimina."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_group_invoice_lines
@@ -5456,16 +5401,12 @@ msgid ""
 "If you check this box, you will be able to collect payments using SEPA "
 "Direct Debit mandates."
 msgstr ""
-"Dacă bifați această casetă, veți putea colecta plăți utilizând mandatele de "
-"debitare directă SEPA."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
 "If you check this box, you will be able to register your payment using SEPA."
 msgstr ""
-"Dacă bifați această casetă, veți putea să vă înregistrați plata utilizând "
-"SEPA."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -5501,10 +5442,6 @@ msgid ""
 " date empty, it means direct payment. The payment terms may compute several "
 "due dates, for example 50% now, 50% in one month."
 msgstr ""
-"Dacă utilizați termeni de plată, data scadenței va fi calculată automat la "
-"generarea intrărilor contabile. Dacă păstrați termenii de plată și data "
-"scadenței goale, aceasta înseamnă o plată directă. Termenii de plată pot "
-"calcula mai multe date scadente, de exemplu 50% acum, 50% într-o lună."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_date_due
@@ -5515,12 +5452,6 @@ msgid ""
 " due date, make sure that the payment term is not set on the invoice. If you"
 " keep the Payment terms and the due date empty, it means direct payment."
 msgstr ""
-"Dacă utilizați termeni de plată, data scadenței va fi calculată automat la "
-"generarea intrărilor contabile. Termenii de plată pot calcula câteva date "
-"scadente, de exemplu 50% acum și 50% într-o lună, dar dacă doriți să forțați"
-" o dată scadentă, asigurați-vă că termenul de plată nu este stabilit pe "
-"factură. Dacă păstrați termenii de plată și data scadenței goale, aceasta "
-"înseamnă o plată directă."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -5555,11 +5486,6 @@ msgid ""
 "telecommunications, and services that are electronically supplied instead of"
 " shipped. Gift cards sent online are not included in the definition."
 msgstr ""
-"Dacă vindeți bunuri digitale către clienți din UE, trebuie să percepeți TVA "
-"pe baza locațiilor clienților dvs. Această regulă se aplică indiferent unde "
-"vă aflați. Bunurile digitale sunt definite în legislație ca radiodifuziune, "
-"telecomunicații și servicii care sunt furnizate electronic în loc să fie "
-"livrate. Cardurile cadou trimise online nu sunt incluse în definiție."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_line_product_image
@@ -5579,7 +5505,7 @@ msgstr "Plată imediată"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_bank_statement_import_qif
 msgid "Import .qif files"
-msgstr "Importare fișiere .qif"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_bank_statement_import_csv
@@ -5589,12 +5515,12 @@ msgstr "Import in format .csv"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_bank_statement_import_ofx
 msgid "Import in .ofx format"
-msgstr "Importare în format .ofx"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_bank_statement_import_camt
 msgid "Import in CAMT.053 format"
-msgstr "Importare în format CAMT0.53"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -5604,7 +5530,7 @@ msgstr "Import utilizând butonul ”Importă” din conțul de stânga sus"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Import your bank statements automatically"
-msgstr "Importați extrasele bancare automat"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -5690,7 +5616,7 @@ msgstr "Includeți Soldurile Inițiale"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_analytic
 msgid "Include in Analytic Cost"
-msgstr "Includeți în Costul Analitic"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_price_include
@@ -5758,12 +5684,12 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Install More Packages"
-msgstr "Instalează mai multe pachete"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company_transfer_account_id
 msgid "Inter-Banks Transfer Account"
-msgstr "Cont de Transfer Interbancar"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_chart_template_transfer_account_id
@@ -5773,8 +5699,6 @@ msgid ""
 "Intermediary account used when moving money from a liquidity account to "
 "another"
 msgstr ""
-"Cont intermediar utilizat la mutarea banilor dintr-un cont de lichiditate în"
-" altul"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_narration
@@ -5806,7 +5730,7 @@ msgstr "Note interne..."
 #: code:addons/account/models/partner.py:45
 #, python-format
 msgid "Invalid \"Zip Range\", please configure it properly."
-msgstr "\"Zip Range\" Nevalidă, vă rugăm să o configurați corect."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -5924,21 +5848,19 @@ msgstr ""
 #: code:addons/account/models/account_invoice.py:775
 #, python-format
 msgid "Invoice must be in draft state in order to validate it."
-msgstr "Factura trebuie să fie în starea de proiect pentru a fi validată."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:795
 #, python-format
 msgid "Invoice must be paid in order to set it to register payment."
 msgstr ""
-"Factura trebuie plătită pentru a fi înscrisă pentru înregistrarea plății."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:787
 #, python-format
 msgid "Invoice must be validated in order to set it to register payment."
 msgstr ""
-"Factura trebuie validată pentru a fi înscrisă pentru înregistrarea plății."
 
 #. module: account
 #: model:mail.message.subtype,description:account.mt_invoice_paid
@@ -6005,7 +5927,7 @@ msgstr "Statistica Facturi"
 #: code:addons/account/models/account_journal_dashboard.py:186
 #, python-format
 msgid "Invoices owed to you"
-msgstr "Facturi fiscale deținute de tine"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -6092,9 +6014,6 @@ msgid ""
 "since it would create a gap in the numbering. You should create the journal "
 "entry again and cancel it thanks to a regular revert."
 msgstr ""
-"Nu este permisă ștergerea unei plăți care a creat deja o notă contabilă "
-"deoarece ar crea un decalaj în numerotare. Ar trebui să creați din nou nota "
-"contabilă și să o anulați grație unei stornări regulate."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -6277,7 +6196,7 @@ msgstr "Registrul facturilor cu perioada din anul curent"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Journal items where matching number isn't set"
-msgstr "Articolele jurnalului în care numărul de potrivire nu este setat"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company_account_opening_journal_id
@@ -6285,8 +6204,6 @@ msgid ""
 "Journal where the opening entry of this company's accounting has been "
 "posted."
 msgstr ""
-"Jurnal în care a fost înregistrată înregistrarea de deschidere a "
-"contabilității acestei companii."
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_journal_form
@@ -6310,7 +6227,7 @@ msgstr "Jurnale"
 #: model:ir.actions.report,name:account.action_report_journal
 #: model:ir.ui.menu,name:account.menu_print_journal
 msgid "Journals Audit"
-msgstr "Audit jurnale"
+msgstr ""
 
 #. module: account
 #: selection:res.company,fiscalyear_last_month:0
@@ -6330,12 +6247,12 @@ msgstr "Justificare"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_kanban_dashboard
 msgid "Kanban Dashboard"
-msgstr "Panou de bord Kanban"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_kanban_dashboard_graph
 msgid "Kanban Dashboard Graph"
-msgstr "Grafic Panou de Bord Kanban"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_journal_form
@@ -6363,8 +6280,6 @@ msgstr "Ține Deschis"
 msgid ""
 "Keep this field empty to use the default value from the product category."
 msgstr ""
-"Păstrează acest câmp gol pentru a folosi valoarea de bază din categoria "
-"produsului."
 
 #. module: account
 #. openerp-web
@@ -6622,9 +6537,6 @@ msgid ""
 "It is set either if there's not at least an unreconciled debit and an "
 "unreconciled credit or if you click the \"Done\" button."
 msgstr ""
-"Ultima dată când s-a efectuat potrivirea facturilor și plăților pentru acest"
-" partener. Este setat fie dacă nu există cel puțin un debit neconciliat și "
-"un credit nereconciliat, fie dacă faceți clic pe butonul \"Done\"."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_last_time_entries_checked
@@ -6664,13 +6576,13 @@ msgstr "Note legale..."
 #. module: account
 #: model:ir.model.fields,help:account.field_account_fiscal_position_note
 msgid "Legal mentions that have to be printed on the invoices."
-msgstr "Mențiuni legale care trebuie tipărite pe facturi."
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:216
 #, python-format
 msgid "Less Payment"
-msgstr "Mai puțină plată"
+msgstr ""
 
 #. module: account
 #. openerp-web
@@ -6682,7 +6594,7 @@ msgstr "Lăsați Odoo să încerce să reconcilieze intrările pentru utilizator
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Let your customers pay their invoices online"
-msgstr "Lăsați clienții să își plătească facturile online"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_report_level
@@ -6721,7 +6633,7 @@ msgstr "Litigiu"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:29
 #, python-format
 msgid "Load more"
-msgstr "Încarcă mai mult "
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company_fiscalyear_lock_date
@@ -6811,7 +6723,7 @@ msgstr ""
 #: model:ir.ui.menu,name:account.account_reports_management_menu
 #: model:ir.ui.menu,name:account.menu_finance_entries_management
 msgid "Management"
-msgstr "Management"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -6844,9 +6756,6 @@ msgid ""
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
 "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Manual: plătit prin numerar, cec sau orice altă metodă în afara Odoo.\n"
-"Electronic: plătite automat prin intermediul unui dobânditor de plăți, solicitând o tranzacție pe un card salvat de client atunci când cumpără sau abonează online (jeton de plată).\n"
-"Depunerea lotului: încurcați mai multe verificări ale clienților simultan, generând un depozit pe care să îl transmiteți băncii dvs. Atunci când codificați extrasul bancar în Odoo, vi se recomandă să reconciliați tranzacția cu depozitul de lot. Activați această opțiune din setări."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_abstract_payment_payment_method_id
@@ -6867,9 +6776,6 @@ msgid ""
 "Check:Pay bill by check and print it from Odoo.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Manual: Plătiți factura prin numerar sau orice altă metodă în afara Odoo.\n"
-"Cec: plătiți factura prin cec și imprimați-o de la Odoo.\n"
-"Transfer de credit SEPA: plătiți factura dintr-un fișier de transfer de credit SEPA pe care îl trimiteți băncii dvs. Activați această opțiune din setări."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -6884,7 +6790,7 @@ msgstr "Martie"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Margin Analysis"
-msgstr "Analiza marjei"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.setup_bank_journal_form
@@ -6934,7 +6840,7 @@ msgstr "Număr reconciliere"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile_max_date
 msgid "Max Date of Matched Lines"
-msgstr "Data maximă a Liniilor Potrivite"
+msgstr ""
 
 #. module: account
 #: selection:res.company,fiscalyear_last_month:0
@@ -6953,7 +6859,7 @@ msgstr "Memo"
 #: code:addons/account/static/src/xml/account_payment.xml:64
 #, python-format
 msgid "Memo:"
-msgstr "Memo:"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner_invoice_warn_msg
@@ -7010,12 +6916,12 @@ msgstr "Diverse operații"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:164
 #, python-format
 msgid "Modify models"
-msgstr "Modificați modelele"
+msgstr ""
 
 #. module: account
 #: selection:account.cash.rounding,strategy:0
 msgid "Modify tax amount"
-msgstr "Modificați valoarea impozitului"
+msgstr ""
 
 #. module: account
 #: selection:account.invoice.refund,filter_refund:0
@@ -7027,7 +6933,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Monitor your product margins from invoices"
-msgstr "Monitorizați marjele produsului din facturi"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,name:account.act_account_invoice_partner_relation
@@ -7059,7 +6965,7 @@ msgstr "Linie mișcare"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_move_line_count
 msgid "Move Line Count"
-msgstr "Mutați Numărul de Linii"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_move_reconciled
@@ -7139,7 +7045,6 @@ msgstr "Narațiune"
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Navigate easily through reports and see what is behind the numbers"
 msgstr ""
-"Navigați cu ușurință prin rapoarte și vedeți ce se află în spatele numerelor"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_tax
@@ -7228,12 +7133,12 @@ msgstr "Numărul de cifre folosite pentru codul contului"
 #. module: account
 #: model:account.account.type,name:account.data_account_type_non_current_assets
 msgid "Non-current Assets"
-msgstr "Active non-curent"
+msgstr ""
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_non_current_liabilities
 msgid "Non-current Liabilities"
-msgstr "Pasivele Imobilizate"
+msgstr ""
 
 #. module: account
 #: selection:account.tax,type_tax_use:0
@@ -7429,9 +7334,6 @@ msgid ""
 "Once installed, set 'Bank Feeds' to 'File Import' in bank account "
 "settings.This adds a button to import from the Accounting dashboard."
 msgstr ""
-"Odată instalat, setați 'Bank Feeds' la 'File Import' în setările contului "
-"bancar. Aceasta adaugă un buton de importat din tabloul de bord "
-"Contabilitate."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -7462,7 +7364,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_payment
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Online Payment"
-msgstr "Plata online"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_only_one_chart_template
@@ -7519,7 +7421,7 @@ msgstr "Data deschiderii"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company_account_opening_journal_id
 msgid "Opening Journal"
-msgstr "Deschidere Jurnal"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/company.py:339
@@ -7527,7 +7429,7 @@ msgstr "Deschidere Jurnal"
 #: model:ir.model.fields,field_description:account.field_res_company_account_opening_move_id
 #, python-format
 msgid "Opening Journal Entry"
-msgstr "Notă contabilă deschidere"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_opening_opening_move_line_ids
@@ -7537,7 +7439,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_year_op_opening_move_posted
 msgid "Opening Move Posted"
-msgstr "Mutare Deschidere Postată"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_cashbox_line_number
@@ -7548,7 +7450,7 @@ msgstr "Numere Unitare de Deschidere"
 #: code:addons/account/models/account.py:138
 #, python-format
 msgid "Opening balance"
-msgstr "Bilanț deschidere"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_opening_credit
@@ -7558,7 +7460,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_opening_credit
 msgid "Opening credit value for this account."
-msgstr "Valoarea creditului la deschidere pentru acest cont."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_opening_debit
@@ -7568,12 +7470,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_opening_debit
 msgid "Opening debit value for this account."
-msgstr "Valoare debit la deschidere pentru acest cont."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 msgid "Operation Templates"
-msgstr "Modele Operație"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:1014
@@ -7593,7 +7495,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_template_nocreate
 msgid "Optional Create"
-msgstr "Creați Opțional"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_tag_ids
@@ -7602,8 +7504,6 @@ msgstr "Creați Opțional"
 #: model:ir.model.fields,help:account.field_account_tax_template_tag_ids
 msgid "Optional tags you may want to assign for custom reporting"
 msgstr ""
-"Etichete opționale pe care poate doriți să le atribuiți pentru raportarea "
-"personalizată"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_term_line_option
@@ -7619,7 +7519,7 @@ msgstr "Valoare"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_payment_id
 msgid "Originator Payment"
-msgstr "Plata Inițiatorului"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_tax_line_id
@@ -7683,7 +7583,7 @@ msgstr "Mesaj plăți restante"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_filter
 msgid "Overdue invoices, maturity date passed"
-msgstr "Facturi restante, data scadenței a trecut"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.menu,name:account.menu_finance_legal_statement
@@ -7887,7 +7787,7 @@ msgstr "Jurnal plată"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_payment_form
 msgid "Payment Matching"
-msgstr "Potrivirea plății"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_payment_search
@@ -7955,7 +7855,7 @@ msgstr "Termene plată"
 #. module: account
 #: model:ir.model,name:account.model_account_payment_term_line
 msgid "Payment Terms Line"
-msgstr "Linie Termen de Plată"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_abstract_payment_payment_type
@@ -7983,12 +7883,12 @@ msgstr "Termeni de plată: 30 zile net"
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_advance
 msgid "Payment terms: 30% Advance End of Following Month"
-msgstr "Termen plată: 30% Avans Sfârșitul lunii următoare"
+msgstr ""
 
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term
 msgid "Payment terms: End of Following Month"
-msgstr "Termen plată: Sfârșitul lunii următoare"
+msgstr ""
 
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_immediate
@@ -7998,7 +7898,7 @@ msgstr "Termen plată: plată imediată"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_payment_id
 msgid "Payment that created this entry"
-msgstr "Plata care a creat această intrare"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_payment.py:229
@@ -8059,13 +7959,13 @@ msgstr ""
 #: selection:account.tax,amount_type:0
 #: selection:account.tax.template,amount_type:0
 msgid "Percentage of Price"
-msgstr "Procentul de preț"
+msgstr ""
 
 #. module: account
 #: selection:account.tax,amount_type:0
 #: selection:account.tax.template,amount_type:0
 msgid "Percentage of Price Tax Included"
-msgstr "Procent de Preț Inclus"
+msgstr ""
 
 #. module: account
 #: selection:account.reconcile.model,second_amount_type:0
@@ -8077,7 +7977,7 @@ msgstr ""
 #: selection:account.reconcile.model,amount_type:0
 #: selection:account.reconcile.model.template,amount_type:0
 msgid "Percentage of balance"
-msgstr "Procentaj de sold"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:1776
@@ -8098,7 +7998,7 @@ msgstr "Durată (zile)"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_plaid
 msgid "Plaid Connector"
-msgstr "Conector Plaid"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_web_planner
@@ -8118,8 +8018,6 @@ msgstr ""
 #, python-format
 msgid "Please check that the field 'Transfer Account' is set on the company."
 msgstr ""
-"Vă rugăm să verificați dacă câmpul 'Transfer Account' este setat pentru "
-"companie."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:1070
@@ -8152,8 +8050,6 @@ msgid ""
 "Please install a chart of accounts or create a miscellaneous journal before "
 "proceeding."
 msgstr ""
-"Vă rugăm să instalați un plan de conturi sau să creați un jurnal divers "
-"înainte de a continua."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
@@ -8194,7 +8090,7 @@ msgstr "Postează toate înregistrările"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_payment_invoice_form
 msgid "Post Difference In"
-msgstr "Postează diferența în"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_validate_account_move
@@ -8224,17 +8120,17 @@ msgstr "Elemente postate ale jurnalului"
 #: model:ir.model.fields,field_description:account.field_account_chart_template_bank_account_code_prefix
 #: model:ir.model.fields,field_description:account.field_res_company_bank_account_code_prefix
 msgid "Prefix of the bank accounts"
-msgstr "Prefixul conturilor bancare"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company_cash_account_code_prefix
 msgid "Prefix of the cash accounts"
-msgstr "Prefix Cont Numerar"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_cash_account_code_prefix
 msgid "Prefix of the main cash accounts"
-msgstr "Prefix Conturi Principale Numerar"
+msgstr ""
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_prepayments
@@ -8252,8 +8148,6 @@ msgstr "Păstrați semnul soldului"
 msgid ""
 "Preset to create journal entries during a invoices and payments matching"
 msgstr ""
-"Presetat pentru a crea intrări în jurnal în timpul unei potriviri de facturi"
-" și plăți"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
@@ -8278,7 +8172,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Print checks to pay your vendors"
-msgstr "Imprimați cecuri pentru a vă plăti furnizorii"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_product_product
@@ -8413,7 +8307,7 @@ msgstr "Cod Python"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "QIF Import"
-msgstr "Importare QIF"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_line_quantity
@@ -8548,7 +8442,7 @@ msgstr "Modele reconciliere"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_full_reconcile_partial_reconcile_ids
 msgid "Reconciliation Parts"
-msgstr "Părți Reconciliere"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_move_line_reconcile_full
@@ -8574,7 +8468,7 @@ msgstr "Înregistrat manual"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Record transactions in foreign currencies"
-msgstr "Înregistrați tranzacțiile în valute străine"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -8628,8 +8522,6 @@ msgid ""
 "Reference of the document used to issue this payment. Eg. check number, file"
 " name, etc."
 msgstr ""
-"Referință a documentului utilizat pentru efectuarea acestei plăți. De "
-"exemplu. verificați numărul, numele fișierului etc."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_name
@@ -8639,7 +8531,7 @@ msgstr "Referință / Descriere"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_refund_invoice_ids
 msgid "Refund Invoices"
-msgstr "Facturi de retur"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_refund_filter_refund
@@ -8664,7 +8556,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.view_account_payment_from_invoices
 #: model:ir.ui.view,arch_db:account.view_account_payment_invoice_form
 msgid "Register Payment"
-msgstr "Înregistrează Plată"
+msgstr "Înregistrează Plata"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -8698,12 +8590,12 @@ msgstr "Obișnuit"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_residual_company_signed
 msgid "Remaining amount due in the currency of the company."
-msgstr "Sumă scadentă în moneda companiei."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_residual_signed
 msgid "Remaining amount due in the currency of the invoice."
-msgstr "Sumă scadentă în moneda facturii."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_residual
@@ -8752,8 +8644,6 @@ msgstr "Raportare"
 #: model:ir.model.fields,help:account.field_account_cash_rounding_rounding
 msgid "Represent the non-zero value smallest coinage (for example, 0.05)."
 msgstr ""
-"Reprezentați cea mai mică monedă cu valoare diferită de zero (de exemplu, "
-"0,05)."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_form
@@ -8791,7 +8681,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_reversal_date
 msgid "Reversal date"
-msgstr "Dată Inversare"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_move_form
@@ -8854,7 +8744,7 @@ msgstr "Rotunjire per Linie"
 #. module: account
 #: model:ir.ui.view,arch_db:account.rounding_form_view
 msgid "Rounding Form"
-msgstr "Formă Rotunjire"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_line_is_rounding_line
@@ -8875,7 +8765,7 @@ msgstr "Precizia de rotunjire"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_cash_rounding_strategy
 msgid "Rounding Strategy"
-msgstr "Strategie Rotunjire"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.rounding_tree_view
@@ -8885,12 +8775,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings_module_account_sepa
 msgid "SEPA Credit Transfer (SCT)"
-msgstr "Transfer Credite SEPA (SCT)"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "SEPA Direct Debit (SDD)"
-msgstr "Debit Direct SEPA (SDD)"
+msgstr ""
 
 #. module: account
 #: selection:account.journal,type:0
@@ -8918,7 +8808,7 @@ msgstr "Vânzări"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Sales Tax"
-msgstr "Taxă Vânzări"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_sale_tax_rate
@@ -8929,7 +8819,7 @@ msgstr "Taxa Vânzări(%)"
 #: code:addons/account/models/account_journal_dashboard.py:33
 #, python-format
 msgid "Sales: Untaxed Total"
-msgstr "Vânzări: Total fără taxe"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report_user_id
@@ -8959,7 +8849,6 @@ msgstr "Salvează & Nou"
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Save this page and come back here to set up the feature."
 msgstr ""
-"Salvați această pagină și reveniți aici pentru a configura caracteristica."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_journal_search
@@ -9069,23 +8958,18 @@ msgid ""
 "Select 'Cash' or 'Bank' for journals that are used in customer or vendor payments.\n"
 "Select 'General' for miscellaneous operations journals."
 msgstr ""
-"Selectați „Vânzare” pentru jurnale de facturi clienți.\n"
-"Selectați „Cumpărare” pentru jurnale de facturi furnizor.\n"
-"Selectați „Cash” sau „Bank” pentru jurnale utilizate în plățile clienților sau vânzătorilor.\n"
-"Selectați „General” pentru jurnale de operațiuni diverse."
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:74
 #, python-format
 msgid "Select a partner or choose a counterpart"
-msgstr "Selectați un partener sau alegeți un omolog"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_line_value
 msgid "Select here the kind of valuation related to this payment terms line."
 msgstr ""
-"Selectați aici tipul de evaluare aferent acestei linii de condiții de plată."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -9093,9 +8977,6 @@ msgid ""
 "Select this if the taxes should use cash basis, which will create an entry "
 "for such taxes on a given account during reconciliation."
 msgstr ""
-"Selectați această opțiune dacă taxele trebuie să utilizeze baza de numerar, "
-"ceea ce va crea o intrare pentru astfel de impozite pe un cont dat în timpul"
-" reconcilierii."
 
 #. module: account
 #: code:addons/account/wizard/account_invoice_state.py:21
@@ -9186,18 +9067,17 @@ msgstr "Setare ca Ciornă"
 #: model:ir.model.fields,help:account.field_account_account_tag_active
 msgid "Set active to false to hide the Account Tag without removing it."
 msgstr ""
-"Setați activ la fals pentru a ascunde eticheta de cont fără a o elimina."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_active
 msgid "Set active to false to hide the Journal without removing it."
-msgstr "Setați activ pe fals pentru a ascunde jurnalul fără a-l elimina."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_active
 #: model:ir.model.fields,help:account.field_account_tax_template_active
 msgid "Set active to false to hide the tax without removing it."
-msgstr "Setați fals pentru a ascunde taxa fără a o elimina."
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -9239,7 +9119,7 @@ msgstr "Setări"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Setup"
-msgstr "Configurare"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company_account_setup_bar_closed
@@ -9320,8 +9200,6 @@ msgid ""
 "Specify which way will be used to round the invoice amount to the rounding "
 "precision"
 msgstr ""
-"Specificați ce mod va fi utilizat pentru rotunjirea sumei facturii la "
-"precizia de rotunjire"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_aged_trial_balance_date_from
@@ -9517,7 +9395,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:account.tax_adjustments_form
 #: model:ir.ui.menu,name:account.menu_action_tax_adjustment
 msgid "Tax Adjustments"
-msgstr "Ajustări fiscale"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_journal
@@ -9607,7 +9485,7 @@ msgstr ""
 #: model:ir.ui.menu,name:account.menu_account_report
 #: model:ir.ui.view,arch_db:account.report_tax
 msgid "Tax Report"
-msgstr "Raport Taxa"
+msgstr ""
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_tax_report
@@ -9618,7 +9496,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_tax_template_type_tax_use
 #: model:ir.model.fields,field_description:account.field_account_tax_type_tax_use
 msgid "Tax Scope"
-msgstr "Scop taxă"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_tax_template_tax_src_id
@@ -9663,7 +9541,7 @@ msgstr "Taxă de aplicat"
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "TaxCloud"
-msgstr "TaxCloud"
+msgstr ""
 
 #. module: account
 #: selection:account.account.tag,applicability:0
@@ -9708,7 +9586,6 @@ msgid ""
 "Taxes, fiscal positions, chart of accounts &amp; legal statements for your "
 "country"
 msgstr ""
-"Taxe, poziții fiscale, plan de conturi și situații legale pentru țara dvs."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_balance
@@ -9716,8 +9593,6 @@ msgid ""
 "Technical field holding the debit - credit in order to open meaningful graph"
 " views from reports"
 msgstr ""
-"Cămpul tehnic care deține debitul - creditul pentru a deschide vizualizări "
-"semnificative ale graficelor din rapoarte"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_balance_cash_basis
@@ -9786,7 +9661,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_bank_statement_journal_type
 #: model:ir.model.fields,help:account.field_account_payment_has_invoices
 msgid "Technical field used for usability purposes"
-msgstr "Câmp tehnic utilizat în scopuri de utilizare"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_matched_percentage
@@ -9822,8 +9697,6 @@ msgid ""
 "Technical field used to hide the payment method if the selected journal has "
 "only one available which is 'manual'"
 msgstr ""
-"Câmp tehnic utilizat pentru a ascunde metoda de plată dacă jurnalul selectat"
-" are doar unul disponibil, care este „manual”"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_tax_cash_basis_rec_id
@@ -9919,10 +9792,6 @@ msgid ""
 "accounts: liquidity type is for cash or bank accounts, payable/receivable is"
 " for vendor/customer accounts."
 msgstr ""
-"'Internal Type' este utilizat pentru caracteristicile disponibile pentru "
-"diferite tipuri de conturi: tipul de lichiditate este pentru numerar sau "
-"conturi bancare, de plătit / de primit este pentru conturi de vânzător / "
-"client."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -9953,7 +9822,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_bank_journal_id
 msgid "The accounting journal corresponding to this bank account."
-msgstr "Jurnalul contabil corespunzător acestui cont bancar."
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_config_settings_currency_exchange_journal_id
@@ -9961,7 +9830,6 @@ msgid ""
 "The accounting journal where automatic exchange differences will be "
 "registered"
 msgstr ""
-"Jurnalul contabil unde vor fi înregistrate diferențele de schimb automat"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line_amount_currency
@@ -10007,8 +9875,6 @@ msgstr ""
 msgid ""
 "The bank account of a bank journal must belong to the same company (%s)."
 msgstr ""
-"Contul bancar al unui jurnal bancar trebuie să aparțină aceleiași companii "
-"(%s)."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_statement_id
@@ -10026,18 +9892,17 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company_chart_template_id
 msgid "The chart template for the company (if any)"
-msgstr "Șablonul grafic pentru companie (dacă există)"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_bnk_stmt_check
 msgid "The closing balance is different than the computed one!"
-msgstr "Soldul de închidere este diferit de cel calculat!"
+msgstr ""
 
 #. module: account
 #: sql_constraint:account.journal:0
 msgid "The code and name of the journal must be unique per company !"
 msgstr ""
-"Codul și numele jurnalului trebuie să fie unice pentru fiecare companie!"
 
 #. module: account
 #: sql_constraint:account.account:0
@@ -10085,10 +9950,6 @@ msgid ""
 "expense (Cost of Goods Sold account) is recognized at the customer invoice "
 "validation."
 msgstr ""
-"Cheltuielile sunt contabilizate atunci când o factură a furnizorului este "
-"validată, cu excepția contabilității anglo-saxone cu evaluare permanentă a "
-"inventarului, caz în care cheltuiala (contul costul mărfurilor vândute) este"
-" recunoscut la validarea facturii clientului."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_product_property_account_expense_id
@@ -10123,7 +9984,6 @@ msgstr ""
 #, python-format
 msgid "The holder of a journal's bank account must be the company (%s)."
 msgstr ""
-"Deținătorul contului bancar al unui jurnal trebuie să fie compania (%s)."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_line_account_id
@@ -10170,7 +10030,6 @@ msgstr ""
 #, python-format
 msgid "The lock date for advisors is irreversible and can't be removed."
 msgstr ""
-"Data de blocare a consilierilor este ireversibilă și nu poate fi eliminată."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_move_id
@@ -10196,8 +10055,6 @@ msgstr ""
 msgid ""
 "The new lock date for advisors must be set after the previous lock date."
 msgstr ""
-"Noua dată de blocare a consilierilor trebuie să fie stabilită după data "
-"anterioară de blocare."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_refund_sequence_number_next
@@ -10268,15 +10125,12 @@ msgid ""
 "The residual amount on a journal item expressed in its currency (possibly "
 "not the company currency)."
 msgstr ""
-"Valoarea reziduală dintr-un element de jurnal exprimată în moneda sa "
-"(posibil nu fie moneda companiei)."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_amount_residual
 msgid ""
 "The residual amount on a journal item expressed in the company currency."
 msgstr ""
-"Valoarea reziduală dintr-un element de jurnal exprimat în moneda companiei."
 
 #. module: account
 #: code:addons/account/models/account_move.py:493
@@ -10335,7 +10189,6 @@ msgid ""
 "There is no account defined on the journal %s for %s involved in a cash "
 "difference."
 msgstr ""
-"Nu există un cont definit în jurnal %spentru %s de la diferența de numerar."
 
 #. module: account
 #: code:addons/account/wizard/account_validate_account_move.py:18
@@ -10520,8 +10373,8 @@ msgid ""
 "This field is used for payable and receivable journal entries. You can put "
 "the limit date for the payment of this line."
 msgstr ""
-"Acest câmp este folosit pentru înregistrările în jurnal a plăților și a "
-"încasărilor. Puteți pune data limită pentru plata acestei linii."
+"Acest camp este folosit pentru inregistrarile in jurnal a platilor si a "
+"incasarilor. Puteti pune data limita pentru plata acestei linii."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line_partner_name
@@ -10635,7 +10488,7 @@ msgstr ""
 #: code:addons/account/static/src/xml/account_reconciliation.xml:240
 #, python-format
 msgid "This payment is registered but not reconciled."
-msgstr "Această plată este înregistrată dar nu este reconciliată"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner_property_supplier_payment_term_id
@@ -10891,7 +10744,7 @@ msgstr "Subtotal tranzacții"
 #: model:ir.model.fields,field_description:account.field_account_chart_template_transfer_account_id
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_transfer_account_id
 msgid "Transfer Account"
-msgstr "Cont de transfer"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_destination_journal_id
@@ -11063,12 +10916,12 @@ msgstr "Valoare fără taxe"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_amount_untaxed_signed
 msgid "Untaxed Amount in Company Currency"
-msgstr "Suma fără taxe în moneda companiei"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Update exchange rates automatically"
-msgstr "Actualizați automat ratele de schimb"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -11083,7 +10936,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_use_anglo_saxon
 msgid "Use Anglo-Saxon accounting"
-msgstr "Utilizare contabilitate anglo-saxonă "
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company_tax_exigibility
@@ -11173,7 +11026,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_sequence
 msgid "Used to order Journals in the dashboard view"
-msgstr "Folosit pentru a comanda Jurnale în ecranul de bord"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_loss_account_id
@@ -11181,8 +11034,6 @@ msgid ""
 "Used to register a loss when the ending balance of a cash register differs "
 "from what the system computes"
 msgstr ""
-"Folosit pentru a înregistra  pierderile atunci când soldul final al unei "
-"case de marcat diferă de ceea ce calculează sistemul"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_profit_account_id
@@ -11190,8 +11041,6 @@ msgid ""
 "Used to register a profit when the ending balance of a cash register differs"
 " from what the system computes"
 msgstr ""
-"Folosit pentru a înregistra profitul atunci când soldul final al unei case "
-"de marcat diferă de ceea ce calculează sistemul"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_analytic_line_company_currency_id
@@ -11201,7 +11050,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_res_partner_currency_id
 #: model:ir.model.fields,help:account.field_res_users_currency_id
 msgid "Utility field to express amount currency"
-msgstr "Câmpul de utilitate pentru a exprima moneda sumei"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_template_vat_required
@@ -11273,7 +11122,7 @@ msgstr "Factură furnizor"
 #: code:addons/account/models/account_invoice.py:444
 #, python-format
 msgid "Vendor Bill - %s"
-msgstr "Factură furnizor - %s"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/chart_template.py:194
@@ -11420,7 +11269,6 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal_show_on_dashboard
 msgid "Whether this journal should be displayed on the dashboard or not"
 msgstr ""
-"Alege dacă acest jurnal ar trebui să fie afișat pe tabloul de bord sau nu"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_common_journal_report_amount_currency
@@ -11588,7 +11436,6 @@ msgid ""
 "You cannot change the currency of the company since some journal items "
 "already exist"
 msgstr ""
-"Nu puteți schimba moneda companiei deoarece există deja articole de jurnale"
 
 #. module: account
 #: code:addons/account/models/account.py:235
@@ -11623,9 +11470,6 @@ msgid ""
 "You cannot define stricter conditions on advisors than on users. Please make"
 " sure that the lock date on advisor is set before the lock date for users."
 msgstr ""
-"Nu puteți defini condiții mai stricte pentru consilieri decât pentru "
-"utilizatori. Vă rugăm să vă asigurați că data de blocare la consilier este "
-"setată înainte de data de blocare pentru utilizatori."
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:613
@@ -11699,9 +11543,6 @@ msgid ""
 "You cannot lock a period that is not finished yet. Please make sure that the"
 " lock date for advisors is not set after the last day of the previous month."
 msgstr ""
-"Nu puteți bloca o perioadă care nu este încă terminată. Vă rugăm să vă "
-"asigurați că data de blocare a consilierilor nu este stabilită după ultima "
-"zi a lunii precedente."
 
 #. module: account
 #. openerp-web
@@ -11874,12 +11715,6 @@ msgstr ""
 "Ar trebui definit un cont pentru transfer intern, în registrul de numerar!"
 
 #. module: account
-#: code:addons/account/models/account_cash_rounding.py:33
-#, python-format
-msgid "Please set a positive rounding value."
-msgstr ""
-
-#. module: account
 #: model:ir.ui.view,arch_db:account.view_account_invoice_refund
 msgid ""
 "You will be able to edit and validate this\n"
@@ -12019,7 +11854,7 @@ msgstr "zile"
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 msgid "e.g. Bank Fees"
-msgstr "de exemplu: Taxe bancare"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -12048,7 +11883,7 @@ msgstr ""
 #: code:addons/account/static/src/xml/account_reconciliation.xml:41
 #, python-format
 msgid "o_manual_statement"
-msgstr "o_manual_statement"
+msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form

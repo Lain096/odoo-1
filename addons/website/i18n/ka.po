@@ -7,7 +7,6 @@
 # Temur, 2018
 # Martin Trigaux, 2019
 # Giorgi Melitauri <gmelitauri@live.com>, 2019
-# Gvantsa Gvinianidze <gvantsa@live.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -15,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:25+0000\n"
-"Last-Translator: Gvantsa Gvinianidze <gvantsa@live.com>, 2019\n"
+"Last-Translator: Giorgi Melitauri <gmelitauri@live.com>, 2019\n"
 "Language-Team: Georgian (https://www.transifex.com/odoo/teams/41243/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +45,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
 msgid "&amp;times;"
-msgstr "&amp;times;"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.sitemap_index_xml
@@ -264,7 +263,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "<b>Set Custom Image...</b>"
-msgstr "<b>დააყენე შენი ფოტო...</b>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1402,7 +1401,7 @@ msgstr "დაგვიკავშირდით »"
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
 msgid "Content"
-msgstr "შინაარსი"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -1493,7 +1492,7 @@ msgstr ""
 #: model:ir.actions.client,name:website.backend_dashboard
 #: model:ir.ui.menu,name:website.menu_dashboard
 msgid "Dashboard"
-msgstr "დაფა"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -1774,11 +1773,6 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Email support"
-msgstr ""
-
-#. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Enable billing on your Google Project"
 msgstr ""
 
 #. module: website
@@ -3612,6 +3606,11 @@ msgid "Show in Top Menu"
 msgstr ""
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Show your address on a map in the"
+msgstr ""
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Simple and obvious"
 msgstr ""
@@ -3803,7 +3802,7 @@ msgstr ""
 #: model:ir.model.fields,help:website.field_website_page_website_url
 #: model:ir.model.fields,help:website.field_website_published_mixin_website_url
 msgid "The full URL to access the document through the website."
-msgstr "სრული URL რათა ვებ-საიტიდან მიწვდეთ ამ დოკუმენტს"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,help:website.field_ir_act_server_website_url
@@ -4063,11 +4062,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 msgid "Url"
 msgstr "Url"
-
-#. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Use Google Map on your website ("
-msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
@@ -4332,7 +4326,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website.field_website_page_website_url
 #: model:ir.model.fields,field_description:website.field_website_published_mixin_website_url
 msgid "Website URL"
-msgstr "ვებ-საიტის მისამართი"
+msgstr ""
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_act_server_website_url
@@ -4810,7 +4804,7 @@ msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "page, snippets, ...)"
+msgid "page"
 msgstr ""
 
 #. module: website

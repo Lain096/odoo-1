@@ -3,19 +3,17 @@
 # * survey
 # 
 # Translators:
+# Martin Trigaux, 2017
 # Saba Khmaladze <skhmaladze@uglt.org>, 2018
 # Giorgi Melitauri <gmelitauri@live.com>, 2018
-# Martin Trigaux, 2018
 # Temur, 2018
-# Gvantsa Gvinianidze <gvantsa@live.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
-"PO-Revision-Date: 2017-09-20 10:24+0000\n"
-"Last-Translator: Gvantsa Gvinianidze <gvantsa@live.com>, 2019\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
+"Last-Translator: Temur, 2018\n"
 "Language-Team: Georgian (https://www.transifex.com/odoo/teams/41243/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,7 +48,7 @@ msgstr "%s (კოპირება)"
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.page
 msgid "&amp;times;"
-msgstr "&amp;times;"
+msgstr ""
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.result
@@ -292,7 +290,7 @@ msgstr "პასუხები"
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Archived"
-msgstr "დაარქივებული"
+msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1

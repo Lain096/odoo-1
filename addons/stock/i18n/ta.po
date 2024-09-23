@@ -2,20 +2,12 @@
 # This file contains the translation of the following modules:
 # * stock
 # 
-# Translators:
-# Alagappan Karthikeyan <me@karthik.sg>, 2019
-# Abul Hassan M I <miabulhassan@gmail.com>, 2019
-# Martin Trigaux, 2019
-# Bagavathikumar Ramakrishnan <bagavathikumar@gmail.com>, 2019
-# Thirunavukkarasu Deivasigamani <thiru_electrifiers@yahoo.co.in>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:24+0000\n"
-"Last-Translator: Thirunavukkarasu Deivasigamani <thiru_electrifiers@yahoo.co.in>, 2019\n"
 "Language-Team: Tamil (https://www.transifex.com/odoo/teams/41243/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -298,7 +290,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "<span>New</span>"
-msgstr "<span>புதிய</span>"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
@@ -308,7 +300,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "<span>View</span>"
-msgstr "<span>நோக்கு</span>"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -520,7 +512,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Quantity</strong>"
-msgstr "அளவு"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
@@ -632,7 +624,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_rule_action
 msgid "Action"
-msgstr "அதிரடி"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_rule_active
@@ -644,7 +636,7 @@ msgstr "அதிரடி"
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_active
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint_active
 msgid "Active"
-msgstr "செயலில்"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_form
@@ -683,7 +675,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_partner_id
 msgid "Address"
-msgstr "முகவரி"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -703,7 +695,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "All"
-msgstr "அனைத்து"
+msgstr ""
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_type_list
@@ -789,7 +781,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.view_procurement_rule_filter
 #: model:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
 msgid "Archived"
-msgstr "காப்பகப்படுத்தியவை"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_warn_insufficient_qty_form_view
@@ -859,7 +851,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_string_availability_info
 msgid "Availability"
-msgstr "கிடைக்கும்"
+msgstr ""
 
 #. module: stock
 #: selection:stock.move,state:0
@@ -919,12 +911,12 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type_barcode_nomenclature_id
 msgid "Barcode Nomenclature"
-msgstr "பார்கோடு பெயரிடல்"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_wms_barcode_nomenclature_all
 msgid "Barcode Nomenclatures"
-msgstr "பார்கோடு பெயர்ச்சொற்கள்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings_module_stock_barcode
@@ -1066,7 +1058,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.view_stock_quantity_history
 #: model:ir.ui.view,arch_db:stock.view_stock_return_picking_form
 msgid "Cancel"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_inventory_form
@@ -1077,7 +1069,7 @@ msgstr ""
 #: selection:stock.inventory,state:0 selection:stock.move,state:0
 #: selection:stock.picking,state:0
 msgid "Cancelled"
-msgstr "ரத்து"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:499
@@ -1240,7 +1232,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_incoterms_code
 msgid "Code"
-msgstr "குறியீடு"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type_color
@@ -1250,7 +1242,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model,name:stock.model_res_company
 msgid "Companies"
-msgstr "நிறுவனங்கள்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_rule_company_id
@@ -1267,7 +1259,7 @@ msgstr "நிறுவனங்கள்"
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint_company_id
 #: model:ir.ui.view,arch_db:stock.quant_search_view
 msgid "Company"
-msgstr "நிறுவனம்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_date_done
@@ -1307,24 +1299,24 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_move_picking_form
 msgid "Conditions"
-msgstr "நிபந்தனைகள்"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_config_settings
 msgid "Configuration"
-msgstr "கட்டமைப்பு"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_warn_insufficient_qty_form_view
 #: model:ir.ui.view,arch_db:stock.view_overprocessed_transfer
 #: model:ir.ui.view,arch_db:stock.view_stock_move_operations
 msgid "Confirm"
-msgstr "உறுதிப்படுத்தவும்"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Confirmed"
-msgstr "உறுதி"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -1349,7 +1341,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model,name:stock.model_res_partner
 msgid "Contact"
-msgstr "தொடர்பு"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_child_ids
@@ -1359,7 +1351,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_quant_package_form
 msgid "Content"
-msgstr "உள்ளடக்க"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_posx
@@ -1506,7 +1498,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint_create_uid
 #: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap_create_uid
 msgid "Created by"
-msgstr "உருவாக்கியவர்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_group_create_date
@@ -1539,7 +1531,7 @@ msgstr "உருவாக்கியவர்"
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint_create_date
 #: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap_create_date
 msgid "Created on"
-msgstr "உருவாக்கப்பட்ட தேதி"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_procurement_rule_form
@@ -1556,7 +1548,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_picking_date
 #: model:ir.model.fields,field_description:stock.field_stock_production_lot_create_date
 msgid "Creation Date"
-msgstr "உருவாக்கம் தேதி"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_date
@@ -1625,7 +1617,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.view_location_search
 #, python-format
 msgid "Customer"
-msgstr "வாடிக்கையாளர்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product_sale_delay
@@ -1649,7 +1641,7 @@ msgstr ""
 #: model:stock.location,name:stock.stock_location_customers
 #: selection:stock.picking.type,code:0
 msgid "Customers"
-msgstr "வாடிக்கையாளர்கள்"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_stock_body_print
@@ -1714,7 +1706,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_move_line_date
 #: model:ir.ui.view,arch_db:stock.stock_move_tree
 msgid "Date"
-msgstr "தேதி"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_move_tree
@@ -1898,7 +1890,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_name
 msgid "Description"
-msgstr "விளக்கம்"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_template_property_form
@@ -1988,7 +1980,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_location_path_form
 msgid "Details"
-msgstr "விவரங்கள்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_show_details_visible
@@ -2007,7 +1999,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.stock_warn_insufficient_qty_form_view
 #: model:ir.ui.view,arch_db:stock.view_stock_move_operations
 msgid "Discard"
-msgstr "நிராகரி"
+msgstr ""
 
 #. module: stock
 #: model:stock.location,name:stock.location_dispatch_zone
@@ -2049,7 +2041,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_display_name
 #: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap_display_name
 msgid "Display Name"
-msgstr "காட்சி பெயர்"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -2068,7 +2060,7 @@ msgstr ""
 #: selection:stock.move,state:0 selection:stock.picking,state:0
 #: selection:stock.scrap,state:0
 msgid "Done"
-msgstr "முடிந்தது"
+msgstr ""
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_done
@@ -2102,7 +2094,7 @@ msgstr ""
 #: selection:stock.inventory,state:0 selection:stock.picking,state:0
 #: selection:stock.scrap,state:0
 msgid "Draft"
-msgstr "வரைவு"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -2177,7 +2169,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_date_expected
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Expected Date"
-msgstr "எதிர்பார்க்கப்படுகிறது தேதி"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings_module_product_expiry
@@ -2222,7 +2214,7 @@ msgstr ""
 #. module: stock
 #: selection:procurement.rule,group_propagation_option:0
 msgid "Fixed"
-msgstr "நிலையான"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_putaway
@@ -2298,7 +2290,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Future Activities"
-msgstr "எதிர்கால செயல்பாடுகள்"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/product.py:332
@@ -2393,7 +2385,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.view_stock_level_forecast_filter
 #: model:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
 msgid "Group By"
-msgstr "மூலம் குழு"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.quant_package_search_view
@@ -2499,7 +2491,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_id
 #: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_inventory.py:421
@@ -2730,7 +2722,7 @@ msgstr ""
 #. module: stock
 #: selection:stock.inventory,state:0
 msgid "In Progress"
-msgstr "முன்னேற்றம்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_in_type_id
@@ -3204,7 +3196,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty___last_update
 #: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap___last_update
 msgid "Last Modified on"
-msgstr "கடைசியாக திருத்திய"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_group_write_uid
@@ -3239,7 +3231,7 @@ msgstr "கடைசியாக திருத்திய"
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_write_uid
 #: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap_write_uid
 msgid "Last Updated by"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டவர்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_group_write_date
@@ -3274,7 +3266,7 @@ msgstr "கடைசியாக புதுப்பிக்கப்பட�
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_write_date
 #: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap_write_date
 msgid "Last Updated on"
-msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:71
@@ -3287,7 +3279,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Late Activities"
-msgstr "தாமதமான செயல்பாடுகள்"
+msgstr ""
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_late
@@ -3345,7 +3337,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_location_form
 msgid "Localization"
-msgstr "மொழிப்பெயர்ப்பு"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_production_lot_form
@@ -3372,7 +3364,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.view_move_search
 #: model:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
 msgid "Location"
-msgstr "இருப்பிடம்"
+msgstr ""
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_location_barcode
@@ -3433,7 +3425,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_move_line_lot_id
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_lot_id
 msgid "Lot"
-msgstr "நிறைய"
+msgstr ""
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_lot_barcode
@@ -3578,7 +3570,7 @@ msgstr ""
 #. module: stock
 #: model:res.groups,name:stock.group_stock_manager
 msgid "Manager"
-msgstr "மேலாளர்"
+msgstr ""
 
 #. module: stock
 #: selection:stock.location.path,auto:0
@@ -3629,7 +3621,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_removal_method
 msgid "Method"
-msgstr "செய்முறை"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_company_propagation_minimum_delta
@@ -3655,7 +3647,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_form
 msgid "Misc"
-msgstr "மற்றவை"
+msgstr ""
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_picking_tree
@@ -3755,7 +3747,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "My Activities"
-msgstr "எனது செயல்பாடுகள்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_rule_name
@@ -3764,7 +3756,7 @@ msgstr "எனது செயல்பாடுகள்"
 #: model:ir.model.fields,field_description:stock.field_stock_incoterms_name
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint_name
 msgid "Name"
-msgstr "பெயர்"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.product_template_search_form_view_stock
@@ -3778,7 +3770,7 @@ msgstr ""
 #: code:addons/stock/models/stock_scrap.py:69 selection:stock.move,state:0
 #, python-format
 msgid "New"
-msgstr "புதிய"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_move_line.py:174
@@ -3868,14 +3860,14 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Note"
-msgstr "குறிப்பு"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_note
 #: model:ir.model.fields,field_description:stock.field_stock_picking_note
 #: model:ir.ui.view,arch_db:stock.view_inventory_form
 msgid "Notes"
-msgstr "குறிப்புக்கள்"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:587
@@ -3909,7 +3901,7 @@ msgstr ""
 #: code:addons/stock/models/stock_picking.py:75
 #, python-format
 msgid "OK"
-msgstr "சரி"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -4181,7 +4173,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.quant_search_view
 #: model:ir.ui.view,arch_db:stock.view_move_line_form
 msgid "Owner"
-msgstr "உரிமையாளர்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_restrict_partner_id
@@ -4244,7 +4236,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.view_quant_package_picking_tree
 #: model:ir.ui.view,arch_db:stock.view_quant_package_tree
 msgid "Package"
-msgstr "தொகுப்பு"
+msgstr ""
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_quant_package_barcode_small
@@ -4364,7 +4356,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_picking_partner_id
 #: model:ir.ui.view,arch_db:stock.view_move_search
 msgid "Partner"
-msgstr "கூட்டாளி"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_rule_partner_address_id
@@ -4534,7 +4526,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Print"
-msgstr "அச்சு"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_printed
@@ -4546,7 +4538,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_move_priority
 #: model:ir.model.fields,field_description:stock.field_stock_picking_priority
 msgid "Priority"
-msgstr "முன்னுரிமை"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_priority
@@ -4665,7 +4657,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.stock_scrap_search_view
 #: model:ir.ui.view,arch_db:stock.view_move_search
 msgid "Product"
-msgstr "தயாரிப்பு"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_location.py:193
@@ -4674,13 +4666,13 @@ msgstr "தயாரிப்பு"
 #: model:ir.ui.view,arch_db:stock.stock_location_route_form_view
 #, python-format
 msgid "Product Categories"
-msgstr "தயாரிப்பு வகைகள்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model,name:stock.model_product_category
 #: model:ir.model.fields,field_description:stock.field_stock_fixed_putaway_strat_category_id
 msgid "Product Category"
-msgstr "தயாரிப்பு வகை"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line_product_code
@@ -4727,7 +4719,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_move_product_tmpl_id
 #: model:ir.model.fields,field_description:stock.field_stock_quant_product_tmpl_id
 msgid "Product Template"
-msgstr "தயாரிப்பு டெம்ப்ளேட்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_product_type
@@ -4913,7 +4905,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.report_picking
 #: model:ir.ui.view,arch_db:stock.view_quant_package_form
 msgid "Quantity"
-msgstr "அளவு"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.message_body
@@ -5084,7 +5076,7 @@ msgstr ""
 #: model:stock.picking.type,name:stock.picking_type_in
 #, python-format
 msgid "Receipts"
-msgstr "ரசீதுகள்"
+msgstr ""
 
 #. module: stock
 #: selection:stock.warehouse,reception_steps:0
@@ -5115,7 +5107,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.view_move_tree_receipt_picking
 #: model:ir.ui.view,arch_db:stock.view_move_tree_receipt_picking_board
 msgid "Reference"
-msgstr "குறிப்பு"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type_sequence_id
@@ -5194,7 +5186,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_warehouse_report
 msgid "Reporting"
-msgstr "அறிக்கையிடல்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_res_config_settings_use_propagation_minimum_delta
@@ -5252,7 +5244,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_product_product_responsible_id
 #: model:ir.model.fields,field_description:stock.field_product_template_responsible_id
 msgid "Responsible"
-msgstr "பொறுப்பான"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_resupply_route_ids
@@ -5355,7 +5347,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_form
 msgid "Rules"
-msgstr "விதிகள்"
+msgstr ""
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_procurement_compute
@@ -5490,9 +5482,6 @@ msgid ""
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
 msgstr ""
-"\"எச்சரிக்கை\" விருப்பத்தைத் தேர்ந்தெடுப்பது, செய்தியுடன் பயனரை அறிவிக்கும்,"
-" \"தடுப்பு செய்தி\" என்பதைத் தேர்ந்தெடுப்பதன் மூலம் ஒரு விதிவிலக்கு எறிந்து,"
-" ஓட்டம் தடுக்கும். செய்தி அடுத்த துறையில் எழுதப்பட வேண்டும்."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -5507,7 +5496,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type_sequence
 #: model:ir.ui.view,arch_db:stock.stock_location_route_form_view
 msgid "Sequence"
-msgstr "வரிசை"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:699
@@ -5598,7 +5587,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_inventory_form
 msgid "Set to Draft"
-msgstr "வரைவை அமைக்கவும்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_location_id
@@ -5612,7 +5601,7 @@ msgstr ""
 #: model:ir.ui.menu,name:stock.menu_stock_general_settings
 #: model:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "Settings"
-msgstr "அமைப்புகள்"
+msgstr ""
 
 #. module: stock
 #: model:stock.location,name:stock.stock_location_components
@@ -5708,7 +5697,6 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Show all records which has next action date is before today"
 msgstr ""
-"அடுத்த நடவடிக்கை தேதி இன்றைய தினம் கொண்டிருக்கும் எல்லா பதிவுகளையும் காட்டுக"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_string_availability_info
@@ -5724,14 +5712,14 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.report_picking
 #: model:ir.ui.view,arch_db:stock.view_move_search
 msgid "Source"
-msgstr "ஆதாரம்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_origin
 #: model:ir.model.fields,field_description:stock.field_stock_picking_origin
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_origin
 msgid "Source Document"
-msgstr "மூல ஆவணம்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_procurement_rule_location_src_id
@@ -5807,7 +5795,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.view_move_search
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Status"
-msgstr "நிலைமை"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:96
@@ -6047,7 +6035,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_change_product_qty_product_tmpl_id
 msgid "Template"
-msgstr "டெம்ப்ளேட்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location_path_auto
@@ -6486,12 +6474,12 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_move_search
 msgid "Today"
-msgstr "இன்று"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Today Activities"
-msgstr "இன்று செயல்பாடுகள்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_total_qty
@@ -6540,7 +6528,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_product_template_tracking
 #: model:ir.model.fields,field_description:stock.field_stock_scrap_tracking
 msgid "Tracking"
-msgstr "கண்காணிப்பு"
+msgstr ""
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_picking
@@ -6606,7 +6594,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_price_unit
 msgid "Unit Price"
-msgstr "அலகு விலை"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line_product_uom_id
@@ -6627,7 +6615,7 @@ msgstr "அலகு விலை"
 #: model:ir.ui.view,arch_db:stock.view_stock_move_line_kanban
 #: model:ir.ui.view,arch_db:stock.view_stock_move_line_operation_tree
 msgid "Unit of Measure"
-msgstr "அளவீட்டு அலகு"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -6755,13 +6743,13 @@ msgstr ""
 #. module: stock
 #: model:res.groups,name:stock.group_stock_user
 msgid "User"
-msgstr "பயனர்"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_scrap_form_view
 #: model:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Validate"
-msgstr "சரிபார்க்கவும்"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_inventory_form
@@ -6771,7 +6759,7 @@ msgstr ""
 #. module: stock
 #: selection:stock.inventory,state:0
 msgid "Validated"
-msgstr "சரிபார்க்கப்பட்டது"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_change_product_qty_product_variant_count
@@ -6781,7 +6769,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_location_search
 msgid "Vendor"
-msgstr "விற்பனையாளர்"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_partner_property_stock_supplier
@@ -6809,7 +6797,7 @@ msgstr ""
 #. module: stock
 #: selection:stock.location,usage:0
 msgid "View"
-msgstr "காண்க"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_view_location_id
@@ -6916,7 +6904,7 @@ msgstr ""
 #: selection:res.partner,picking_warn:0
 #, python-format
 msgid "Warning"
-msgstr "எச்சரிக்கை"
+msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_partner_stock_warnings_form
@@ -6927,7 +6915,7 @@ msgstr ""
 #: code:addons/stock/models/product.py:305
 #, python-format
 msgid "Warning!"
-msgstr "எச்சரிக்கை!"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings_group_warning_stock
@@ -7062,7 +7050,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking_line_wizard_id
 msgid "Wizard"
-msgstr "வழிகாட்டி"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_production_lot.py:45
@@ -7615,10 +7603,4 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_inventory_form
 msgid "⇒ Set quantities to 0"
-msgstr ""
-
-#. module: stock
-#: code:addons/stock/models/stock_move_line.py:223
-#, python-format
-msgid "Changing the product is only allowed in 'Draft' state."
 msgstr ""

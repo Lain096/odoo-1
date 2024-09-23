@@ -14,7 +14,6 @@
 # Jarnhold Nattestad <nattestads@gmail.com>, 2018
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2018
 # lhmflexerp <lhm@flexerp.dk>, 2018
-# Mads Søndergaard, 2020
 # 
 msgid ""
 msgstr ""
@@ -22,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:18+0000\n"
-"Last-Translator: Mads Søndergaard, 2020\n"
+"Last-Translator: lhmflexerp <lhm@flexerp.dk>, 2018\n"
 "Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,13 +46,6 @@ msgid ""
 "                \n"
 "* When user cancel payslip the status is 'Rejected'."
 msgstr ""
-"* Når lønsedlen oprettes har den status 'Kladde'\n"
-"                \n"
-"* Hvis lønsedlen er under verificering, er status 'Afventende'.\n"
-"                \n"
-"* Hvis lønsedlen er godkendt sættes status til 'Udført'.\n"
-"                \n"
-"* Når bruger aflyser lønsedlen er status 'Afvist'."
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
@@ -168,7 +160,7 @@ msgstr "Tilføj en intern note"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_contract_advantage_template_view_form
 msgid "Advantage Name"
-msgstr "Fordel navn"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.act_children_salary_rules
@@ -178,7 +170,7 @@ msgstr "Alle regler om børn"
 #. module: hr_payroll
 #: model:hr.salary.rule.category,name:hr_payroll.ALW
 msgid "Allowance"
-msgstr "Godtgørelse"
+msgstr ""
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,condition_select:0
@@ -220,8 +212,6 @@ msgid ""
 "Applied this rule for calculation if condition is true. You can specify "
 "condition like basic > 1000."
 msgstr ""
-"Anvendte denne regel til udregning hvis betingelsen er sand. Du kan "
-"specificere betingelse som basic > 1000."
 
 #. module: hr_payroll
 #: model:hr.salary.rule.category,name:hr_payroll.BASIC
@@ -231,7 +221,7 @@ msgstr "Basis"
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_rule_basic
 msgid "Basic Salary"
-msgstr "Grundløn"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings_module_l10n_be_hr_payroll
@@ -301,7 +291,7 @@ msgstr "Definition af børn"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Choose a Payroll Localization"
-msgstr "Vælg en lønnings lokalisering"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,help:hr_payroll.action_contribution_register_form
@@ -353,7 +343,7 @@ msgstr "Virksomhed"
 #: model:hr.salary.rule.category,name:hr_payroll.COMP
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Company Contribution"
-msgstr "Virksomhedens bidrag"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
@@ -363,7 +353,7 @@ msgstr "Beregning"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Compute Sheet"
-msgstr "Virksomhed seddel"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_condition_select
@@ -398,7 +388,7 @@ msgstr "Kontrakt"
 #: model:ir.actions.act_window,name:hr_payroll.hr_contract_advantage_template_action
 #: model:ir.ui.menu,name:hr_payroll.hr_contract_advantage_template_menu_action
 msgid "Contract Advantage Templates"
-msgstr "Kontrakt fordel skabeloner"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_contribution_register_form
@@ -411,12 +401,12 @@ msgstr "Bidrag"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_register_id
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Contribution Register"
-msgstr "Bidrag registrer"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_payslip_lines_contribution_register
 msgid "Contribution Register's Payslip Lines"
-msgstr "Bidrag registers lønseddel linjer"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_contribution_register_form
@@ -424,17 +414,17 @@ msgstr "Bidrag registers lønseddel linjer"
 #: model:ir.ui.view,arch_db:hr_payroll.hr_contribution_register_filter
 #: model:ir.ui.view,arch_db:hr_payroll.hr_contribution_register_tree
 msgid "Contribution Registers"
-msgstr "Bidrag registere"
+msgstr ""
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_convanceallowance1
 msgid "Conveyance Allowance"
-msgstr "Transportgodtgørelse"
+msgstr ""
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_ca_gravie
 msgid "Conveyance Allowance For Gravie"
-msgstr "Transportgodtgørelse for Gravie"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_create_uid
@@ -493,17 +483,17 @@ msgstr "Dato til"
 #. module: hr_payroll
 #: model:hr.salary.rule.category,name:hr_payroll.DED
 msgid "Deduction"
-msgstr "Fratrækkelse"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_default_value
 msgid "Default value for this advantage"
-msgstr "Standard værdi for denne fordel"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_contract_schedule_pay
 msgid "Defines the frequency of the wage payment."
-msgstr "Definerer frekvensen af lønbetaling."
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_struct_id
@@ -513,10 +503,6 @@ msgid ""
 "mandatory anymore and thus the rules applied will be all the rules set on "
 "the structure of all contracts of the employee valid for the chosen period"
 msgstr ""
-"Definere reglerne som skal anvendes på denne lønseddel, ud fra den valgte "
-"kontrakt. Hvis du lader \"kontrakt\" feltet være tomt - dette felt er ikke "
-"obligatorisk mere - vil alle regler angivet for strukturen for alle "
-"kontrakter som er gyldige i den valgte periode, for den pågældende ansatte."
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_note
@@ -535,13 +521,13 @@ msgstr "Ref./Beskr."
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Details By Salary Rule Category"
-msgstr "Detaljer per lønregel kategori"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_details_by_salary_rule_category
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Details by Salary Rule Category"
-msgstr "Detaljer per lønregel kategori"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_display_name
@@ -572,12 +558,12 @@ msgstr "Udført"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 msgid "Done Payslip Batches"
-msgstr "Udført lønseddel partier"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Done Slip"
-msgstr "Udført seddel"
+msgstr ""
 
 #. module: hr_payroll
 #: selection:hr.payslip,state:0 selection:hr.payslip.run,state:0
@@ -589,12 +575,12 @@ msgstr "Kladde"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 msgid "Draft Payslip Batches"
-msgstr "Kladde lønseddel partier"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Draft Slip"
-msgstr "Kladde seddel"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_employee
@@ -624,7 +610,7 @@ msgstr "Medarbejder lønseddel"
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_contract_advantage_template
 msgid "Employee's Advantage on Contract"
-msgstr "Medarbejders fordele på kontrakt"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees_employee_ids
@@ -645,13 +631,12 @@ msgstr "Fejl! Du kan ikke oprette en rekursiv lønstruktur."
 #, python-format
 msgid "Error! You cannot create recursive hierarchy of Salary Rule Category."
 msgstr ""
-"Fejl! Du kan ikke oprette rekursive hierarkier af Lønregels kategorien."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:176
 #, python-format
 msgid "Error! You cannot create recursive hierarchy of Salary Rules."
-msgstr "Fejl! Du kan ikke oprette rekursivt hierarki af lønregler."
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_register_id
@@ -677,12 +662,12 @@ msgstr "For eksempel, indtast 50.0 for at tilføre en procentdel på 50%"
 #: code:addons/hr_payroll/report/report_contribution_register.py:34
 #, python-format
 msgid "Form content is missing, this report cannot be printed."
-msgstr "Formular indhold mangler; denne rapport kan ikke udprintes."
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings_module_l10n_fr_hr_payroll
 msgid "French Payroll"
-msgstr "Fransk lønninger"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
@@ -708,13 +693,13 @@ msgstr "Generer lønsedler for alle valgte medarbejdere"
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_sales_commission
 msgid "Get 1% of sales"
-msgstr "Få 1% af salg"
+msgstr ""
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:183
 #, python-format
 msgid "Global Leaves"
-msgstr "Globale orlog"
+msgstr ""
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_rule_taxable
@@ -732,7 +717,7 @@ msgstr "Sortér efter"
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_houserentallowance1
 msgid "House Rent Allowance"
-msgstr "Huslejegodtgørelse"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_id
@@ -759,8 +744,6 @@ msgid ""
 "If its checked, indicates that all payslips generated from here are refund "
 "payslips."
 msgstr ""
-"Hvis markeret, indikerer at alle lønsedler genereret herfra er refusions "
-"lønsedler."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_active
@@ -769,8 +752,6 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the salary "
 "rule without removing it."
 msgstr ""
-"Hvis det aktive felt er sat til falsk, vil det lade dig skjule lønnen uden "
-"at fjerne den."
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings_module_l10n_in_hr_payroll
@@ -780,20 +761,20 @@ msgstr "Indisk Løn"
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_credit_note
 msgid "Indicates this payslip has a refund of another"
-msgstr "Indikerer denne lønseddel har en refusion fra en anden"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Input Data"
-msgstr "Input data"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_input_ids
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_input_ids
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Inputs"
-msgstr "Input"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_note
@@ -803,7 +784,7 @@ msgstr "Intern note"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_view_kanban
 msgid "Is a Blocking Reason?"
-msgstr "Er blokerings grundlag?"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_quantity
@@ -812,9 +793,6 @@ msgid ""
 "for Meal Voucher having fixed amount of 1€ per worked day can have its "
 "quantity defined in expression like worked_days.WORK100.number_of_days."
 msgstr ""
-"Den bliver brugt til udregning af procenter og fikseret mængde. For eksempel"
-" en regel for at madkuponer har 10DKK per arbejdsdag, kan have dens "
-"kvantitet defineret i udtryk så som worked_days.WORK100.number_of_days."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input_amount
@@ -823,9 +801,6 @@ msgid ""
 " basic salary for per product can defined in expression like result = "
 "inputs.SALEURO.amount * contract.wage*0.01."
 msgstr ""
-"Bruges til udregning. For eksempel en regel der siger, at salg har 1% "
-"kommission af grundlønnen per produkt, kan defineres i udtryk så som result "
-"= inputs.SALEEURO.amount * contract.wage*0.01."
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template___last_update
@@ -886,23 +861,21 @@ msgid ""
 "Linking a salary category to its parent is used only for the reporting "
 "purpose."
 msgstr ""
-"At forbinde en løn kategori til dens parent bruges kun i rapporterings "
-"øjemed."
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_lower_bound
 msgid "Lower Bound"
-msgstr "Nedre grænse"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_contract_advantage_template_lower_bound
 msgid "Lower bound authorized by the employer for this advantage"
-msgstr "Nedre grænse autoriseret af arbejdsgiver for denne fordel"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_paid
 msgid "Made Payment Order ? "
-msgstr "Foretog betalingsordre?"
+msgstr ""
 
 #. module: hr_payroll
 #: model:res.groups,name:hr_payroll.group_hr_payroll_manager
@@ -918,7 +891,7 @@ msgstr "Maksimal rækkevidde"
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_meal_voucher
 msgid "Meal Voucher"
-msgstr "Madkupon"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_condition_range_min
@@ -958,7 +931,7 @@ msgstr "Netto"
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_rule_net
 msgid "Net Salary"
-msgstr "Samlet løn"
+msgstr ""
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:199
@@ -989,7 +962,7 @@ msgstr "Officer"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Other Inputs"
-msgstr "Andre input"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure_parent_id
@@ -1001,7 +974,7 @@ msgstr "Overordnet"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_parent_rule_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_parent_rule_id
 msgid "Parent Salary Rule"
-msgstr "Ophavene lønregel"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_partner_id
@@ -1021,7 +994,7 @@ msgstr "Lønseddel"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "PaySlip Batch"
-msgstr "Lønseddel parti"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.actions.report,name:hr_payroll.payslip_details_report
@@ -1036,12 +1009,12 @@ msgstr "Lønseddellinjer"
 #. module: hr_payroll
 #: model:ir.actions.report,name:hr_payroll.action_contribution_register
 msgid "PaySlip Lines By Conribution Register"
-msgstr "Lønseddel linjer per bidrag register"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "PaySlip Lines by Contribution Register"
-msgstr "Lønseddel linje af Contribution Register"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_payslip_lines_contribution_register
@@ -1063,7 +1036,7 @@ msgstr "Løn"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Payroll Entries"
-msgstr "Lønnings posteringer"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
@@ -1073,12 +1046,12 @@ msgstr ""
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_structure_filter
 msgid "Payroll Structures"
-msgstr "Lønningsstruktur"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Payroll rules that apply to your country"
-msgstr "Lønningsregler som gælder for dit land"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.actions.report,name:hr_payroll.action_report_payslip
@@ -1109,12 +1082,12 @@ msgstr "Lønseddel beregningsdetaljer"
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_input
 msgid "Payslip Input"
-msgstr "Lønseddel input"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_input_line_ids
 msgid "Payslip Inputs"
-msgstr "Lønseddel input"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_line
@@ -1134,7 +1107,7 @@ msgstr "Lønseddellinier"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Payslip Lines by Contribution Register"
-msgstr "Lønninger linjer per bidrag register"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_name
@@ -1165,7 +1138,7 @@ msgstr "Lønseddel"
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_tree
 msgid "Payslips Batches"
-msgstr "Lønsedler partier"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_by_employees
@@ -1195,7 +1168,7 @@ msgstr "Periode"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Post payroll slips in accounting"
-msgstr "Poster lønnings sedler i regnskab"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_payslip_lines_contribution_register
@@ -1205,12 +1178,12 @@ msgstr "Udskriv"
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_professionaltax1
 msgid "Professional Tax"
-msgstr "Professionel moms"
+msgstr ""
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_providentfund1
 msgid "Provident Fund"
-msgstr "Fortrolighedsfond"
+msgstr ""
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,amount_select:0
@@ -1224,13 +1197,13 @@ msgstr "Python kode"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_condition_python
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_condition_python
 msgid "Python Condition"
-msgstr "Python betingelse"
+msgstr ""
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,condition_select:0
 #: selection:hr.salary.rule,condition_select:0
 msgid "Python Expression"
-msgstr "Python udtryk"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_quantity
@@ -1241,13 +1214,13 @@ msgstr "Antal"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "Quantity/Rate"
-msgstr "Mængde/Rate"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Quantity/rate"
-msgstr "Mængde/rate"
+msgstr ""
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
@@ -1264,7 +1237,7 @@ msgstr "Interval"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_condition_range
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_condition_range
 msgid "Range Based on"
-msgstr "Interval baseret på"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_rate
@@ -1286,12 +1259,12 @@ msgstr "Kreditnota"
 #: code:addons/hr_payroll/models/hr_payslip.py:104
 #, python-format
 msgid "Refund: "
-msgstr "Refusion:"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_register_line_ids
 msgid "Register Line"
-msgstr "Register linje"
+msgstr ""
 
 #. module: hr_payroll
 #: selection:hr.payslip,state:0
@@ -1319,20 +1292,20 @@ msgstr "Lønberegning"
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_category_tree
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_salary_rule_category_filter
 msgid "Salary Rule Categories"
-msgstr "Lønregel kategorier"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_salary_rule_category
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Salary Rule Category"
-msgstr "Lønregel kategori"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_rule_input
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_rule_input_input_id
 msgid "Salary Rule Input"
-msgstr "Lønregel input"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_salary_rule_form
@@ -1344,14 +1317,14 @@ msgstr "Lønregel input"
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_employee_grade_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Salary Rules"
-msgstr "Lønregler"
+msgstr ""
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:396
 #: code:addons/hr_payroll/models/hr_payslip.py:446
 #, python-format
 msgid "Salary Slip of %s for %s"
-msgstr "Lønseddel på %s for %s"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payroll_structure
@@ -1360,23 +1333,23 @@ msgstr "Lønseddel på %s for %s"
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_tree
 msgid "Salary Structure"
-msgstr "Løn struktur"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_structure_list_form
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_structure_view
 msgid "Salary Structures"
-msgstr "Løn strukturer"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_schedule_pay
 msgid "Scheduled Pay"
-msgstr "Planlagt løn"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 msgid "Search Payslip Batches"
-msgstr "Søg lønseddel partier"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
@@ -1391,7 +1364,7 @@ msgstr "Søg lønsedler"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Search Salary Rule"
-msgstr "Søg løn regel"
+msgstr ""
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
@@ -1441,39 +1414,37 @@ msgid ""
 "The code of salary rules can be used as reference in computation of other "
 "rules. In that case, it is case sensitive."
 msgstr ""
-"Lønregel koden kan bruges som reference i udregningen af andre regel. I så "
-"fald, skal store og små bogstaver overholdes."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input_code
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_worked_days_code
 #: model:ir.model.fields,help:hr_payroll.field_hr_rule_input_code
 msgid "The code that can be used in the salary rules"
-msgstr "Koden som kan bruges i lønreglerne"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_amount_select
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_amount_select
 msgid "The computation method for the rule amount."
-msgstr "Udregningsmetoden for regel mængden."
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input_contract_id
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_worked_days_contract_id
 msgid "The contract for which applied this input"
-msgstr "Kontrakten hvorpå dette input anvendes"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_condition_range_max
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_condition_range_max
 msgid "The maximum amount, applied for this rule."
-msgstr "Maksimum mængden, anvendt for denne regel."
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_condition_range_min
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_condition_range_min
 msgid "The minimum amount, applied for this rule."
-msgstr "Minimums mængden, anvendt for denne regel."
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_condition_range
@@ -1483,9 +1454,6 @@ msgid ""
 " but you can also use categories code fields in lowercase as a variable "
 "names (hra, ma, lta, etc.) and the variable basic."
 msgstr ""
-"Dette vil blive brugt til at udregne % felternes værdier; generelt er det på"
-" basic, men du kan også bruge kategorikode felterne med små bogstaver som "
-"variabel navne (hra, ma, lta, osv.) og variablen basic."
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_by_employees
@@ -1510,24 +1478,24 @@ msgstr "Total antal arbejdsdage"
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_upper_bound
 msgid "Upper Bound"
-msgstr "Øvre grænse"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_contract_advantage_template_upper_bound
 msgid "Upper bound authorized by the employer for this advantage"
-msgstr "Øvre grænse autoriseret af arbejdsgiver for denne fordel"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_sequence
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_sequence
 msgid "Use to arrange calculation sequence"
-msgstr "Brug til at arrangere udregningssekvens"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_appears_on_payslip
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_appears_on_payslip
 msgid "Used to display the salary rule on payslip."
-msgstr "Brugt til at vise løn reglen på lønseddel."
+msgstr ""
 
 #. module: hr_payroll
 #: selection:hr.payslip,state:0
@@ -1542,48 +1510,47 @@ msgstr "Ugentlig"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Worked Day"
-msgstr "Arbejdet dag"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Worked Days"
-msgstr "Arbejdet dage"
+msgstr ""
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Worked Days & Inputs"
-msgstr "Arbejdet dage og input"
+msgstr ""
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:198
 #, python-format
 msgid "Wrong percentage base or quantity defined for salary rule %s (%s)."
 msgstr ""
-"Forkert procent grundlag eller kvantitet defineret for lønregel %s (%s)."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:204
 #, python-format
 msgid "Wrong python code defined for salary rule %s (%s)."
-msgstr "Forkert python kode defineret for lønregel %s (%s)."
+msgstr ""
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:227
 #, python-format
 msgid "Wrong python condition defined for salary rule %s (%s)."
-msgstr "Forkert python betingelse defineret for lønregel %s (%s)."
+msgstr ""
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:191
 #, python-format
 msgid "Wrong quantity defined for salary rule %s (%s)."
-msgstr "Forkert kvantitet defineret for lønregel %s (%s)."
+msgstr ""
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_rule.py:221
 #, python-format
 msgid "Wrong range condition defined for salary rule %s (%s)."
-msgstr "Forkert interval betingelse defineret for lønregel %s (%s)."
+msgstr ""
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:128
@@ -1629,4 +1596,4 @@ msgstr "res.config.settings"
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_amount_percentage_base
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_amount_percentage_base
 msgid "result will be affected to a variable"
-msgstr "resultat vil blive påvirket af en variabel"
+msgstr ""
